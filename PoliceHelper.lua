@@ -7,37 +7,37 @@ beta_version = 7
 
 local text_err_and_read = {
 	[1] = [[
- Не обнаружен файл SAMPFUNCS.asi в папке игры, вследствие чего
-скрипту не удалось запуститься.
+ ГЌГҐ Г®ГЎГ­Г Г°ГіГ¦ГҐГ­ ГґГ Г©Г« SAMPFUNCS.asi Гў ГЇГ ГЇГЄГҐ ГЁГЈГ°Г», ГўГ±Г«ГҐГ¤Г±ГІГўГЁГҐ Г·ГҐГЈГ®
+Г±ГЄГ°ГЁГЇГІГі Г­ГҐ ГіГ¤Г Г«Г®Г±Гј Г§Г ГЇГіГ±ГІГЁГІГјГ±Гї.
 
-		Для решения проблемы:
-1. Закройте игру;
-2. Зайдите во вкладку "Моды" в лаунчере Аризоны.
-Найдите во вкладке "Моды" установщик "Moonloader" и нажмите кнопку "Установить".
-После завершения установки вновь запустите игру. Проблема исчезнет.
+		Г„Г«Гї Г°ГҐГёГҐГ­ГЁГї ГЇГ°Г®ГЎГ«ГҐГ¬Г»:
+1. Г‡Г ГЄГ°Г®Г©ГІГҐ ГЁГЈГ°Гі;
+2. Г‡Г Г©Г¤ГЁГІГҐ ГўГ® ГўГЄГ«Г Г¤ГЄГі "ГЊГ®Г¤Г»" Гў Г«Г ГіГ­Г·ГҐГ°ГҐ ГЂГ°ГЁГ§Г®Г­Г».
+ГЌГ Г©Г¤ГЁГІГҐ ГўГ® ГўГЄГ«Г Г¤ГЄГҐ "ГЊГ®Г¤Г»" ГіГ±ГІГ Г­Г®ГўГ№ГЁГЄ "Moonloader" ГЁ Г­Г Г¦Г¬ГЁГІГҐ ГЄГ­Г®ГЇГЄГі "Г“Г±ГІГ Г­Г®ГўГЁГІГј".
+ГЏГ®Г±Г«ГҐ Г§Г ГўГҐГ°ГёГҐГ­ГЁГї ГіГ±ГІГ Г­Г®ГўГЄГЁ ГўГ­Г®ГўГј Г§Г ГЇГіГ±ГІГЁГІГҐ ГЁГЈГ°Гі. ГЏГ°Г®ГЎГ«ГҐГ¬Г  ГЁГ±Г·ГҐГ§Г­ГҐГІ.
 
-Если Вам это не помогло, то обращайтесь в сообщения ВКонтакте:
+Г…Г±Г«ГЁ Г‚Г Г¬ ГЅГІГ® Г­ГҐ ГЇГ®Г¬Г®ГЈГ«Г®, ГІГ® Г®ГЎГ°Г Г№Г Г©ГІГҐГ±Гј Гў Г±Г®Г®ГЎГ№ГҐГ­ГЁГї Г‚ГЉГ®Г­ГІГ ГЄГІГҐ:
 		vk.com/marseloy
 
-Игра была свернута, поэтому можете продолжить играть. 
+Г€ГЈГ°Г  ГЎГ»Г«Г  Г±ГўГҐГ°Г­ГіГІГ , ГЇГ®ГЅГІГ®Г¬Гі Г¬Г®Г¦ГҐГІГҐ ГЇГ°Г®Г¤Г®Г«Г¦ГЁГІГј ГЁГЈГ°Г ГІГј. 
 ]],
 	[2] = [[
-		  Внимание! 
-Не обнаружены некоторые важные файлы для работы скрипта.
-В следствии чего, скрипт перестал работать.
-	Список необнаруженных файлов:
+		  Г‚Г­ГЁГ¬Г Г­ГЁГҐ! 
+ГЌГҐ Г®ГЎГ­Г Г°ГіГ¦ГҐГ­Г» Г­ГҐГЄГ®ГІГ®Г°Г»ГҐ ГўГ Г¦Г­Г»ГҐ ГґГ Г©Г«Г» Г¤Г«Гї Г°Г ГЎГ®ГІГ» Г±ГЄГ°ГЁГЇГІГ .
+Г‚ Г±Г«ГҐГ¤Г±ГІГўГЁГЁ Г·ГҐГЈГ®, Г±ГЄГ°ГЁГЇГІ ГЇГҐГ°ГҐГ±ГІГ Г« Г°Г ГЎГ®ГІГ ГІГј.
+	Г‘ГЇГЁГ±Г®ГЄ Г­ГҐГ®ГЎГ­Г Г°ГіГ¦ГҐГ­Г­Г»Гµ ГґГ Г©Г«Г®Гў:
 		%s
 
-		Для решения проблемы:
-1. Закройте игру;
-2. Зайдите во вкладку "Моды" в лаунчере Аризоны.
-Найдите во вкладке "Моды" установщик "Moonloader" и нажмите кнопку "Установить".
-После завершения установки вновь запустите игру. Проблема исчезнет.
+		Г„Г«Гї Г°ГҐГёГҐГ­ГЁГї ГЇГ°Г®ГЎГ«ГҐГ¬Г»:
+1. Г‡Г ГЄГ°Г®Г©ГІГҐ ГЁГЈГ°Гі;
+2. Г‡Г Г©Г¤ГЁГІГҐ ГўГ® ГўГЄГ«Г Г¤ГЄГі "ГЊГ®Г¤Г»" Гў Г«Г ГіГ­Г·ГҐГ°ГҐ ГЂГ°ГЁГ§Г®Г­Г».
+ГЌГ Г©Г¤ГЁГІГҐ ГўГ® ГўГЄГ«Г Г¤ГЄГҐ "ГЊГ®Г¤Г»" ГіГ±ГІГ Г­Г®ГўГ№ГЁГЄ "Moonloader" ГЁ Г­Г Г¦Г¬ГЁГІГҐ ГЄГ­Г®ГЇГЄГі "Г“Г±ГІГ Г­Г®ГўГЁГІГј".
+ГЏГ®Г±Г«ГҐ Г§Г ГўГҐГ°ГёГҐГ­ГЁГї ГіГ±ГІГ Г­Г®ГўГЄГЁ ГўГ­Г®ГўГј Г§Г ГЇГіГ±ГІГЁГІГҐ ГЁГЈГ°Гі. ГЏГ°Г®ГЎГ«ГҐГ¬Г  ГЁГ±Г·ГҐГ§Г­ГҐГІ.
 
-Если Вам это не помогло, то обращайтесь в сообщения:
+Г…Г±Г«ГЁ Г‚Г Г¬ ГЅГІГ® Г­ГҐ ГЇГ®Г¬Г®ГЈГ«Г®, ГІГ® Г®ГЎГ°Г Г№Г Г©ГІГҐГ±Гј Гў Г±Г®Г®ГЎГ№ГҐГ­ГЁГї:
 		vk.com/marseloy
 
-Игра была свернута, поэтому можете продолжить играть. 
+Г€ГЈГ°Г  ГЎГ»Г«Г  Г±ГўГҐГ°Г­ГіГІГ , ГЇГ®ГЅГІГ®Г¬Гі Г¬Г®Г¦ГҐГІГҐ ГЇГ°Г®Г¤Г®Г«Г¦ГЁГІГј ГЁГЈГ°Г ГІГј. 
 ]],
 	[3] = {
 		'/lib/imgui.lua',
@@ -85,7 +85,7 @@ ffi.cdef [[
 		int GetLocaleInfoA(int Locale, int LCType, char* lpLCData, int cchData);
   ]]
 
---> Подключение библиотек и модулей
+--> ГЏГ®Г¤ГЄГ«ГѕГ·ГҐГ­ГЁГҐ ГЎГЁГЎГ«ГЁГ®ГІГҐГЄ ГЁ Г¬Г®Г¤ГіГ«ГҐГ©
 require 'lib.sampfuncs'
 require 'lib.moonloader'
 local mem = require 'memory'
@@ -126,16 +126,16 @@ end
 text_err_and_read = nil
 
 local res, hook = pcall(require, 'lib.samp.events')
-assert(res, 'Библиотека SAMP Event не найдена')
+assert(res, 'ГЃГЁГЎГ«ГЁГ®ГІГҐГЄГ  SAMP Event Г­ГҐ Г­Г Г©Г¤ГҐГ­Г ')
 ---------------------------------------------------
 local res, imgui = pcall(require, 'imgui')
-assert(res, 'Библиотека Imgui не найдена')
+assert(res, 'ГЃГЁГЎГ«ГЁГ®ГІГҐГЄГ  Imgui Г­ГҐ Г­Г Г©Г¤ГҐГ­Г ')
 ---------------------------------------------------
 local res, fa = pcall(require, 'faIcons')
-assert(res, 'Библиотека faIcons не найдена')
+assert(res, 'ГЃГЁГЎГ«ГЁГ®ГІГҐГЄГ  faIcons Г­ГҐ Г­Г Г©Г¤ГҐГ­Г ')
 ---------------------------------------------------
 local res, rkeys = pcall(require, 'rkeys')
-assert(res, 'Библиотека rkeys не найдена')
+assert(res, 'ГЃГЁГЎГ«ГЁГ®ГІГҐГЄГ  rkeys Г­ГҐ Г­Г Г©Г¤ГҐГ­Г ')
 vkeys.key_names[vkeys.VK_RBUTTON] = 'RBut'
 vkeys.key_names[vkeys.VK_XBUTTON1] = 'XBut1'
 vkeys.key_names[vkeys.VK_XBUTTON2] = 'XBut2'
@@ -159,56 +159,56 @@ vkeys.key_names[vkeys.VK_UP] = 'Ar.Up'
 vkeys.key_names[vkeys.VK_RIGHT] = 'Ar.Right'
 vkeys.key_names[vkeys.VK_DOWN] = 'Ar.Down'
 
---> Скачивание изображений
+--> Г‘ГЄГ Г·ГЁГўГ Г­ГЁГҐ ГЁГ§Г®ГЎГ°Г Г¦ГҐГ­ГЁГ©
 IMG_Record = {}
 function download_image()
-	if not doesDirectoryExist(getWorkingDirectory()..'/PoliceHelper/Изображения/') then
-		print('{F54A4A}Ошибка. Отсутствует папка для изображений. {82E28C}Создание папки для изображений...')
-		createDirectory(getWorkingDirectory()..'/PoliceHelper/Изображения/')
+	if not doesDirectoryExist(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/') then
+		print('{F54A4A}ГЋГёГЁГЎГЄГ . ГЋГІГ±ГіГІГ±ГІГўГіГҐГІ ГЇГ ГЇГЄГ  Г¤Г«Гї ГЁГ§Г®ГЎГ°Г Г¦ГҐГ­ГЁГ©. {82E28C}Г‘Г®Г§Г¤Г Г­ГЁГҐ ГЇГ ГЇГЄГЁ Г¤Г«Гї ГЁГ§Г®ГЎГ°Г Г¦ГҐГ­ГЁГ©...')
+		createDirectory(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/')
 	end
-	if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Изображения/No label.png') then
-		download_id = downloadUrlToFile('https://i.imgur.com/Zud78GE.png', getWorkingDirectory()..'/PoliceHelper/Изображения/No label.png', function(id, status, p1, p2)
+	if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/No label.png') then
+		download_id = downloadUrlToFile('https://i.imgur.com/Zud78GE.png', getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/No label.png', function(id, status, p1, p2)
 			if status == dlstatus.STATUS_ENDDOWNLOADDATA then 
-				IMG_No_Label = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/No label.png')
-				local texture_im = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/No label.png')
+				IMG_No_Label = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/No label.png')
+				local texture_im = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/No label.png')
 				IMG_Record = {texture_im, texture_im, texture_im, texture_im, texture_im, texture_im, texture_im, texture_im, texture_im}
 			end
 		end)
 	end
-	if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Изображения/Background.png') then
-		download_id = downloadUrlToFile('https://i.imgur.com/fuPlVzV.png', getWorkingDirectory()..'/PoliceHelper/Изображения/Background.png', function(id, status, p1, p2)
+	if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Background.png') then
+		download_id = downloadUrlToFile('https://i.imgur.com/fuPlVzV.png', getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Background.png', function(id, status, p1, p2)
 			if status == dlstatus.STATUS_ENDDOWNLOADDATA then 
-				IMG_Background = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Background.png')
+				IMG_Background = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Background.png')
 			end
 		end)
 	end
-	if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Изображения/Background Black.png') then
-		download_id = downloadUrlToFile('https://i.imgur.com/yi98wxe.png', getWorkingDirectory()..'/PoliceHelper/Изображения/Background Black.png', function(id, status, p1, p2)
+	if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Background Black.png') then
+		download_id = downloadUrlToFile('https://i.imgur.com/yi98wxe.png', getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Background Black.png', function(id, status, p1, p2)
 			if status == dlstatus.STATUS_ENDDOWNLOADDATA then 
-				IMG_Background_Black = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Background Black.png')
+				IMG_Background_Black = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Background Black.png')
 			end
 		end)
 	end
-	if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Изображения/Background White.png') then
-		download_id = downloadUrlToFile('https://i.imgur.com/CHJ54FR.png', getWorkingDirectory()..'/PoliceHelper/Изображения/Background White.png', function(id, status, p1, p2)
+	if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Background White.png') then
+		download_id = downloadUrlToFile('https://i.imgur.com/CHJ54FR.png', getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Background White.png', function(id, status, p1, p2)
 			if status == dlstatus.STATUS_ENDDOWNLOADDATA then 
-				IMG_Background_White = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Background White.png')
+				IMG_Background_White = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Background White.png')
 			end
 		end)
 	end
-	if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Изображения/Premium.png') then
-		download_id = downloadUrlToFile('https://i.imgur.com/11nmU1n.png', getWorkingDirectory()..'/PoliceHelper/Изображения/Premium.png', function(id, status, p1, p2)
+	if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Premium.png') then
+		download_id = downloadUrlToFile('https://i.imgur.com/11nmU1n.png', getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Premium.png', function(id, status, p1, p2)
 			if status == dlstatus.STATUS_ENDDOWNLOADDATA then 
-				IMG_Premium = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Premium.png')
+				IMG_Premium = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Premium.png')
 			end
 		end)
 	end
 	
 	local function download_record_label(url_label_record, name_label, i_rec)
-		if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Изображения/'..name_label..'.png') then
-			download_id = downloadUrlToFile(url_label_record, getWorkingDirectory()..'/PoliceHelper/Изображения/'..name_label..'.png', function(id, status, p1, p2)
+		if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/'..name_label..'.png') then
+			download_id = downloadUrlToFile(url_label_record, getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/'..name_label..'.png', function(id, status, p1, p2)
 				if status == dlstatus.STATUS_ENDDOWNLOADDATA then 
-					IMG_Record[i_rec] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/'..name_label..'.png')
+					IMG_Record[i_rec] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/'..name_label..'.png')
 				end
 			end)
 		end
@@ -227,14 +227,14 @@ function download_image()
 end
 download_image()
 
---> Скачивание шрифтов
+--> Г‘ГЄГ Г·ГЁГўГ Г­ГЁГҐ ГёГ°ГЁГґГІГ®Гў
 installation_success_font = {false, false}
 secc_load_font = false
 function download_font()
 	local link_meduim_font = 'https://vk.com/s/v1/doc/M6wrSqXBqVNhL_tTya03mfV4Vu45JxpJVf2YgfUWuHx_LT5vaxY'
 	local link_bold_font = 'https://vk.com/s/v1/doc/OK2diNG7yhEXKf6Re7CA21PiWW6foksR3naH9nuQqSPmCTm-sl0'
 	if not doesDirectoryExist(getWorkingDirectory()..'/PoliceHelper/Fonts/') then
-		print('{F54A4A}Ошибка. Отсутствует папка для шрифтов. {82E28C}Создание папки для шрифтов...')
+		print('{F54A4A}ГЋГёГЁГЎГЄГ . ГЋГІГ±ГіГІГ±ГІГўГіГҐГІ ГЇГ ГЇГЄГ  Г¤Г«Гї ГёГ°ГЁГґГІГ®Гў. {82E28C}Г‘Г®Г§Г¤Г Г­ГЁГҐ ГЇГ ГЇГЄГЁ Г¤Г«Гї ГёГ°ГЁГґГІГ®Гў...')
 		createDirectory(getWorkingDirectory()..'/PoliceHelper/Fonts/')
 	end
 	if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Fonts/SF600.ttf') or not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Fonts/SF800.ttf') then
@@ -257,7 +257,7 @@ function download_font()
 end
 download_font()
 
---> Файловая система
+--> Г”Г Г©Г«Г®ГўГ Гї Г±ГЁГ±ГІГҐГ¬Г 
 dirml = getWorkingDirectory()
 dirGame = getGameDirectory()
 scr = thisScript()
@@ -265,32 +265,32 @@ font = renderCreateFont('Trebuchet MS', 14, 5)
 fontPD = renderCreateFont('Trebuchet MS', 12, 5)
 sx, sy = getScreenResolution()
 
---> Окна imgui и их зависимости
+--> ГЋГЄГ­Г  imgui ГЁ ГЁГµ Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГЁ
 local win = {
-	main = imgui.ImBool(false), --> Главное
-	spur_big = imgui.ImBool(false), --> Большое окно шпоры
-	icon = imgui.ImBool(false), --> Иконки
-	action_choice = imgui.ImBool(false), --> Быстрое взаимодействие
-	reminder = imgui.ImBool(false), --> Напоминания
-	notice = imgui.ImBool(false), --> Уведомления системы
-	music = imgui.ImBool(false) --> Музыкальный плеер
+	main = imgui.ImBool(false), --> ГѓГ«Г ГўГ­Г®ГҐ
+	spur_big = imgui.ImBool(false), --> ГЃГ®Г«ГјГёГ®ГҐ Г®ГЄГ­Г® ГёГЇГ®Г°Г»
+	icon = imgui.ImBool(false), --> Г€ГЄГ®Г­ГЄГЁ
+	action_choice = imgui.ImBool(false), --> ГЃГ»Г±ГІГ°Г®ГҐ ГўГ§Г ГЁГ¬Г®Г¤ГҐГ©Г±ГІГўГЁГҐ
+	reminder = imgui.ImBool(false), --> ГЌГ ГЇГ®Г¬ГЁГ­Г Г­ГЁГї
+	notice = imgui.ImBool(false), --> Г“ГўГҐГ¤Г®Г¬Г«ГҐГ­ГЁГї Г±ГЁГ±ГІГҐГ¬Г»
+	music = imgui.ImBool(false) --> ГЊГіГ§Г»ГЄГ Г«ГјГ­Г»Г© ГЇГ«ГҐГҐГ°
 }
-local select_main_menu = {false, false, false, false, false, false, false, false, false, false, false} --> Для главного меню
-local select_basic = {false, false, false, false, false, false, false, false, false, false} --> Для меню основное
-local notice = {} --> Значения уведомлений (текст, заголовок, тип - предупреждение/уведомление/инфо)
+local select_main_menu = {false, false, false, false, false, false, false, false, false, false, false} --> Г„Г«Гї ГЈГ«Г ГўГ­Г®ГЈГ® Г¬ГҐГ­Гѕ
+local select_basic = {false, false, false, false, false, false, false, false, false, false} --> Г„Г«Гї Г¬ГҐГ­Гѕ Г®Г±Г­Г®ГўГ­Г®ГҐ
+local notice = {} --> Г‡Г­Г Г·ГҐГ­ГЁГї ГіГўГҐГ¤Г®Г¬Г«ГҐГ­ГЁГ© (ГІГҐГЄГ±ГІ, Г§Г ГЈГ®Г«Г®ГўГ®ГЄ, ГІГЁГЇ - ГЇГ°ГҐГ¤ГіГЇГ°ГҐГ¦Г¤ГҐГ­ГЁГҐ/ГіГўГҐГ¤Г®Г¬Г«ГҐГ­ГЁГҐ/ГЁГ­ГґГ®)
 
---> Обновление и её зависимости
+--> ГЋГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ ГЁ ГҐВё Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГЁ
 upd = {}
 url_upd = 'https://raw.githubusercontent.com/deadmv/PoliceHelper/main/PoliceHelper.lua'
 upd_status = 0
 scr_version = scr.version:gsub('%D','')
 scr_version = tonumber(scr_version)
 
---> Несохраняемая информация
+--> ГЌГҐГ±Г®ГµГ°Г Г­ГїГҐГ¬Г Гї ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГї
 local pers = {
-	frac = {org = 'Полиция LS', title = '', rank = 1}
+	frac = {org = 'ГЏГ®Г«ГЁГ¶ГЁГї LS', title = '', rank = 1}
 }
-org_all_done = {u8'Полиция LS', u8'Полиция SF', u8'Полиция LV', u8'FBI'}
+org_all_done = {u8'ГЏГ®Г«ГЁГ¶ГЁГї LS', u8'ГЏГ®Г«ГЁГ¶ГЁГї SF', u8'ГЏГ®Г«ГЁГ¶ГЁГї LV', u8'FBI'}
 num_of_the_selected_org = 1
 my = {id = 0, nick = 'Nick_Name'}
 off_butoon_end = false
@@ -372,15 +372,15 @@ target_audio_vizual = 0
 level_potok = 0
 frequency = 0
 
---> Главные настройки
+--> ГѓГ«Г ГўГ­Г»ГҐ Г­Г Г±ГІГ°Г®Г©ГЄГЁ
 setting = {
 	int = {first_start = true, script = 'Helper', theme = 'White'},
-	frac = {org = u8'Полиция LS', title = u8'Стажер', rank = 10},
+	frac = {org = u8'ГЏГ®Г«ГЁГ¶ГЁГї LS', title = u8'Г‘ГІГ Г¦ГҐГ°', rank = 10},
 	nick = '',
 	teg = '',
 	act_time = '',
 	act_r = '',
-	sex = u8'Мужской',
+	sex = u8'ГЊГіГ¦Г±ГЄГ®Г©',
 	price = {
 		lec = '5000',
 		mede = {'20000', '40000', '60000', '80000'},
@@ -430,19 +430,19 @@ setting = {
 	dep_off = false,
 	anim_main = false,
 	cmd = {
-		{'z', u8'Приветствие', {}, '1'},
-		{'out', u8'Попросить покинуть помещение', {}, '3'},
-		{'za', u8'Отправит фразу "Пройдёмте за мной"', {}, '1'},
-		{'show', u8'Показать игроку свои документы', {}, '1'},
-		{'cam', u8'Начать или прекратить видеофиксацию', {}, '1'},
-		{'mb', u8'Сокращённая команда /find', {}, '1'},
-		{'+mute', u8'Выдать бан чата организации сотруднику', {}, '8'},
-		{'-mute', u8'Снять бан чата организации сотруднику', {}, '8'},
-		{'+warn', u8'Выдать сотруднику выговор', {}, '8'},
-		{'-warn', u8'Снять выговор сотруднику', {}, '8'},
-		{'inv', u8'Принять игрока в организацию', {}, '9'},
-		{'uninv', u8'Уволить сотрудника', {}, '9'},
-		{'rank', u8'Установить сотруднику ранг', {}, '9'},
+		{'z', u8'ГЏГ°ГЁГўГҐГІГ±ГІГўГЁГҐ', {}, '1'},
+		{'out', u8'ГЏГ®ГЇГ°Г®Г±ГЁГІГј ГЇГ®ГЄГЁГ­ГіГІГј ГЇГ®Г¬ГҐГ№ГҐГ­ГЁГҐ', {}, '3'},
+		{'za', u8'ГЋГІГЇГ°Г ГўГЁГІ ГґГ°Г Г§Гі "ГЏГ°Г®Г©Г¤ВёГ¬ГІГҐ Г§Г  Г¬Г­Г®Г©"', {}, '1'},
+		{'show', u8'ГЏГ®ГЄГ Г§Г ГІГј ГЁГЈГ°Г®ГЄГі Г±ГўГ®ГЁ Г¤Г®ГЄГіГ¬ГҐГ­ГІГ»', {}, '1'},
+		{'cam', u8'ГЌГ Г·Г ГІГј ГЁГ«ГЁ ГЇГ°ГҐГЄГ°Г ГІГЁГІГј ГўГЁГ¤ГҐГ®ГґГЁГЄГ±Г Г¶ГЁГѕ', {}, '1'},
+		{'mb', u8'Г‘Г®ГЄГ°Г Г№ВёГ­Г­Г Гї ГЄГ®Г¬Г Г­Г¤Г  /find', {}, '1'},
+		{'+mute', u8'Г‚Г»Г¤Г ГІГј ГЎГ Г­ Г·Г ГІГ  Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГі', {}, '8'},
+		{'-mute', u8'Г‘Г­ГїГІГј ГЎГ Г­ Г·Г ГІГ  Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГі', {}, '8'},
+		{'+warn', u8'Г‚Г»Г¤Г ГІГј Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГі ГўГ»ГЈГ®ГўГ®Г°', {}, '8'},
+		{'-warn', u8'Г‘Г­ГїГІГј ГўГ»ГЈГ®ГўГ®Г° Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГі', {}, '8'},
+		{'inv', u8'ГЏГ°ГЁГ­ГїГІГј ГЁГЈГ°Г®ГЄГ  Гў Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГѕ', {}, '9'},
+		{'uninv', u8'Г“ГўГ®Г«ГЁГІГј Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГ ', {}, '9'},
+		{'rank', u8'Г“Г±ГІГ Г­Г®ГўГЁГІГј Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГі Г°Г Г­ГЈ', {}, '9'},
 	},
 	show_dialog_auto = true,
 	fast_acc = {
@@ -455,36 +455,36 @@ setting = {
 		legal = 35,
 		narko = 5,
 		qq = {{
-			nm = u8'Попросить документы', 
+			nm = u8'ГЏГ®ГЇГ°Г®Г±ГЁГІГј Г¤Г®ГЄГіГ¬ГҐГ­ГІГ»', 
 			q = {
-			u8'Для трудоустройства необходимо предоставить следующий пакет документов:',
-			u8'Паспорт, военный билет и лицензии.',
-			u8'/n Отыгрывая, с использованием команд /me, /do, /todo'}},
+			u8'Г„Г«Гї ГІГ°ГіГ¤Г®ГіГ±ГІГ°Г®Г©Г±ГІГўГ  Г­ГҐГ®ГЎГµГ®Г¤ГЁГ¬Г® ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГЁГІГј Г±Г«ГҐГ¤ГіГѕГ№ГЁГ© ГЇГ ГЄГҐГІ Г¤Г®ГЄГіГ¬ГҐГ­ГІГ®Гў:',
+			u8'ГЏГ Г±ГЇГ®Г°ГІ, ГўГ®ГҐГ­Г­Г»Г© ГЎГЁГ«ГҐГІ ГЁ Г«ГЁГ¶ГҐГ­Г§ГЁГЁ.',
+			u8'/n ГЋГІГ»ГЈГ°Г»ГўГ Гї, Г± ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐГ¬ ГЄГ®Г¬Г Г­Г¤ /me, /do, /todo'}},
 			{
-			nm = u8'Рассказать о себе',
+			nm = u8'ГђГ Г±Г±ГЄГ Г§Г ГІГј Г® Г±ГҐГЎГҐ',
 			q = {
-			u8'Хорошо, расскажите немного о себе.'}},
+			u8'Г•Г®Г°Г®ГёГ®, Г°Г Г±Г±ГЄГ Г¦ГЁГІГҐ Г­ГҐГ¬Г­Г®ГЈГ® Г® Г±ГҐГЎГҐ.'}},
 			{
-			nm = u8'Почему Вы выбрали нас',
+			nm = u8'ГЏГ®Г·ГҐГ¬Гі Г‚Г» ГўГ»ГЎГ°Г Г«ГЁ Г­Г Г±',
 			q = {
-			u8'Хорошо, скажите, почему Вы выбрали именно нас?'}},
+			u8'Г•Г®Г°Г®ГёГ®, Г±ГЄГ Г¦ГЁГІГҐ, ГЇГ®Г·ГҐГ¬Гі Г‚Г» ГўГ»ГЎГ°Г Г«ГЁ ГЁГ¬ГҐГ­Г­Г® Г­Г Г±?'}},
 			{
-			nm = u8'Вас убивали?',
+			nm = u8'Г‚Г Г± ГіГЎГЁГўГ Г«ГЁ?',
 			q = {
-			u8'Хорошо, давайте проверим Вашу психику.',
-			u8'Скажите, Вас когда-нибудь убивали?'}},
+			u8'Г•Г®Г°Г®ГёГ®, Г¤Г ГўГ Г©ГІГҐ ГЇГ°Г®ГўГҐГ°ГЁГ¬ Г‚Г ГёГі ГЇГ±ГЁГµГЁГЄГі.',
+			u8'Г‘ГЄГ Г¦ГЁГІГҐ, Г‚Г Г± ГЄГ®ГЈГ¤Г -Г­ГЁГЎГіГ¤Гј ГіГЎГЁГўГ Г«ГЁ?'}},
 			{
-			nm = u8'Где Вы находитесь?',
+			nm = u8'ГѓГ¤ГҐ Г‚Г» Г­Г ГµГ®Г¤ГЁГІГҐГ±Гј?',
 			q = {
-			u8'Хорошо, скажите, где Вы сейчас находитесь?'}},
+			u8'Г•Г®Г°Г®ГёГ®, Г±ГЄГ Г¦ГЁГІГҐ, ГЈГ¤ГҐ Г‚Г» Г±ГҐГ©Г·Г Г± Г­Г ГµГ®Г¤ГЁГІГҐГ±Гј?'}},
 			{
-			nm = u8'Название купюр',
+			nm = u8'ГЌГ Г§ГўГ Г­ГЁГҐ ГЄГіГЇГѕГ°',
 			q = {
-			u8'Отлично, скажите, как называются купюры, которыми Вы расплачиваетесь?'}},
+			u8'ГЋГІГ«ГЁГ·Г­Г®, Г±ГЄГ Г¦ГЁГІГҐ, ГЄГ ГЄ Г­Г Г§Г»ГўГ ГѕГІГ±Гї ГЄГіГЇГѕГ°Г», ГЄГ®ГІГ®Г°Г»Г¬ГЁ Г‚Г» Г°Г Г±ГЇГ«Г Г·ГЁГўГ ГҐГІГҐГ±Гј?'}},
 			{
-			nm = u8'Рация дискорд',
+			nm = u8'ГђГ Г¶ГЁГї Г¤ГЁГ±ГЄГ®Г°Г¤',
 			q = {
-			u8'Хорошо, скажите, имеется ли у Вас спец. рация "Discord"?'}}}
+			u8'Г•Г®Г°Г®ГёГ®, Г±ГЄГ Г¦ГЁГІГҐ, ГЁГ¬ГҐГҐГІГ±Гї Г«ГЁ Гі Г‚Г Г± Г±ГЇГҐГ¶. Г°Г Г¶ГЁГї "Discord"?'}}}
 		},
 	reminder = {},
 	stat = {
@@ -546,7 +546,7 @@ setting = {
 		date_num = {0, 0},
 		date_today = {os.date('%d') + 0, os.date('%m') + 0, os.date('%Y') + 0},
 		date_last = {os.date('%d') + 0, os.date('%m') + 0, os.date('%Y') + 0},
-		date_week = {os.date('%d.%m.%Y'), '', '', '', '', '', ''} --> Дата за неделю в формате [день, месяц, год]
+		date_week = {os.date('%d.%m.%Y'), '', '', '', '', '', ''} --> Г„Г ГІГ  Г§Г  Г­ГҐГ¤ГҐГ«Гѕ Гў ГґГ®Г°Г¬Г ГІГҐ [Г¤ГҐГ­Гј, Г¬ГҐГ±ГїГ¶, ГЈГ®Г¤]
 	},
 	priceosm = '200000',
 	start_pos = 0,
@@ -560,12 +560,12 @@ local buf_setting = {
 script_tag = '[PH] '
 color_tag = 0xFF4169E1
 
---> Для РП зоны
+--> Г„Г«Гї ГђГЏ Г§Г®Г­Г»
 scene = {bq = {}}
 scene_buf = {}
 select_scene = 0
 
---> Для команд
+--> Г„Г«Гї ГЄГ®Г¬Г Г­Г¤
 local select_cmd = 0
 cmd = {
 	nm = '',
@@ -583,23 +583,23 @@ cmd = {
 }
 cmds = {}
 
---> Для шпор
+--> Г„Г«Гї ГёГЇГ®Г°
 local select_shpora = 0
 shpora = {
 	nm = '',
 	text = ''
 }
 
---> Работа с датами
-week = {'Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'}
-month = {'Января', 'Февраля', 'Марта', 'Апреля', 'Мая', 'Июня', 'Июля', 'Августа', 'Сентября', 'Октября', 'Ноября', 'Декабря'}
+--> ГђГ ГЎГ®ГІГ  Г± Г¤Г ГІГ Г¬ГЁ
+week = {'Г‚Г®Г±ГЄГ°ГҐГ±ГҐГ­ГјГҐ', 'ГЏГ®Г­ГҐГ¤ГҐГ«ГјГ­ГЁГЄ', 'Г‚ГІГ®Г°Г­ГЁГЄ', 'Г‘Г°ГҐГ¤Г ', 'Г—ГҐГІГўГҐГ°ГЈ', 'ГЏГїГІГ­ГЁГ¶Г ', 'Г‘ГіГЎГЎГ®ГІГ '}
+month = {'ГџГ­ГўГ Г°Гї', 'Г”ГҐГўГ°Г Г«Гї', 'ГЊГ Г°ГІГ ', 'ГЂГЇГ°ГҐГ«Гї', 'ГЊГ Гї', 'Г€ГѕГ­Гї', 'Г€ГѕГ«Гї', 'ГЂГўГЈГіГ±ГІГ ', 'Г‘ГҐГ­ГІГїГЎГ°Гї', 'ГЋГЄГІГїГЎГ°Гї', 'ГЌГ®ГїГЎГ°Гї', 'Г„ГҐГЄГ ГЎГ°Гї'}
 
---> Для обновления
+--> Г„Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї
 new_version = {beta = beta_version, version = scr_version}
 type_version = {rel = false, beta = false}
 upd_info = nil
 
---> Обработка шрифтов
+--> ГЋГЎГ°Г ГЎГ®ГІГЄГ  ГёГ°ГЁГґГІГ®Гў
 local fa_glyph_ranges = imgui.ImGlyphRanges({ fa.min_range, fa.max_range })
 local the_path_to_the_file_font = 'moonloader/lib/fontawesome-webfont.ttf'
 if not doesFileExist(getWorkingDirectory()..'/lib/fontawesome-webfont.ttf') then
@@ -666,16 +666,16 @@ function update_render_font()
 	end
 end
 
---> Проверка существование папки и её создание
+--> ГЏГ°Г®ГўГҐГ°ГЄГ  Г±ГіГ№ГҐГ±ГІГўГ®ГўГ Г­ГЁГҐ ГЇГ ГЇГЄГЁ ГЁ ГҐВё Г±Г®Г§Г¤Г Г­ГЁГҐ
 if not doesDirectoryExist(dirml..'/PoliceHelper/') then
-	print('{F54A4A}Ошибка. Отсутствует папка PoliceHelper. {82E28C}Создание папки для скрипта...')
+	print('{F54A4A}ГЋГёГЁГЎГЄГ . ГЋГІГ±ГіГІГ±ГІГўГіГҐГІ ГЇГ ГЇГЄГ  PoliceHelper. {82E28C}Г‘Г®Г§Г¤Г Г­ГЁГҐ ГЇГ ГЇГЄГЁ Г¤Г«Гї Г±ГЄГ°ГЁГЇГІГ ...')
 	createDirectory(dirml..'/PoliceHelper/')
 end
 
-function check_existence(name_folder, description_folder) --> Создание папки, если её нет
+function check_existence(name_folder, description_folder) --> Г‘Г®Г§Г¤Г Г­ГЁГҐ ГЇГ ГЇГЄГЁ, ГҐГ±Г«ГЁ ГҐВё Г­ГҐГІ
 	local status_folder = true
 	if not doesDirectoryExist(dirml..'/PoliceHelper/'..name_folder..'/') then
-		print('{F54A4A}Ошибка. Отсутствует папка '..description_folder..'. {82E28C}Создание папки '..description_folder..'...')
+		print('{F54A4A}ГЋГёГЁГЎГЄГ . ГЋГІГ±ГіГІГ±ГІГўГіГҐГІ ГЇГ ГЇГЄГ  '..description_folder..'. {82E28C}Г‘Г®Г§Г¤Г Г­ГЁГҐ ГЇГ ГЇГЄГЁ '..description_folder..'...')
 		createDirectory(dirml..'/PoliceHelper/'..name_folder..'/')
 		status_folder = false
 	end
@@ -683,9 +683,9 @@ function check_existence(name_folder, description_folder) --> Создание папки, ес
 	return status_folder
 end
 
-function apply_settings(name_file, description_file, array_arg) --> Загрузка настроек или создание файла настроек
+function apply_settings(name_file, description_file, array_arg) --> Г‡Г ГЈГ°ГіГ§ГЄГ  Г­Г Г±ГІГ°Г®ГҐГЄ ГЁГ«ГЁ Г±Г®Г§Г¤Г Г­ГЁГҐ ГґГ Г©Г«Г  Г­Г Г±ГІГ°Г®ГҐГЄ
 	if doesFileExist(dirml..'/PoliceHelper/'..name_file) then
-		print('{82E28C}Чтение файла '..description_file..'...')
+		print('{82E28C}Г—ГІГҐГ­ГЁГҐ ГґГ Г©Г«Г  '..description_file..'...')
 		local f = io.open(dirml..'/PoliceHelper/'..name_file)
 		local set = f:read('*a')
 		f:close()
@@ -709,14 +709,14 @@ function apply_settings(name_file, description_file, array_arg) --> Загрузка нас
 			f:close()
 		else
 			os.remove(dirml..'/PoliceHelper/'..name_file)
-			print('{F54A4A}Ошибка. Файл '..description_file..' повреждён. {82E28C}Создание нового файла...')
+			print('{F54A4A}ГЋГёГЁГЎГЄГ . Г”Г Г©Г« '..description_file..' ГЇГ®ГўГ°ГҐГ¦Г¤ВёГ­. {82E28C}Г‘Г®Г§Г¤Г Г­ГЁГҐ Г­Г®ГўГ®ГЈГ® ГґГ Г©Г«Г ...')
 			local f = io.open(dirml..'/PoliceHelper/'..name_file, 'w')
 			f:write(encodeJson(array_arg))
 			f:flush()
 			f:close()
 		end
 	else
-		print('{F54A4A}Ошибка. Файл '..description_file..' не найден. {82E28C}Создание нового файла...')
+		print('{F54A4A}ГЋГёГЁГЎГЄГ . Г”Г Г©Г« '..description_file..' Г­ГҐ Г­Г Г©Г¤ГҐГ­. {82E28C}Г‘Г®Г§Г¤Г Г­ГЁГҐ Г­Г®ГўГ®ГЈГ® ГґГ Г©Г«Г ...')
 		if not doesFileExist(dirml..'/PoliceHelper/'..name_file) then
 			local f = io.open(dirml..'/PoliceHelper/'..name_file, 'w')
 			f:write(encodeJson(array_arg))
@@ -728,7 +728,7 @@ function apply_settings(name_file, description_file, array_arg) --> Загрузка нас
 	return array_arg
 end
 
---> Музыка
+--> ГЊГіГ§Г»ГЄГ 
 select_music = 1
 stream_music = nil
 site_link = 'rur.hitmotop.com'
@@ -744,7 +744,7 @@ record = {
 	[9] = 'http://radiorecord.hostingradio.ru/organic96.aacp',
 	[10] = 'http://radiorecord.hostingradio.ru/russianhits96.aacp'
 }
-record_name = {'Dance', 'Megamix', 'Party 24/7', 'Phonk', 'Гоп FM', 'Руки Вверх', 'Dubstep', 'Big Hits', 'Organic', 'Russian Hits'}
+record_name = {'Dance', 'Megamix', 'Party 24/7', 'Phonk', 'ГѓГ®ГЇ FM', 'ГђГіГЄГЁ Г‚ГўГҐГ°Гµ', 'Dubstep', 'Big Hits', 'Organic', 'Russian Hits'}
 volume_buf = imgui.ImFloat(1.0)
 status_potok = 0
 text_find_track = ''
@@ -777,7 +777,7 @@ save_tracks = {
 	image = {}
 }
 
-function get_status_potok_song() --> Получить статус потока
+function get_status_potok_song() --> ГЏГ®Г«ГіГ·ГЁГІГј Г±ГІГ ГІГіГ± ГЇГ®ГІГ®ГЄГ 
 	local status_potok
 	if stream_music ~= nil then
 		status_potok = bass.BASS_ChannelIsActive(stream_music)
@@ -787,14 +787,14 @@ function get_status_potok_song() --> Получить статус потока
 	end
 	return status_potok
 	--[[
-	[0] - Ничего не воспроизводится
-	[1] - Играет
-	[2] - Блок
-	[3] - Пауза
+	[0] - ГЌГЁГ·ГҐГЈГ® Г­ГҐ ГўГ®Г±ГЇГ°Г®ГЁГ§ГўГ®Г¤ГЁГІГ±Гї
+	[1] - Г€ГЈГ°Г ГҐГІ
+	[2] - ГЃГ«Г®ГЄ
+	[3] - ГЏГ ГіГ§Г 
 	--]]
 end
 
-function rewind_song(time_position) --> Перемотка трека на указанную позицию (позиция трека в секундах)
+function rewind_song(time_position) --> ГЏГҐГ°ГҐГ¬Г®ГІГЄГ  ГІГ°ГҐГЄГ  Г­Г  ГіГЄГ Г§Г Г­Г­ГіГѕ ГЇГ®Г§ГЁГ¶ГЁГѕ (ГЇГ®Г§ГЁГ¶ГЁГї ГІГ°ГҐГЄГ  Гў Г±ГҐГЄГіГ­Г¤Г Гµ)
 	if status_track_pl ~= 'STOP' and not menu_play_track[3] and get_status_potok_song() ~= 0 then
 		local length = bass.BASS_ChannelGetLength(stream_music, BASS_POS_BYTE)
 		length = tostring(length)
@@ -810,7 +810,7 @@ function rewind_song(time_position) --> Перемотка трека на указанную позицию (по
 	end
 end
 
-function time_song_position(song_length) --> Получить позицию трека в секундах
+function time_song_position(song_length) --> ГЏГ®Г«ГіГ·ГЁГІГј ГЇГ®Г§ГЁГ¶ГЁГѕ ГІГ°ГҐГЄГ  Гў Г±ГҐГЄГіГ­Г¤Г Гµ
 	song_length = tonumber(song_length)
 	local posByte = bass.BASS_ChannelGetPosition(stream_music, BASS_POS_BYTE)
 	posByte = tostring(posByte)
@@ -825,7 +825,7 @@ function time_song_position(song_length) --> Получить позицию трека в секундах
 	return postrack
 end
 
-function find_track_link(search_text, page) --> Поиск песни в интернете
+function find_track_link(search_text, page) --> ГЏГ®ГЁГ±ГЄ ГЇГҐГ±Г­ГЁ Гў ГЁГ­ГІГҐГ°Г­ГҐГІГҐ
 	tracks = {
 		link = {},
 		artist = {},
@@ -873,9 +873,9 @@ function find_track_link(search_text, page) --> Поиск песни в интернете
 				local new_arr = remove_duplicates(page_table)
 				qua_page = #new_arr
 			end
-			for link in string.gmatch(u8:decode(response.text), 'По вашему запросу ничего не найдено') do
-				tracks.link[1] = 'Ошибка404'
-				tracks.artist[1] = 'Ошибка404'
+			for link in string.gmatch(u8:decode(response.text), 'ГЏГ® ГўГ ГёГҐГ¬Гі Г§Г ГЇГ°Г®Г±Гі Г­ГЁГ·ГҐГЈГ® Г­ГҐ Г­Г Г©Г¤ГҐГ­Г®') do
+				tracks.link[1] = 'ГЋГёГЁГЎГЄГ 404'
+				tracks.artist[1] = 'ГЋГёГЁГЎГЄГ 404'
 			end
 			for link in string.gmatch(u8:decode(response.text), 'href="(.-)" class=') do
 				if link:find('https://'..site_link..'/get/music/') then
@@ -911,7 +911,7 @@ function find_track_link(search_text, page) --> Поиск песни в интернете
 	end)
 end
 
-function get_track_length() --> Получить длину трека в секундах
+function get_track_length() --> ГЏГ®Г«ГіГ·ГЁГІГј Г¤Г«ГЁГ­Гі ГІГ°ГҐГЄГ  Гў Г±ГҐГЄГіГ­Г¤Г Гµ
 	local len_song = 0
 	if menu_play_track[1] or menu_play_track[2] then
 		local min_tr = 0
@@ -931,7 +931,7 @@ function get_track_length() --> Получить длину трека в секундах
 	return len_song
 end
 
-function play_song(url_track, loop_track) --> Включить песню
+function play_song(url_track, loop_track) --> Г‚ГЄГ«ГѕГ·ГЁГІГј ГЇГҐГ±Г­Гѕ
 	timetr = {0, 0}
 	track_time_hc = 0
 	status_track_pl = 'PLAY'
@@ -963,10 +963,10 @@ function play_song(url_track, loop_track) --> Включить песню
 	bass.BASS_ChannelSetAttribute(stream_music, BASS_ATTRIB_VOL, volume_buf.v)
 	if menu_play_track[1] then
 		if not tracks.image[selectis]:find('no%-cover%-150') then
-			download_id = downloadUrlToFile(tracks.image[selectis], getWorkingDirectory()..'/PoliceHelper/Изображения/Label.png', function(id, status, p1, p2)
+			download_id = downloadUrlToFile(tracks.image[selectis], getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Label.png', function(id, status, p1, p2)
 				if status == dlstatus.STATUS_ENDDOWNLOADDATA then
 					status_image = selectis
-					IMG_label = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Label.png')
+					IMG_label = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Label.png')
 				end
 			end)
 		else
@@ -975,10 +975,10 @@ function play_song(url_track, loop_track) --> Включить песню
 		end
 	elseif menu_play_track[2] then
 		if not save_tracks.image[selectis]:find('no%-cover%-150') then
-			download_id = downloadUrlToFile(save_tracks.image[selectis], getWorkingDirectory()..'/PoliceHelper/Изображения/Label.png', function(id, status, p1, p2)
+			download_id = downloadUrlToFile(save_tracks.image[selectis], getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Label.png', function(id, status, p1, p2)
 				if status == dlstatus.STATUS_ENDDOWNLOADDATA then
 					status_image = selectis
-					IMG_label = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Label.png')
+					IMG_label = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Label.png')
 				end
 			end)
 		else
@@ -988,7 +988,7 @@ function play_song(url_track, loop_track) --> Включить песню
 	end
 end
 
-function action_song(action_music) --> Остановить/Пауза/Продолжить
+function action_song(action_music) --> ГЋГ±ГІГ Г­Г®ГўГЁГІГј/ГЏГ ГіГ§Г /ГЏГ°Г®Г¤Г®Г«Г¦ГЁГІГј
 	if stream_music ~= nil and get_status_potok_song() ~= 0 then
 		if action_music == 'PLAY' then
 			status_track_pl = 'PLAY'
@@ -1006,7 +1006,7 @@ function action_song(action_music) --> Остановить/Пауза/Продолжить
 	end
 end
 
-function volume_song(volume_music) --> Установить громкость песни
+function volume_song(volume_music) --> Г“Г±ГІГ Г­Г®ГўГЁГІГј ГЈГ°Г®Г¬ГЄГ®Г±ГІГј ГЇГҐГ±Г­ГЁ
 	if stream_music ~= nil and get_status_potok_song() ~= 0 then
 		bass.BASS_ChannelSetAttribute(stream_music, BASS_ATTRIB_VOL, volume_music)
 	end
@@ -1088,19 +1088,19 @@ function main()
 	thread = lua_thread.create(function() return end)
 	pos_new_memb = lua_thread.create(function() return end)
 	
-	--> Создание файлов и установка значений
-	check_existence('Для обновления', 'для обновлений')
-	check_existence('Отыгровки', 'для отыгровок')
-	check_existence('Шпаргалки', 'для шпаргалок')
+	--> Г‘Г®Г§Г¤Г Г­ГЁГҐ ГґГ Г©Г«Г®Гў ГЁ ГіГ±ГІГ Г­Г®ГўГЄГ  Г§Г­Г Г·ГҐГ­ГЁГ©
+	check_existence('Г„Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї', 'Г¤Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГ©')
+	check_existence('ГЋГІГ»ГЈГ°Г®ГўГЄГЁ', 'Г¤Г«Гї Г®ГІГ»ГЈГ°Г®ГўГ®ГЄ')
+	check_existence('ГГЇГ Г°ГЈГ Г«ГЄГЁ', 'Г¤Г«Гї ГёГЇГ Г°ГЈГ Г«Г®ГЄ')
 	
-	setting = apply_settings('Настройки.json', 'настроек', setting)
-	save_tracks = apply_settings('Треки.json', 'треков', save_tracks)
-	scene = apply_settings('Сцены.json', 'сцен', scene)
+	setting = apply_settings('ГЌГ Г±ГІГ°Г®Г©ГЄГЁ.json', 'Г­Г Г±ГІГ°Г®ГҐГЄ', setting)
+	save_tracks = apply_settings('Г’Г°ГҐГЄГЁ.json', 'ГІГ°ГҐГЄГ®Гў', save_tracks)
+	scene = apply_settings('Г‘Г¶ГҐГ­Г».json', 'Г±Г¶ГҐГ­', scene)
 	
 	repeat wait(100) until sampIsLocalPlayerSpawned()
 	local _, myid = sampGetPlayerIdByCharHandle(PLAYER_PED)
 	my = {id = myid, nick = sampGetPlayerNickname(myid)}
-	sampAddChatMessage(string.format(script_tag..'{FFFFFF}%s, для активации главного меню, отправьте в чат {a8a8a8}/ph', sampGetPlayerNickname(my.id):gsub('_',' ')), color_tag)
+	sampAddChatMessage(string.format(script_tag..'{FFFFFF}%s, Г¤Г«Гї Г ГЄГІГЁГўГ Г¶ГЁГЁ ГЈГ«Г ГўГ­Г®ГЈГ® Г¬ГҐГ­Гѕ, Г®ГІГЇГ°Г ГўГјГІГҐ Гў Г·Г ГІ {a8a8a8}/ph', sampGetPlayerNickname(my.id):gsub('_',' ')), color_tag)
 	
 	if doesFileExist(dirml..'/MedicalHelper.lua') then
 		os.remove(dirml..'/MedicalHelper.lua')
@@ -1115,7 +1115,7 @@ function main()
 		}
 	end
 	if IMG_Premium == nil then
-		IMG_Premium = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Premium.png')
+		IMG_Premium = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Premium.png')
 	end
 	fontes = renderCreateFont('Trebuchet MS', setting.members.size, setting.members.flag)
 	if setting.speed_door then
@@ -1130,13 +1130,13 @@ function main()
 	end
 	if setting.dep_off then
 		sampRegisterChatCommand('d', function()
-			sampAddChatMessage(script_tag..'{FFFFFF}Вы отключили команду /d в настройках.', color_tag)
+			sampAddChatMessage(script_tag..'{FFFFFF}Г‚Г» Г®ГІГЄГ«ГѕГ·ГЁГ«ГЁ ГЄГ®Г¬Г Г­Г¤Гі /d Гў Г­Г Г±ГІГ°Г®Г©ГЄГ Гµ.', color_tag)
 		end)
 	end
 	if setting.accent.d and not setting.dep_off then
 		sampRegisterChatCommand('d', function(text_accents_d) 
 			if text_accents_d ~= '' and setting.accent.func and setting.accent.d and setting.accent.text ~= '' then
-				sampSendChat('/d ['..u8:decode(setting.accent.text)..' акцент]: '..text_accents_d)
+				sampSendChat('/d ['..u8:decode(setting.accent.text)..' Г ГЄГ¶ГҐГ­ГІ]: '..text_accents_d)
 			else
 				sampSendChat('/d '..text_accents_d)
 			end 
@@ -1157,7 +1157,7 @@ function main()
 		work = convert_color(setting.members.color.work)
 	}
 	
-	if setting.frac.org:find(u8'Больница') then
+	if setting.frac.org:find(u8'ГЃГ®Г«ГјГ­ГЁГ¶Г ') then
 		setting.stat.hosp.date_today = {tonumber(os.date('%d')), tonumber(os.date('%m')), tonumber(os.date('%Y'))}
 		if setting.stat.hosp.date_today[1] ~= setting.stat.hosp.date_last[1] or setting.stat.hosp.date_today[2] ~= setting.stat.hosp.date_last[2]
 		or setting.stat.hosp.date_today[3] ~= setting.stat.hosp.date_last[3] then
@@ -1188,7 +1188,7 @@ function main()
 			setting.stat.hosp.tatu[1] = 0
 		end
 		save('setting')
-	elseif setting.frac.org:find(u8'Центр Лицензирования') then
+	elseif setting.frac.org:find(u8'Г–ГҐГ­ГІГ° Г‹ГЁГ¶ГҐГ­Г§ГЁГ°Г®ГўГ Г­ГЁГї') then
 		setting.stat.school.date_today = {tonumber(os.date('%d')), tonumber(os.date('%m')), tonumber(os.date('%Y'))}
 		if setting.stat.school.date_today[1] ~= setting.stat.school.date_last[1] or setting.stat.school.date_today[2] ~= setting.stat.school.date_last[2]
 		or setting.stat.school.date_today[3] ~= setting.stat.school.date_last[3] then
@@ -1237,7 +1237,7 @@ function main()
 	or setting.online_stat.date_today[3] ~= setting.online_stat.date_last[3] then
 		setting.online_stat.date_num[1] = setting.online_stat.date_num[1] + 1
 	end
-	if setting.online_stat.date_num[1] > setting.online_stat.date_num[2] then --> Если сегодняшняя дата отличается от вчерашней
+	if setting.online_stat.date_num[1] > setting.online_stat.date_num[2] then --> Г…Г±Г«ГЁ Г±ГҐГЈГ®Г¤Г­ГїГёГ­ГїГї Г¤Г ГІГ  Г®ГІГ«ГЁГ·Г ГҐГІГ±Гї Г®ГІ ГўГ·ГҐГ°Г ГёГ­ГҐГ©
 		setting.online_stat.date_last[1] = tonumber(os.date('%d'))
 		setting.online_stat.date_last[2] = tonumber(os.date('%m'))
 		setting.online_stat.date_last[3] = tonumber(os.date('%Y'))
@@ -1371,10 +1371,10 @@ function main()
 		if setting.rubber_stick then
 			local num_weap = getCurrentCharWeapon(playerPed)
 			if num_weap == 3 and not bool_rubber_stick then 
-				sampSendChat('/me сняв дубинку с пояса, взял'.. chsex('', 'а') ..' её в правую руку')
+				sampSendChat('/me Г±Г­ГїГў Г¤ГіГЎГЁГ­ГЄГі Г± ГЇГ®ГїГ±Г , ГўГ§ГїГ«'.. chsex('', 'Г ') ..' ГҐВё Гў ГЇГ°Г ГўГіГѕ Г°ГіГЄГі')
 				bool_rubber_stick = true
 			elseif num_weap ~= 3 and bool_rubber_stick then
-				sampSendChat('/me повесил'.. chsex('', 'а') ..' дубинку на пояс')
+				sampSendChat('/me ГЇГ®ГўГҐГ±ГЁГ«'.. chsex('', 'Г ') ..' Г¤ГіГЎГЁГ­ГЄГі Г­Г  ГЇГ®ГїГ±')
 				bool_rubber_stick = false
 			end
 		end
@@ -1417,8 +1417,8 @@ end
 
 function create_act(add_command)
 	local function cr_file(name_file, content)
-		if not doesFileExist(dirml..'/PoliceHelper/Отыгровки/'..name_file..'.json') then
-			local f = io.open(dirml..'/PoliceHelper/Отыгровки/'..name_file..'.json', 'w')
+		if not doesFileExist(dirml..'/PoliceHelper/ГЋГІГ»ГЈГ°Г®ГўГЄГЁ/'..name_file..'.json') then
+			local f = io.open(dirml..'/PoliceHelper/ГЋГІГ»ГЈГ°Г®ГўГЄГЁ/'..name_file..'.json', 'w')
 			f:write(content)
 			f:flush()
 			f:close()
@@ -1625,33 +1625,33 @@ sampRegisterChatCommand('ph', function()
 			EXPORTS.sendRequest()
 		end
 		if IMG_No_Label == nil then
-			IMG_No_Label = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/No label.png')
+			IMG_No_Label = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/No label.png')
 		end
 		if IMG_Background == nil then
-			IMG_Background = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Background.png')
+			IMG_Background = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Background.png')
 		end
 		if IMG_Background_White == nil then
-			IMG_Background_White = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Background White.png')
+			IMG_Background_White = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Background White.png')
 		end
 		if IMG_Background_Black == nil then
-			IMG_Background_Black = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Background Black.png')
+			IMG_Background_Black = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Background Black.png')
 		end
 		if #IMG_Record == 0 then
 			IMG_Record = {
-				[1] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Dance Label.png'),
-				[2] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Megamix Label.png'),
-				[3] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Party Label.png'),
-				[4] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Phonk Label.png'),
-				[5] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record GopFM Label.png'),
-				[6] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Ruki Vverh Label.png'),
-				[7] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Dupstep Label.png'),
-				[8] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Bighits Label.png'),
-				[9] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Organic Label.png'),
-				[10] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Russianhits Label.png'),
+				[1] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Record Dance Label.png'),
+				[2] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Record Megamix Label.png'),
+				[3] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Record Party Label.png'),
+				[4] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Record Phonk Label.png'),
+				[5] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Record GopFM Label.png'),
+				[6] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Record Ruki Vverh Label.png'),
+				[7] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Record Dupstep Label.png'),
+				[8] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Record Bighits Label.png'),
+				[9] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Record Organic Label.png'),
+				[10] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/Record Russianhits Label.png'),
 			}
 		end
 	else
-		sampAddChatMessage(script_tag..'{FFFFFF}Ошибка обнаружения шрифтов. Попробуйте снова через несколько секунд...', color_tag)
+		sampAddChatMessage(script_tag..'{FFFFFF}ГЋГёГЁГЎГЄГ  Г®ГЎГ­Г Г°ГіГ¦ГҐГ­ГЁГї ГёГ°ГЁГґГІГ®Гў. ГЏГ®ГЇГ°Г®ГЎГіГ©ГІГҐ Г±Г­Г®ГўГ  Г·ГҐГ°ГҐГ§ Г­ГҐГ±ГЄГ®Г«ГјГЄГ® Г±ГҐГЄГіГ­Г¤...', color_tag)
 	end
 end)
 
@@ -2156,7 +2156,7 @@ function window.main_first_start()
 	
 	skin.DrawFond({4, 4}, {0, 0}, {860, 460}, imgui.ImVec4(col_end.fond_two[1], col_end.fond_two[2], col_end.fond_two[3], 1.00), 15, 15)
 	imgui.SetCursorPos(imgui.ImVec2(13, 13))
-	if imgui.InvisibleButton(u8'##Закрыть окно', imgui.ImVec2(20, 20)) or interf.main.anim_win.par  then
+	if imgui.InvisibleButton(u8'##Г‡Г ГЄГ°Г»ГІГј Г®ГЄГ­Г®', imgui.ImVec2(20, 20)) or interf.main.anim_win.par  then
 		pos_win_closed = imgui.GetWindowPos()
 		styleAnimationClose('Main', interf.main.size.x, interf.main.size.y)
 		interf.main.anim_win.par = false
@@ -2186,21 +2186,21 @@ function window.main_first_start()
 			imgui.PopFont()
 		end
 		if first_start_anim.text[2] then
-			text_big_main_screen(u8'Выберите оформление', first_start_anim.vis[2])
+			text_big_main_screen(u8'Г‚Г»ГЎГҐГ°ГЁГІГҐ Г®ГґГ®Г°Г¬Г«ГҐГ­ГЁГҐ', first_start_anim.vis[2])
 		elseif first_start_anim.text[3] then
-			text_big_main_screen(u8'Уточните организацию', 1.00)
+			text_big_main_screen(u8'Г“ГІГ®Г·Г­ГЁГІГҐ Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГѕ', 1.00)
 		elseif first_start_anim.text[4] then
-			text_big_main_screen(u8'Ваш никнейм на русском', 1.00)
+			text_big_main_screen(u8'Г‚Г Гё Г­ГЁГЄГ­ГҐГ©Г¬ Г­Г  Г°ГіГ±Г±ГЄГ®Г¬', 1.00)
 		elseif first_start_anim.text[5] then
-			text_big_main_screen(u8'Пользовательское соглашение', first_start_anim.vis[2])
+			text_big_main_screen(u8'ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«ГјГ±ГЄГ®ГҐ Г±Г®ГЈГ«Г ГёГҐГ­ГЁГҐ', first_start_anim.vis[2])
 		elseif first_start_anim.text[6] then
-			text_big_main_screen(u8'Обновления', first_start_anim.vis[2])
+			text_big_main_screen(u8'ГЋГЎГ­Г®ГўГ«ГҐГ­ГЁГї', first_start_anim.vis[2])
 		end
 	end
 	if first_start_anim.text[1] then
 		imgui.PushFont(bold_font[2])
 		imgui.SetCursorPos(imgui.ImVec2(338, 200))
-		imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, first_start_anim.vis[1]), u8'Привет')
+		imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, first_start_anim.vis[1]), u8'ГЏГ°ГЁГўГҐГІ')
 		imgui.PopFont()
 		if first_start_anim.vis[1] < 1.6 and not first_start_anim.done[1] then
 			first_start_anim.vis[1] = first_start_anim.vis[1] + 0.009
@@ -2261,7 +2261,7 @@ function window.main_first_start()
 				end
 				imgui.PushFont(font[1])
 				imgui.SetCursorPos(imgui.ImVec2(274, 300))
-				imgui.Text(u8'Светлое')
+				imgui.Text(u8'Г‘ГўГҐГІГ«Г®ГҐ')
 				
 				if buf_setting.theme[1].v then
 					if skin.CheckboxOne(u8'##whitebox', 295, 330) then
@@ -2286,7 +2286,7 @@ function window.main_first_start()
 				end
 				
 				imgui.SetCursorPos(imgui.ImVec2(546, 300))
-				imgui.Text(u8'Тёмное')
+				imgui.Text(u8'Г’ВёГ¬Г­Г®ГҐ')
 				if buf_setting.theme[2].v then
 					if skin.CheckboxOne(u8'##blackebox', 565, 330) then
 						
@@ -2301,18 +2301,18 @@ function window.main_first_start()
 				imgui.PopStyleColor(3)
 				
 				skin.DrawFond({134, 385}, {0, 0}, {600, 1}, imgui.ImVec4(0.70, 0.70, 0.70, 1.00), 15, 15)
-				skin.Button(u8'Продолжить', 630, 400, nil, nil, function() 
+				skin.Button(u8'ГЏГ°Г®Г¤Г®Г«Г¦ГЁГІГј', 630, 400, nil, nil, function() 
 					first_start_anim.text[2] = false
 					first_start_anim.text[3] = true
 				end)
-				skin.Button(u8'Назад##false_non', 515, 400, nil, nil, function() end)
-				skin.EmphText(u8'Узнать подробнее', 140, 410, u8'Выбранная тема оформления будет отображаться\nво всех окнах программы.\n\nТему можно будет изменить в настройках.')
+				skin.Button(u8'ГЌГ Г§Г Г¤##false_non', 515, 400, nil, nil, function() end)
+				skin.EmphText(u8'Г“Г§Г­Г ГІГј ГЇГ®Г¤Г°Г®ГЎГ­ГҐГҐ', 140, 410, u8'Г‚Г»ГЎГ°Г Г­Г­Г Гї ГІГҐГ¬Г  Г®ГґГ®Г°Г¬Г«ГҐГ­ГЁГї ГЎГіГ¤ГҐГІ Г®ГІГ®ГЎГ°Г Г¦Г ГІГјГ±Гї\nГўГ® ГўГ±ГҐГµ Г®ГЄГ­Г Гµ ГЇГ°Г®ГЈГ°Г Г¬Г¬Г».\n\nГ’ГҐГ¬Гі Г¬Г®Г¦Г­Г® ГЎГіГ¤ГҐГІ ГЁГ§Г¬ГҐГ­ГЁГІГј Гў Г­Г Г±ГІГ°Г®Г©ГЄГ Гµ.')
 				imgui.PopFont()
 			end
 		end
 	end
 	if first_start_anim.text[3] then
-		local carta_org = {u8'Полиция LS', u8'Полиция SF', u8'Полиция LV', u8'FBI'}
+		local carta_org = {u8'ГЏГ®Г«ГЁГ¶ГЁГї LS', u8'ГЏГ®Г«ГЁГ¶ГЁГї SF', u8'ГЏГ®Г«ГЁГ¶ГЁГї LV', u8'FBI'}
 		for i = 1, #carta_org do
 			if num_of_the_selected_org == i then
 				setting.frac.org = carta_org[i]
@@ -2320,19 +2320,19 @@ function window.main_first_start()
 		end
 		imgui.PushFont(font[1])
 		if num_of_the_selected_org == 1 then
-			if skin.CheckboxOne(u8'Полиция LS', 350, 177) then num_of_the_selected_org = 1 setting.frac.org = u8'Полиция LS' end
+			if skin.CheckboxOne(u8'ГЏГ®Г«ГЁГ¶ГЁГї LS', 350, 177) then num_of_the_selected_org = 1 setting.frac.org = u8'ГЏГ®Г«ГЁГ¶ГЁГї LS' end
 		else
-			if skin.CheckboxOne(u8'Полиция LS##false_func', 350, 177) then num_of_the_selected_org = 1 setting.frac.org = u8'Полиция LS' end
+			if skin.CheckboxOne(u8'ГЏГ®Г«ГЁГ¶ГЁГї LS##false_func', 350, 177) then num_of_the_selected_org = 1 setting.frac.org = u8'ГЏГ®Г«ГЁГ¶ГЁГї LS' end
 		end
 		if num_of_the_selected_org == 2 then
-			if skin.CheckboxOne(u8'Полиция SF', 350, 206) then num_of_the_selected_org = 2 setting.frac.org = u8'Полиция SF' end
+			if skin.CheckboxOne(u8'ГЏГ®Г«ГЁГ¶ГЁГї SF', 350, 206) then num_of_the_selected_org = 2 setting.frac.org = u8'ГЏГ®Г«ГЁГ¶ГЁГї SF' end
 		else
-			if skin.CheckboxOne(u8'Полиция SF##false_func', 350, 206) then num_of_the_selected_org = 2 setting.frac.org = u8'Полиция SF' end
+			if skin.CheckboxOne(u8'ГЏГ®Г«ГЁГ¶ГЁГї SF##false_func', 350, 206) then num_of_the_selected_org = 2 setting.frac.org = u8'ГЏГ®Г«ГЁГ¶ГЁГї SF' end
 		end
 		if num_of_the_selected_org == 3 then
-			if skin.CheckboxOne(u8'Полиция LV', 350, 235) then num_of_the_selected_org = 3 setting.frac.org = u8'Полиция LV' end
+			if skin.CheckboxOne(u8'ГЏГ®Г«ГЁГ¶ГЁГї LV', 350, 235) then num_of_the_selected_org = 3 setting.frac.org = u8'ГЏГ®Г«ГЁГ¶ГЁГї LV' end
 		else
-			if skin.CheckboxOne(u8'Полиция LV##false_func', 350, 235) then num_of_the_selected_org = 3 setting.frac.org = u8'Полиция LV' end
+			if skin.CheckboxOne(u8'ГЏГ®Г«ГЁГ¶ГЁГї LV##false_func', 350, 235) then num_of_the_selected_org = 3 setting.frac.org = u8'ГЏГ®Г«ГЁГ¶ГЁГї LV' end
 		end
 		if num_of_the_selected_org == 4 then
 			if skin.CheckboxOne(u8'FBI', 350, 263) then num_of_the_selected_org = 4 setting.frac.org = u8'FBI' end
@@ -2340,109 +2340,109 @@ function window.main_first_start()
 			if skin.CheckboxOne(u8'FBI##false_func', 350, 263) then num_of_the_selected_org = 4 setting.frac.org = u8'FBI' end
 		end
 		skin.DrawFond({134, 385}, {0, 0}, {600, 1}, imgui.ImVec4(0.70, 0.70, 0.70, 1.00), 15, 15)
-		skin.Button(u8'Продолжить', 630, 400, nil, nil, function() 
+		skin.Button(u8'ГЏГ°Г®Г¤Г®Г«Г¦ГЁГІГј', 630, 400, nil, nil, function() 
 			first_start_anim.text[3] = false
 			first_start_anim.text[4] = true
 		end)
-		skin.Button(u8'Назад', 515, 400, nil, nil, function()
+		skin.Button(u8'ГЌГ Г§Г Г¤', 515, 400, nil, nil, function()
 			first_start_anim.text[2] = true
 			first_start_anim.text[3] = false
 		end)
-		skin.EmphText(u8'Узнать подробнее', 140, 410, u8'Выберите организацию, в которой Вы состоите на данный момент.\nЭто поможет настроить хелпер под Ваши задачи.')
+		skin.EmphText(u8'Г“Г§Г­Г ГІГј ГЇГ®Г¤Г°Г®ГЎГ­ГҐГҐ', 140, 410, u8'Г‚Г»ГЎГҐГ°ГЁГІГҐ Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГѕ, Гў ГЄГ®ГІГ®Г°Г®Г© Г‚Г» Г±Г®Г±ГІГ®ГЁГІГҐ Г­Г  Г¤Г Г­Г­Г»Г© Г¬Г®Г¬ГҐГ­ГІ.\nГќГІГ® ГЇГ®Г¬Г®Г¦ГҐГІ Г­Г Г±ГІГ°Г®ГЁГІГј ГµГҐГ«ГЇГҐГ° ГЇГ®Г¤ Г‚Г ГёГЁ Г§Г Г¤Г Г·ГЁ.')
 		imgui.PopFont()
 	end
 	if first_start_anim.text[4] then
 		imgui.PushFont(font[1])
 		skin.DrawFond({134, 385}, {0, 0}, {600, 1}, imgui.ImVec4(0.70, 0.70, 0.70, 1.00), 15, 15)
 		if not setting.nick:find('%S+%s+%S+') then
-			skin.Button(u8'Продолжить##false_non', 630, 400, nil, nil, function() end)
+			skin.Button(u8'ГЏГ°Г®Г¤Г®Г«Г¦ГЁГІГј##false_non', 630, 400, nil, nil, function() end)
 		else
-			skin.Button(u8'Продолжить', 630, 400, nil, nil, function() 
+			skin.Button(u8'ГЏГ°Г®Г¤Г®Г«Г¦ГЁГІГј', 630, 400, nil, nil, function() 
 				first_start_anim.text[4] = false
 				first_start_anim.text[5] = true
 			end)
 		end
-		skin.Button(u8'Назад', 515, 400, nil, nil, function()
+		skin.Button(u8'ГЌГ Г§Г Г¤', 515, 400, nil, nil, function()
 			first_start_anim.text[3] = true
 			first_start_anim.text[4] = false
 		end)
-		skin.EmphText(u8'Узнать подробнее', 140, 410, u8'Введите в поле ввода Ваш никнейм на русском языке.\nНапример, Альберто Кейн')
+		skin.EmphText(u8'Г“Г§Г­Г ГІГј ГЇГ®Г¤Г°Г®ГЎГ­ГҐГҐ', 140, 410, u8'Г‚ГўГҐГ¤ГЁГІГҐ Гў ГЇГ®Г«ГҐ ГўГўГ®Г¤Г  Г‚Г Гё Г­ГЁГЄГ­ГҐГ©Г¬ Г­Г  Г°ГіГ±Г±ГЄГ®Г¬ ГїГ§Г»ГЄГҐ.\nГЌГ ГЇГ°ГЁГ¬ГҐГ°, ГЂГ«ГјГЎГҐГ°ГІГ® ГЉГҐГ©Г­')
 		local my_nickname = sampGetPlayerNickname(my.id):gsub('_',' ')
-		skin.InputText(255, 255, u8'Ваш ник '..my_nickname..u8' на русском', 'setting.nick', 74, 350, '[а-Я%s]+')
+		skin.InputText(255, 255, u8'Г‚Г Гё Г­ГЁГЄ '..my_nickname..u8' Г­Г  Г°ГіГ±Г±ГЄГ®Г¬', 'setting.nick', 74, 350, '[Г -Гџ%s]+')
 		imgui.PopFont()
 	end
 	
 	if first_start_anim.text[5] then
 		imgui.PushFont(font[1]) -- imgui.TextWrapped(u8'')
 		imgui.SetCursorPos(imgui.ImVec2(134, 150))
-		imgui.BeginChild(u8'Пользовательское соглашение', imgui.ImVec2(600, 217), false)
+		imgui.BeginChild(u8'ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«ГјГ±ГЄГ®ГҐ Г±Г®ГЈГ«Г ГёГҐГ­ГЁГҐ', imgui.ImVec2(600, 217), false)
 		imgui.PushFont(font[4])
-		imgui.Text(u8'1. Основные термины и определения')
+		imgui.Text(u8'1. ГЋГ±Г­Г®ГўГ­Г»ГҐ ГІГҐГ°Г¬ГЁГ­Г» ГЁ Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГї')
 		imgui.PopFont()
-		imgui.TextWrapped(u8'1.1 Правообладатель - это лицо, которое обладает правами собственности на интеллектуальную собственность, такую как авторские права, патенты, торговые марки и другие права, связанные с созданием и использованием интеллектуальных продуктов или изобретений. Термин "Правообладатель" также включает в себя разработчика, менеджера, директора, поставщика и других ответственных сторон, участвующих в создании, управлении и поставке Программы (см. определение ниже). Это объединяющий термин, включающий все заинтересованные стороны, которые имеют право предоставлять разрешения на использование Программы (см. определение ниже) и управлять правами доступа в соответствии с данным Лицензионным соглашением (данный договор между двумя сторонами: (Пользователь (см. определение ниже) и Правообладатель), далее "Соглашение").\nПравообладателем данной Программы (см. определение ниже), а также официальным обладателем авторских прав и интеллектуальной собственности, является единственное лицо. Все иные лица, причастные к созданию, разработке, поддержке и другим терминам включающих в себя определение из термина Правообладателя, за исключением правами собственности на интеллектуальную собственность, такую как авторские права, патенты, торговые марки и другие права, связанные с созданием и использованием интеллектуальных продуктов или изобретений данного программного обеспечения (далее "ПО"), являются партнёрами (далее "Партнёр", "Партнёры") Правообладателя.\n')
-		imgui.TextWrapped(u8'Термин относится к ПО, в котором находится данное Лицензионное соглашение или на одном виртуальном, облачном или удалённом носителе, учётной записи одного Пользователя всего ресурса, сайта или хранилища, на котором расположено ПО.\n\n')
-		imgui.TextWrapped(u8'1.2 Программа - это ПО, принадлежащее Правообладателю, которое было приобретено и установлено на Носитель (см. определение ниже) технического устройства. Из списка выпущенных Правообладателем Программ, данный термин относится ко всем ПО, включающих в своём названии словосочетание "PoliceHelper", написанное на английском языке в любом из возможных вариантов регистра букв.\nНаименование ПО можно найти в свойствах файла установленного с источников Правообладателя в случае, если файл не был отредактирован в последствии перемещения его на Носитель (см. определение ниже) технического устройства.\n\n')
-		imgui.TextWrapped(u8'1.3 Носитель - устройство или средство, используемое для хранения и передачи данных. Это может быть физический объект, такой как жёсткий диск, USB-флешка, CD, DVD, Blu-ray диск или другие съёмные устройства хранения информации.\n\n1.4 Samp Mobile Role Play - это проект ролевой игры (Role-Play) на платформе SA:MP (San Andreas Multiplayer), принадлежащий игровой компании Samp Mobile Games. В этом проекте игроки могут взаимодействовать в виртуальном мире, исполняя определенные роли и выполняя задания в атмосфере, созданной на базе игры Grand Theft Auto: San Andreas с использованием мультиплеерной платформы SA:MP.\n\n1.5 Руководство пользователя - документ, который содержит инструкцию о том, как правильно использовать Программу, предоставленную Правообладателем.\n\n1.6 Пользователь - человек, установивший или использующий Программу, предоставленную Правообладателем.\n\n1.7 Блокировка программы - это техническая или программная мера, которая преднамеренно ограничивает доступ Пользователя к определенным функциям, данным или ресурсам Программы.\n\n1.8 Интернет - информационно-телекоммуникационная сеть, т. е. технологическая система, предназначенная для передачи по линиям связи информации, доступ к которой осуществляется с использованием средств вычислительной техники.\n\n1.9 Установка - процесс размещения Программы на компьютере или устройстве, чтобы она стала доступной и готовой к использованию. Во время установки происходит копирование файлов Программы на жёсткий диск или другое физическое хранилище, кроме тех, доступ к которым требует наличия Интернета.\n\n')
-		imgui.TextWrapped(u8'1.10 Игра - конкретный вид развлекательной деятельности, не связанный с непосредственными задачами жизнеобеспечения, выполняющий функции заполнения досуга человека.\n\n1.11 Версия программы - присвоенный номер Программы, позволяющий определить новизну ПО, т. е. дату его выхода, а также различия относительно предыдущих версий Программы.\nВерсия программы отображена в самой Программе под соответствующим названием включающая в своём словосочетании слово "Версия".\n\n1.12 Закрытое тестирование - процесс исследования, испытания ПО, имеющий своей целью проверку соответствия между реальным поведением программы и её ожидаемым поведением на конечном наборе тестов, выбранных определённым образом.\nПроцесс осуществляется без учёта возможности публикации такого ПО в общий доступ, дающий возможность любому Пользователю осуществить установку ПО.\nТермин применяется к Программе, имеющей в своём программном коде заданную условную переменную "Beta" не соответствующей второму числу текущей Версии программы.\n\n')
+		imgui.TextWrapped(u8'1.1 ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј - ГЅГІГ® Г«ГЁГ¶Г®, ГЄГ®ГІГ®Г°Г®ГҐ Г®ГЎГ«Г Г¤Г ГҐГІ ГЇГ°Г ГўГ Г¬ГЁ Г±Г®ГЎГ±ГІГўГҐГ­Г­Г®Г±ГІГЁ Г­Г  ГЁГ­ГІГҐГ«Г«ГҐГЄГІГіГ Г«ГјГ­ГіГѕ Г±Г®ГЎГ±ГІГўГҐГ­Г­Г®Г±ГІГј, ГІГ ГЄГіГѕ ГЄГ ГЄ Г ГўГІГ®Г°Г±ГЄГЁГҐ ГЇГ°Г ГўГ , ГЇГ ГІГҐГ­ГІГ», ГІГ®Г°ГЈГ®ГўГ»ГҐ Г¬Г Г°ГЄГЁ ГЁ Г¤Г°ГіГЈГЁГҐ ГЇГ°Г ГўГ , Г±ГўГїГ§Г Г­Г­Г»ГҐ Г± Г±Г®Г§Г¤Г Г­ГЁГҐГ¬ ГЁ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐГ¬ ГЁГ­ГІГҐГ«Г«ГҐГЄГІГіГ Г«ГјГ­Г»Гµ ГЇГ°Г®Г¤ГіГЄГІГ®Гў ГЁГ«ГЁ ГЁГ§Г®ГЎГ°ГҐГІГҐГ­ГЁГ©. Г’ГҐГ°Г¬ГЁГ­ "ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј" ГІГ ГЄГ¦ГҐ ГўГЄГ«ГѕГ·Г ГҐГІ Гў Г±ГҐГЎГї Г°Г Г§Г°Г ГЎГ®ГІГ·ГЁГЄГ , Г¬ГҐГ­ГҐГ¤Г¦ГҐГ°Г , Г¤ГЁГ°ГҐГЄГІГ®Г°Г , ГЇГ®Г±ГІГ ГўГ№ГЁГЄГ  ГЁ Г¤Г°ГіГЈГЁГµ Г®ГІГўГҐГІГ±ГІГўГҐГ­Г­Г»Гµ Г±ГІГ®Г°Г®Г­, ГіГ·Г Г±ГІГўГіГѕГ№ГЁГµ Гў Г±Г®Г§Г¤Г Г­ГЁГЁ, ГіГЇГ°Г ГўГ«ГҐГ­ГЁГЁ ГЁ ГЇГ®Г±ГІГ ГўГЄГҐ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» (Г±Г¬. Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГҐ Г­ГЁГ¦ГҐ). ГќГІГ® Г®ГЎГєГҐГ¤ГЁГ­ГїГѕГ№ГЁГ© ГІГҐГ°Г¬ГЁГ­, ГўГЄГ«ГѕГ·Г ГѕГ№ГЁГ© ГўГ±ГҐ Г§Г ГЁГ­ГІГҐГ°ГҐГ±Г®ГўГ Г­Г­Г»ГҐ Г±ГІГ®Г°Г®Г­Г», ГЄГ®ГІГ®Г°Г»ГҐ ГЁГ¬ГҐГѕГІ ГЇГ°Г ГўГ® ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГїГІГј Г°Г Г§Г°ГҐГёГҐГ­ГЁГї Г­Г  ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» (Г±Г¬. Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГҐ Г­ГЁГ¦ГҐ) ГЁ ГіГЇГ°Г ГўГ«ГїГІГј ГЇГ°Г ГўГ Г¬ГЁ Г¤Г®Г±ГІГіГЇГ  Гў Г±Г®Г®ГІГўГҐГІГ±ГІГўГЁГЁ Г± Г¤Г Г­Г­Г»Г¬ Г‹ГЁГ¶ГҐГ­Г§ГЁГ®Г­Г­Г»Г¬ Г±Г®ГЈГ«Г ГёГҐГ­ГЁГҐГ¬ (Г¤Г Г­Г­Г»Г© Г¤Г®ГЈГ®ГўГ®Г° Г¬ГҐГ¦Г¤Гі Г¤ГўГіГ¬Гї Г±ГІГ®Г°Г®Г­Г Г¬ГЁ: (ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј (Г±Г¬. Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГҐ Г­ГЁГ¦ГҐ) ГЁ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј), Г¤Г Г«ГҐГҐ "Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГҐ").\nГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«ГҐГ¬ Г¤Г Г­Г­Г®Г© ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» (Г±Г¬. Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГҐ Г­ГЁГ¦ГҐ), Г  ГІГ ГЄГ¦ГҐ Г®ГґГЁГ¶ГЁГ Г«ГјГ­Г»Г¬ Г®ГЎГ«Г Г¤Г ГІГҐГ«ГҐГ¬ Г ГўГІГ®Г°Г±ГЄГЁГµ ГЇГ°Г Гў ГЁ ГЁГ­ГІГҐГ«Г«ГҐГЄГІГіГ Г«ГјГ­Г®Г© Г±Г®ГЎГ±ГІГўГҐГ­Г­Г®Г±ГІГЁ, ГїГўГ«ГїГҐГІГ±Гї ГҐГ¤ГЁГ­Г±ГІГўГҐГ­Г­Г®ГҐ Г«ГЁГ¶Г®. Г‚Г±ГҐ ГЁГ­Г»ГҐ Г«ГЁГ¶Г , ГЇГ°ГЁГ·Г Г±ГІГ­Г»ГҐ ГЄ Г±Г®Г§Г¤Г Г­ГЁГѕ, Г°Г Г§Г°Г ГЎГ®ГІГЄГҐ, ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГҐ ГЁ Г¤Г°ГіГЈГЁГ¬ ГІГҐГ°Г¬ГЁГ­Г Г¬ ГўГЄГ«ГѕГ·Г ГѕГ№ГЁГµ Гў Г±ГҐГЎГї Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГҐ ГЁГ§ ГІГҐГ°Г¬ГЁГ­Г  ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гї, Г§Г  ГЁГ±ГЄГ«ГѕГ·ГҐГ­ГЁГҐГ¬ ГЇГ°Г ГўГ Г¬ГЁ Г±Г®ГЎГ±ГІГўГҐГ­Г­Г®Г±ГІГЁ Г­Г  ГЁГ­ГІГҐГ«Г«ГҐГЄГІГіГ Г«ГјГ­ГіГѕ Г±Г®ГЎГ±ГІГўГҐГ­Г­Г®Г±ГІГј, ГІГ ГЄГіГѕ ГЄГ ГЄ Г ГўГІГ®Г°Г±ГЄГЁГҐ ГЇГ°Г ГўГ , ГЇГ ГІГҐГ­ГІГ», ГІГ®Г°ГЈГ®ГўГ»ГҐ Г¬Г Г°ГЄГЁ ГЁ Г¤Г°ГіГЈГЁГҐ ГЇГ°Г ГўГ , Г±ГўГїГ§Г Г­Г­Г»ГҐ Г± Г±Г®Г§Г¤Г Г­ГЁГҐГ¬ ГЁ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐГ¬ ГЁГ­ГІГҐГ«Г«ГҐГЄГІГіГ Г«ГјГ­Г»Гµ ГЇГ°Г®Г¤ГіГЄГІГ®Гў ГЁГ«ГЁ ГЁГ§Г®ГЎГ°ГҐГІГҐГ­ГЁГ© Г¤Г Г­Г­Г®ГЈГ® ГЇГ°Г®ГЈГ°Г Г¬Г¬Г­Г®ГЈГ® Г®ГЎГҐГ±ГЇГҐГ·ГҐГ­ГЁГї (Г¤Г Г«ГҐГҐ "ГЏГЋ"), ГїГўГ«ГїГѕГІГ±Гї ГЇГ Г°ГІГ­ВёГ°Г Г¬ГЁ (Г¤Г Г«ГҐГҐ "ГЏГ Г°ГІГ­ВёГ°", "ГЏГ Г°ГІГ­ВёГ°Г»") ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гї.\n')
+		imgui.TextWrapped(u8'Г’ГҐГ°Г¬ГЁГ­ Г®ГІГ­Г®Г±ГЁГІГ±Гї ГЄ ГЏГЋ, Гў ГЄГ®ГІГ®Г°Г®Г¬ Г­Г ГµГ®Г¤ГЁГІГ±Гї Г¤Г Г­Г­Г®ГҐ Г‹ГЁГ¶ГҐГ­Г§ГЁГ®Г­Г­Г®ГҐ Г±Г®ГЈГ«Г ГёГҐГ­ГЁГҐ ГЁГ«ГЁ Г­Г  Г®Г¤Г­Г®Г¬ ГўГЁГ°ГІГіГ Г«ГјГ­Г®Г¬, Г®ГЎГ«Г Г·Г­Г®Г¬ ГЁГ«ГЁ ГіГ¤Г Г«ВёГ­Г­Г®Г¬ Г­Г®Г±ГЁГІГҐГ«ГҐ, ГіГ·ВёГІГ­Г®Г© Г§Г ГЇГЁГ±ГЁ Г®Г¤Г­Г®ГЈГ® ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї ГўГ±ГҐГЈГ® Г°ГҐГ±ГіГ°Г±Г , Г±Г Г©ГІГ  ГЁГ«ГЁ ГµГ°Г Г­ГЁГ«ГЁГ№Г , Г­Г  ГЄГ®ГІГ®Г°Г®Г¬ Г°Г Г±ГЇГ®Г«Г®Г¦ГҐГ­Г® ГЏГЋ.\n\n')
+		imgui.TextWrapped(u8'1.2 ГЏГ°Г®ГЈГ°Г Г¬Г¬Г  - ГЅГІГ® ГЏГЋ, ГЇГ°ГЁГ­Г Г¤Г«ГҐГ¦Г Г№ГҐГҐ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гѕ, ГЄГ®ГІГ®Г°Г®ГҐ ГЎГ»Г«Г® ГЇГ°ГЁГ®ГЎГ°ГҐГІГҐГ­Г® ГЁ ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­Г® Г­Г  ГЌГ®Г±ГЁГІГҐГ«Гј (Г±Г¬. Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГҐ Г­ГЁГ¦ГҐ) ГІГҐГµГ­ГЁГ·ГҐГ±ГЄГ®ГЈГ® ГіГ±ГІГ°Г®Г©Г±ГІГўГ . Г€Г§ Г±ГЇГЁГ±ГЄГ  ГўГ»ГЇГіГ№ГҐГ­Г­Г»Гµ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«ГҐГ¬ ГЏГ°Г®ГЈГ°Г Г¬Г¬, Г¤Г Г­Г­Г»Г© ГІГҐГ°Г¬ГЁГ­ Г®ГІГ­Г®Г±ГЁГІГ±Гї ГЄГ® ГўГ±ГҐГ¬ ГЏГЋ, ГўГЄГ«ГѕГ·Г ГѕГ№ГЁГµ Гў Г±ГўГ®ВёГ¬ Г­Г Г§ГўГ Г­ГЁГЁ Г±Г«Г®ГўГ®Г±Г®Г·ГҐГІГ Г­ГЁГҐ "PoliceHelper", Г­Г ГЇГЁГ±Г Г­Г­Г®ГҐ Г­Г  Г Г­ГЈГ«ГЁГ©Г±ГЄГ®Г¬ ГїГ§Г»ГЄГҐ Гў Г«ГѕГЎГ®Г¬ ГЁГ§ ГўГ®Г§Г¬Г®Г¦Г­Г»Гµ ГўГ Г°ГЁГ Г­ГІГ®Гў Г°ГҐГЈГЁГ±ГІГ°Г  ГЎГіГЄГў.\nГЌГ ГЁГ¬ГҐГ­Г®ГўГ Г­ГЁГҐ ГЏГЋ Г¬Г®Г¦Г­Г® Г­Г Г©ГІГЁ Гў Г±ГўГ®Г©Г±ГІГўГ Гµ ГґГ Г©Г«Г  ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­Г­Г®ГЈГ® Г± ГЁГ±ГІГ®Г·Г­ГЁГЄГ®Гў ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гї Гў Г±Г«ГіГ·Г ГҐ, ГҐГ±Г«ГЁ ГґГ Г©Г« Г­ГҐ ГЎГ»Г« Г®ГІГ°ГҐГ¤Г ГЄГІГЁГ°Г®ГўГ Г­ Гў ГЇГ®Г±Г«ГҐГ¤Г±ГІГўГЁГЁ ГЇГҐГ°ГҐГ¬ГҐГ№ГҐГ­ГЁГї ГҐГЈГ® Г­Г  ГЌГ®Г±ГЁГІГҐГ«Гј (Г±Г¬. Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГҐ Г­ГЁГ¦ГҐ) ГІГҐГµГ­ГЁГ·ГҐГ±ГЄГ®ГЈГ® ГіГ±ГІГ°Г®Г©Г±ГІГўГ .\n\n')
+		imgui.TextWrapped(u8'1.3 ГЌГ®Г±ГЁГІГҐГ«Гј - ГіГ±ГІГ°Г®Г©Г±ГІГўГ® ГЁГ«ГЁ Г±Г°ГҐГ¤Г±ГІГўГ®, ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г®ГҐ Г¤Г«Гї ГµГ°Г Г­ГҐГ­ГЁГї ГЁ ГЇГҐГ°ГҐГ¤Г Г·ГЁ Г¤Г Г­Г­Г»Гµ. ГќГІГ® Г¬Г®Г¦ГҐГІ ГЎГ»ГІГј ГґГЁГ§ГЁГ·ГҐГ±ГЄГЁГ© Г®ГЎГєГҐГЄГІ, ГІГ ГЄГ®Г© ГЄГ ГЄ Г¦ВёГ±ГІГЄГЁГ© Г¤ГЁГ±ГЄ, USB-ГґГ«ГҐГёГЄГ , CD, DVD, Blu-ray Г¤ГЁГ±ГЄ ГЁГ«ГЁ Г¤Г°ГіГЈГЁГҐ Г±ГєВёГ¬Г­Г»ГҐ ГіГ±ГІГ°Г®Г©Г±ГІГўГ  ГµГ°Г Г­ГҐГ­ГЁГї ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГЁ.\n\n1.4 Samp Mobile Role Play - ГЅГІГ® ГЇГ°Г®ГҐГЄГІ Г°Г®Г«ГҐГўГ®Г© ГЁГЈГ°Г» (Role-Play) Г­Г  ГЇГ«Г ГІГґГ®Г°Г¬ГҐ SA:MP (San Andreas Multiplayer), ГЇГ°ГЁГ­Г Г¤Г«ГҐГ¦Г Г№ГЁГ© ГЁГЈГ°Г®ГўГ®Г© ГЄГ®Г¬ГЇГ Г­ГЁГЁ Samp Mobile Games. Г‚ ГЅГІГ®Г¬ ГЇГ°Г®ГҐГЄГІГҐ ГЁГЈГ°Г®ГЄГЁ Г¬Г®ГЈГіГІ ГўГ§Г ГЁГ¬Г®Г¤ГҐГ©Г±ГІГўГ®ГўГ ГІГј Гў ГўГЁГ°ГІГіГ Г«ГјГ­Г®Г¬ Г¬ГЁГ°ГҐ, ГЁГ±ГЇГ®Г«Г­ГїГї Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­Г­Г»ГҐ Г°Г®Г«ГЁ ГЁ ГўГ»ГЇГ®Г«Г­ГїГї Г§Г Г¤Г Г­ГЁГї Гў Г ГІГ¬Г®Г±ГґГҐГ°ГҐ, Г±Г®Г§Г¤Г Г­Г­Г®Г© Г­Г  ГЎГ Г§ГҐ ГЁГЈГ°Г» Grand Theft Auto: San Andreas Г± ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐГ¬ Г¬ГіГ«ГјГІГЁГЇГ«ГҐГҐГ°Г­Г®Г© ГЇГ«Г ГІГґГ®Г°Г¬Г» SA:MP.\n\n1.5 ГђГіГЄГ®ГўГ®Г¤Г±ГІГўГ® ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї - Г¤Г®ГЄГіГ¬ГҐГ­ГІ, ГЄГ®ГІГ®Г°Г»Г© Г±Г®Г¤ГҐГ°Г¦ГЁГІ ГЁГ­Г±ГІГ°ГіГЄГ¶ГЁГѕ Г® ГІГ®Г¬, ГЄГ ГЄ ГЇГ°Г ГўГЁГ«ГјГ­Г® ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј ГЏГ°Г®ГЈГ°Г Г¬Г¬Гі, ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГҐГ­Г­ГіГѕ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«ГҐГ¬.\n\n1.6 ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј - Г·ГҐГ«Г®ГўГҐГЄ, ГіГ±ГІГ Г­Г®ГўГЁГўГёГЁГ© ГЁГ«ГЁ ГЁГ±ГЇГ®Г«ГјГ§ГіГѕГ№ГЁГ© ГЏГ°Г®ГЈГ°Г Г¬Г¬Гі, ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГҐГ­Г­ГіГѕ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«ГҐГ¬.\n\n1.7 ГЃГ«Г®ГЄГЁГ°Г®ГўГЄГ  ГЇГ°Г®ГЈГ°Г Г¬Г¬Г» - ГЅГІГ® ГІГҐГµГ­ГЁГ·ГҐГ±ГЄГ Гї ГЁГ«ГЁ ГЇГ°Г®ГЈГ°Г Г¬Г¬Г­Г Гї Г¬ГҐГ°Г , ГЄГ®ГІГ®Г°Г Гї ГЇГ°ГҐГ¤Г­Г Г¬ГҐГ°ГҐГ­Г­Г® Г®ГЈГ°Г Г­ГЁГ·ГЁГўГ ГҐГІ Г¤Г®Г±ГІГіГЇ ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї ГЄ Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­Г­Г»Г¬ ГґГіГ­ГЄГ¶ГЁГїГ¬, Г¤Г Г­Г­Г»Г¬ ГЁГ«ГЁ Г°ГҐГ±ГіГ°Г±Г Г¬ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г».\n\n1.8 Г€Г­ГІГҐГ°Г­ГҐГІ - ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГ®Г­Г­Г®-ГІГҐГ«ГҐГЄГ®Г¬Г¬ГіГ­ГЁГЄГ Г¶ГЁГ®Г­Г­Г Гї Г±ГҐГІГј, ГІ. ГҐ. ГІГҐГµГ­Г®Г«Г®ГЈГЁГ·ГҐГ±ГЄГ Гї Г±ГЁГ±ГІГҐГ¬Г , ГЇГ°ГҐГ¤Г­Г Г§Г­Г Г·ГҐГ­Г­Г Гї Г¤Г«Гї ГЇГҐГ°ГҐГ¤Г Г·ГЁ ГЇГ® Г«ГЁГ­ГЁГїГ¬ Г±ГўГїГ§ГЁ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГЁ, Г¤Г®Г±ГІГіГЇ ГЄ ГЄГ®ГІГ®Г°Г®Г© Г®Г±ГіГ№ГҐГ±ГІГўГ«ГїГҐГІГ±Гї Г± ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐГ¬ Г±Г°ГҐГ¤Г±ГІГў ГўГ»Г·ГЁГ±Г«ГЁГІГҐГ«ГјГ­Г®Г© ГІГҐГµГ­ГЁГЄГЁ.\n\n1.9 Г“Г±ГІГ Г­Г®ГўГЄГ  - ГЇГ°Г®Г¶ГҐГ±Г± Г°Г Г§Г¬ГҐГ№ГҐГ­ГЁГї ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» Г­Г  ГЄГ®Г¬ГЇГјГѕГІГҐГ°ГҐ ГЁГ«ГЁ ГіГ±ГІГ°Г®Г©Г±ГІГўГҐ, Г·ГІГ®ГЎГ» Г®Г­Г  Г±ГІГ Г«Г  Г¤Г®Г±ГІГіГЇГ­Г®Г© ГЁ ГЈГ®ГІГ®ГўГ®Г© ГЄ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГѕ. Г‚Г® ГўГ°ГҐГ¬Гї ГіГ±ГІГ Г­Г®ГўГЄГЁ ГЇГ°Г®ГЁГ±ГµГ®Г¤ГЁГІ ГЄГ®ГЇГЁГ°Г®ГўГ Г­ГЁГҐ ГґГ Г©Г«Г®Гў ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» Г­Г  Г¦ВёГ±ГІГЄГЁГ© Г¤ГЁГ±ГЄ ГЁГ«ГЁ Г¤Г°ГіГЈГ®ГҐ ГґГЁГ§ГЁГ·ГҐГ±ГЄГ®ГҐ ГµГ°Г Г­ГЁГ«ГЁГ№ГҐ, ГЄГ°Г®Г¬ГҐ ГІГҐГµ, Г¤Г®Г±ГІГіГЇ ГЄ ГЄГ®ГІГ®Г°Г»Г¬ ГІГ°ГҐГЎГіГҐГІ Г­Г Г«ГЁГ·ГЁГї Г€Г­ГІГҐГ°Г­ГҐГІГ .\n\n')
+		imgui.TextWrapped(u8'1.10 Г€ГЈГ°Г  - ГЄГ®Г­ГЄГ°ГҐГІГ­Г»Г© ГўГЁГ¤ Г°Г Г§ГўГ«ГҐГЄГ ГІГҐГ«ГјГ­Г®Г© Г¤ГҐГїГІГҐГ«ГјГ­Г®Г±ГІГЁ, Г­ГҐ Г±ГўГїГ§Г Г­Г­Г»Г© Г± Г­ГҐГЇГ®Г±Г°ГҐГ¤Г±ГІГўГҐГ­Г­Г»Г¬ГЁ Г§Г Г¤Г Г·Г Г¬ГЁ Г¦ГЁГ§Г­ГҐГ®ГЎГҐГ±ГЇГҐГ·ГҐГ­ГЁГї, ГўГ»ГЇГ®Г«Г­ГїГѕГ№ГЁГ© ГґГіГ­ГЄГ¶ГЁГЁ Г§Г ГЇГ®Г«Г­ГҐГ­ГЁГї Г¤Г®Г±ГіГЈГ  Г·ГҐГ«Г®ГўГҐГЄГ .\n\n1.11 Г‚ГҐГ°Г±ГЁГї ГЇГ°Г®ГЈГ°Г Г¬Г¬Г» - ГЇГ°ГЁГ±ГўГ®ГҐГ­Г­Г»Г© Г­Г®Г¬ГҐГ° ГЏГ°Г®ГЈГ°Г Г¬Г¬Г», ГЇГ®Г§ГўГ®Г«ГїГѕГ№ГЁГ© Г®ГЇГ°ГҐГ¤ГҐГ«ГЁГІГј Г­Г®ГўГЁГ§Г­Гі ГЏГЋ, ГІ. ГҐ. Г¤Г ГІГі ГҐГЈГ® ГўГ»ГµГ®Г¤Г , Г  ГІГ ГЄГ¦ГҐ Г°Г Г§Г«ГЁГ·ГЁГї Г®ГІГ­Г®Г±ГЁГІГҐГ«ГјГ­Г® ГЇГ°ГҐГ¤Г»Г¤ГіГ№ГЁГµ ГўГҐГ°Г±ГЁГ© ГЏГ°Г®ГЈГ°Г Г¬Г¬Г».\nГ‚ГҐГ°Г±ГЁГї ГЇГ°Г®ГЈГ°Г Г¬Г¬Г» Г®ГІГ®ГЎГ°Г Г¦ГҐГ­Г  Гў Г±Г Г¬Г®Г© ГЏГ°Г®ГЈГ°Г Г¬Г¬ГҐ ГЇГ®Г¤ Г±Г®Г®ГІГўГҐГІГ±ГІГўГіГѕГ№ГЁГ¬ Г­Г Г§ГўГ Г­ГЁГҐГ¬ ГўГЄГ«ГѕГ·Г ГѕГ№Г Гї Гў Г±ГўГ®ВёГ¬ Г±Г«Г®ГўГ®Г±Г®Г·ГҐГІГ Г­ГЁГЁ Г±Г«Г®ГўГ® "Г‚ГҐГ°Г±ГЁГї".\n\n1.12 Г‡Г ГЄГ°Г»ГІГ®ГҐ ГІГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГҐ - ГЇГ°Г®Г¶ГҐГ±Г± ГЁГ±Г±Г«ГҐГ¤Г®ГўГ Г­ГЁГї, ГЁГ±ГЇГ»ГІГ Г­ГЁГї ГЏГЋ, ГЁГ¬ГҐГѕГ№ГЁГ© Г±ГўГ®ГҐГ© Г¶ГҐГ«ГјГѕ ГЇГ°Г®ГўГҐГ°ГЄГі Г±Г®Г®ГІГўГҐГІГ±ГІГўГЁГї Г¬ГҐГ¦Г¤Гі Г°ГҐГ Г«ГјГ­Г»Г¬ ГЇГ®ГўГҐГ¤ГҐГ­ГЁГҐГ¬ ГЇГ°Г®ГЈГ°Г Г¬Г¬Г» ГЁ ГҐВё Г®Г¦ГЁГ¤Г ГҐГ¬Г»Г¬ ГЇГ®ГўГҐГ¤ГҐГ­ГЁГҐГ¬ Г­Г  ГЄГ®Г­ГҐГ·Г­Г®Г¬ Г­Г ГЎГ®Г°ГҐ ГІГҐГ±ГІГ®Гў, ГўГ»ГЎГ°Г Г­Г­Г»Гµ Г®ГЇГ°ГҐГ¤ГҐГ«ВёГ­Г­Г»Г¬ Г®ГЎГ°Г Г§Г®Г¬.\nГЏГ°Г®Г¶ГҐГ±Г± Г®Г±ГіГ№ГҐГ±ГІГўГ«ГїГҐГІГ±Гї ГЎГҐГ§ ГіГ·ВёГІГ  ГўГ®Г§Г¬Г®Г¦Г­Г®Г±ГІГЁ ГЇГіГЎГ«ГЁГЄГ Г¶ГЁГЁ ГІГ ГЄГ®ГЈГ® ГЏГЋ Гў Г®ГЎГ№ГЁГ© Г¤Г®Г±ГІГіГЇ, Г¤Г ГѕГ№ГЁГ© ГўГ®Г§Г¬Г®Г¦Г­Г®Г±ГІГј Г«ГѕГЎГ®Г¬Гі ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гѕ Г®Г±ГіГ№ГҐГ±ГІГўГЁГІГј ГіГ±ГІГ Г­Г®ГўГЄГі ГЏГЋ.\nГ’ГҐГ°Г¬ГЁГ­ ГЇГ°ГЁГ¬ГҐГ­ГїГҐГІГ±Гї ГЄ ГЏГ°Г®ГЈГ°Г Г¬Г¬ГҐ, ГЁГ¬ГҐГѕГ№ГҐГ© Гў Г±ГўГ®ВёГ¬ ГЇГ°Г®ГЈГ°Г Г¬Г¬Г­Г®Г¬ ГЄГ®Г¤ГҐ Г§Г Г¤Г Г­Г­ГіГѕ ГіГ±Г«Г®ГўГ­ГіГѕ ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ "Beta" Г­ГҐ Г±Г®Г®ГІГўГҐГІГ±ГІГўГіГѕГ№ГҐГ© ГўГІГ®Г°Г®Г¬Гі Г·ГЁГ±Г«Гі ГІГҐГЄГіГ№ГҐГ© Г‚ГҐГ°Г±ГЁГЁ ГЇГ°Г®ГЈГ°Г Г¬Г¬Г».\n\n')
 		imgui.PushFont(font[4])
-		imgui.Text(u8'2. Лицензия')
+		imgui.Text(u8'2. Г‹ГЁГ¶ГҐГ­Г§ГЁГї')
 		imgui.PopFont()
-		imgui.TextWrapped(u8'2.1 Правообладатель предоставляет Вам неисключительную лицензию на использование Программы для упрощения процесса Игры на проекте Samp Mobile Role Play, описанных в Руководстве пользователя, при условии, в котором Вами соблюдены все необходимые требования, описанные в Руководстве пользователя, а также всех ограничений и условий использования Программы, указанных в настоящем Соглашении.\nВ случае использования Программы для тестирования функциональности, Правообладатель предоставляет Вам неисключительную лицензию на тестирование программы при условии соблюдения Вами всех необходимых требований, описанных в Руководстве пользователя, а также всех ограничений и условий использования Программы, указанных в настоящем Соглашении.\n\n')
-		imgui.TextWrapped(u8'2.2 При соблюдении определённых условий Вы можете создать копию программы типа "Закрытое тестирование" с единственной целью архивирования и замены правомерно установленного экземпляра в случае его утери, уничтожения или непригодности. Тем не менее, использование такой копии для иных целей запрещено, и владение ею должно прекратиться, если обладание правомерным экземпляром программы прекращается.\n\n')
-		imgui.TextWrapped(u8'2.3 После установки программы Вам, по возможности, предоставляется право получать от Правообладателя или его Партнёров:\n- новые версии ПО по мере их выхода (через Интернет)\n- техническую поддержку (через Интернет)\n- доступ к информационным и вспомогательным ресурсам Правообладателя.\nДанные возможности не могут быть гарантированы Правообладателем и в праве перестать быть доступными любому Пользователю Программы в любой момент времени без объяснения причин.\n\n')
-		imgui.TextWrapped(u8'2.4 В случае установки Программы типа "Закрытое тестирование" через Интернет, Вы имеете право использовать такую копию Программы исключительно на одном техническом устройстве или Ностеле. Количество созданных копий Программы на одном устройстве неограниченно. Запрещается создавать, распространять, передавать копию такой Программы через облачные хранилища, где доступ к ней могут получить другие лица, кроме Вас. Запрещается копировать такую Программу на носитель, физический доступ к которому у Вас отсутствует. Запрещено устанавливать такую копию Программу на любой носитель с источников, не включённых в перечень, описанный в данном Соглашении.\n\n')
-		imgui.TextWrapped(u8'2.5 Программа считается установленной с момента её размещения на Носитель Пользователя, независимо от того, запущена она впоследствии Пользователем или нет.\n\n')
+		imgui.TextWrapped(u8'2.1 ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГїГҐГІ Г‚Г Г¬ Г­ГҐГЁГ±ГЄГ«ГѕГ·ГЁГІГҐГ«ГјГ­ГіГѕ Г«ГЁГ¶ГҐГ­Г§ГЁГѕ Г­Г  ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» Г¤Г«Гї ГіГЇГ°Г®Г№ГҐГ­ГЁГї ГЇГ°Г®Г¶ГҐГ±Г±Г  Г€ГЈГ°Г» Г­Г  ГЇГ°Г®ГҐГЄГІГҐ Samp Mobile Role Play, Г®ГЇГЁГ±Г Г­Г­Г»Гµ Гў ГђГіГЄГ®ГўГ®Г¤Г±ГІГўГҐ ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї, ГЇГ°ГЁ ГіГ±Г«Г®ГўГЁГЁ, Гў ГЄГ®ГІГ®Г°Г®Г¬ Г‚Г Г¬ГЁ Г±Г®ГЎГ«ГѕГ¤ГҐГ­Г» ГўГ±ГҐ Г­ГҐГ®ГЎГµГ®Г¤ГЁГ¬Г»ГҐ ГІГ°ГҐГЎГ®ГўГ Г­ГЁГї, Г®ГЇГЁГ±Г Г­Г­Г»ГҐ Гў ГђГіГЄГ®ГўГ®Г¤Г±ГІГўГҐ ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї, Г  ГІГ ГЄГ¦ГҐ ГўГ±ГҐГµ Г®ГЈГ°Г Г­ГЁГ·ГҐГ­ГЁГ© ГЁ ГіГ±Г«Г®ГўГЁГ© ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГї ГЏГ°Г®ГЈГ°Г Г¬Г¬Г», ГіГЄГ Г§Г Г­Г­Г»Гµ Гў Г­Г Г±ГІГ®ГїГ№ГҐГ¬ Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГЁ.\nГ‚ Г±Г«ГіГ·Г ГҐ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГї ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» Г¤Г«Гї ГІГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГї ГґГіГ­ГЄГ¶ГЁГ®Г­Г Г«ГјГ­Г®Г±ГІГЁ, ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГїГҐГІ Г‚Г Г¬ Г­ГҐГЁГ±ГЄГ«ГѕГ·ГЁГІГҐГ«ГјГ­ГіГѕ Г«ГЁГ¶ГҐГ­Г§ГЁГѕ Г­Г  ГІГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГҐ ГЇГ°Г®ГЈГ°Г Г¬Г¬Г» ГЇГ°ГЁ ГіГ±Г«Г®ГўГЁГЁ Г±Г®ГЎГ«ГѕГ¤ГҐГ­ГЁГї Г‚Г Г¬ГЁ ГўГ±ГҐГµ Г­ГҐГ®ГЎГµГ®Г¤ГЁГ¬Г»Гµ ГІГ°ГҐГЎГ®ГўГ Г­ГЁГ©, Г®ГЇГЁГ±Г Г­Г­Г»Гµ Гў ГђГіГЄГ®ГўГ®Г¤Г±ГІГўГҐ ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї, Г  ГІГ ГЄГ¦ГҐ ГўГ±ГҐГµ Г®ГЈГ°Г Г­ГЁГ·ГҐГ­ГЁГ© ГЁ ГіГ±Г«Г®ГўГЁГ© ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГї ГЏГ°Г®ГЈГ°Г Г¬Г¬Г», ГіГЄГ Г§Г Г­Г­Г»Гµ Гў Г­Г Г±ГІГ®ГїГ№ГҐГ¬ Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГЁ.\n\n')
+		imgui.TextWrapped(u8'2.2 ГЏГ°ГЁ Г±Г®ГЎГ«ГѕГ¤ГҐГ­ГЁГЁ Г®ГЇГ°ГҐГ¤ГҐГ«ВёГ­Г­Г»Гµ ГіГ±Г«Г®ГўГЁГ© Г‚Г» Г¬Г®Г¦ГҐГІГҐ Г±Г®Г§Г¤Г ГІГј ГЄГ®ГЇГЁГѕ ГЇГ°Г®ГЈГ°Г Г¬Г¬Г» ГІГЁГЇГ  "Г‡Г ГЄГ°Г»ГІГ®ГҐ ГІГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГҐ" Г± ГҐГ¤ГЁГ­Г±ГІГўГҐГ­Г­Г®Г© Г¶ГҐГ«ГјГѕ Г Г°ГµГЁГўГЁГ°Г®ГўГ Г­ГЁГї ГЁ Г§Г Г¬ГҐГ­Г» ГЇГ°Г ГўГ®Г¬ГҐГ°Г­Г® ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­Г­Г®ГЈГ® ГЅГЄГ§ГҐГ¬ГЇГ«ГїГ°Г  Гў Г±Г«ГіГ·Г ГҐ ГҐГЈГ® ГіГІГҐГ°ГЁ, ГіГ­ГЁГ·ГІГ®Г¦ГҐГ­ГЁГї ГЁГ«ГЁ Г­ГҐГЇГ°ГЁГЈГ®Г¤Г­Г®Г±ГІГЁ. Г’ГҐГ¬ Г­ГҐ Г¬ГҐГ­ГҐГҐ, ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ ГІГ ГЄГ®Г© ГЄГ®ГЇГЁГЁ Г¤Г«Гї ГЁГ­Г»Гµ Г¶ГҐГ«ГҐГ© Г§Г ГЇГ°ГҐГ№ГҐГ­Г®, ГЁ ГўГ«Г Г¤ГҐГ­ГЁГҐ ГҐГѕ Г¤Г®Г«Г¦Г­Г® ГЇГ°ГҐГЄГ°Г ГІГЁГІГјГ±Гї, ГҐГ±Г«ГЁ Г®ГЎГ«Г Г¤Г Г­ГЁГҐ ГЇГ°Г ГўГ®Г¬ГҐГ°Г­Г»Г¬ ГЅГЄГ§ГҐГ¬ГЇГ«ГїГ°Г®Г¬ ГЇГ°Г®ГЈГ°Г Г¬Г¬Г» ГЇГ°ГҐГЄГ°Г Г№Г ГҐГІГ±Гї.\n\n')
+		imgui.TextWrapped(u8'2.3 ГЏГ®Г±Г«ГҐ ГіГ±ГІГ Г­Г®ГўГЄГЁ ГЇГ°Г®ГЈГ°Г Г¬Г¬Г» Г‚Г Г¬, ГЇГ® ГўГ®Г§Г¬Г®Г¦Г­Г®Г±ГІГЁ, ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГїГҐГІГ±Гї ГЇГ°Г ГўГ® ГЇГ®Г«ГіГ·Г ГІГј Г®ГІ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гї ГЁГ«ГЁ ГҐГЈГ® ГЏГ Г°ГІГ­ВёГ°Г®Гў:\n- Г­Г®ГўГ»ГҐ ГўГҐГ°Г±ГЁГЁ ГЏГЋ ГЇГ® Г¬ГҐГ°ГҐ ГЁГµ ГўГ»ГµГ®Г¤Г  (Г·ГҐГ°ГҐГ§ Г€Г­ГІГҐГ°Г­ГҐГІ)\n- ГІГҐГµГ­ГЁГ·ГҐГ±ГЄГіГѕ ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГі (Г·ГҐГ°ГҐГ§ Г€Г­ГІГҐГ°Г­ГҐГІ)\n- Г¤Г®Г±ГІГіГЇ ГЄ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГ®Г­Г­Г»Г¬ ГЁ ГўГ±ГЇГ®Г¬Г®ГЈГ ГІГҐГ«ГјГ­Г»Г¬ Г°ГҐГ±ГіГ°Г±Г Г¬ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гї.\nГ„Г Г­Г­Г»ГҐ ГўГ®Г§Г¬Г®Г¦Г­Г®Г±ГІГЁ Г­ГҐ Г¬Г®ГЈГіГІ ГЎГ»ГІГј ГЈГ Г°Г Г­ГІГЁГ°Г®ГўГ Г­Г» ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«ГҐГ¬ ГЁ Гў ГЇГ°Г ГўГҐ ГЇГҐГ°ГҐГ±ГІГ ГІГј ГЎГ»ГІГј Г¤Г®Г±ГІГіГЇГ­Г»Г¬ГЁ Г«ГѕГЎГ®Г¬Гі ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гѕ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» Гў Г«ГѕГЎГ®Г© Г¬Г®Г¬ГҐГ­ГІ ГўГ°ГҐГ¬ГҐГ­ГЁ ГЎГҐГ§ Г®ГЎГєГїГ±Г­ГҐГ­ГЁГї ГЇГ°ГЁГ·ГЁГ­.\n\n')
+		imgui.TextWrapped(u8'2.4 Г‚ Г±Г«ГіГ·Г ГҐ ГіГ±ГІГ Г­Г®ГўГЄГЁ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» ГІГЁГЇГ  "Г‡Г ГЄГ°Г»ГІГ®ГҐ ГІГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГҐ" Г·ГҐГ°ГҐГ§ Г€Г­ГІГҐГ°Г­ГҐГІ, Г‚Г» ГЁГ¬ГҐГҐГІГҐ ГЇГ°Г ГўГ® ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј ГІГ ГЄГіГѕ ГЄГ®ГЇГЁГѕ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» ГЁГ±ГЄГ«ГѕГ·ГЁГІГҐГ«ГјГ­Г® Г­Г  Г®Г¤Г­Г®Г¬ ГІГҐГµГ­ГЁГ·ГҐГ±ГЄГ®Г¬ ГіГ±ГІГ°Г®Г©Г±ГІГўГҐ ГЁГ«ГЁ ГЌГ®Г±ГІГҐГ«ГҐ. ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г±Г®Г§Г¤Г Г­Г­Г»Гµ ГЄГ®ГЇГЁГ© ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» Г­Г  Г®Г¤Г­Г®Г¬ ГіГ±ГІГ°Г®Г©Г±ГІГўГҐ Г­ГҐГ®ГЈГ°Г Г­ГЁГ·ГҐГ­Г­Г®. Г‡Г ГЇГ°ГҐГ№Г ГҐГІГ±Гї Г±Г®Г§Г¤Г ГўГ ГІГј, Г°Г Г±ГЇГ°Г®Г±ГІГ°Г Г­ГїГІГј, ГЇГҐГ°ГҐГ¤Г ГўГ ГІГј ГЄГ®ГЇГЁГѕ ГІГ ГЄГ®Г© ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» Г·ГҐГ°ГҐГ§ Г®ГЎГ«Г Г·Г­Г»ГҐ ГµГ°Г Г­ГЁГ«ГЁГ№Г , ГЈГ¤ГҐ Г¤Г®Г±ГІГіГЇ ГЄ Г­ГҐГ© Г¬Г®ГЈГіГІ ГЇГ®Г«ГіГ·ГЁГІГј Г¤Г°ГіГЈГЁГҐ Г«ГЁГ¶Г , ГЄГ°Г®Г¬ГҐ Г‚Г Г±. Г‡Г ГЇГ°ГҐГ№Г ГҐГІГ±Гї ГЄГ®ГЇГЁГ°Г®ГўГ ГІГј ГІГ ГЄГіГѕ ГЏГ°Г®ГЈГ°Г Г¬Г¬Гі Г­Г  Г­Г®Г±ГЁГІГҐГ«Гј, ГґГЁГ§ГЁГ·ГҐГ±ГЄГЁГ© Г¤Г®Г±ГІГіГЇ ГЄ ГЄГ®ГІГ®Г°Г®Г¬Гі Гі Г‚Г Г± Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ. Г‡Г ГЇГ°ГҐГ№ГҐГ­Г® ГіГ±ГІГ Г­Г ГўГ«ГЁГўГ ГІГј ГІГ ГЄГіГѕ ГЄГ®ГЇГЁГѕ ГЏГ°Г®ГЈГ°Г Г¬Г¬Гі Г­Г  Г«ГѕГЎГ®Г© Г­Г®Г±ГЁГІГҐГ«Гј Г± ГЁГ±ГІГ®Г·Г­ГЁГЄГ®Гў, Г­ГҐ ГўГЄГ«ГѕГ·ВёГ­Г­Г»Гµ Гў ГЇГҐГ°ГҐГ·ГҐГ­Гј, Г®ГЇГЁГ±Г Г­Г­Г»Г© Гў Г¤Г Г­Г­Г®Г¬ Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГЁ.\n\n')
+		imgui.TextWrapped(u8'2.5 ГЏГ°Г®ГЈГ°Г Г¬Г¬Г  Г±Г·ГЁГІГ ГҐГІГ±Гї ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­Г­Г®Г© Г± Г¬Г®Г¬ГҐГ­ГІГ  ГҐВё Г°Г Г§Г¬ГҐГ№ГҐГ­ГЁГї Г­Г  ГЌГ®Г±ГЁГІГҐГ«Гј ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї, Г­ГҐГ§Г ГўГЁГ±ГЁГ¬Г® Г®ГІ ГІГ®ГЈГ®, Г§Г ГЇГіГ№ГҐГ­Г  Г®Г­Г  ГўГЇГ®Г±Г«ГҐГ¤Г±ГІГўГЁГЁ ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«ГҐГ¬ ГЁГ«ГЁ Г­ГҐГІ.\n\n')
 		
 		imgui.PushFont(font[4])
-		imgui.Text(u8'3. Обновления')
+		imgui.Text(u8'3. ГЋГЎГ­Г®ГўГ«ГҐГ­ГЁГї')
 		imgui.PopFont()
-		imgui.TextWrapped(u8'После установки программы на Носитель, Правообладатель предоставляет возможность Пользователям выбирать способ обновления Программы. Если Пользователь сам решит использовать автоматическое обновление, поставив соответствующую галочку в самой Программе, тогда обновления будут проводиться без дополнительного разрешения или согласия с его стороны.\n\nВ противном случае, если Пользователь не выбрал автоматическое обновление, процесс установки обновления будет требовать подтверждения Пользователя в самой Программе. Пользователю будет предоставлена возможность ознакомиться с деталями обновления и дать согласие на его установку перед началом процесса.\n\n')
-		imgui.TextWrapped(u8'Независимо от выбранного способа обновления, каждое обновление будет регулироваться настоящим Соглашением, а содержание, функции и возможности обновленной Программы определяются исключительно Правообладателем. Эти обновления могут включать как добавление, так и удаление функций Программы, а также полную замену Программы. При этом Вам может быть ограничено использование Программы или устройства (включая определенные функции) до тех пор, пока обновление не будет полностью установлено или активировано.\n\nПравообладатель может прекратить предоставление поддержки Программы, пока Вы не установите все доступные обновления. Необходимость и периодичность предоставления обновлений определяется Правообладателем по его усмотрению, и Правообладатель не обязан предоставлять Вам обновления. Также Правообладатель может прекратить предоставление обновлений для версий Программы, отличных от наиболее новой версии, или для обновлений, которые не поддерживают использование Программы с различными версиями операционных систем или другим ПО.\n\n')
+		imgui.TextWrapped(u8'ГЏГ®Г±Г«ГҐ ГіГ±ГІГ Г­Г®ГўГЄГЁ ГЇГ°Г®ГЈГ°Г Г¬Г¬Г» Г­Г  ГЌГ®Г±ГЁГІГҐГ«Гј, ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГїГҐГІ ГўГ®Г§Г¬Г®Г¦Г­Г®Г±ГІГј ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«ГїГ¬ ГўГ»ГЎГЁГ°Г ГІГј Г±ГЇГ®Г±Г®ГЎ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї ГЏГ°Г®ГЈГ°Г Г¬Г¬Г». Г…Г±Г«ГЁ ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј Г±Г Г¬ Г°ГҐГёГЁГІ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј Г ГўГІГ®Г¬Г ГІГЁГ·ГҐГ±ГЄГ®ГҐ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ, ГЇГ®Г±ГІГ ГўГЁГў Г±Г®Г®ГІГўГҐГІГ±ГІГўГіГѕГ№ГіГѕ ГЈГ Г«Г®Г·ГЄГі Гў Г±Г Г¬Г®Г© ГЏГ°Г®ГЈГ°Г Г¬Г¬ГҐ, ГІГ®ГЈГ¤Г  Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї ГЎГіГ¤ГіГІ ГЇГ°Г®ГўГ®Г¤ГЁГІГјГ±Гї ГЎГҐГ§ Г¤Г®ГЇГ®Г«Г­ГЁГІГҐГ«ГјГ­Г®ГЈГ® Г°Г Г§Г°ГҐГёГҐГ­ГЁГї ГЁГ«ГЁ Г±Г®ГЈГ«Г Г±ГЁГї Г± ГҐГЈГ® Г±ГІГ®Г°Г®Г­Г».\n\nГ‚ ГЇГ°Г®ГІГЁГўГ­Г®Г¬ Г±Г«ГіГ·Г ГҐ, ГҐГ±Г«ГЁ ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј Г­ГҐ ГўГ»ГЎГ°Г Г« Г ГўГІГ®Г¬Г ГІГЁГ·ГҐГ±ГЄГ®ГҐ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ, ГЇГ°Г®Г¶ГҐГ±Г± ГіГ±ГІГ Г­Г®ГўГЄГЁ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї ГЎГіГ¤ГҐГІ ГІГ°ГҐГЎГ®ГўГ ГІГј ГЇГ®Г¤ГІГўГҐГ°Г¦Г¤ГҐГ­ГЁГї ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї Гў Г±Г Г¬Г®Г© ГЏГ°Г®ГЈГ°Г Г¬Г¬ГҐ. ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гѕ ГЎГіГ¤ГҐГІ ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГҐГ­Г  ГўГ®Г§Г¬Г®Г¦Г­Г®Г±ГІГј Г®Г§Г­Г ГЄГ®Г¬ГЁГІГјГ±Гї Г± Г¤ГҐГІГ Г«ГїГ¬ГЁ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї ГЁ Г¤Г ГІГј Г±Г®ГЈГ«Г Г±ГЁГҐ Г­Г  ГҐГЈГ® ГіГ±ГІГ Г­Г®ГўГЄГі ГЇГҐГ°ГҐГ¤ Г­Г Г·Г Г«Г®Г¬ ГЇГ°Г®Г¶ГҐГ±Г±Г .\n\n')
+		imgui.TextWrapped(u8'ГЌГҐГ§Г ГўГЁГ±ГЁГ¬Г® Г®ГІ ГўГ»ГЎГ°Г Г­Г­Г®ГЈГ® Г±ГЇГ®Г±Г®ГЎГ  Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї, ГЄГ Г¦Г¤Г®ГҐ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ ГЎГіГ¤ГҐГІ Г°ГҐГЈГіГ«ГЁГ°Г®ГўГ ГІГјГ±Гї Г­Г Г±ГІГ®ГїГ№ГЁГ¬ Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГҐГ¬, Г  Г±Г®Г¤ГҐГ°Г¦Г Г­ГЁГҐ, ГґГіГ­ГЄГ¶ГЁГЁ ГЁ ГўГ®Г§Г¬Г®Г¦Г­Г®Г±ГІГЁ Г®ГЎГ­Г®ГўГ«ГҐГ­Г­Г®Г© ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» Г®ГЇГ°ГҐГ¤ГҐГ«ГїГѕГІГ±Гї ГЁГ±ГЄГ«ГѕГ·ГЁГІГҐГ«ГјГ­Г® ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«ГҐГ¬. ГќГІГЁ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї Г¬Г®ГЈГіГІ ГўГЄГ«ГѕГ·Г ГІГј ГЄГ ГЄ Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГҐ, ГІГ ГЄ ГЁ ГіГ¤Г Г«ГҐГ­ГЁГҐ ГґГіГ­ГЄГ¶ГЁГ© ГЏГ°Г®ГЈГ°Г Г¬Г¬Г», Г  ГІГ ГЄГ¦ГҐ ГЇГ®Г«Г­ГіГѕ Г§Г Г¬ГҐГ­Гі ГЏГ°Г®ГЈГ°Г Г¬Г¬Г». ГЏГ°ГЁ ГЅГІГ®Г¬ Г‚Г Г¬ Г¬Г®Г¦ГҐГІ ГЎГ»ГІГј Г®ГЈГ°Г Г­ГЁГ·ГҐГ­Г® ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» ГЁГ«ГЁ ГіГ±ГІГ°Г®Г©Г±ГІГўГ  (ГўГЄГ«ГѕГ·Г Гї Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­Г­Г»ГҐ ГґГіГ­ГЄГ¶ГЁГЁ) Г¤Г® ГІГҐГµ ГЇГ®Г°, ГЇГ®ГЄГ  Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ Г­ГҐ ГЎГіГ¤ГҐГІ ГЇГ®Г«Г­Г®Г±ГІГјГѕ ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­Г® ГЁГ«ГЁ Г ГЄГІГЁГўГЁГ°Г®ГўГ Г­Г®.\n\nГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј Г¬Г®Г¦ГҐГІ ГЇГ°ГҐГЄГ°Г ГІГЁГІГј ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГҐГ­ГЁГҐ ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г», ГЇГ®ГЄГ  Г‚Г» Г­ГҐ ГіГ±ГІГ Г­Г®ГўГЁГІГҐ ГўГ±ГҐ Г¤Г®Г±ГІГіГЇГ­Г»ГҐ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї. ГЌГҐГ®ГЎГµГ®Г¤ГЁГ¬Г®Г±ГІГј ГЁ ГЇГҐГ°ГЁГ®Г¤ГЁГ·Г­Г®Г±ГІГј ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГҐГ­ГЁГї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГ© Г®ГЇГ°ГҐГ¤ГҐГ«ГїГҐГІГ±Гї ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«ГҐГ¬ ГЇГ® ГҐГЈГ® ГіГ±Г¬Г®ГІГ°ГҐГ­ГЁГѕ, ГЁ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј Г­ГҐ Г®ГЎГїГ§Г Г­ ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГїГІГј Г‚Г Г¬ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї. Г’Г ГЄГ¦ГҐ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј Г¬Г®Г¦ГҐГІ ГЇГ°ГҐГЄГ°Г ГІГЁГІГј ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГҐГ­ГЁГҐ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГ© Г¤Г«Гї ГўГҐГ°Г±ГЁГ© ГЏГ°Г®ГЈГ°Г Г¬Г¬Г», Г®ГІГ«ГЁГ·Г­Г»Гµ Г®ГІ Г­Г ГЁГЎГ®Г«ГҐГҐ Г­Г®ГўГ®Г© ГўГҐГ°Г±ГЁГЁ, ГЁГ«ГЁ Г¤Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГ©, ГЄГ®ГІГ®Г°Г»ГҐ Г­ГҐ ГЇГ®Г¤Г¤ГҐГ°Г¦ГЁГўГ ГѕГІ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» Г± Г°Г Г§Г«ГЁГ·Г­Г»Г¬ГЁ ГўГҐГ°Г±ГЁГїГ¬ГЁ Г®ГЇГҐГ°Г Г¶ГЁГ®Г­Г­Г»Гµ Г±ГЁГ±ГІГҐГ¬ ГЁГ«ГЁ Г¤Г°ГіГЈГЁГ¬ ГЏГЋ.\n\n')
 		imgui.PushFont(font[4])
-		imgui.Text(u8'4. Права собственности')
+		imgui.Text(u8'4. ГЏГ°Г ГўГ  Г±Г®ГЎГ±ГІГўГҐГ­Г­Г®Г±ГІГЁ')
 		imgui.PopFont()
-		imgui.TextWrapped(u8'4.1 Программа и её программный код являются интеллектуальной собственностью Правообладателя и защищены применимым авторским правом, а также международными договорами и законодательством Российской Федерации. Если Вы являетесь Пользователем, установившим Программу на законных основаниях, то Вы имеете право просматривать открытый программный код Программы. Предоставляя свои комментарии и предложения, касающиеся Программы, Вы предоставляете Правообладателю разрешение на их использование при разработке своих настоящих или будущих продуктов или услуг. При этом, Вы соглашаетесь, что такое использование не потребует выплаты компенсации и дополнительного разрешения от Вас на хранение или использование Ваших материалов.\n\n')
-		imgui.TextWrapped(u8'4.2 Помимо указанных в настоящем Соглашении, владение Программой и её использование не предоставляют Вам какие-либо права на Программу или программный код, включая авторские права, патенты, торговые знаки и другие права интеллектуальной собственности. Все такие права полностью принадлежат Правообладателю Программы.\n\n')
-		imgui.TextWrapped(u8'4.3 Вы не имеете права копировать или использовать Программу или её программный код, за исключением случаев, описанных в разделе 2 настоящего Соглашения.\n\n')
+		imgui.TextWrapped(u8'4.1 ГЏГ°Г®ГЈГ°Г Г¬Г¬Г  ГЁ ГҐВё ГЇГ°Г®ГЈГ°Г Г¬Г¬Г­Г»Г© ГЄГ®Г¤ ГїГўГ«ГїГѕГІГ±Гї ГЁГ­ГІГҐГ«Г«ГҐГЄГІГіГ Г«ГјГ­Г®Г© Г±Г®ГЎГ±ГІГўГҐГ­Г­Г®Г±ГІГјГѕ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гї ГЁ Г§Г Г№ГЁГ№ГҐГ­Г» ГЇГ°ГЁГ¬ГҐГ­ГЁГ¬Г»Г¬ Г ГўГІГ®Г°Г±ГЄГЁГ¬ ГЇГ°Г ГўГ®Г¬, Г  ГІГ ГЄГ¦ГҐ Г¬ГҐГ¦Г¤ГіГ­Г Г°Г®Г¤Г­Г»Г¬ГЁ Г¤Г®ГЈГ®ГўГ®Г°Г Г¬ГЁ ГЁ Г§Г ГЄГ®Г­Г®Г¤Г ГІГҐГ«ГјГ±ГІГўГ®Г¬ ГђГ®Г±Г±ГЁГ©Г±ГЄГ®Г© Г”ГҐГ¤ГҐГ°Г Г¶ГЁГЁ. Г…Г±Г«ГЁ Г‚Г» ГїГўГ«ГїГҐГІГҐГ±Гј ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«ГҐГ¬, ГіГ±ГІГ Г­Г®ГўГЁГўГёГЁГ¬ ГЏГ°Г®ГЈГ°Г Г¬Г¬Гі Г­Г  Г§Г ГЄГ®Г­Г­Г»Гµ Г®Г±Г­Г®ГўГ Г­ГЁГїГµ, ГІГ® Г‚Г» ГЁГ¬ГҐГҐГІГҐ ГЇГ°Г ГўГ® ГЇГ°Г®Г±Г¬Г ГІГ°ГЁГўГ ГІГј Г®ГІГЄГ°Г»ГІГ»Г© ГЇГ°Г®ГЈГ°Г Г¬Г¬Г­Г»Г© ГЄГ®Г¤ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г». ГЏГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГїГї Г±ГўГ®ГЁ ГЄГ®Г¬Г¬ГҐГ­ГІГ Г°ГЁГЁ ГЁ ГЇГ°ГҐГ¤Г«Г®Г¦ГҐГ­ГЁГї, ГЄГ Г±Г ГѕГ№ГЁГҐГ±Гї ГЏГ°Г®ГЈГ°Г Г¬Г¬Г», Г‚Г» ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГїГҐГІГҐ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гѕ Г°Г Г§Г°ГҐГёГҐГ­ГЁГҐ Г­Г  ГЁГµ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ ГЇГ°ГЁ Г°Г Г§Г°Г ГЎГ®ГІГЄГҐ Г±ГўГ®ГЁГµ Г­Г Г±ГІГ®ГїГ№ГЁГµ ГЁГ«ГЁ ГЎГіГ¤ГіГ№ГЁГµ ГЇГ°Г®Г¤ГіГЄГІГ®Гў ГЁГ«ГЁ ГіГ±Г«ГіГЈ. ГЏГ°ГЁ ГЅГІГ®Г¬, Г‚Г» Г±Г®ГЈГ«Г ГёГ ГҐГІГҐГ±Гј, Г·ГІГ® ГІГ ГЄГ®ГҐ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ Г­ГҐ ГЇГ®ГІГ°ГҐГЎГіГҐГІ ГўГ»ГЇГ«Г ГІГ» ГЄГ®Г¬ГЇГҐГ­Г±Г Г¶ГЁГЁ ГЁ Г¤Г®ГЇГ®Г«Г­ГЁГІГҐГ«ГјГ­Г®ГЈГ® Г°Г Г§Г°ГҐГёГҐГ­ГЁГї Г®ГІ Г‚Г Г± Г­Г  ГµГ°Г Г­ГҐГ­ГЁГҐ ГЁГ«ГЁ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ Г‚Г ГёГЁГµ Г¬Г ГІГҐГ°ГЁГ Г«Г®Гў.\n\n')
+		imgui.TextWrapped(u8'4.2 ГЏГ®Г¬ГЁГ¬Г® ГіГЄГ Г§Г Г­Г­Г»Гµ Гў Г­Г Г±ГІГ®ГїГ№ГҐГ¬ Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГЁ, ГўГ«Г Г¤ГҐГ­ГЁГҐ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г®Г© ГЁ ГҐВё ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ Г­ГҐ ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГїГѕГІ Г‚Г Г¬ ГЄГ ГЄГЁГҐ-Г«ГЁГЎГ® ГЇГ°Г ГўГ  Г­Г  ГЏГ°Г®ГЈГ°Г Г¬Г¬Гі ГЁГ«ГЁ ГЇГ°Г®ГЈГ°Г Г¬Г¬Г­Г»Г© ГЄГ®Г¤, ГўГЄГ«ГѕГ·Г Гї Г ГўГІГ®Г°Г±ГЄГЁГҐ ГЇГ°Г ГўГ , ГЇГ ГІГҐГ­ГІГ», ГІГ®Г°ГЈГ®ГўГ»ГҐ Г§Г­Г ГЄГЁ ГЁ Г¤Г°ГіГЈГЁГҐ ГЇГ°Г ГўГ  ГЁГ­ГІГҐГ«Г«ГҐГЄГІГіГ Г«ГјГ­Г®Г© Г±Г®ГЎГ±ГІГўГҐГ­Г­Г®Г±ГІГЁ. Г‚Г±ГҐ ГІГ ГЄГЁГҐ ГЇГ°Г ГўГ  ГЇГ®Г«Г­Г®Г±ГІГјГѕ ГЇГ°ГЁГ­Г Г¤Г«ГҐГ¦Г ГІ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гѕ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г».\n\n')
+		imgui.TextWrapped(u8'4.3 Г‚Г» Г­ГҐ ГЁГ¬ГҐГҐГІГҐ ГЇГ°Г ГўГ  ГЄГ®ГЇГЁГ°Г®ГўГ ГІГј ГЁГ«ГЁ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј ГЏГ°Г®ГЈГ°Г Г¬Г¬Гі ГЁГ«ГЁ ГҐВё ГЇГ°Г®ГЈГ°Г Г¬Г¬Г­Г»Г© ГЄГ®Г¤, Г§Г  ГЁГ±ГЄГ«ГѕГ·ГҐГ­ГЁГҐГ¬ Г±Г«ГіГ·Г ГҐГў, Г®ГЇГЁГ±Г Г­Г­Г»Гµ Гў Г°Г Г§Г¤ГҐГ«ГҐ 2 Г­Г Г±ГІГ®ГїГ№ГҐГЈГ® Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГї.\n\n')
 		imgui.PushFont(font[4])
-		imgui.Text(u8'5. Конфиденциальность')
+		imgui.Text(u8'5. ГЉГ®Г­ГґГЁГ¤ГҐГ­Г¶ГЁГ Г«ГјГ­Г®Г±ГІГј')
 		imgui.PopFont()
-		imgui.TextWrapped(u8'Вы даете Правообладателю и партнёрам Правообладателя согласие на использование Ваших данных в соответствии с политикой конфиденциальности. Вы осознаете, что Ваши данные будут использоваться для различных целей, таких как обработка событий использования Программы, улучшения Программы, предоставления Вам информации об установленной Программе и предложение Вам других Программ.\n\nВы также подтверждаете, что Правообладатель может передавать Ваши данные партнёрам Правообладателя, таким как поставщики платформы электронной коммерции, обработчики платежей, поставщики поддержки, услуг и Программ от имени Правообладателя, а также поставщики, предоставляющие Правообладателю или партнёрам Правообладателя аналитические данные о покупках и сбоях в работе Программы.\n\n')
+		imgui.TextWrapped(u8'Г‚Г» Г¤Г ГҐГІГҐ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гѕ ГЁ ГЇГ Г°ГІГ­ВёГ°Г Г¬ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гї Г±Г®ГЈГ«Г Г±ГЁГҐ Г­Г  ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ Г‚Г ГёГЁГµ Г¤Г Г­Г­Г»Гµ Гў Г±Г®Г®ГІГўГҐГІГ±ГІГўГЁГЁ Г± ГЇГ®Г«ГЁГІГЁГЄГ®Г© ГЄГ®Г­ГґГЁГ¤ГҐГ­Г¶ГЁГ Г«ГјГ­Г®Г±ГІГЁ. Г‚Г» Г®Г±Г®Г§Г­Г ГҐГІГҐ, Г·ГІГ® Г‚Г ГёГЁ Г¤Г Г­Г­Г»ГҐ ГЎГіГ¤ГіГІ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ ГІГјГ±Гї Г¤Г«Гї Г°Г Г§Г«ГЁГ·Г­Г»Гµ Г¶ГҐГ«ГҐГ©, ГІГ ГЄГЁГµ ГЄГ ГЄ Г®ГЎГ°Г ГЎГ®ГІГЄГ  Г±Г®ГЎГ»ГІГЁГ© ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГї ГЏГ°Г®ГЈГ°Г Г¬Г¬Г», ГіГ«ГіГ·ГёГҐГ­ГЁГї ГЏГ°Г®ГЈГ°Г Г¬Г¬Г», ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГҐГ­ГЁГї Г‚Г Г¬ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГЁ Г®ГЎ ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­Г­Г®Г© ГЏГ°Г®ГЈГ°Г Г¬Г¬ГҐ ГЁ ГЇГ°ГҐГ¤Г«Г®Г¦ГҐГ­ГЁГҐ Г‚Г Г¬ Г¤Г°ГіГЈГЁГµ ГЏГ°Г®ГЈГ°Г Г¬Г¬.\n\nГ‚Г» ГІГ ГЄГ¦ГҐ ГЇГ®Г¤ГІГўГҐГ°Г¦Г¤Г ГҐГІГҐ, Г·ГІГ® ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј Г¬Г®Г¦ГҐГІ ГЇГҐГ°ГҐГ¤Г ГўГ ГІГј Г‚Г ГёГЁ Г¤Г Г­Г­Г»ГҐ ГЇГ Г°ГІГ­ВёГ°Г Г¬ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гї, ГІГ ГЄГЁГ¬ ГЄГ ГЄ ГЇГ®Г±ГІГ ГўГ№ГЁГЄГЁ ГЇГ«Г ГІГґГ®Г°Г¬Г» ГЅГ«ГҐГЄГІГ°Г®Г­Г­Г®Г© ГЄГ®Г¬Г¬ГҐГ°Г¶ГЁГЁ, Г®ГЎГ°Г ГЎГ®ГІГ·ГЁГЄГЁ ГЇГ«Г ГІГҐГ¦ГҐГ©, ГЇГ®Г±ГІГ ГўГ№ГЁГЄГЁ ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ, ГіГ±Г«ГіГЈ ГЁ ГЏГ°Г®ГЈГ°Г Г¬Г¬ Г®ГІ ГЁГ¬ГҐГ­ГЁ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гї, Г  ГІГ ГЄГ¦ГҐ ГЇГ®Г±ГІГ ГўГ№ГЁГЄГЁ, ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГїГѕГ№ГЁГҐ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гѕ ГЁГ«ГЁ ГЇГ Г°ГІГ­ВёГ°Г Г¬ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гї Г Г­Г Г«ГЁГІГЁГ·ГҐГ±ГЄГЁГҐ Г¤Г Г­Г­Г»ГҐ Г® ГЇГ®ГЄГіГЇГЄГ Гµ ГЁ Г±ГЎГ®ГїГµ Гў Г°Г ГЎГ®ГІГҐ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г».\n\n')
 		imgui.PushFont(font[4])
-		imgui.Text(u8'6. Прекращение действия')
+		imgui.Text(u8'6. ГЏГ°ГҐГЄГ°Г Г№ГҐГ­ГЁГҐ Г¤ГҐГ©Г±ГІГўГЁГї')
 		imgui.PopFont()
-		imgui.TextWrapped(u8'6.1 Если Вы нарушите любое из обязательств, установленных в данном соглашении, включая обязательства, определённые в разделах 2 или 5, настоящее Соглашение автоматически прекратится и Вы лишитесь права на получение обновлений Программы. При возникновении нарушения, которое причинило ущерб Правообладателю, Правообладатель имеет право обратиться к законным средствам защиты, предусмотренным законодательством. Отказ от ответственности и ограничения, установленные для Правообладателя в данном соглашении, будут действовать и после его прекращения.\n\n')
-		imgui.TextWrapped(u8'6.2 Правообладатель имеет право уведомить Вас и прекратить действие данного Соглашения относительно конкретной Программы или всех Программ в любое удобное время. После фактического прекращения действия Соглашения Вы теряете право на использование Программы.\n\n')
+		imgui.TextWrapped(u8'6.1 Г…Г±Г«ГЁ Г‚Г» Г­Г Г°ГіГёГЁГІГҐ Г«ГѕГЎГ®ГҐ ГЁГ§ Г®ГЎГїГ§Г ГІГҐГ«ГјГ±ГІГў, ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­Г­Г»Гµ Гў Г¤Г Г­Г­Г®Г¬ Г±Г®ГЈГ«Г ГёГҐГ­ГЁГЁ, ГўГЄГ«ГѕГ·Г Гї Г®ГЎГїГ§Г ГІГҐГ«ГјГ±ГІГўГ , Г®ГЇГ°ГҐГ¤ГҐГ«ВёГ­Г­Г»ГҐ Гў Г°Г Г§Г¤ГҐГ«Г Гµ 2 ГЁГ«ГЁ 5, Г­Г Г±ГІГ®ГїГ№ГҐГҐ Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГҐ Г ГўГІГ®Г¬Г ГІГЁГ·ГҐГ±ГЄГЁ ГЇГ°ГҐГЄГ°Г ГІГЁГІГ±Гї ГЁ Г‚Г» Г«ГЁГёГЁГІГҐГ±Гј ГЇГ°Г ГўГ  Г­Г  ГЇГ®Г«ГіГ·ГҐГ­ГЁГҐ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГ© ГЏГ°Г®ГЈГ°Г Г¬Г¬Г». ГЏГ°ГЁ ГўГ®Г§Г­ГЁГЄГ­Г®ГўГҐГ­ГЁГЁ Г­Г Г°ГіГёГҐГ­ГЁГї, ГЄГ®ГІГ®Г°Г®ГҐ ГЇГ°ГЁГ·ГЁГ­ГЁГ«Г® ГіГ№ГҐГ°ГЎ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гѕ, ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј ГЁГ¬ГҐГҐГІ ГЇГ°Г ГўГ® Г®ГЎГ°Г ГІГЁГІГјГ±Гї ГЄ Г§Г ГЄГ®Г­Г­Г»Г¬ Г±Г°ГҐГ¤Г±ГІГўГ Г¬ Г§Г Г№ГЁГІГ», ГЇГ°ГҐГ¤ГіГ±Г¬Г®ГІГ°ГҐГ­Г­Г»Г¬ Г§Г ГЄГ®Г­Г®Г¤Г ГІГҐГ«ГјГ±ГІГўГ®Г¬. ГЋГІГЄГ Г§ Г®ГІ Г®ГІГўГҐГІГ±ГІГўГҐГ­Г­Г®Г±ГІГЁ ГЁ Г®ГЈГ°Г Г­ГЁГ·ГҐГ­ГЁГї, ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­Г­Г»ГҐ Г¤Г«Гї ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гї Гў Г¤Г Г­Г­Г®Г¬ Г±Г®ГЈГ«Г ГёГҐГ­ГЁГЁ, ГЎГіГ¤ГіГІ Г¤ГҐГ©Г±ГІГўГ®ГўГ ГІГј ГЁ ГЇГ®Г±Г«ГҐ ГҐГЈГ® ГЇГ°ГҐГЄГ°Г Г№ГҐГ­ГЁГї.\n\n')
+		imgui.TextWrapped(u8'6.2 ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј ГЁГ¬ГҐГҐГІ ГЇГ°Г ГўГ® ГіГўГҐГ¤Г®Г¬ГЁГІГј Г‚Г Г± ГЁ ГЇГ°ГҐГЄГ°Г ГІГЁГІГј Г¤ГҐГ©Г±ГІГўГЁГҐ Г¤Г Г­Г­Г®ГЈГ® Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГї Г®ГІГ­Г®Г±ГЁГІГҐГ«ГјГ­Г® ГЄГ®Г­ГЄГ°ГҐГІГ­Г®Г© ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» ГЁГ«ГЁ ГўГ±ГҐГµ ГЏГ°Г®ГЈГ°Г Г¬Г¬ Гў Г«ГѕГЎГ®ГҐ ГіГ¤Г®ГЎГ­Г®ГҐ ГўГ°ГҐГ¬Гї. ГЏГ®Г±Г«ГҐ ГґГ ГЄГІГЁГ·ГҐГ±ГЄГ®ГЈГ® ГЇГ°ГҐГЄГ°Г Г№ГҐГ­ГЁГї Г¤ГҐГ©Г±ГІГўГЁГї Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГї Г‚Г» ГІГҐГ°ГїГҐГІГҐ ГЇГ°Г ГўГ® Г­Г  ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г».\n\n')
 		imgui.PushFont(font[4])
-		imgui.Text(u8'7. Основные положения ответственности сторон')
+		imgui.Text(u8'7. ГЋГ±Г­Г®ГўГ­Г»ГҐ ГЇГ®Г«Г®Г¦ГҐГ­ГЁГї Г®ГІГўГҐГІГ±ГІГўГҐГ­Г­Г®Г±ГІГЁ Г±ГІГ®Г°Г®Г­')
 		imgui.PopFont()
-		imgui.TextWrapped(u8'7.1 Правообладатель не несёт никакой ответственности в следующих случаях:\n\n7.1.1 Программа не работает должным образом в связи с нестабильным подключением интернета, устаревшими или неработоспособными техническими характеристиками устройства или Носителя, на которое установлена Программа, недостающим дополнительным ПО, которое обеспечивает необходимую работу Программы, либо из-за пользовательского редактирования программного кода Программы.\n\n7.1.2 Нарушение одного и более пунктов данного Соглашения, после установки Программы.\n\n')
-		imgui.TextWrapped(u8'7.1.3 Утеря одной или нескольких копий Программы после её установки.\n\n7.1.4 Потеря трудоспособности Пользователя по любой причине, вследствие чего Пользователь не имеет более физической возможности использовать Программу.\n\n7.1.5 Пользователь согласился использовать Программу, прочитав Лицензионное соглашение, но в последствии, по собственной инициативе, решил отказаться от использования Программы.\n\n7.1.6 Пользователь не получает обновления Программы.\n\n7.1.7 Пользователь не имеет свободного места для установки Программы на Носитель.\n\n7.1.8 Пользователь не имеет возможности установить Программу в связи с отсутствием или нестабильным подключением Интернета.\n\n7.1.9 Пользователь не имеет возможности установить Программу в связи с ограничениями в стране или регионе, в котором он находится.\n\n7.1.10 Пользователь не имеет возможности установить Программу в связи с ПО, через которое он пытается совершить установку.\n\n')
-		imgui.TextWrapped(u8'7.1.11 Пользователя не удовлетворили ожидания процесса работы Программы или его функциональные возможности.\n\n7.1.12 Пользователь погиб, либо получил физическую или моральную травму в результате пользования Программой.\n\n7.2 Пользователь несёт полную ответственность перед Правообладателем за соблюдение условий Соглашения.\n\n7.3 Программа предоставляется на международных условиях «как есть» (as is). Правообладатель не гарантирует безошибочную и бесперебойную работы Программы, её отдельных компонентов, функциональности, каким-либо целям и ожиданиям Пользователя, а также не предоставляет никаких иных гарантий, прямо не указанных в Соглашении.\n\n7.4 Правообладатель вправе изменить условия настоящего Соглашения в любой момент времени без предварительного уведомления Пользователя об этом.\n\n')
+		imgui.TextWrapped(u8'7.1 ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј Г­ГҐ Г­ГҐГ±ВёГІ Г­ГЁГЄГ ГЄГ®Г© Г®ГІГўГҐГІГ±ГІГўГҐГ­Г­Г®Г±ГІГЁ Гў Г±Г«ГҐГ¤ГіГѕГ№ГЁГµ Г±Г«ГіГ·Г ГїГµ:\n\n7.1.1 ГЏГ°Г®ГЈГ°Г Г¬Г¬Г  Г­ГҐ Г°Г ГЎГ®ГІГ ГҐГІ Г¤Г®Г«Г¦Г­Г»Г¬ Г®ГЎГ°Г Г§Г®Г¬ Гў Г±ГўГїГ§ГЁ Г± Г­ГҐГ±ГІГ ГЎГЁГ«ГјГ­Г»Г¬ ГЇГ®Г¤ГЄГ«ГѕГ·ГҐГ­ГЁГҐГ¬ ГЁГ­ГІГҐГ°Г­ГҐГІГ , ГіГ±ГІГ Г°ГҐГўГёГЁГ¬ГЁ ГЁГ«ГЁ Г­ГҐГ°Г ГЎГ®ГІГ®Г±ГЇГ®Г±Г®ГЎГ­Г»Г¬ГЁ ГІГҐГµГ­ГЁГ·ГҐГ±ГЄГЁГ¬ГЁ ГµГ Г°Г ГЄГІГҐГ°ГЁГ±ГІГЁГЄГ Г¬ГЁ ГіГ±ГІГ°Г®Г©Г±ГІГўГ  ГЁГ«ГЁ ГЌГ®Г±ГЁГІГҐГ«Гї, Г­Г  ГЄГ®ГІГ®Г°Г®ГҐ ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­Г  ГЏГ°Г®ГЈГ°Г Г¬Г¬Г , Г­ГҐГ¤Г®Г±ГІГ ГѕГ№ГЁГ¬ Г¤Г®ГЇГ®Г«Г­ГЁГІГҐГ«ГјГ­Г»Г¬ ГЏГЋ, ГЄГ®ГІГ®Г°Г®ГҐ Г®ГЎГҐГ±ГЇГҐГ·ГЁГўГ ГҐГІ Г­ГҐГ®ГЎГµГ®Г¤ГЁГ¬ГіГѕ Г°Г ГЎГ®ГІГі ГЏГ°Г®ГЈГ°Г Г¬Г¬Г», Г«ГЁГЎГ® ГЁГ§-Г§Г  ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«ГјГ±ГЄГ®ГЈГ® Г°ГҐГ¤Г ГЄГІГЁГ°Г®ГўГ Г­ГЁГї ГЇГ°Г®ГЈГ°Г Г¬Г¬Г­Г®ГЈГ® ГЄГ®Г¤Г  ГЏГ°Г®ГЈГ°Г Г¬Г¬Г».\n\n7.1.2 ГЌГ Г°ГіГёГҐГ­ГЁГҐ Г®Г¤Г­Г®ГЈГ® ГЁ ГЎГ®Г«ГҐГҐ ГЇГіГ­ГЄГІГ®Гў Г¤Г Г­Г­Г®ГЈГ® Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГї, ГЇГ®Г±Г«ГҐ ГіГ±ГІГ Г­Г®ГўГЄГЁ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г».\n\n')
+		imgui.TextWrapped(u8'7.1.3 Г“ГІГҐГ°Гї Г®Г¤Г­Г®Г© ГЁГ«ГЁ Г­ГҐГ±ГЄГ®Г«ГјГЄГЁГµ ГЄГ®ГЇГЁГ© ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» ГЇГ®Г±Г«ГҐ ГҐВё ГіГ±ГІГ Г­Г®ГўГЄГЁ.\n\n7.1.4 ГЏГ®ГІГҐГ°Гї ГІГ°ГіГ¤Г®Г±ГЇГ®Г±Г®ГЎГ­Г®Г±ГІГЁ ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї ГЇГ® Г«ГѕГЎГ®Г© ГЇГ°ГЁГ·ГЁГ­ГҐ, ГўГ±Г«ГҐГ¤Г±ГІГўГЁГҐ Г·ГҐГЈГ® ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј Г­ГҐ ГЁГ¬ГҐГҐГІ ГЎГ®Г«ГҐГҐ ГґГЁГ§ГЁГ·ГҐГ±ГЄГ®Г© ГўГ®Г§Г¬Г®Г¦Г­Г®Г±ГІГЁ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј ГЏГ°Г®ГЈГ°Г Г¬Г¬Гі.\n\n7.1.5 ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј Г±Г®ГЈГ«Г Г±ГЁГ«Г±Гї ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј ГЏГ°Г®ГЈГ°Г Г¬Г¬Гі, ГЇГ°Г®Г·ГЁГІГ Гў Г‹ГЁГ¶ГҐГ­Г§ГЁГ®Г­Г­Г®ГҐ Г±Г®ГЈГ«Г ГёГҐГ­ГЁГҐ, Г­Г® Гў ГЇГ®Г±Г«ГҐГ¤Г±ГІГўГЁГЁ, ГЇГ® Г±Г®ГЎГ±ГІГўГҐГ­Г­Г®Г© ГЁГ­ГЁГ¶ГЁГ ГІГЁГўГҐ, Г°ГҐГёГЁГ« Г®ГІГЄГ Г§Г ГІГјГ±Гї Г®ГІ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГї ГЏГ°Г®ГЈГ°Г Г¬Г¬Г».\n\n7.1.6 ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј Г­ГҐ ГЇГ®Г«ГіГ·Г ГҐГІ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї ГЏГ°Г®ГЈГ°Г Г¬Г¬Г».\n\n7.1.7 ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј Г­ГҐ ГЁГ¬ГҐГҐГІ Г±ГўГ®ГЎГ®Г¤Г­Г®ГЈГ® Г¬ГҐГ±ГІГ  Г¤Г«Гї ГіГ±ГІГ Г­Г®ГўГЄГЁ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» Г­Г  ГЌГ®Г±ГЁГІГҐГ«Гј.\n\n7.1.8 ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј Г­ГҐ ГЁГ¬ГҐГҐГІ ГўГ®Г§Г¬Г®Г¦Г­Г®Г±ГІГЁ ГіГ±ГІГ Г­Г®ГўГЁГІГј ГЏГ°Г®ГЈГ°Г Г¬Г¬Гі Гў Г±ГўГїГ§ГЁ Г± Г®ГІГ±ГіГІГ±ГІГўГЁГҐГ¬ ГЁГ«ГЁ Г­ГҐГ±ГІГ ГЎГЁГ«ГјГ­Г»Г¬ ГЇГ®Г¤ГЄГ«ГѕГ·ГҐГ­ГЁГҐГ¬ Г€Г­ГІГҐГ°Г­ГҐГІГ .\n\n7.1.9 ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј Г­ГҐ ГЁГ¬ГҐГҐГІ ГўГ®Г§Г¬Г®Г¦Г­Г®Г±ГІГЁ ГіГ±ГІГ Г­Г®ГўГЁГІГј ГЏГ°Г®ГЈГ°Г Г¬Г¬Гі Гў Г±ГўГїГ§ГЁ Г± Г®ГЈГ°Г Г­ГЁГ·ГҐГ­ГЁГїГ¬ГЁ Гў Г±ГІГ°Г Г­ГҐ ГЁГ«ГЁ Г°ГҐГЈГЁГ®Г­ГҐ, Гў ГЄГ®ГІГ®Г°Г®Г¬ Г®Г­ Г­Г ГµГ®Г¤ГЁГІГ±Гї.\n\n7.1.10 ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј Г­ГҐ ГЁГ¬ГҐГҐГІ ГўГ®Г§Г¬Г®Г¦Г­Г®Г±ГІГЁ ГіГ±ГІГ Г­Г®ГўГЁГІГј ГЏГ°Г®ГЈГ°Г Г¬Г¬Гі Гў Г±ГўГїГ§ГЁ Г± ГЏГЋ, Г·ГҐГ°ГҐГ§ ГЄГ®ГІГ®Г°Г®ГҐ Г®Г­ ГЇГ»ГІГ ГҐГІГ±Гї Г±Г®ГўГҐГ°ГёГЁГІГј ГіГ±ГІГ Г­Г®ГўГЄГі.\n\n')
+		imgui.TextWrapped(u8'7.1.11 ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї Г­ГҐ ГіГ¤Г®ГўГ«ГҐГІГўГ®Г°ГЁГ«ГЁ Г®Г¦ГЁГ¤Г Г­ГЁГї ГЇГ°Г®Г¶ГҐГ±Г±Г  Г°Г ГЎГ®ГІГ» ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» ГЁГ«ГЁ ГҐГЈГ® ГґГіГ­ГЄГ¶ГЁГ®Г­Г Г«ГјГ­Г»ГҐ ГўГ®Г§Г¬Г®Г¦Г­Г®Г±ГІГЁ.\n\n7.1.12 ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј ГЇГ®ГЈГЁГЎ, Г«ГЁГЎГ® ГЇГ®Г«ГіГ·ГЁГ« ГґГЁГ§ГЁГ·ГҐГ±ГЄГіГѕ ГЁГ«ГЁ Г¬Г®Г°Г Г«ГјГ­ГіГѕ ГІГ°Г ГўГ¬Гі Гў Г°ГҐГ§ГіГ«ГјГІГ ГІГҐ ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГї ГЏГ°Г®ГЈГ°Г Г¬Г¬Г®Г©.\n\n7.2 ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј Г­ГҐГ±ВёГІ ГЇГ®Г«Г­ГіГѕ Г®ГІГўГҐГІГ±ГІГўГҐГ­Г­Г®Г±ГІГј ГЇГҐГ°ГҐГ¤ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«ГҐГ¬ Г§Г  Г±Г®ГЎГ«ГѕГ¤ГҐГ­ГЁГҐ ГіГ±Г«Г®ГўГЁГ© Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГї.\n\n7.3 ГЏГ°Г®ГЈГ°Г Г¬Г¬Г  ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГїГҐГІГ±Гї Г­Г  Г¬ГҐГ¦Г¤ГіГ­Г Г°Г®Г¤Г­Г»Гµ ГіГ±Г«Г®ГўГЁГїГµ В«ГЄГ ГЄ ГҐГ±ГІГјВ» (as is). ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј Г­ГҐ ГЈГ Г°Г Г­ГІГЁГ°ГіГҐГІ ГЎГҐГ§Г®ГёГЁГЎГ®Г·Г­ГіГѕ ГЁ ГЎГҐГ±ГЇГҐГ°ГҐГЎГ®Г©Г­ГіГѕ Г°Г ГЎГ®ГІГ» ГЏГ°Г®ГЈГ°Г Г¬Г¬Г», ГҐВё Г®ГІГ¤ГҐГ«ГјГ­Г»Гµ ГЄГ®Г¬ГЇГ®Г­ГҐГ­ГІГ®Гў, ГґГіГ­ГЄГ¶ГЁГ®Г­Г Г«ГјГ­Г®Г±ГІГЁ, ГЄГ ГЄГЁГ¬-Г«ГЁГЎГ® Г¶ГҐГ«ГїГ¬ ГЁ Г®Г¦ГЁГ¤Г Г­ГЁГїГ¬ ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї, Г  ГІГ ГЄГ¦ГҐ Г­ГҐ ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГїГҐГІ Г­ГЁГЄГ ГЄГЁГµ ГЁГ­Г»Гµ ГЈГ Г°Г Г­ГІГЁГ©, ГЇГ°ГїГ¬Г® Г­ГҐ ГіГЄГ Г§Г Г­Г­Г»Гµ Гў Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГЁ.\n\n7.4 ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј ГўГЇГ°Г ГўГҐ ГЁГ§Г¬ГҐГ­ГЁГІГј ГіГ±Г«Г®ГўГЁГї Г­Г Г±ГІГ®ГїГ№ГҐГЈГ® Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГї Гў Г«ГѕГЎГ®Г© Г¬Г®Г¬ГҐГ­ГІ ГўГ°ГҐГ¬ГҐГ­ГЁ ГЎГҐГ§ ГЇГ°ГҐГ¤ГўГ Г°ГЁГІГҐГ«ГјГ­Г®ГЈГ® ГіГўГҐГ¤Г®Г¬Г«ГҐГ­ГЁГї ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї Г®ГЎ ГЅГІГ®Г¬.\n\n')
 		imgui.PushFont(font[4])
-		imgui.Text(u8'8. Общие положения')
+		imgui.Text(u8'8. ГЋГЎГ№ГЁГҐ ГЇГ®Г«Г®Г¦ГҐГ­ГЁГї')
 		imgui.PopFont()
-		imgui.TextWrapped(u8'8.1 Уведомления. В произвольное время Поставщик может направить Вам уведомление по электронной почте, через всплывающее окно, диалоговое окно или другие средства, даже если в некоторых случаях Вы можете не получить уведомление до тех пор, пока не запустите Программу. Такое уведомление считается доставленным с момента, когда Правообладатель сделал его доступным через Программу, независимо от фактического времени получения.\n\n8.2 Вопросы по данному Соглашению. Если у Вас возникнут вопросы относительно данного Соглашения или потребуется получить дополнительную информацию от Правообладателя, обратитесь по указанному ниже адресу электронной почты: morte4569@vk.com.\n\n')
-		imgui.TextWrapped(u8'8.3 Импедимент выполнения обязательств. В случае каких-либо сбоев или снижения производительности, полностью или частично обусловленных непредвиденными ситуациями в предоставлении коммунальных услуг (включая электроэнергию), проблемами с подключением к интернету, недоступностью телекоммуникационных или информационно-технологических услуг, неисправностями телекоммуникационного или ИТ-оборудования, забастовками и другими подобными акциями, террористическими актами, DDoS-атаками и другими атаками и нарушениями ИТ-характера, стихийными бедствиями или обстоятельствами, которые находятся вне контроля Правообладателя, включая наводнения, саботаж, пожары, войны, спец. военные операции, нападения, теракты и прочие обстоятельства непреодолимой силы, а также любыми другими причинами, которые не поддаются существенному влиянию со стороны Правообладателя, Правообладатель освобождается от ответственности за такие события.\n\n')
-		imgui.TextWrapped(u8'8.4 Передача прав и обязательств. Вам не разрешается передавать Ваши права или обязательства, установленные настоящим Соглашением, без предварительного письменного согласия Правообладателя. Своей стороной, Правообладатель вправе передать настоящее Соглашение в любой момент по своему усмотрению, без необходимости получения Вашего предварительного согласия в письменной форме.\n\n8.5 Подключение к Интернету. Для работы Программы необходимо обеспечить активное и стабильное подключение к Интернету. За обеспечение постоянного активного и стабильного Интернет-соединения отвечает лично Пользователь.\n\n')
+		imgui.TextWrapped(u8'8.1 Г“ГўГҐГ¤Г®Г¬Г«ГҐГ­ГЁГї. Г‚ ГЇГ°Г®ГЁГ§ГўГ®Г«ГјГ­Г®ГҐ ГўГ°ГҐГ¬Гї ГЏГ®Г±ГІГ ГўГ№ГЁГЄ Г¬Г®Г¦ГҐГІ Г­Г ГЇГ°Г ГўГЁГІГј Г‚Г Г¬ ГіГўГҐГ¤Г®Г¬Г«ГҐГ­ГЁГҐ ГЇГ® ГЅГ«ГҐГЄГІГ°Г®Г­Г­Г®Г© ГЇГ®Г·ГІГҐ, Г·ГҐГ°ГҐГ§ ГўГ±ГЇГ«Г»ГўГ ГѕГ№ГҐГҐ Г®ГЄГ­Г®, Г¤ГЁГ Г«Г®ГЈГ®ГўГ®ГҐ Г®ГЄГ­Г® ГЁГ«ГЁ Г¤Г°ГіГЈГЁГҐ Г±Г°ГҐГ¤Г±ГІГўГ , Г¤Г Г¦ГҐ ГҐГ±Г«ГЁ Гў Г­ГҐГЄГ®ГІГ®Г°Г»Гµ Г±Г«ГіГ·Г ГїГµ Г‚Г» Г¬Г®Г¦ГҐГІГҐ Г­ГҐ ГЇГ®Г«ГіГ·ГЁГІГј ГіГўГҐГ¤Г®Г¬Г«ГҐГ­ГЁГҐ Г¤Г® ГІГҐГµ ГЇГ®Г°, ГЇГ®ГЄГ  Г­ГҐ Г§Г ГЇГіГ±ГІГЁГІГҐ ГЏГ°Г®ГЈГ°Г Г¬Г¬Гі. Г’Г ГЄГ®ГҐ ГіГўГҐГ¤Г®Г¬Г«ГҐГ­ГЁГҐ Г±Г·ГЁГІГ ГҐГІГ±Гї Г¤Г®Г±ГІГ ГўГ«ГҐГ­Г­Г»Г¬ Г± Г¬Г®Г¬ГҐГ­ГІГ , ГЄГ®ГЈГ¤Г  ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј Г±Г¤ГҐГ«Г Г« ГҐГЈГ® Г¤Г®Г±ГІГіГЇГ­Г»Г¬ Г·ГҐГ°ГҐГ§ ГЏГ°Г®ГЈГ°Г Г¬Г¬Гі, Г­ГҐГ§Г ГўГЁГ±ГЁГ¬Г® Г®ГІ ГґГ ГЄГІГЁГ·ГҐГ±ГЄГ®ГЈГ® ГўГ°ГҐГ¬ГҐГ­ГЁ ГЇГ®Г«ГіГ·ГҐГ­ГЁГї.\n\n8.2 Г‚Г®ГЇГ°Г®Г±Г» ГЇГ® Г¤Г Г­Г­Г®Г¬Гі Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГѕ. Г…Г±Г«ГЁ Гі Г‚Г Г± ГўГ®Г§Г­ГЁГЄГ­ГіГІ ГўГ®ГЇГ°Г®Г±Г» Г®ГІГ­Г®Г±ГЁГІГҐГ«ГјГ­Г® Г¤Г Г­Г­Г®ГЈГ® Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГї ГЁГ«ГЁ ГЇГ®ГІГ°ГҐГЎГіГҐГІГ±Гї ГЇГ®Г«ГіГ·ГЁГІГј Г¤Г®ГЇГ®Г«Г­ГЁГІГҐГ«ГјГ­ГіГѕ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Г®ГІ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гї, Г®ГЎГ°Г ГІГЁГІГҐГ±Гј ГЇГ® ГіГЄГ Г§Г Г­Г­Г®Г¬Гі Г­ГЁГ¦ГҐ Г Г¤Г°ГҐГ±Гі ГЅГ«ГҐГЄГІГ°Г®Г­Г­Г®Г© ГЇГ®Г·ГІГ»: morte4569@vk.com.\n\n')
+		imgui.TextWrapped(u8'8.3 Г€Г¬ГЇГҐГ¤ГЁГ¬ГҐГ­ГІ ГўГ»ГЇГ®Г«Г­ГҐГ­ГЁГї Г®ГЎГїГ§Г ГІГҐГ«ГјГ±ГІГў. Г‚ Г±Г«ГіГ·Г ГҐ ГЄГ ГЄГЁГµ-Г«ГЁГЎГ® Г±ГЎГ®ГҐГў ГЁГ«ГЁ Г±Г­ГЁГ¦ГҐГ­ГЁГї ГЇГ°Г®ГЁГ§ГўГ®Г¤ГЁГІГҐГ«ГјГ­Г®Г±ГІГЁ, ГЇГ®Г«Г­Г®Г±ГІГјГѕ ГЁГ«ГЁ Г·Г Г±ГІГЁГ·Г­Г® Г®ГЎГіГ±Г«Г®ГўГ«ГҐГ­Г­Г»Гµ Г­ГҐГЇГ°ГҐГ¤ГўГЁГ¤ГҐГ­Г­Г»Г¬ГЁ Г±ГЁГІГіГ Г¶ГЁГїГ¬ГЁ Гў ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«ГҐГ­ГЁГЁ ГЄГ®Г¬Г¬ГіГ­Г Г«ГјГ­Г»Гµ ГіГ±Г«ГіГЈ (ГўГЄГ«ГѕГ·Г Гї ГЅГ«ГҐГЄГІГ°Г®ГЅГ­ГҐГ°ГЈГЁГѕ), ГЇГ°Г®ГЎГ«ГҐГ¬Г Г¬ГЁ Г± ГЇГ®Г¤ГЄГ«ГѕГ·ГҐГ­ГЁГҐГ¬ ГЄ ГЁГ­ГІГҐГ°Г­ГҐГІГі, Г­ГҐГ¤Г®Г±ГІГіГЇГ­Г®Г±ГІГјГѕ ГІГҐГ«ГҐГЄГ®Г¬Г¬ГіГ­ГЁГЄГ Г¶ГЁГ®Г­Г­Г»Гµ ГЁГ«ГЁ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГ®Г­Г­Г®-ГІГҐГµГ­Г®Г«Г®ГЈГЁГ·ГҐГ±ГЄГЁГµ ГіГ±Г«ГіГЈ, Г­ГҐГЁГ±ГЇГ°Г ГўГ­Г®Г±ГІГїГ¬ГЁ ГІГҐГ«ГҐГЄГ®Г¬Г¬ГіГ­ГЁГЄГ Г¶ГЁГ®Г­Г­Г®ГЈГ® ГЁГ«ГЁ Г€Г’-Г®ГЎГ®Г°ГіГ¤Г®ГўГ Г­ГЁГї, Г§Г ГЎГ Г±ГІГ®ГўГЄГ Г¬ГЁ ГЁ Г¤Г°ГіГЈГЁГ¬ГЁ ГЇГ®Г¤Г®ГЎГ­Г»Г¬ГЁ Г ГЄГ¶ГЁГїГ¬ГЁ, ГІГҐГ°Г°Г®Г°ГЁГ±ГІГЁГ·ГҐГ±ГЄГЁГ¬ГЁ Г ГЄГІГ Г¬ГЁ, DDoS-Г ГІГ ГЄГ Г¬ГЁ ГЁ Г¤Г°ГіГЈГЁГ¬ГЁ Г ГІГ ГЄГ Г¬ГЁ ГЁ Г­Г Г°ГіГёГҐГ­ГЁГїГ¬ГЁ Г€Г’-ГµГ Г°Г ГЄГІГҐГ°Г , Г±ГІГЁГµГЁГ©Г­Г»Г¬ГЁ ГЎГҐГ¤Г±ГІГўГЁГїГ¬ГЁ ГЁГ«ГЁ Г®ГЎГ±ГІГ®ГїГІГҐГ«ГјГ±ГІГўГ Г¬ГЁ, ГЄГ®ГІГ®Г°Г»ГҐ Г­Г ГµГ®Г¤ГїГІГ±Гї ГўГ­ГҐ ГЄГ®Г­ГІГ°Г®Г«Гї ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гї, ГўГЄГ«ГѕГ·Г Гї Г­Г ГўГ®Г¤Г­ГҐГ­ГЁГї, Г±Г ГЎГ®ГІГ Г¦, ГЇГ®Г¦Г Г°Г», ГўГ®Г©Г­Г», Г±ГЇГҐГ¶. ГўГ®ГҐГ­Г­Г»ГҐ Г®ГЇГҐГ°Г Г¶ГЁГЁ, Г­Г ГЇГ Г¤ГҐГ­ГЁГї, ГІГҐГ°Г ГЄГІГ» ГЁ ГЇГ°Г®Г·ГЁГҐ Г®ГЎГ±ГІГ®ГїГІГҐГ«ГјГ±ГІГўГ  Г­ГҐГЇГ°ГҐГ®Г¤Г®Г«ГЁГ¬Г®Г© Г±ГЁГ«Г», Г  ГІГ ГЄГ¦ГҐ Г«ГѕГЎГ»Г¬ГЁ Г¤Г°ГіГЈГЁГ¬ГЁ ГЇГ°ГЁГ·ГЁГ­Г Г¬ГЁ, ГЄГ®ГІГ®Г°Г»ГҐ Г­ГҐ ГЇГ®Г¤Г¤Г ГѕГІГ±Гї Г±ГіГ№ГҐГ±ГІГўГҐГ­Г­Г®Г¬Гі ГўГ«ГЁГїГ­ГЁГѕ Г±Г® Г±ГІГ®Г°Г®Г­Г» ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гї, ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј Г®Г±ГўГ®ГЎГ®Г¦Г¤Г ГҐГІГ±Гї Г®ГІ Г®ГІГўГҐГІГ±ГІГўГҐГ­Г­Г®Г±ГІГЁ Г§Г  ГІГ ГЄГЁГҐ Г±Г®ГЎГ»ГІГЁГї.\n\n')
+		imgui.TextWrapped(u8'8.4 ГЏГҐГ°ГҐГ¤Г Г·Г  ГЇГ°Г Гў ГЁ Г®ГЎГїГ§Г ГІГҐГ«ГјГ±ГІГў. Г‚Г Г¬ Г­ГҐ Г°Г Г§Г°ГҐГёГ ГҐГІГ±Гї ГЇГҐГ°ГҐГ¤Г ГўГ ГІГј Г‚Г ГёГЁ ГЇГ°Г ГўГ  ГЁГ«ГЁ Г®ГЎГїГ§Г ГІГҐГ«ГјГ±ГІГўГ , ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­Г­Г»ГҐ Г­Г Г±ГІГ®ГїГ№ГЁГ¬ Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГҐГ¬, ГЎГҐГ§ ГЇГ°ГҐГ¤ГўГ Г°ГЁГІГҐГ«ГјГ­Г®ГЈГ® ГЇГЁГ±ГјГ¬ГҐГ­Г­Г®ГЈГ® Г±Г®ГЈГ«Г Г±ГЁГї ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гї. Г‘ГўГ®ГҐГ© Г±ГІГ®Г°Г®Г­Г®Г©, ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј ГўГЇГ°Г ГўГҐ ГЇГҐГ°ГҐГ¤Г ГІГј Г­Г Г±ГІГ®ГїГ№ГҐГҐ Г‘Г®ГЈГ«Г ГёГҐГ­ГЁГҐ Гў Г«ГѕГЎГ®Г© Г¬Г®Г¬ГҐГ­ГІ ГЇГ® Г±ГўГ®ГҐГ¬Гі ГіГ±Г¬Г®ГІГ°ГҐГ­ГЁГѕ, ГЎГҐГ§ Г­ГҐГ®ГЎГµГ®Г¤ГЁГ¬Г®Г±ГІГЁ ГЇГ®Г«ГіГ·ГҐГ­ГЁГї Г‚Г ГёГҐГЈГ® ГЇГ°ГҐГ¤ГўГ Г°ГЁГІГҐГ«ГјГ­Г®ГЈГ® Г±Г®ГЈГ«Г Г±ГЁГї Гў ГЇГЁГ±ГјГ¬ГҐГ­Г­Г®Г© ГґГ®Г°Г¬ГҐ.\n\n8.5 ГЏГ®Г¤ГЄГ«ГѕГ·ГҐГ­ГЁГҐ ГЄ Г€Г­ГІГҐГ°Г­ГҐГІГі. Г„Г«Гї Г°Г ГЎГ®ГІГ» ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» Г­ГҐГ®ГЎГµГ®Г¤ГЁГ¬Г® Г®ГЎГҐГ±ГЇГҐГ·ГЁГІГј Г ГЄГІГЁГўГ­Г®ГҐ ГЁ Г±ГІГ ГЎГЁГ«ГјГ­Г®ГҐ ГЇГ®Г¤ГЄГ«ГѕГ·ГҐГ­ГЁГҐ ГЄ Г€Г­ГІГҐГ°Г­ГҐГІГі. Г‡Г  Г®ГЎГҐГ±ГЇГҐГ·ГҐГ­ГЁГҐ ГЇГ®Г±ГІГ®ГїГ­Г­Г®ГЈГ® Г ГЄГІГЁГўГ­Г®ГЈГ® ГЁ Г±ГІГ ГЎГЁГ«ГјГ­Г®ГЈГ® Г€Г­ГІГҐГ°Г­ГҐГІ-Г±Г®ГҐГ¤ГЁГ­ГҐГ­ГЁГї Г®ГІГўГҐГ·Г ГҐГІ Г«ГЁГ·Г­Г® ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј.\n\n')
 		imgui.PushFont(font[4])
-		imgui.Text(u8'9. Ответственности сторон при использовании Программы')
+		imgui.Text(u8'9. ГЋГІГўГҐГІГ±ГІГўГҐГ­Г­Г®Г±ГІГЁ Г±ГІГ®Г°Г®Г­ ГЇГ°ГЁ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГЁ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г»')
 		imgui.PopFont()
-		imgui.TextWrapped(u8'9.1 Программа обладает функцией обновления, осуществляемой путём загрузки файлов на тот же носитель, на котором установлена Программа.\n\n9.2 При установке и запуске Программы, Пользователь выражает своё согласие на получение неограниченного количества необходимых файлов для работы Программы с расширениями исполняемых файлов в форматах jpg, png, ttf, json, lua и txt в любой момент времени в процессе работы программы, а также на обработку файлов любого размера, не превышающего 8589934592 бит.\n\n9.3 Пользователь соглашается с тем, что Программа имеет право на неограниченное количество перезаписей и чтений установленных файлов в процессе её работы, без предварительного уведомления Пользователя Программы об этом.\n\n9.4 Пользователь принимает факт и соглашается с тем, что в любой момент времени по любой причине Программа или её файлы могут быть безвозвратно уничтожены в связи с сбоями Программы.\n\n')
-		imgui.TextWrapped(u8'9.5 Правообладатель не несёт ответственности в случае сбоя операционной системы Пользователя (далее "ОС"), который может привести к временной или постоянной невозможности пользования ОС, а также к возможному уничтожению ОС с Носителя Пользователя в ходе выполнения Программы.\n\n9.6 Правообладатель не несёт ответственности за ошибки, допущенные Пользователем при использовании Программы, которые могут вызвать проблемы в ходе Игры, а также могут привести к ограничениям в использовании Игры, включая блокировку игрового аккаунта.\n\n9.7 Правообладатель осознаёт ответственность за намеренную кражу, попытку кражи, распространение, неправомерное использование личных данных пользователя с его технического Носителя. Правообладатель принимает на себя ответственность, при условии установки программы от официального лица в виде Правообладателя Программы, что Правообладатель понесёт ответственность согласно 273 ст. Уголовного Кодекса Российской Федерации (страна проживания Правообладателя) в случае распространения вредоносных программ на техническое устройство или технический Носитель Пользователя.\n')
-		imgui.TextWrapped(u8'Правообладатель гарантирует отсутствие вредоносных файлов, вредоносных программ и модификаций в Программе и использующих ею файлов.\n\n9.8 Правообладатель вправе отправлять Пользователю уведомления любого типа, любого содержания, любой длительности отображения, в любой момент времени, в любом количестве и без предварительного информирования Пользователя об этом событии в самой Программе.\n\n9.9 Правообладатель наделил Программу возможностью в процессе её работы безвозвратно уничтожать, изменять содержимое или название файлов любого расширения, которые принадлежат Правообладателю или были созданы самой Программой в ходе её работы. Пользователь соглашается с этим решением.')
+		imgui.TextWrapped(u8'9.1 ГЏГ°Г®ГЈГ°Г Г¬Г¬Г  Г®ГЎГ«Г Г¤Г ГҐГІ ГґГіГ­ГЄГ¶ГЁГҐГ© Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї, Г®Г±ГіГ№ГҐГ±ГІГўГ«ГїГҐГ¬Г®Г© ГЇГіГІВёГ¬ Г§Г ГЈГ°ГіГ§ГЄГЁ ГґГ Г©Г«Г®Гў Г­Г  ГІГ®ГІ Г¦ГҐ Г­Г®Г±ГЁГІГҐГ«Гј, Г­Г  ГЄГ®ГІГ®Г°Г®Г¬ ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­Г  ГЏГ°Г®ГЈГ°Г Г¬Г¬Г .\n\n9.2 ГЏГ°ГЁ ГіГ±ГІГ Г­Г®ГўГЄГҐ ГЁ Г§Г ГЇГіГ±ГЄГҐ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г», ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј ГўГ»Г°Г Г¦Г ГҐГІ Г±ГўГ®Вё Г±Г®ГЈГ«Г Г±ГЁГҐ Г­Г  ГЇГ®Г«ГіГ·ГҐГ­ГЁГҐ Г­ГҐГ®ГЈГ°Г Г­ГЁГ·ГҐГ­Г­Г®ГЈГ® ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ  Г­ГҐГ®ГЎГµГ®Г¤ГЁГ¬Г»Гµ ГґГ Г©Г«Г®Гў Г¤Г«Гї Г°Г ГЎГ®ГІГ» ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» Г± Г°Г Г±ГёГЁГ°ГҐГ­ГЁГїГ¬ГЁ ГЁГ±ГЇГ®Г«Г­ГїГҐГ¬Г»Гµ ГґГ Г©Г«Г®Гў Гў ГґГ®Г°Г¬Г ГІГ Гµ jpg, png, ttf, json, lua ГЁ txt Гў Г«ГѕГЎГ®Г© Г¬Г®Г¬ГҐГ­ГІ ГўГ°ГҐГ¬ГҐГ­ГЁ Гў ГЇГ°Г®Г¶ГҐГ±Г±ГҐ Г°Г ГЎГ®ГІГ» ГЇГ°Г®ГЈГ°Г Г¬Г¬Г», Г  ГІГ ГЄГ¦ГҐ Г­Г  Г®ГЎГ°Г ГЎГ®ГІГЄГі ГґГ Г©Г«Г®Гў Г«ГѕГЎГ®ГЈГ® Г°Г Г§Г¬ГҐГ°Г , Г­ГҐ ГЇГ°ГҐГўГ»ГёГ ГѕГ№ГҐГЈГ® 8589934592 ГЎГЁГІ.\n\n9.3 ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј Г±Г®ГЈГ«Г ГёГ ГҐГІГ±Гї Г± ГІГҐГ¬, Г·ГІГ® ГЏГ°Г®ГЈГ°Г Г¬Г¬Г  ГЁГ¬ГҐГҐГІ ГЇГ°Г ГўГ® Г­Г  Г­ГҐГ®ГЈГ°Г Г­ГЁГ·ГҐГ­Г­Г®ГҐ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГЇГҐГ°ГҐГ§Г ГЇГЁГ±ГҐГ© ГЁ Г·ГІГҐГ­ГЁГ© ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­Г­Г»Гµ ГґГ Г©Г«Г®Гў Гў ГЇГ°Г®Г¶ГҐГ±Г±ГҐ ГҐВё Г°Г ГЎГ®ГІГ», ГЎГҐГ§ ГЇГ°ГҐГ¤ГўГ Г°ГЁГІГҐГ«ГјГ­Г®ГЈГ® ГіГўГҐГ¤Г®Г¬Г«ГҐГ­ГЁГї ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї ГЏГ°Г®ГЈГ°Г Г¬Г¬Г» Г®ГЎ ГЅГІГ®Г¬.\n\n9.4 ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј ГЇГ°ГЁГ­ГЁГ¬Г ГҐГІ ГґГ ГЄГІ ГЁ Г±Г®ГЈГ«Г ГёГ ГҐГІГ±Гї Г± ГІГҐГ¬, Г·ГІГ® Гў Г«ГѕГЎГ®Г© Г¬Г®Г¬ГҐГ­ГІ ГўГ°ГҐГ¬ГҐГ­ГЁ ГЇГ® Г«ГѕГЎГ®Г© ГЇГ°ГЁГ·ГЁГ­ГҐ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г  ГЁГ«ГЁ ГҐВё ГґГ Г©Г«Г» Г¬Г®ГЈГіГІ ГЎГ»ГІГј ГЎГҐГ§ГўГ®Г§ГўГ°Г ГІГ­Г® ГіГ­ГЁГ·ГІГ®Г¦ГҐГ­Г» Гў Г±ГўГїГ§ГЁ Г± Г±ГЎГ®ГїГ¬ГЁ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г».\n\n')
+		imgui.TextWrapped(u8'9.5 ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј Г­ГҐ Г­ГҐГ±ВёГІ Г®ГІГўГҐГІГ±ГІГўГҐГ­Г­Г®Г±ГІГЁ Гў Г±Г«ГіГ·Г ГҐ Г±ГЎГ®Гї Г®ГЇГҐГ°Г Г¶ГЁГ®Г­Г­Г®Г© Г±ГЁГ±ГІГҐГ¬Г» ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї (Г¤Г Г«ГҐГҐ "ГЋГ‘"), ГЄГ®ГІГ®Г°Г»Г© Г¬Г®Г¦ГҐГІ ГЇГ°ГЁГўГҐГ±ГІГЁ ГЄ ГўГ°ГҐГ¬ГҐГ­Г­Г®Г© ГЁГ«ГЁ ГЇГ®Г±ГІГ®ГїГ­Г­Г®Г© Г­ГҐГўГ®Г§Г¬Г®Г¦Г­Г®Г±ГІГЁ ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГї ГЋГ‘, Г  ГІГ ГЄГ¦ГҐ ГЄ ГўГ®Г§Г¬Г®Г¦Г­Г®Г¬Гі ГіГ­ГЁГ·ГІГ®Г¦ГҐГ­ГЁГѕ ГЋГ‘ Г± ГЌГ®Г±ГЁГІГҐГ«Гї ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї Гў ГµГ®Г¤ГҐ ГўГ»ГЇГ®Г«Г­ГҐГ­ГЁГї ГЏГ°Г®ГЈГ°Г Г¬Г¬Г».\n\n9.6 ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј Г­ГҐ Г­ГҐГ±ВёГІ Г®ГІГўГҐГІГ±ГІГўГҐГ­Г­Г®Г±ГІГЁ Г§Г  Г®ГёГЁГЎГЄГЁ, Г¤Г®ГЇГіГ№ГҐГ­Г­Г»ГҐ ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«ГҐГ¬ ГЇГ°ГЁ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГЁ ГЏГ°Г®ГЈГ°Г Г¬Г¬Г», ГЄГ®ГІГ®Г°Г»ГҐ Г¬Г®ГЈГіГІ ГўГ»Г§ГўГ ГІГј ГЇГ°Г®ГЎГ«ГҐГ¬Г» Гў ГµГ®Г¤ГҐ Г€ГЈГ°Г», Г  ГІГ ГЄГ¦ГҐ Г¬Г®ГЈГіГІ ГЇГ°ГЁГўГҐГ±ГІГЁ ГЄ Г®ГЈГ°Г Г­ГЁГ·ГҐГ­ГЁГїГ¬ Гў ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГЁ Г€ГЈГ°Г», ГўГЄГ«ГѕГ·Г Гї ГЎГ«Г®ГЄГЁГ°Г®ГўГЄГі ГЁГЈГ°Г®ГўГ®ГЈГ® Г ГЄГЄГ ГіГ­ГІГ .\n\n9.7 ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј Г®Г±Г®Г§Г­Г ВёГІ Г®ГІГўГҐГІГ±ГІГўГҐГ­Г­Г®Г±ГІГј Г§Г  Г­Г Г¬ГҐГ°ГҐГ­Г­ГіГѕ ГЄГ°Г Г¦Гі, ГЇГ®ГЇГ»ГІГЄГі ГЄГ°Г Г¦ГЁ, Г°Г Г±ГЇГ°Г®Г±ГІГ°Г Г­ГҐГ­ГЁГҐ, Г­ГҐГЇГ°Г ГўГ®Г¬ГҐГ°Г­Г®ГҐ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ Г«ГЁГ·Г­Г»Гµ Г¤Г Г­Г­Г»Гµ ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї Г± ГҐГЈГ® ГІГҐГµГ­ГЁГ·ГҐГ±ГЄГ®ГЈГ® ГЌГ®Г±ГЁГІГҐГ«Гї. ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј ГЇГ°ГЁГ­ГЁГ¬Г ГҐГІ Г­Г  Г±ГҐГЎГї Г®ГІГўГҐГІГ±ГІГўГҐГ­Г­Г®Г±ГІГј, ГЇГ°ГЁ ГіГ±Г«Г®ГўГЁГЁ ГіГ±ГІГ Г­Г®ГўГЄГЁ ГЇГ°Г®ГЈГ°Г Г¬Г¬Г» Г®ГІ Г®ГґГЁГ¶ГЁГ Г«ГјГ­Г®ГЈГ® Г«ГЁГ¶Г  Гў ГўГЁГ¤ГҐ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гї ГЏГ°Г®ГЈГ°Г Г¬Г¬Г», Г·ГІГ® ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј ГЇГ®Г­ГҐГ±ВёГІ Г®ГІГўГҐГІГ±ГІГўГҐГ­Г­Г®Г±ГІГј Г±Г®ГЈГ«Г Г±Г­Г® 273 Г±ГІ. Г“ГЈГ®Г«Г®ГўГ­Г®ГЈГ® ГЉГ®Г¤ГҐГЄГ±Г  ГђГ®Г±Г±ГЁГ©Г±ГЄГ®Г© Г”ГҐГ¤ГҐГ°Г Г¶ГЁГЁ (Г±ГІГ°Г Г­Г  ГЇГ°Г®Г¦ГЁГўГ Г­ГЁГї ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гї) Гў Г±Г«ГіГ·Г ГҐ Г°Г Г±ГЇГ°Г®Г±ГІГ°Г Г­ГҐГ­ГЁГї ГўГ°ГҐГ¤Г®Г­Г®Г±Г­Г»Гµ ГЇГ°Г®ГЈГ°Г Г¬Г¬ Г­Г  ГІГҐГµГ­ГЁГ·ГҐГ±ГЄГ®ГҐ ГіГ±ГІГ°Г®Г©Г±ГІГўГ® ГЁГ«ГЁ ГІГҐГµГ­ГЁГ·ГҐГ±ГЄГЁГ© ГЌГ®Г±ГЁГІГҐГ«Гј ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї.\n')
+		imgui.TextWrapped(u8'ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј ГЈГ Г°Г Г­ГІГЁГ°ГіГҐГІ Г®ГІГ±ГіГІГ±ГІГўГЁГҐ ГўГ°ГҐГ¤Г®Г­Г®Г±Г­Г»Гµ ГґГ Г©Г«Г®Гў, ГўГ°ГҐГ¤Г®Г­Г®Г±Г­Г»Гµ ГЇГ°Г®ГЈГ°Г Г¬Г¬ ГЁ Г¬Г®Г¤ГЁГґГЁГЄГ Г¶ГЁГ© Гў ГЏГ°Г®ГЈГ°Г Г¬Г¬ГҐ ГЁ ГЁГ±ГЇГ®Г«ГјГ§ГіГѕГ№ГЁГµ ГҐГѕ ГґГ Г©Г«Г®Гў.\n\n9.8 ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј ГўГЇГ°Г ГўГҐ Г®ГІГЇГ°Г ГўГ«ГїГІГј ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гѕ ГіГўГҐГ¤Г®Г¬Г«ГҐГ­ГЁГї Г«ГѕГЎГ®ГЈГ® ГІГЁГЇГ , Г«ГѕГЎГ®ГЈГ® Г±Г®Г¤ГҐГ°Г¦Г Г­ГЁГї, Г«ГѕГЎГ®Г© Г¤Г«ГЁГІГҐГ«ГјГ­Г®Г±ГІГЁ Г®ГІГ®ГЎГ°Г Г¦ГҐГ­ГЁГї, Гў Г«ГѕГЎГ®Г© Г¬Г®Г¬ГҐГ­ГІ ГўГ°ГҐГ¬ГҐГ­ГЁ, Гў Г«ГѕГЎГ®Г¬ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГҐ ГЁ ГЎГҐГ§ ГЇГ°ГҐГ¤ГўГ Г°ГЁГІГҐГ«ГјГ­Г®ГЈГ® ГЁГ­ГґГ®Г°Г¬ГЁГ°Г®ГўГ Г­ГЁГї ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гї Г®ГЎ ГЅГІГ®Г¬ Г±Г®ГЎГ»ГІГЁГЁ Гў Г±Г Г¬Г®Г© ГЏГ°Г®ГЈГ°Г Г¬Г¬ГҐ.\n\n9.9 ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гј Г­Г Г¤ГҐГ«ГЁГ« ГЏГ°Г®ГЈГ°Г Г¬Г¬Гі ГўГ®Г§Г¬Г®Г¦Г­Г®Г±ГІГјГѕ Гў ГЇГ°Г®Г¶ГҐГ±Г±ГҐ ГҐВё Г°Г ГЎГ®ГІГ» ГЎГҐГ§ГўГ®Г§ГўГ°Г ГІГ­Г® ГіГ­ГЁГ·ГІГ®Г¦Г ГІГј, ГЁГ§Г¬ГҐГ­ГїГІГј Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЁГ«ГЁ Г­Г Г§ГўГ Г­ГЁГҐ ГґГ Г©Г«Г®Гў Г«ГѕГЎГ®ГЈГ® Г°Г Г±ГёГЁГ°ГҐГ­ГЁГї, ГЄГ®ГІГ®Г°Г»ГҐ ГЇГ°ГЁГ­Г Г¤Г«ГҐГ¦Г ГІ ГЏГ°Г ГўГ®Г®ГЎГ«Г Г¤Г ГІГҐГ«Гѕ ГЁГ«ГЁ ГЎГ»Г«ГЁ Г±Г®Г§Г¤Г Г­Г» Г±Г Г¬Г®Г© ГЏГ°Г®ГЈГ°Г Г¬Г¬Г®Г© Гў ГµГ®Г¤ГҐ ГҐВё Г°Г ГЎГ®ГІГ». ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«Гј Г±Г®ГЈГ«Г ГёГ ГҐГІГ±Гї Г± ГЅГІГЁГ¬ Г°ГҐГёГҐГ­ГЁГҐГ¬.')
 		imgui.EndChild()
 		
 		skin.DrawFond({134, 385}, {0, 0}, {600, 1}, imgui.ImVec4(0.70, 0.70, 0.70, 1.00), 15, 15)
-		skin.Button(u8'Принять', 630, 400, nil, nil, function()
+		skin.Button(u8'ГЏГ°ГЁГ­ГїГІГј', 630, 400, nil, nil, function()
 			first_start_anim.text[5] = false
 			first_start_anim.text[6] = true
 		end)
-		skin.Button(u8'Назад', 515, 400, nil, nil, function()
+		skin.Button(u8'ГЌГ Г§Г Г¤', 515, 400, nil, nil, function()
 			first_start_anim.text[4] = true
 			first_start_anim.text[5] = false
 		end)
-		skin.EmphText(u8'Узнать подробнее', 140, 410, u8'Приняв пользовательское соглашение, Вы соглашаетесь\nс политикой данной программы.')
+		skin.EmphText(u8'Г“Г§Г­Г ГІГј ГЇГ®Г¤Г°Г®ГЎГ­ГҐГҐ', 140, 410, u8'ГЏГ°ГЁГ­ГїГў ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«ГјГ±ГЄГ®ГҐ Г±Г®ГЈГ«Г ГёГҐГ­ГЁГҐ, Г‚Г» Г±Г®ГЈГ«Г ГёГ ГҐГІГҐГ±Гј\nГ± ГЇГ®Г«ГЁГІГЁГЄГ®Г© Г¤Г Г­Г­Г®Г© ГЇГ°Г®ГЈГ°Г Г¬Г¬Г».')
 		imgui.PopFont()
 	end
 	
@@ -2458,13 +2458,13 @@ function window.main_first_start()
 		imgui.PopStyleColor(1)
 		imgui.SetCursorPos(imgui.ImVec2(310, 246))
 		if not type_version.rel then
-			imgui.Text(u8'Всё отлично! У Вас последняя версия скрипта.')
+			imgui.Text(u8'Г‚Г±Вё Г®ГІГ«ГЁГ·Г­Г®! Г“ Г‚Г Г± ГЇГ®Г±Г«ГҐГ¤Г­ГїГї ГўГҐГ°Г±ГЁГї Г±ГЄГ°ГЁГЇГІГ .')
 		else
-			imgui.Text(u8'Имеется обновление до версии '..new_version.version)
+			imgui.Text(u8'Г€Г¬ГҐГҐГІГ±Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ Г¤Г® ГўГҐГ°Г±ГЁГЁ '..new_version.version)
 		end
 		skin.DrawFond({134, 385}, {0, 0}, {600, 1}, imgui.ImVec4(0.70, 0.70, 0.70, 1.00), 15, 15)
 		if not type_version.rel then
-			skin.Button(u8'Завершить', 630, 400, nil, nil, function()
+			skin.Button(u8'Г‡Г ГўГҐГ°ГёГЁГІГј', 630, 400, nil, nil, function()
 				first_start_anim.text[6] = false
 				setting.int.first_start = false
 				add_table_act(setting.frac.org, true)
@@ -2473,7 +2473,7 @@ function window.main_first_start()
 			end)
 		else
 			if not off_butoon_end then
-				skin.Button(u8'Обновить', 630, 400, nil, nil, function()
+				skin.Button(u8'ГЋГЎГ­Г®ГўГЁГІГј', 630, 400, nil, nil, function()
 					setting.int.first_start = false
 					add_table_act(setting.frac.org, true)
 					save('setting')
@@ -2481,14 +2481,14 @@ function window.main_first_start()
 					off_butoon_end = true
 				end)
 			else
-				skin.Button(u8'Обновить##false_non', 630, 400, nil, nil, function() end)
+				skin.Button(u8'ГЋГЎГ­Г®ГўГЁГІГј##false_non', 630, 400, nil, nil, function() end)
 			end
 		end
-		skin.Button(u8'Назад', 515, 400, nil, nil, function()
+		skin.Button(u8'ГЌГ Г§Г Г¤', 515, 400, nil, nil, function()
 			first_start_anim.text[5] = true
 			first_start_anim.text[6] = false
 		end)
-		skin.EmphText(u8'Узнать подробнее', 140, 410, u8'Обновления нужны для устранения ошибок работы скрипта.\nДля корректной работы необходимо обновлять скрипт.')
+		skin.EmphText(u8'Г“Г§Г­Г ГІГј ГЇГ®Г¤Г°Г®ГЎГ­ГҐГҐ', 140, 410, u8'ГЋГЎГ­Г®ГўГ«ГҐГ­ГЁГї Г­ГіГ¦Г­Г» Г¤Г«Гї ГіГ±ГІГ°Г Г­ГҐГ­ГЁГї Г®ГёГЁГЎГ®ГЄ Г°Г ГЎГ®ГІГ» Г±ГЄГ°ГЁГЇГІГ .\nГ„Г«Гї ГЄГ®Г°Г°ГҐГЄГІГ­Г®Г© Г°Г ГЎГ®ГІГ» Г­ГҐГ®ГЎГµГ®Г¤ГЁГ¬Г® Г®ГЎГ­Г®ГўГ«ГїГІГј Г±ГЄГ°ГЁГЇГІ.')
 		imgui.PopFont()
 	end
 	imgui.End()
@@ -2565,7 +2565,7 @@ function window.main()
 	if not interf.main.collapse then
 		skin.DrawFond({4, 4}, {0, 0}, {860, 460 + start_pos + new_pos}, imgui.ImVec4(col_end.fond_two[1], col_end.fond_two[2], col_end.fond_two[3], 1.00), 15, 15)
 	end
-	--> Левое меню
+	--> Г‹ГҐГўГ®ГҐ Г¬ГҐГ­Гѕ
 	if not interf.main.collapse then
 		skin.DrawFond({4, 4}, {0, 0}, {pos_el.r_menu, 460 + start_pos + new_pos}, imgui.ImVec4(col_end.fond_one[1], col_end.fond_one[2], col_end.fond_one[3], 1.00), 15, 9)
 	else
@@ -2573,7 +2573,7 @@ function window.main()
 	end
 	
 	imgui.SetCursorPos(imgui.ImVec2(4, 456 + start_pos + new_pos))
-	if imgui.InvisibleButton(u8'##Границы', imgui.ImVec2(pos_el.r_menu, 12)) then end
+	if imgui.InvisibleButton(u8'##ГѓГ°Г Г­ГЁГ¶Г»', imgui.ImVec2(pos_el.r_menu, 12)) then end
 	if imgui.IsItemHovered() or size_win then
 		skin.DrawFond({4, 452 + start_pos + new_pos}, {0, 0}, {pos_el.r_menu, 12}, imgui.ImVec4(0.7, 0.7, 0.7, 1.00), 15, 8)
 	end
@@ -2603,9 +2603,9 @@ function window.main()
 		end
 	end
 	
-	--> Кнопки закрыть и свернуть
+	--> ГЉГ­Г®ГЇГЄГЁ Г§Г ГЄГ°Г»ГІГј ГЁ Г±ГўГҐГ°Г­ГіГІГј
 	imgui.SetCursorPos(imgui.ImVec2(13, 13))
-	if imgui.InvisibleButton(u8'##Закрыть окно', imgui.ImVec2(20, 20)) or interf.main.anim_win.par  then
+	if imgui.InvisibleButton(u8'##Г‡Г ГЄГ°Г»ГІГј Г®ГЄГ­Г®', imgui.ImVec2(20, 20)) or interf.main.anim_win.par  then
 		pos_win_closed = imgui.GetWindowPos()
 		styleAnimationClose('Main', interf.main.size.x, interf.main.size.y)
 		interf.main.anim_win.par = false
@@ -2623,7 +2623,7 @@ function window.main()
 	end
 	
 	imgui.SetCursorPos(imgui.ImVec2(36, 13))
-	if imgui.InvisibleButton(u8'##Свернуть окно', imgui.ImVec2(20, 20)) then
+	if imgui.InvisibleButton(u8'##Г‘ГўГҐГ°Г­ГіГІГј Г®ГЄГ­Г®', imgui.ImVec2(20, 20)) then
 		
 		if interf.main.collapse then
 			interf.main.func = true
@@ -2669,56 +2669,56 @@ function window.main()
 			end
 		end
 
-		if button_menu(u8'Главное', {17, 50}, imgui.ImVec4(0.60, 0.60, 0.60, 1.00), fa.ICON_COG, {30, 57}, select_main_menu[1], {0.5, -0.5}, 0.0) then 
+		if button_menu(u8'ГѓГ«Г ГўГ­Г®ГҐ', {17, 50}, imgui.ImVec4(0.60, 0.60, 0.60, 1.00), fa.ICON_COG, {30, 57}, select_main_menu[1], {0.5, -0.5}, 0.0) then 
 			transition(1)
 		end
-		if button_menu(u8'Команды', {17, 86}, imgui.ImVec4(0.97, 0.23, 0.19 ,1.00), fa.ICON_TERMINAL, {29, 93}, select_main_menu[2], nil, -0.5) then 
+		if button_menu(u8'ГЉГ®Г¬Г Г­Г¤Г»', {17, 86}, imgui.ImVec4(0.97, 0.23, 0.19 ,1.00), fa.ICON_TERMINAL, {29, 93}, select_main_menu[2], nil, -0.5) then 
 			sdvig_bool = false
 			sdvig_num = 0
 			sdvig = 0
 			transition(2)
 		end
-		if button_menu(u8'Шпоры', {17, 122}, imgui.ImVec4(0.99, 0.60, 0.00 ,1.00), fa.ICON_BOOK, {29, 129}, select_main_menu[3], nil, -1) then 
+		if button_menu(u8'ГГЇГ®Г°Г»', {17, 122}, imgui.ImVec4(0.99, 0.60, 0.00 ,1.00), fa.ICON_BOOK, {29, 129}, select_main_menu[3], nil, -1) then 
 			transition(3)
 			anim_menu_shpora[1] = 0
 			anim_menu_shpora[3] = false
 			anim_menu_shpora[4] = 0
 		end
-		if button_menu(u8'Департамент', {17, 158}, imgui.ImVec4(0.34, 0.33, 0.83 ,1.00), fa.ICON_SIGNAL, {29, 165}, select_main_menu[4], {0.5, -0.5}, -0.5) then
+		if button_menu(u8'Г„ГҐГЇГ Г°ГІГ Г¬ГҐГ­ГІ', {17, 158}, imgui.ImVec4(0.34, 0.33, 0.83 ,1.00), fa.ICON_SIGNAL, {29, 165}, select_main_menu[4], {0.5, -0.5}, -0.5) then
 			if setting.depart.format == u8'[LSPD] - [SFPD]:' then
 				inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.else_tag..']: '
-			elseif setting.depart.format == u8'к SFPD,' then
-				inp_text_dep = '/d '..u8'к'..' '..setting.depart.else_tag..', '
-			elseif setting.depart.format == u8'[Полиция LS] - [100,3] - [Полиция ЛС]:' then
+			elseif setting.depart.format == u8'ГЄ SFPD,' then
+				inp_text_dep = '/d '..u8'ГЄ'..' '..setting.depart.else_tag..', '
+			elseif setting.depart.format == u8'[ГЏГ®Г«ГЁГ¶ГЁГї LS] - [100,3] - [ГЏГ®Г«ГЁГ¶ГЁГї Г‹Г‘]:' then
 				inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.volna..'] - ['..setting.depart.else_tag..']: '
 			end
 			transition(4)
 		end
-		if button_menu(u8'Собес', {17, 194}, imgui.ImVec4(0.99, 0.60, 0.00 ,1.00), fa.ICON_USER_PLUS, {28, 201}, select_main_menu[5], {0.5, -0.5}, -0.5) then 
+		if button_menu(u8'Г‘Г®ГЎГҐГ±', {17, 194}, imgui.ImVec4(0.99, 0.60, 0.00 ,1.00), fa.ICON_USER_PLUS, {28, 201}, select_main_menu[5], {0.5, -0.5}, -0.5) then 
 			transition(5)
 		end
-		if button_menu(u8'Напоминания', {17, 230}, imgui.ImVec4(0.97, 0.27, 0.19 ,1.00), fa.ICON_BELL, {29, 237}, select_main_menu[6], {0.5, -0.5},  0.5) then 
+		if button_menu(u8'ГЌГ ГЇГ®Г¬ГЁГ­Г Г­ГЁГї', {17, 230}, imgui.ImVec4(0.97, 0.27, 0.19 ,1.00), fa.ICON_BELL, {29, 237}, select_main_menu[6], {0.5, -0.5},  0.5) then 
 			transition(6)
 		end
-		if button_menu(u8'Статистика', {17, 266}, imgui.ImVec4(0.20, 0.78, 0.35 ,1.00), fa.ICON_AREA_CHART, {28, 273}, select_main_menu[7], {0.5, -0.5}, 0.5) then 
+		if button_menu(u8'Г‘ГІГ ГІГЁГ±ГІГЁГЄГ ', {17, 266}, imgui.ImVec4(0.20, 0.78, 0.35 ,1.00), fa.ICON_AREA_CHART, {28, 273}, select_main_menu[7], {0.5, -0.5}, 0.5) then 
 			transition(7)
 		end
-		if button_menu(u8'Музыка', {17, 302}, imgui.ImVec4(1.00, 0.14, 0.33 ,1.00), fa.ICON_MUSIC, {29, 309}, select_main_menu[8], {-0.5, 0}, -0.5) then 
+		if button_menu(u8'ГЊГіГ§Г»ГЄГ ', {17, 302}, imgui.ImVec4(1.00, 0.14, 0.33 ,1.00), fa.ICON_MUSIC, {29, 309}, select_main_menu[8], {-0.5, 0}, -0.5) then 
 			transition(8)
 			win.music.v = true
 		end
-		if button_menu(u8'РП зона', {17, 338}, imgui.ImVec4(0.15, 0.77, 0.38 ,1.00), fa.ICON_OBJECT_GROUP, {28, 345}, select_main_menu[9], nil, -0.5) then 
+		if button_menu(u8'ГђГЏ Г§Г®Г­Г ', {17, 338}, imgui.ImVec4(0.15, 0.77, 0.38 ,1.00), fa.ICON_OBJECT_GROUP, {28, 345}, select_main_menu[9], nil, -0.5) then 
 			transition(9)
 		end
-		if button_menu(u8'Лекционная', {17, 374}, imgui.ImVec4(0.75, 0.30, 1.00, 1.00), fa.ICON_MICROPHONE, {31, 382}, select_main_menu[11], nil, -1) then
+		if button_menu(u8'Г‹ГҐГЄГ¶ГЁГ®Г­Г­Г Гї', {17, 374}, imgui.ImVec4(0.75, 0.30, 1.00, 1.00), fa.ICON_MICROPHONE, {31, 382}, select_main_menu[11], nil, -1) then
 			transition(11)
 		end
-		if button_menu(u8'О скрипте', {17, 410}, imgui.ImVec4(0.60, 0.60, 0.60, 1.00), fa.ICON_CODE, {28, 417}, select_main_menu[10], nil, -1) then
+		if button_menu(u8'ГЋ Г±ГЄГ°ГЁГЇГІГҐ', {17, 410}, imgui.ImVec4(0.60, 0.60, 0.60, 1.00), fa.ICON_CODE, {28, 417}, select_main_menu[10], nil, -1) then
 			transition(10)
 		end
 	end
 	
-	----> [0] Нулевое окно
+	----> [0] ГЌГіГ«ГҐГўГ®ГҐ Г®ГЄГ­Г®
 	local all_false_sel_menu = true
 	table.foreach(select_main_menu, function(k, v)
 	  if v then
@@ -2815,12 +2815,12 @@ function window.main()
 		
 	end
 		
-	----> [1] Главное
+	----> [1] ГѓГ«Г ГўГ­Г®ГҐ
 	if select_main_menu[1] and all_false_sel_basic then
-		menu_draw_up(u8'Главное')
+		menu_draw_up(u8'ГѓГ«Г ГўГ­Г®ГҐ')
 		
 		imgui.SetCursorPos(imgui.ImVec2(180, 41))
-		imgui.BeginChild(u8'Главное', imgui.ImVec2(666, 423 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
+		imgui.BeginChild(u8'ГѓГ«Г ГўГ­Г®ГҐ', imgui.ImVec2(666, 423 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
 		local function drawn_button(y_p_b, flag_d_b, text_d_b, pl_text_d_b)
 			if pl_text_d_b == nil then
 				pl_text_d_b = 0
@@ -2876,35 +2876,35 @@ function window.main()
 			end
 			
 		end
-		if drawn_button(17, 3, u8'Личная информация') then select_basic = {true, false, false, false, false, false, false, false, false, false} end
+		if drawn_button(17, 3, u8'Г‹ГЁГ·Г­Г Гї ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГї') then select_basic = {true, false, false, false, false, false, false, false, false, false} end
 		drawn_icon_b(19, imgui.ImVec4(0.60, 0.60, 0.60, 1.00), fa.ICON_LOCK, {27, 28}, {-0.3, 0})
 		
-		if drawn_button(57, 0, u8'Настройки чата') then select_basic = {false, true, false, false, false, false, false, false, false, false} end
+		if drawn_button(57, 0, u8'ГЌГ Г±ГІГ°Г®Г©ГЄГЁ Г·Г ГІГ ') then select_basic = {false, true, false, false, false, false, false, false, false, false} end
 		drawn_icon_b(60, imgui.ImVec4(0.99, 0.60, 0.00 ,1.00), fa.ICON_BARS, {26, 68}, {0.5, -0.5})
 		
-		if drawn_button(97, 0, u8'Суммы штрафов') then select_basic = {false, false, true, false, false, false, false, false, false, false} end
+		if drawn_button(97, 0, u8'Г‘ГіГ¬Г¬Г» ГёГІГ°Г ГґГ®Гў') then select_basic = {false, false, true, false, false, false, false, false, false, false} end
 		drawn_icon_b(100, imgui.ImVec4(0.20, 0.78, 0.35 ,1.00), fa.ICON_USD, {28, 108})
 		
-		if drawn_button(137, 12, u8'Акцент', 1) then select_basic = {false, false, false, true, false, false, false, false, false, false} end
+		if drawn_button(137, 12, u8'ГЂГЄГ¶ГҐГ­ГІ', 1) then select_basic = {false, false, false, true, false, false, false, false, false, false} end
 		drawn_icon_b(141, imgui.ImVec4(0.97, 0.23, 0.19 ,1.00), fa.ICON_COMMENTING, {25, 148})
 		
 		skin.DrawFond({51, 57}, {0, 0}, {596, 1}, imgui.ImVec4(0.50, 0.50, 0.50, 0.40), 0, 0)
 		skin.DrawFond({51, 97}, {0, 0}, {596, 1}, imgui.ImVec4(0.50, 0.50, 0.50, 0.40), 0, 0)
 		skin.DrawFond({51, 137}, {0, 0}, {596, 1}, imgui.ImVec4(0.50, 0.50, 0.50, 0.40), 0, 0)
 		
-		if drawn_button(187, 3, u8'Финд') then select_basic = {false, false, false, false, true, false, false, false, false, false} end
+		if drawn_button(187, 3, u8'Г”ГЁГ­Г¤') then select_basic = {false, false, false, false, true, false, false, false, false, false} end
 		drawn_icon_b(189, imgui.ImVec4(0.0, 0.47, 0.99 ,1.00), fa.ICON_USER_CIRCLE_O, {25, 197}, {-0.4, 0.7})
 		
-		if drawn_button(227, 0, u8'Уведомления') then select_basic = {false, false, false, false, false, true, false, false, false, false} end
+		if drawn_button(227, 0, u8'Г“ГўГҐГ¤Г®Г¬Г«ГҐГ­ГЁГї') then select_basic = {false, false, false, false, false, true, false, false, false, false} end
 		drawn_icon_b(230, imgui.ImVec4(0.34, 0.33, 0.83 ,1.00), fa.ICON_PAPER_PLANE, {24, 238})
 		
-		if drawn_button(267, 0, u8'Быстрый доступ') then select_basic = {false, false, false, false, false, false, true, false, false, false} end
+		if drawn_button(267, 0, u8'ГЃГ»Г±ГІГ°Г»Г© Г¤Г®Г±ГІГіГЇ') then select_basic = {false, false, false, false, false, false, true, false, false, false} end
 		drawn_icon_b(270, imgui.ImVec4(1.0, 0.14, 0.33 ,1.00), fa.ICON_LINK, {25, 278})
 		
-		if drawn_button(307, 0, u8'Дополнительные функции') then select_basic = {false, false, false, false, false, false, false, true, false, false} end
+		if drawn_button(307, 0, u8'Г„Г®ГЇГ®Г«Г­ГЁГІГҐГ«ГјГ­Г»ГҐ ГґГіГ­ГЄГ¶ГЁГЁ') then select_basic = {false, false, false, false, false, false, false, true, false, false} end
 		drawn_icon_b(310, imgui.ImVec4(0.22, 0.82, 0.55, 1.00), fa.ICON_TOGGLE_ON, {24, 318})
 		
-		if drawn_button(347, 12, u8'Настройки скрипта', 1) then select_basic = {false, false, false, false, false, false, false, false, true, false} end
+		if drawn_button(347, 12, u8'ГЌГ Г±ГІГ°Г®Г©ГЄГЁ Г±ГЄГ°ГЁГЇГІГ ', 1) then select_basic = {false, false, false, false, false, false, false, false, true, false} end
 		drawn_icon_b(351, imgui.ImVec4(0.60, 0.60, 0.60, 1.00), fa.ICON_SLIDERS, {26, 359}, {0, 0.5})
 		
 		skin.DrawFond({51, 227}, {0, 0}, {596, 1}, imgui.ImVec4(0.50, 0.50, 0.50, 0.40), 0, 0)
@@ -2912,7 +2912,7 @@ function window.main()
 		skin.DrawFond({51, 307}, {0, 0}, {596, 1}, imgui.ImVec4(0.50, 0.50, 0.50, 0.40), 0, 0)
 		skin.DrawFond({51, 347}, {0, 0}, {596, 1}, imgui.ImVec4(0.50, 0.50, 0.50, 0.40), 0, 0)
 		
-		if drawn_button(397, 15, u8'Обновления', 1) then select_basic = {false, false, false, false, false, false, false, false, false, true} end
+		if drawn_button(397, 15, u8'ГЋГЎГ­Г®ГўГ«ГҐГ­ГЁГї', 1) then select_basic = {false, false, false, false, false, false, false, false, false, true} end
 		drawn_icon_b(400, imgui.ImVec4(0.60, 0.60, 0.60, 1.00), fa.ICON_DOWNLOAD,  {25, 409})
 		
 		imgui.Dummy(imgui.ImVec2(0, 20)) 
@@ -2929,229 +2929,229 @@ function window.main()
 			end
 		end
 		if select_basic[1] then
-			if menu_draw_up(u8'Личная информация', true) then select_basic[1] = false end
+			if menu_draw_up(u8'Г‹ГЁГ·Г­Г Гї ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГї', true) then select_basic[1] = false end
 			imgui.SetCursorPos(imgui.ImVec2(163, 41))
-			imgui.BeginChild(u8'Личная информация', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'Г‹ГЁГ·Г­Г Гї ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГї', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
 			
 			new_draw(17, 76)
-			skin.InputText(33, 36, u8'Ваш ник на русском языке',' setting.nick', 74, 633, '[а-Я%s]+', 'setting')
+			skin.InputText(33, 36, u8'Г‚Г Гё Г­ГЁГЄ Г­Г  Г°ГіГ±Г±ГЄГ®Г¬ ГїГ§Г»ГЄГҐ',' setting.nick', 74, 633, '[Г -Гџ%s]+', 'setting')
 			imgui.SetCursorPos(imgui.ImVec2(34, 65))
 			imgui.PushFont(font[3])
-			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Ваш ник на русском языке будет полезен для использования в различных отыгровках.')
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Г‚Г Гё Г­ГЁГЄ Г­Г  Г°ГіГ±Г±ГЄГ®Г¬ ГїГ§Г»ГЄГҐ ГЎГіГ¤ГҐГІ ГЇГ®Г«ГҐГ§ГҐГ­ Г¤Г«Гї ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГї Гў Г°Г Г§Г«ГЁГ·Г­Г»Гµ Г®ГІГ»ГЈГ°Г®ГўГЄГ Гµ.')
 			imgui.PopFont()
 			
 			new_draw(105, 82)
 			imgui.SetCursorPos(imgui.ImVec2(34, 148))
 			imgui.PushFont(font[3])
-			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'От выбранной организации, в которой Вы состоите, зависит доступность различ-')
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'ГЋГІ ГўГ»ГЎГ°Г Г­Г­Г®Г© Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ, Гў ГЄГ®ГІГ®Г°Г®Г© Г‚Г» Г±Г®Г±ГІГ®ГЁГІГҐ, Г§Г ГўГЁГ±ГЁГІ Г¤Г®Г±ГІГіГЇГ­Г®Г±ГІГј Г°Г Г§Г«ГЁГ·-')
 			imgui.SetCursorPos(imgui.ImVec2(34, 162))
-			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'ных функций и команд. Скрипт поддерживает только организации из списка.')
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Г­Г»Гµ ГґГіГ­ГЄГ¶ГЁГ© ГЁ ГЄГ®Г¬Г Г­Г¤. Г‘ГЄГ°ГЁГЇГІ ГЇГ®Г¤Г¤ГҐГ°Г¦ГЁГўГ ГҐГІ ГІГ®Г«ГјГЄГ® Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ ГЁГ§ Г±ГЇГЁГ±ГЄГ .')
 			imgui.PopFont()
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 122))
-			imgui.Text(u8'Организация')
+			imgui.Text(u8'ГЋГ°ГЈГ Г­ГЁГ§Г Г¶ГЁГї')
 			imgui.PopFont()
-			if skin.List({480, 116}, setting.frac.org, {u8'Полиция LS', u8'Полиция SF', u8'Полиция LV', u8'FBI'}, 185, 'setting.frac.org') then 
+			if skin.List({480, 116}, setting.frac.org, {u8'ГЏГ®Г«ГЁГ¶ГЁГї LS', u8'ГЏГ®Г«ГЁГ¶ГЁГї SF', u8'ГЏГ®Г«ГЁГ¶ГЁГї LV', u8'FBI'}, 185, 'setting.frac.org') then 
 				add_table_act(setting.frac.org, false)
 				save('setting')
 				create_act(1)
 			end
 			
 			new_draw(199, 70)
-			skin.InputText(33, 221, u8'Ваша должность',' setting.frac.title', 74, 633, '[а-Я%s]+', 'setting')
+			skin.InputText(33, 221, u8'Г‚Г ГёГ  Г¤Г®Г«Г¦Г­Г®Г±ГІГј',' setting.frac.title', 74, 633, '[Г -Гџ%s]+', 'setting')
 			imgui.SetCursorPos(imgui.ImVec2(34, 250))
 			imgui.PushFont(font[3])
-			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Ваша должность будет полезна для использования в различных отыгровках.')
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Г‚Г ГёГ  Г¤Г®Г«Г¦Г­Г®Г±ГІГј ГЎГіГ¤ГҐГІ ГЇГ®Г«ГҐГ§Г­Г  Г¤Г«Гї ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГї Гў Г°Г Г§Г«ГЁГ·Г­Г»Гµ Г®ГІГ»ГЈГ°Г®ГўГЄГ Гµ.')
 			imgui.PopFont()
 
 			--[[new_draw(199, 65)
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 216))
-			imgui.Text(u8'Должность')
+			imgui.Text(u8'Г„Г®Г«Г¦Г­Г®Г±ГІГј')
 			local calc = imgui.CalcTextSize(setting.frac.title)
 			imgui.SetCursorPos(imgui.ImVec2(660 - calc.x, 216))
 			imgui.Text(setting.frac.title)
 			imgui.PopFont()
 			imgui.SetCursorPos(imgui.ImVec2(34, 238))
 			imgui.PushFont(font[3])
-			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Определено автоматически.')
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'ГЋГЇГ°ГҐГ¤ГҐГ«ГҐГ­Г® Г ГўГІГ®Г¬Г ГІГЁГ·ГҐГ±ГЄГЁ.')
 			imgui.PopFont()--]]
 			
 			new_draw(276, 65)
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 293))
-			imgui.Text(u8'Пол')
+			imgui.Text(u8'ГЏГ®Г«')
 			imgui.PopFont()
 			imgui.SetCursorPos(imgui.ImVec2(34, 315))
 			imgui.PushFont(font[3])
-			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Необходимо для отыгровок.')
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'ГЌГҐГ®ГЎГµГ®Г¤ГЁГ¬Г® Г¤Г«Гї Г®ГІГ»ГЈГ°Г®ГўГ®ГЄ.')
 			imgui.PopFont()
-			if skin.List({480, 287}, setting.sex, {u8'Мужской', u8'Женский'}, 185, 'setting.sex') then save('setting') end
+			if skin.List({480, 287}, setting.sex, {u8'ГЊГіГ¦Г±ГЄГ®Г©', u8'Г†ГҐГ­Г±ГЄГЁГ©'}, 185, 'setting.sex') then save('setting') end
 			
 			new_draw(353, 76)
-			skin.InputText(33, 372, u8'Тег в рацию организации','setting.teg', 74, 633, '[а-Я%s]+', 'setting')
+			skin.InputText(33, 372, u8'Г’ГҐГЈ Гў Г°Г Г¶ГЁГѕ Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ','setting.teg', 74, 633, '[Г -Гџ%s]+', 'setting')
 			imgui.PushFont(font[3])
 			imgui.SetCursorPos(imgui.ImVec2(34, 401))
-			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'О необходимости использования тега, уточните у лидера организации.')
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'ГЋ Г­ГҐГ®ГЎГµГ®Г¤ГЁГ¬Г®Г±ГІГЁ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГї ГІГҐГЈГ , ГіГІГ®Г·Г­ГЁГІГҐ Гі Г«ГЁГ¤ГҐГ°Г  Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ.')
 			imgui.PopFont()
 			
 			imgui.Dummy(imgui.ImVec2(0, 25))
 			imgui.EndChild()
 		elseif select_basic[2] then
-			if menu_draw_up(u8'Настройки чата', true) then select_basic[2] = false end
+			if menu_draw_up(u8'ГЌГ Г±ГІГ°Г®Г©ГЄГЁ Г·Г ГІГ ', true) then select_basic[2] = false end
 			imgui.SetCursorPos(imgui.ImVec2(163, 41))
-			imgui.BeginChild(u8'Настройки чата', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'ГЌГ Г±ГІГ°Г®Г©ГЄГЁ Г·Г ГІГ ', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
 			
 			new_draw(17, 107)
 			imgui.SetCursorPos(imgui.ImVec2(639, 30))
-			if skin.Switch(u8'##Объявления от игроков', setting.chat_pl) then setting.chat_pl = not setting.chat_pl save('setting') end
+			if skin.Switch(u8'##ГЋГЎГєГїГўГ«ГҐГ­ГЁГї Г®ГІ ГЁГЈГ°Г®ГЄГ®Гў', setting.chat_pl) then setting.chat_pl = not setting.chat_pl save('setting') end
 			imgui.SetCursorPos(imgui.ImVec2(639, 60))
-			if skin.Switch(u8'##репортажи новости СМИ', setting.chat_smi) then setting.chat_smi = not setting.chat_smi save('setting') end
+			if skin.Switch(u8'##Г°ГҐГЇГ®Г°ГІГ Г¦ГЁ Г­Г®ГўГ®Г±ГІГЁ Г‘ГЊГ€', setting.chat_smi) then setting.chat_smi = not setting.chat_smi save('setting') end
 			imgui.SetCursorPos(imgui.ImVec2(639, 90))
-			if skin.Switch(u8'##частые подсказки сервера', setting.chat_help) then setting.chat_help = not setting.chat_help save('setting') end
+			if skin.Switch(u8'##Г·Г Г±ГІГ»ГҐ ГЇГ®Г¤Г±ГЄГ Г§ГЄГЁ Г±ГҐГ°ГўГҐГ°Г ', setting.chat_help) then setting.chat_help = not setting.chat_help save('setting') end
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 31))
-			imgui.Text(u8'Скрыть объявления от игроков в СМИ')
+			imgui.Text(u8'Г‘ГЄГ°Г»ГІГј Г®ГЎГєГїГўГ«ГҐГ­ГЁГї Г®ГІ ГЁГЈГ°Г®ГЄГ®Гў Гў Г‘ГЊГ€')
 			imgui.SetCursorPos(imgui.ImVec2(34, 61))
-			imgui.Text(u8'Скрыть репортажи и новости от СМИ')
+			imgui.Text(u8'Г‘ГЄГ°Г»ГІГј Г°ГҐГЇГ®Г°ГІГ Г¦ГЁ ГЁ Г­Г®ГўГ®Г±ГІГЁ Г®ГІ Г‘ГЊГ€')
 			imgui.SetCursorPos(imgui.ImVec2(34, 91))
-			imgui.Text(u8'Скрыть частые подсказки сервера')
+			imgui.Text(u8'Г‘ГЄГ°Г»ГІГј Г·Г Г±ГІГ»ГҐ ГЇГ®Г¤Г±ГЄГ Г§ГЄГЁ Г±ГҐГ°ГўГҐГ°Г ')
 			imgui.PopFont()
 			
 			new_draw(136, 47)
 			imgui.SetCursorPos(imgui.ImVec2(639, 149))
-			if skin.Switch(u8'##Дата и время снизу', setting.time_hud) then setting.time_hud = not setting.time_hud save('setting') end
+			if skin.Switch(u8'##Г„Г ГІГ  ГЁ ГўГ°ГҐГ¬Гї Г±Г­ГЁГ§Гі', setting.time_hud) then setting.time_hud = not setting.time_hud save('setting') end
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 150))
-			imgui.Text(u8'Отображать дату и время под миникартой')
+			imgui.Text(u8'ГЋГІГ®ГЎГ°Г Г¦Г ГІГј Г¤Г ГІГі ГЁ ГўГ°ГҐГ¬Гї ГЇГ®Г¤ Г¬ГЁГ­ГЁГЄГ Г°ГІГ®Г©')
 			imgui.PopFont()
 			
 			new_draw(195, 143)
-			skin.InputText(33, 214, u8'Текст отыгровки времени /time', 'setting.act_time', 128, 633, nil, 'setting')
+			skin.InputText(33, 214, u8'Г’ГҐГЄГ±ГІ Г®ГІГ»ГЈГ°Г®ГўГЄГЁ ГўГ°ГҐГ¬ГҐГ­ГЁ /time', 'setting.act_time', 128, 633, nil, 'setting')
 			imgui.SetCursorPos(imgui.ImVec2(34, 243))
 			imgui.PushFont(font[3])
-			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Отыгровка после ввода /time. Оставьте пустым, если не нужно.')
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'ГЋГІГ»ГЈГ°Г®ГўГЄГ  ГЇГ®Г±Г«ГҐ ГўГўГ®Г¤Г  /time. ГЋГ±ГІГ ГўГјГІГҐ ГЇГіГ±ГІГ»Г¬, ГҐГ±Г«ГЁ Г­ГҐ Г­ГіГ¦Г­Г®.')
 			imgui.PopFont()
-			skin.InputText(33, 280, u8'Текст отыгровки рации /r', 'setting.act_r', 128, 633, nil, 'setting')
+			skin.InputText(33, 280, u8'Г’ГҐГЄГ±ГІ Г®ГІГ»ГЈГ°Г®ГўГЄГЁ Г°Г Г¶ГЁГЁ /r', 'setting.act_r', 128, 633, nil, 'setting')
 			imgui.SetCursorPos(imgui.ImVec2(34, 309))
 			imgui.PushFont(font[3])
-			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Отыгровка после ввода /r. Оставьте пустым, если не нужно.')
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'ГЋГІГ»ГЈГ°Г®ГўГЄГ  ГЇГ®Г±Г«ГҐ ГўГўГ®Г¤Г  /r. ГЋГ±ГІГ ГўГјГІГҐ ГЇГіГ±ГІГ»Г¬, ГҐГ±Г«ГЁ Г­ГҐ Г­ГіГ¦Г­Г®.')
 			imgui.PopFont()
 			
 			new_draw(350, 47)
 			imgui.SetCursorPos(imgui.ImVec2(639, 363))
-			if skin.Switch(u8'##Автоскрин /time', setting.ts) then setting.ts = not setting.ts save('setting') end
+			if skin.Switch(u8'##ГЂГўГІГ®Г±ГЄГ°ГЁГ­ /time', setting.ts) then setting.ts = not setting.ts save('setting') end
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 364))
-			imgui.Text(u8'/time + скриншот экрана командой /ts')
+			imgui.Text(u8'/time + Г±ГЄГ°ГЁГ­ГёГ®ГІ ГЅГЄГ°Г Г­Г  ГЄГ®Г¬Г Г­Г¤Г®Г© /ts')
 			imgui.PopFont()
 			
 			new_draw(409, 47)
 			imgui.SetCursorPos(imgui.ImVec2(639, 422))
-			if skin.Switch(u8'##Отыгровка палки резиновой', setting.rubber_stick) then setting.rubber_stick = not setting.rubber_stick save('setting') end
+			if skin.Switch(u8'##ГЋГІГ»ГЈГ°Г®ГўГЄГ  ГЇГ Г«ГЄГЁ Г°ГҐГ§ГЁГ­Г®ГўГ®Г©', setting.rubber_stick) then setting.rubber_stick = not setting.rubber_stick save('setting') end
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 423))
-			imgui.Text(u8'Отыгровка дубинки')
+			imgui.Text(u8'ГЋГІГ»ГЈГ°Г®ГўГЄГ  Г¤ГіГЎГЁГ­ГЄГЁ')
 			imgui.PopFont()
 			
 			imgui.Dummy(imgui.ImVec2(0, 27))
 			imgui.EndChild()
 		elseif select_basic[3] then
-			if menu_draw_up(u8'Суммы штрафов', true) then select_basic[3] = false end
+			if menu_draw_up(u8'Г‘ГіГ¬Г¬Г» ГёГІГ°Г ГґГ®Гў', true) then select_basic[3] = false end
 			imgui.SetCursorPos(imgui.ImVec2(163, 41))
-			imgui.BeginChild(u8'Суммы штрафов', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'Г‘ГіГ¬Г¬Г» ГёГІГ°Г ГґГ®Гў', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
 			
-			if setting.frac.org == u8'Полиция LS' or setting.frac.org == u8'Полиция SF' or setting.frac.org == u8'Полиция LV' or setting.frac.org == u8'FBI' then
+			if setting.frac.org == u8'ГЏГ®Г«ГЁГ¶ГЁГї LS' or setting.frac.org == u8'ГЏГ®Г«ГЁГ¶ГЁГї SF' or setting.frac.org == u8'ГЏГ®Г«ГЁГ¶ГЁГї LV' or setting.frac.org == u8'FBI' then
 				imgui.PushFont(bold_font[4])
 				imgui.SetCursorPos(imgui.ImVec2(92, 187 + ((start_pos + new_pos) / 2)))
-				imgui.Text(u8'В разработке')
+				imgui.Text(u8'Г‚ Г°Г Г§Г°Г ГЎГ®ГІГЄГҐ')
 				imgui.PopFont()
 			else
 				new_draw(17, 140)
 				imgui.PushFont(font[1])
-				skin.InputText(105, 36, u8'Лечение', 'setting.price.lec', 10, 200, 'num', 'setting')
-				skin.InputText(105, 76, u8'Рецепт', 'setting.price.rec', 10, 200, 'num', 'setting')
-				skin.InputText(105, 116, u8'Татуировка', 'setting.price.tatu', 10, 200, 'num', 'setting')
-				skin.InputText(465, 36, u8'Антибиотик', 'setting.price.ant', 10, 200, 'num', 'setting')
-				skin.InputText(465, 76, u8'Наркозависимость', 'setting.price.narko', 10, 200, 'num', 'setting')
-				skin.InputText(465, 116, u8'Медицинский осмотр', 'setting.priceosm', 10, 200, 'num', 'setting')
+				skin.InputText(105, 36, u8'Г‹ГҐГ·ГҐГ­ГЁГҐ', 'setting.price.lec', 10, 200, 'num', 'setting')
+				skin.InputText(105, 76, u8'ГђГҐГ¶ГҐГЇГІ', 'setting.price.rec', 10, 200, 'num', 'setting')
+				skin.InputText(105, 116, u8'Г’Г ГІГіГЁГ°Г®ГўГЄГ ', 'setting.price.tatu', 10, 200, 'num', 'setting')
+				skin.InputText(465, 36, u8'ГЂГ­ГІГЁГЎГЁГ®ГІГЁГЄ', 'setting.price.ant', 10, 200, 'num', 'setting')
+				skin.InputText(465, 76, u8'ГЌГ Г°ГЄГ®Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГј', 'setting.price.narko', 10, 200, 'num', 'setting')
+				skin.InputText(465, 116, u8'ГЊГҐГ¤ГЁГ¶ГЁГ­Г±ГЄГЁГ© Г®Г±Г¬Г®ГІГ°', 'setting.priceosm', 10, 200, 'num', 'setting')
 				
 				new_draw(169, 182)
-				skin.InputText(163, 188, u8'Мед. карта 7 дней', 'setting.price.mede.1', 10, 140, 'num', 'setting')
-				skin.InputText(163, 228, u8'Мед. карта 14 дней', 'setting.price.mede.2', 10, 140, 'num', 'setting')
-				skin.InputText(163, 268, u8'Мед. карта 30 дней', 'setting.price.mede.3', 10, 140, 'num', 'setting')
-				skin.InputText(163, 308, u8'Мед. карта 60 дней', 'setting.price.mede.4', 10, 140, 'num', 'setting')
-				skin.InputText(524, 188, u8'Новая 7 дней', 'setting.price.upmede.1', 10, 140, 'num', 'setting')
-				skin.InputText(524, 228, u8'Новая 14 дней', 'setting.price.upmede.2', 10, 140, 'num', 'setting')
-				skin.InputText(524, 268, u8'Новая 30 дней', 'setting.price.upmede.3', 10, 140, 'num', 'setting')
-				skin.InputText(524, 308, u8'Новая 60 дней', 'setting.price.upmede.4', 10, 140, 'num', 'setting')
+				skin.InputText(163, 188, u8'ГЊГҐГ¤. ГЄГ Г°ГІГ  7 Г¤Г­ГҐГ©', 'setting.price.mede.1', 10, 140, 'num', 'setting')
+				skin.InputText(163, 228, u8'ГЊГҐГ¤. ГЄГ Г°ГІГ  14 Г¤Г­ГҐГ©', 'setting.price.mede.2', 10, 140, 'num', 'setting')
+				skin.InputText(163, 268, u8'ГЊГҐГ¤. ГЄГ Г°ГІГ  30 Г¤Г­ГҐГ©', 'setting.price.mede.3', 10, 140, 'num', 'setting')
+				skin.InputText(163, 308, u8'ГЊГҐГ¤. ГЄГ Г°ГІГ  60 Г¤Г­ГҐГ©', 'setting.price.mede.4', 10, 140, 'num', 'setting')
+				skin.InputText(524, 188, u8'ГЌГ®ГўГ Гї 7 Г¤Г­ГҐГ©', 'setting.price.upmede.1', 10, 140, 'num', 'setting')
+				skin.InputText(524, 228, u8'ГЌГ®ГўГ Гї 14 Г¤Г­ГҐГ©', 'setting.price.upmede.2', 10, 140, 'num', 'setting')
+				skin.InputText(524, 268, u8'ГЌГ®ГўГ Гї 30 Г¤Г­ГҐГ©', 'setting.price.upmede.3', 10, 140, 'num', 'setting')
+				skin.InputText(524, 308, u8'ГЌГ®ГўГ Гї 60 Г¤Г­ГҐГ©', 'setting.price.upmede.4', 10, 140, 'num', 'setting')
 				
 				imgui.SetCursorPos(imgui.ImVec2(34, 37))
-				imgui.Text(u8'Лечение')
+				imgui.Text(u8'Г‹ГҐГ·ГҐГ­ГЁГҐ')
 				imgui.SetCursorPos(imgui.ImVec2(34, 77))
-				imgui.Text(u8'Рецепт')
+				imgui.Text(u8'ГђГҐГ¶ГҐГЇГІ')
 				imgui.SetCursorPos(imgui.ImVec2(34, 117))
-				imgui.Text(u8'Тату')
+				imgui.Text(u8'Г’Г ГІГі')
 				imgui.SetCursorPos(imgui.ImVec2(380, 37))
-				imgui.Text(u8'Антибиотик')
+				imgui.Text(u8'ГЂГ­ГІГЁГЎГЁГ®ГІГЁГЄ')
 				imgui.SetCursorPos(imgui.ImVec2(380, 77))
-				imgui.Text(u8'Наркозав.')
+				imgui.Text(u8'ГЌГ Г°ГЄГ®Г§Г Гў.')
 				imgui.SetCursorPos(imgui.ImVec2(380, 117))
-				imgui.Text(u8'Мед. осмотр')
+				imgui.Text(u8'ГЊГҐГ¤. Г®Г±Г¬Г®ГІГ°')
 				imgui.SetCursorPos(imgui.ImVec2(34, 189))
-				imgui.Text(u8'Мед. карта 7 дней')
+				imgui.Text(u8'ГЊГҐГ¤. ГЄГ Г°ГІГ  7 Г¤Г­ГҐГ©')
 				imgui.SetCursorPos(imgui.ImVec2(34, 229))
-				imgui.Text(u8'Мед. карта 14 дней')
+				imgui.Text(u8'ГЊГҐГ¤. ГЄГ Г°ГІГ  14 Г¤Г­ГҐГ©')
 				imgui.SetCursorPos(imgui.ImVec2(34, 269))
-				imgui.Text(u8'Мед. карта 30 дней')
+				imgui.Text(u8'ГЊГҐГ¤. ГЄГ Г°ГІГ  30 Г¤Г­ГҐГ©')
 				imgui.SetCursorPos(imgui.ImVec2(34, 309))
-				imgui.Text(u8'Мед. карта 60 дней')
+				imgui.Text(u8'ГЊГҐГ¤. ГЄГ Г°ГІГ  60 Г¤Г­ГҐГ©')
 				imgui.SetCursorPos(imgui.ImVec2(353, 189))
-				imgui.Text(u8'Мед. карта новая 7 дней')
+				imgui.Text(u8'ГЊГҐГ¤. ГЄГ Г°ГІГ  Г­Г®ГўГ Гї 7 Г¤Г­ГҐГ©')
 				imgui.SetCursorPos(imgui.ImVec2(353, 229))
-				imgui.Text(u8'Мед. карта новая 14 дней')
+				imgui.Text(u8'ГЊГҐГ¤. ГЄГ Г°ГІГ  Г­Г®ГўГ Гї 14 Г¤Г­ГҐГ©')
 				imgui.SetCursorPos(imgui.ImVec2(353, 269))
-				imgui.Text(u8'Мед. карта новая 30 дней')
+				imgui.Text(u8'ГЊГҐГ¤. ГЄГ Г°ГІГ  Г­Г®ГўГ Гї 30 Г¤Г­ГҐГ©')
 				imgui.SetCursorPos(imgui.ImVec2(353, 309))
-				imgui.Text(u8'Мед. карта новая 60 дней')
+				imgui.Text(u8'ГЊГҐГ¤. ГЄГ Г°ГІГ  Г­Г®ГўГ Гї 60 Г¤Г­ГҐГ©')
 				imgui.PopFont()
 			end
 
 			imgui.EndChild()
 		elseif select_basic[4] then
-			if menu_draw_up(u8'Акцент', true) then select_basic[4] = false end
+			if menu_draw_up(u8'ГЂГЄГ¶ГҐГ­ГІ', true) then select_basic[4] = false end
 			imgui.SetCursorPos(imgui.ImVec2(163, 41))
-			imgui.BeginChild(u8'Акцент', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'ГЂГЄГ¶ГҐГ­ГІ', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
 			
 			new_draw(17, 47)
 			imgui.SetCursorPos(imgui.ImVec2(639, 30))
-			if skin.Switch(u8'##Использовать акцент', setting.accent.func) then setting.accent.func = not setting.accent.func save('setting') end
+			if skin.Switch(u8'##Г€Г±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј Г ГЄГ¶ГҐГ­ГІ', setting.accent.func) then setting.accent.func = not setting.accent.func save('setting') end
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 31))
-			imgui.Text(u8'Использовать акцент')
+			imgui.Text(u8'Г€Г±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј Г ГЄГ¶ГҐГ­ГІ')
 			imgui.PopFont()
 			
 			if setting.accent.func then
 				new_draw(76, 76)
-				skin.InputText(33, 95, u8'Введите Ваш собственный акцент', 'setting.accent.text', 128, 633, '[а-Я%s]+', 'setting')
+				skin.InputText(33, 95, u8'Г‚ГўГҐГ¤ГЁГІГҐ Г‚Г Гё Г±Г®ГЎГ±ГІГўГҐГ­Г­Г»Г© Г ГЄГ¶ГҐГ­ГІ', 'setting.accent.text', 128, 633, '[Г -Гџ%s]+', 'setting')
 				imgui.SetCursorPos(imgui.ImVec2(34, 124))
 				imgui.PushFont(font[3])
-				imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Начните с заглавной буквы. Слово "акцент" писать не нужно. Например, "Британский".')
+				imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'ГЌГ Г·Г­ГЁГІГҐ Г± Г§Г ГЈГ«Г ГўГ­Г®Г© ГЎГіГЄГўГ». Г‘Г«Г®ГўГ® "Г ГЄГ¶ГҐГ­ГІ" ГЇГЁГ±Г ГІГј Г­ГҐ Г­ГіГ¦Г­Г®. ГЌГ ГЇГ°ГЁГ¬ГҐГ°, "ГЃГ°ГЁГІГ Г­Г±ГЄГЁГ©".')
 				imgui.PopFont()
 				
 				new_draw(164, 137)
 				imgui.SetCursorPos(imgui.ImVec2(639, 177))
-				if skin.Switch(u8'##Акцент в рацию', setting.accent.r) then setting.accent.r = not setting.accent.r save('setting') end
+				if skin.Switch(u8'##ГЂГЄГ¶ГҐГ­ГІ Гў Г°Г Г¶ГЁГѕ', setting.accent.r) then setting.accent.r = not setting.accent.r save('setting') end
 				imgui.SetCursorPos(imgui.ImVec2(639, 207))
-				if skin.Switch(u8'##Акцент при крике', setting.accent.s) then setting.accent.s = not setting.accent.s save('setting') end
+				if skin.Switch(u8'##ГЂГЄГ¶ГҐГ­ГІ ГЇГ°ГЁ ГЄГ°ГЁГЄГҐ', setting.accent.s) then setting.accent.s = not setting.accent.s save('setting') end
 				imgui.SetCursorPos(imgui.ImVec2(639, 237))
-				if skin.Switch(u8'##Акцент в рацию депа', setting.accent.d) then 
+				if skin.Switch(u8'##ГЂГЄГ¶ГҐГ­ГІ Гў Г°Г Г¶ГЁГѕ Г¤ГҐГЇГ ', setting.accent.d) then 
 					setting.accent.d = not setting.accent.d 
 					save('setting')
 					if setting.accent.d and not setting.dep_off then
 						sampRegisterChatCommand('d', function(text_accents_d) 
 							if text_accents_d ~= '' and setting.accent.func and setting.accent.d and setting.accent.text ~= '' then
-								sampSendChat('/d ['..u8:decode(setting.accent.text)..' акцент]: '..text_accents_d)
+								sampSendChat('/d ['..u8:decode(setting.accent.text)..' Г ГЄГ¶ГҐГ­ГІ]: '..text_accents_d)
 							else
 								sampSendChat('/d '..text_accents_d)
 							end 
@@ -3161,84 +3161,84 @@ function window.main()
 					end
 				end
 				imgui.SetCursorPos(imgui.ImVec2(639, 267))
-				if skin.Switch(u8'##Акцент в рацию банды', setting.accent.f) then setting.accent.f = not setting.accent.f save('setting') end
+				if skin.Switch(u8'##ГЂГЄГ¶ГҐГ­ГІ Гў Г°Г Г¶ГЁГѕ ГЎГ Г­Г¤Г»', setting.accent.f) then setting.accent.f = not setting.accent.f save('setting') end
 				imgui.PushFont(font[1])
 				imgui.SetCursorPos(imgui.ImVec2(34, 178))
-				imgui.Text(u8'Акцент в рацию организации (/r)')
+				imgui.Text(u8'ГЂГЄГ¶ГҐГ­ГІ Гў Г°Г Г¶ГЁГѕ Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ (/r)')
 				imgui.SetCursorPos(imgui.ImVec2(34, 208))
-				imgui.Text(u8'Акцент во время крика (/s)')
+				imgui.Text(u8'ГЂГЄГ¶ГҐГ­ГІ ГўГ® ГўГ°ГҐГ¬Гї ГЄГ°ГЁГЄГ  (/s)')
 				imgui.SetCursorPos(imgui.ImVec2(34, 238))
-				imgui.Text(u8'Акцент в рацию департамента (/d)')
+				imgui.Text(u8'ГЂГЄГ¶ГҐГ­ГІ Гў Г°Г Г¶ГЁГѕ Г¤ГҐГЇГ Г°ГІГ Г¬ГҐГ­ГІГ  (/d)')
 				imgui.SetCursorPos(imgui.ImVec2(34, 268))
-				imgui.Text(u8'Акцент в чат банды/мафии (/f)')
+				imgui.Text(u8'ГЂГЄГ¶ГҐГ­ГІ Гў Г·Г ГІ ГЎГ Г­Г¤Г»/Г¬Г ГґГЁГЁ (/f)')
 				
 				imgui.PopFont()
 			end
 			imgui.EndChild()
 		elseif select_basic[5] then
-			if menu_draw_up(u8'Финд', true) then select_basic[5] = false end
+			if menu_draw_up(u8'Г”ГЁГ­Г¤', true) then select_basic[5] = false end
 			imgui.SetCursorPos(imgui.ImVec2(163, 41))
-			imgui.BeginChild(u8'Финд', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'Г”ГЁГ­Г¤', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
 			
 			new_draw(17, 47)
 			imgui.SetCursorPos(imgui.ImVec2(639, 30))
-			if skin.Switch(u8'##Финд на экране', setting.members.func) then setting.members.func = not setting.members.func save('setting') end
+			if skin.Switch(u8'##Г”ГЁГ­Г¤ Г­Г  ГЅГЄГ°Г Г­ГҐ', setting.members.func) then setting.members.func = not setting.members.func save('setting') end
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 31))
-			imgui.Text(u8'Финд организации на Вашем экране')
+			imgui.Text(u8'Г”ГЁГ­Г¤ Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ Г­Г  Г‚Г ГёГҐГ¬ ГЅГЄГ°Г Г­ГҐ')
 			imgui.PopFont()
 			
 			if setting.members.func then
 				new_draw(76, 77)
 				imgui.SetCursorPos(imgui.ImVec2(639, 89))
-				if skin.Switch(u8'##Скрывать при диалоге', setting.members.dialog) then setting.members.dialog = not setting.members.dialog save('setting') end
+				if skin.Switch(u8'##Г‘ГЄГ°Г»ГўГ ГІГј ГЇГ°ГЁ Г¤ГЁГ Г«Г®ГЈГҐ', setting.members.dialog) then setting.members.dialog = not setting.members.dialog save('setting') end
 				imgui.SetCursorPos(imgui.ImVec2(639, 119))
-				if skin.Switch(u8'##Инверсировать текст', setting.members.invers) then setting.members.invers = not setting.members.invers save('setting') end
+				if skin.Switch(u8'##Г€Г­ГўГҐГ°Г±ГЁГ°Г®ГўГ ГІГј ГІГҐГЄГ±ГІ', setting.members.invers) then setting.members.invers = not setting.members.invers save('setting') end
 				imgui.PushFont(font[1])
 				imgui.SetCursorPos(imgui.ImVec2(34, 90))
-				imgui.Text(u8'Скрывать текст, если открыт диалог')
+				imgui.Text(u8'Г‘ГЄГ°Г»ГўГ ГІГј ГІГҐГЄГ±ГІ, ГҐГ±Г«ГЁ Г®ГІГЄГ°Г»ГІ Г¤ГЁГ Г«Г®ГЈ')
 				imgui.SetCursorPos(imgui.ImVec2(34, 120))
-				imgui.Text(u8'Инверсировать текст')
+				imgui.Text(u8'Г€Г­ГўГҐГ°Г±ГЁГ°Г®ГўГ ГІГј ГІГҐГЄГ±ГІ')
 				
 				new_draw(165, 166)
 				imgui.SetCursorPos(imgui.ImVec2(639, 178))
-				if skin.Switch(u8'##Выделять цветом в форме', setting.members.form) then setting.members.form = not setting.members.form save('setting') end
+				if skin.Switch(u8'##Г‚Г»Г¤ГҐГ«ГїГІГј Г¶ГўГҐГІГ®Г¬ Гў ГґГ®Г°Г¬ГҐ', setting.members.form) then setting.members.form = not setting.members.form save('setting') end
 				imgui.SetCursorPos(imgui.ImVec2(639, 208))
-				if skin.Switch(u8'##Отображать id', setting.members.id) then setting.members.id = not setting.members.id save('setting') end
+				if skin.Switch(u8'##ГЋГІГ®ГЎГ°Г Г¦Г ГІГј id', setting.members.id) then setting.members.id = not setting.members.id save('setting') end
 				imgui.SetCursorPos(imgui.ImVec2(639, 238))
-				if skin.Switch(u8'##Отображать ранг', setting.members.rank) then setting.members.rank = not setting.members.rank save('setting') end
+				if skin.Switch(u8'##ГЋГІГ®ГЎГ°Г Г¦Г ГІГј Г°Г Г­ГЈ', setting.members.rank) then setting.members.rank = not setting.members.rank save('setting') end
 				imgui.SetCursorPos(imgui.ImVec2(639, 268))
-				if skin.Switch(u8'##Отображать afk', setting.members.afk) then setting.members.afk = not setting.members.afk save('setting') end
+				if skin.Switch(u8'##ГЋГІГ®ГЎГ°Г Г¦Г ГІГј afk', setting.members.afk) then setting.members.afk = not setting.members.afk save('setting') end
 				imgui.SetCursorPos(imgui.ImVec2(639, 298))
-				if skin.Switch(u8'##Отображать выговоры', setting.members.warn) then setting.members.warn = not setting.members.warn save('setting') end
+				if skin.Switch(u8'##ГЋГІГ®ГЎГ°Г Г¦Г ГІГј ГўГ»ГЈГ®ГўГ®Г°Г»', setting.members.warn) then setting.members.warn = not setting.members.warn save('setting') end
 				
 				imgui.SetCursorPos(imgui.ImVec2(34, 179))
-				imgui.Text(u8'Выделять цветом тех, кто в форме')
+				imgui.Text(u8'Г‚Г»Г¤ГҐГ«ГїГІГј Г¶ГўГҐГІГ®Г¬ ГІГҐГµ, ГЄГІГ® Гў ГґГ®Г°Г¬ГҐ')
 				imgui.SetCursorPos(imgui.ImVec2(34, 209))
-				imgui.Text(u8'Отображать id игроков')
+				imgui.Text(u8'ГЋГІГ®ГЎГ°Г Г¦Г ГІГј id ГЁГЈГ°Г®ГЄГ®Гў')
 				imgui.SetCursorPos(imgui.ImVec2(34, 239))
-				imgui.Text(u8'Отображать ранг игроков')
+				imgui.Text(u8'ГЋГІГ®ГЎГ°Г Г¦Г ГІГј Г°Г Г­ГЈ ГЁГЈГ°Г®ГЄГ®Гў')
 				imgui.SetCursorPos(imgui.ImVec2(34, 269))
-				imgui.Text(u8'Отображать время АФК')
+				imgui.Text(u8'ГЋГІГ®ГЎГ°Г Г¦Г ГІГј ГўГ°ГҐГ¬Гї ГЂГ”ГЉ')
 				imgui.SetCursorPos(imgui.ImVec2(34, 299))
-				imgui.Text(u8'Отображать количество выговоров')
+				imgui.Text(u8'ГЋГІГ®ГЎГ°Г Г¦Г ГІГј ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГўГ»ГЈГ®ГўГ®Г°Г®Гў')
 				
 				imgui.PopFont()
 				
 				new_draw(343, 138)
-				if skin.Slider('##Размер шрифта', 'setting.members.size', 1, 25, 205, {470, 357}, 'setting') then fontes = renderCreateFont('Trebuchet MS', setting.members.size, setting.members.flag) save('setting') end
-				if skin.Slider('##Флаг шрифта', 'setting.members.flag', 1, 25, 205, {470, 384}, 'setting') then fontes = renderCreateFont('Trebuchet MS', setting.members.size, setting.members.flag) save('setting') end
-				skin.Slider('##Расстояние между строками', 'setting.members.dist', 1, 30, 205, {470, 414}, 'setting')
-				skin.Slider('##Прозрачность текста', 'setting.members.vis', 1, 255, 205, {470, 444}, 'setting')
+				if skin.Slider('##ГђГ Г§Г¬ГҐГ° ГёГ°ГЁГґГІГ ', 'setting.members.size', 1, 25, 205, {470, 357}, 'setting') then fontes = renderCreateFont('Trebuchet MS', setting.members.size, setting.members.flag) save('setting') end
+				if skin.Slider('##Г”Г«Г ГЈ ГёГ°ГЁГґГІГ ', 'setting.members.flag', 1, 25, 205, {470, 384}, 'setting') then fontes = renderCreateFont('Trebuchet MS', setting.members.size, setting.members.flag) save('setting') end
+				skin.Slider('##ГђГ Г±Г±ГІГ®ГїГ­ГЁГҐ Г¬ГҐГ¦Г¤Гі Г±ГІГ°Г®ГЄГ Г¬ГЁ', 'setting.members.dist', 1, 30, 205, {470, 414}, 'setting')
+				skin.Slider('##ГЏГ°Г®Г§Г°Г Г·Г­Г®Г±ГІГј ГІГҐГЄГ±ГІГ ', 'setting.members.vis', 1, 255, 205, {470, 444}, 'setting')
 				imgui.PushFont(font[1])
 				imgui.SetCursorPos(imgui.ImVec2(34, 356))
-				imgui.Text(u8'Размер шрифта')
+				imgui.Text(u8'ГђГ Г§Г¬ГҐГ° ГёГ°ГЁГґГІГ ')
 				imgui.SetCursorPos(imgui.ImVec2(34, 386))
-				imgui.Text(u8'Флаг шрифта')
+				imgui.Text(u8'Г”Г«Г ГЈ ГёГ°ГЁГґГІГ ')
 				imgui.SetCursorPos(imgui.ImVec2(34, 416))
-				imgui.Text(u8'Расстояние между строками')
+				imgui.Text(u8'ГђГ Г±Г±ГІГ®ГїГ­ГЁГҐ Г¬ГҐГ¦Г¤Гі Г±ГІГ°Г®ГЄГ Г¬ГЁ')
 				imgui.SetCursorPos(imgui.ImVec2(34, 446))
-				imgui.Text(u8'Прозрачность текста')
+				imgui.Text(u8'ГЏГ°Г®Г§Г°Г Г·Г­Г®Г±ГІГј ГІГҐГЄГ±ГІГ ')
 				
 				new_draw(493, 48)
 				imgui.SetCursorPos(imgui.ImVec2(34, 506))
@@ -3264,15 +3264,15 @@ function window.main()
 				end
 				
 				imgui.SetCursorPos(imgui.ImVec2(61, 508))
-				imgui.Text(u8'Заголовок')
+				imgui.Text(u8'Г‡Г ГЈГ®Г«Г®ГўГ®ГЄ')
 				imgui.SetCursorPos(imgui.ImVec2(333, 508))
-				imgui.Text(u8'В форме')
+				imgui.Text(u8'Г‚ ГґГ®Г°Г¬ГҐ')
 				imgui.SetCursorPos(imgui.ImVec2(596, 508))
-				imgui.Text(u8'Без формы')
+				imgui.Text(u8'ГЃГҐГ§ ГґГ®Г°Г¬Г»')
 				
 				
 				new_draw(553, 63)
-				skin.Button(u8'Изменить положение текста', 34, 567, 633, nil, function() 
+				skin.Button(u8'Г€Г§Г¬ГҐГ­ГЁГІГј ГЇГ®Г«Г®Г¦ГҐГ­ГЁГҐ ГІГҐГЄГ±ГІГ ', 34, 567, 633, nil, function() 
 					changePosition()
 				end)
 				imgui.PopFont()
@@ -3280,20 +3280,20 @@ function window.main()
 			end
 			imgui.EndChild()
 		elseif select_basic[6] then
-			if menu_draw_up(u8'Уведомления', true) then select_basic[6] = false end
+			if menu_draw_up(u8'Г“ГўГҐГ¤Г®Г¬Г«ГҐГ­ГЁГї', true) then select_basic[6] = false end
 			imgui.SetCursorPos(imgui.ImVec2(163, 41))
-			imgui.BeginChild(u8'Уведомления', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'Г“ГўГҐГ¤Г®Г¬Г«ГҐГ­ГЁГї', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
 			
 			new_draw(17, 68)
 			imgui.SetCursorPos(imgui.ImVec2(639, 30))
-			if skin.Switch(u8'##Уведомлять о спавне авто', setting.notice.car) then setting.notice.car = not setting.notice.car save('setting') end
+			if skin.Switch(u8'##Г“ГўГҐГ¤Г®Г¬Г«ГїГІГј Г® Г±ГЇГ ГўГ­ГҐ Г ГўГІГ®', setting.notice.car) then setting.notice.car = not setting.notice.car save('setting') end
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 31))
-			imgui.Text(u8'Уведомлять звуковым сигналом о спавне авто')
+			imgui.Text(u8'Г“ГўГҐГ¤Г®Г¬Г«ГїГІГј Г§ГўГіГЄГ®ГўГ»Г¬ Г±ГЁГЈГ­Г Г«Г®Г¬ Г® Г±ГЇГ ГўГ­ГҐ Г ГўГІГ®')
 			imgui.PopFont()
 			imgui.SetCursorPos(imgui.ImVec2(34, 53))
 			imgui.PushFont(font[3])
-			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Когда лидер предупредит о спавне авто, Вы будете уведомлены звуковым сигналом.')
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'ГЉГ®ГЈГ¤Г  Г«ГЁГ¤ГҐГ° ГЇГ°ГҐГ¤ГіГЇГ°ГҐГ¤ГЁГІ Г® Г±ГЇГ ГўГ­ГҐ Г ГўГІГ®, Г‚Г» ГЎГіГ¤ГҐГІГҐ ГіГўГҐГ¤Г®Г¬Г«ГҐГ­Г» Г§ГўГіГЄГ®ГўГ»Г¬ Г±ГЁГЈГ­Г Г«Г®Г¬.')
 			imgui.PopFont()
 			
 			if not setting.notice.dep then
@@ -3302,39 +3302,39 @@ function window.main()
 				new_draw(97, 158)
 			end
 			imgui.SetCursorPos(imgui.ImVec2(639, 110))
-			if skin.Switch(u8'##Уведомлять о вызове организации в рации департамента', setting.notice.dep) then setting.notice.dep = not setting.notice.dep save('setting') end
+			if skin.Switch(u8'##Г“ГўГҐГ¤Г®Г¬Г«ГїГІГј Г® ГўГ»Г§Г®ГўГҐ Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ Гў Г°Г Г¶ГЁГЁ Г¤ГҐГЇГ Г°ГІГ Г¬ГҐГ­ГІГ ', setting.notice.dep) then setting.notice.dep = not setting.notice.dep save('setting') end
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 111))
-			imgui.Text(u8'Уведомлять о вызове организации в рации департамента')
+			imgui.Text(u8'Г“ГўГҐГ¤Г®Г¬Г«ГїГІГј Г® ГўГ»Г§Г®ГўГҐ Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ Гў Г°Г Г¶ГЁГЁ Г¤ГҐГЇГ Г°ГІГ Г¬ГҐГ­ГІГ ')
 			imgui.PopFont()
 			imgui.SetCursorPos(imgui.ImVec2(34, 133))
 			imgui.PushFont(font[3])
-			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Когда в рации департамента обратятся к Вашей организации, Вы будете уведомлены звуком.')
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'ГЉГ®ГЈГ¤Г  Гў Г°Г Г¶ГЁГЁ Г¤ГҐГЇГ Г°ГІГ Г¬ГҐГ­ГІГ  Г®ГЎГ°Г ГІГїГІГ±Гї ГЄ Г‚Г ГёГҐГ© Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ, Г‚Г» ГЎГіГ¤ГҐГІГҐ ГіГўГҐГ¤Г®Г¬Г«ГҐГ­Г» Г§ГўГіГЄГ®Г¬.')
 			imgui.PopFont()
 			if setting.notice.dep then
-				skin.InputText(175, 168, u8'Тег Вашей организации', 'setting.dep.my_tag', 128, 490, '^[a-zA-Z ]+$', 'setting')
-				skin.InputText(175, 210, u8'Дополнительный тег, например, на английском', 'setting.dep.my_tag_en', 128, 490, '^[a-zA-Z ]+$', 'setting')
+				skin.InputText(175, 168, u8'Г’ГҐГЈ Г‚Г ГёГҐГ© Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ', 'setting.dep.my_tag', 128, 490, '^[a-zA-Z ]+$', 'setting')
+				skin.InputText(175, 210, u8'Г„Г®ГЇГ®Г«Г­ГЁГІГҐГ«ГјГ­Г»Г© ГІГҐГЈ, Г­Г ГЇГ°ГЁГ¬ГҐГ°, Г­Г  Г Г­ГЈГ«ГЁГ©Г±ГЄГ®Г¬', 'setting.dep.my_tag_en', 128, 490, '^[a-zA-Z ]+$', 'setting')
 				
 				imgui.PushFont(font[1])
 				imgui.SetCursorPos(imgui.ImVec2(34, 169))
-				imgui.Text(u8'Тег организации')
+				imgui.Text(u8'Г’ГҐГЈ Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ')
 				imgui.SetCursorPos(imgui.ImVec2(34, 211))
-				imgui.Text(u8'Дополнительный тег')
+				imgui.Text(u8'Г„Г®ГЇГ®Г«Г­ГЁГІГҐГ«ГјГ­Г»Г© ГІГҐГЈ')
 				imgui.PopFont()
 			end
 			
 			imgui.EndChild()
 		elseif select_basic[7] then
-			if menu_draw_up(u8'Быстрый доступ', true) then select_basic[7] = false end
+			if menu_draw_up(u8'ГЃГ»Г±ГІГ°Г»Г© Г¤Г®Г±ГІГіГЇ', true) then select_basic[7] = false end
 			imgui.SetCursorPos(imgui.ImVec2(163, 41))
-			imgui.BeginChild(u8'Быстрый доступ', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'ГЃГ»Г±ГІГ°Г»Г© Г¤Г®Г±ГІГіГЇ', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
 			
 			new_draw(17, 47)
 			imgui.SetCursorPos(imgui.ImVec2(639, 30))
-			if skin.Switch(u8'##Быстрый доступ', setting.fast_acc.func) then setting.fast_acc.func = not setting.fast_acc.func save('setting') end
+			if skin.Switch(u8'##ГЃГ»Г±ГІГ°Г»Г© Г¤Г®Г±ГІГіГЇ', setting.fast_acc.func) then setting.fast_acc.func = not setting.fast_acc.func save('setting') end
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 31))
-			imgui.Text(u8'Быстрый доступ с игроками (ПКМ + R)')
+			imgui.Text(u8'ГЃГ»Г±ГІГ°Г»Г© Г¤Г®Г±ГІГіГЇ Г± ГЁГЈГ°Г®ГЄГ Г¬ГЁ (ГЏГЉГЊ + R)')
 			
 			imgui.PopFont()
 			if setting.fast_acc.func then
@@ -3344,7 +3344,7 @@ function window.main()
 					for i = 1, #setting.fast_acc.sl do
 						new_draw(76 + ((i - 1) * bk_size), bk_size - 12)
 						imgui.SetCursorPos(imgui.ImVec2(636, 134 + ((i - 1) * bk_size)))
-						if imgui.InvisibleButton('##Удалить действие'..i, imgui.ImVec2(40, 40)) then table_remove_acc = i end
+						if imgui.InvisibleButton('##Г“Г¤Г Г«ГЁГІГј Г¤ГҐГ©Г±ГІГўГЁГҐ'..i, imgui.ImVec2(40, 40)) then table_remove_acc = i end
 						imgui.PushFont(fa_font[1])
 						imgui.SetCursorPos(imgui.ImVec2(649, 148 + ((i - 1) * bk_size)))
 						imgui.Text(fa.ICON_TRASH)
@@ -3352,23 +3352,23 @@ function window.main()
 						
 						imgui.PushFont(font[1])
 						imgui.SetCursorPos(imgui.ImVec2(34, 92 + ((i - 1) * bk_size)))
-						imgui.Text(u8'Имя действия')
-						skin.InputText(134, 90 + ((i - 1) * bk_size), u8'Задайте имя действия##'..i, 'setting.fast_acc.sl.'..i..'.text', 80, 495, nil, 'setting')
+						imgui.Text(u8'Г€Г¬Гї Г¤ГҐГ©Г±ГІГўГЁГї')
+						skin.InputText(134, 90 + ((i - 1) * bk_size), u8'Г‡Г Г¤Г Г©ГІГҐ ГЁГ¬Гї Г¤ГҐГ©Г±ГІГўГЁГї##'..i, 'setting.fast_acc.sl.'..i..'.text', 80, 495, nil, 'setting')
 						imgui.SetCursorPos(imgui.ImVec2(34, 132 + ((i - 1) * bk_size)))
-						imgui.Text(u8'Команда')
-						skin.InputText(134, 130 + ((i - 1) * bk_size), u8'Введи исполняемую команду##'..i, 'setting.fast_acc.sl.'..i..'.cmd', 16, 495, '[%a%d+-]+', 'setting')
+						imgui.Text(u8'ГЉГ®Г¬Г Г­Г¤Г ')
+						skin.InputText(134, 130 + ((i - 1) * bk_size), u8'Г‚ГўГҐГ¤ГЁ ГЁГ±ГЇГ®Г«Г­ГїГҐГ¬ГіГѕ ГЄГ®Г¬Г Г­Г¤Гі##'..i, 'setting.fast_acc.sl.'..i..'.cmd', 16, 495, '[%a%d+-]+', 'setting')
 						
 						imgui.SetCursorPos(imgui.ImVec2(34,  175 + ((i - 1) * bk_size)))
-						imgui.Text(u8'Передавать в первый аргумент id игрока')
+						imgui.Text(u8'ГЏГҐГ°ГҐГ¤Г ГўГ ГІГј Гў ГЇГҐГ°ГўГ»Г© Г Г°ГЈГіГ¬ГҐГ­ГІ id ГЁГЈГ°Г®ГЄГ ')
 						imgui.SetCursorPos(imgui.ImVec2(34,  205 + ((i - 1) * bk_size)))
-						imgui.Text(u8'Отправлять команду без подтверждения')
+						imgui.Text(u8'ГЋГІГЇГ°Г ГўГ«ГїГІГј ГЄГ®Г¬Г Г­Г¤Гі ГЎГҐГ§ ГЇГ®Г¤ГІГўГҐГ°Г¦Г¤ГҐГ­ГЁГї')
 						imgui.SetCursorPos(imgui.ImVec2(600,  174 + ((i - 1) * bk_size)))
-						if skin.Switch(u8'##Передавать в первый аргумент id игрока'..i, setting.fast_acc.sl[i].pass_arg) then
+						if skin.Switch(u8'##ГЏГҐГ°ГҐГ¤Г ГўГ ГІГј Гў ГЇГҐГ°ГўГ»Г© Г Г°ГЈГіГ¬ГҐГ­ГІ id ГЁГЈГ°Г®ГЄГ '..i, setting.fast_acc.sl[i].pass_arg) then
 							setting.fast_acc.sl[i].pass_arg = not setting.fast_acc.sl[i].pass_arg
 							save('setting') 
 						end
 						imgui.SetCursorPos(imgui.ImVec2(600,  204 + ((i - 1) * bk_size)))
-						if skin.Switch(u8'##Отправлять команду без подтверждения'..i, setting.fast_acc.sl[i].send_chat) then
+						if skin.Switch(u8'##ГЋГІГЇГ°Г ГўГ«ГїГІГј ГЄГ®Г¬Г Г­Г¤Гі ГЎГҐГ§ ГЇГ®Г¤ГІГўГҐГ°Г¦Г¤ГҐГ­ГЁГї'..i, setting.fast_acc.sl[i].send_chat) then
 							setting.fast_acc.sl[i].send_chat = not setting.fast_acc.sl[i].send_chat
 							save('setting')
 						end
@@ -3378,10 +3378,10 @@ function window.main()
 				end
 				
 				imgui.PushFont(font[1])
-				skin.Button(u8'Добавить действие', 250, 88 + (#setting.fast_acc.sl * bk_size), 200, 35, function()
+				skin.Button(u8'Г„Г®ГЎГ ГўГЁГІГј Г¤ГҐГ©Г±ГІГўГЁГҐ', 250, 88 + (#setting.fast_acc.sl * bk_size), 200, 35, function()
 					if setting.cmd ~= 0 then
 						local new_cell_table = {
-							text = u8'Действие '..#setting.fast_acc.sl,
+							text = u8'Г„ГҐГ©Г±ГІГўГЁГҐ '..#setting.fast_acc.sl,
 							cmd = setting.cmd[1][1],
 							pass_arg = true,
 							send_chat = true
@@ -3395,13 +3395,13 @@ function window.main()
 			imgui.Dummy(imgui.ImVec2(0, 20))
 			imgui.EndChild()
 		elseif select_basic[8] then
-			if menu_draw_up(u8'Дополнительные функции', true) then select_basic[8] = false end
+			if menu_draw_up(u8'Г„Г®ГЇГ®Г«Г­ГЁГІГҐГ«ГјГ­Г»ГҐ ГґГіГ­ГЄГ¶ГЁГЁ', true) then select_basic[8] = false end
 			imgui.SetCursorPos(imgui.ImVec2(163, 41))
-			imgui.BeginChild(u8'Дополнительные функции', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'Г„Г®ГЇГ®Г«Г­ГЁГІГҐГ«ГјГ­Г»ГҐ ГґГіГ­ГЄГ¶ГЁГЁ', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
 			
 			new_draw(17, 68)
 			imgui.SetCursorPos(imgui.ImVec2(639, 30))
-			if skin.Switch(u8'##Скоростное открытие двери', setting.speed_door) then
+			if skin.Switch(u8'##Г‘ГЄГ®Г°Г®Г±ГІГ­Г®ГҐ Г®ГІГЄГ°Г»ГІГЁГҐ Г¤ГўГҐГ°ГЁ', setting.speed_door) then
 				setting.speed_door = not setting.speed_door save('setting')
 				if setting.speed_door then
 					rkeys.registerHotKey({72}, 1, true, function() on_hot_key({72}) end)
@@ -3411,21 +3411,21 @@ function window.main()
 			end
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 31))
-			imgui.Text(u8'Скоростное открытие дверей и шлагбаумов')
+			imgui.Text(u8'Г‘ГЄГ®Г°Г®Г±ГІГ­Г®ГҐ Г®ГІГЄГ°Г»ГІГЁГҐ Г¤ГўГҐГ°ГҐГ© ГЁ ГёГ«Г ГЈГЎГ ГіГ¬Г®Гў')
 			imgui.PopFont()
 			imgui.SetCursorPos(imgui.ImVec2(34, 53))
 			imgui.PushFont(font[3])
-			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Двери и шлагбаумы станут открываться моментально на клавишу H.')
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Г„ГўГҐГ°ГЁ ГЁ ГёГ«Г ГЈГЎГ ГіГ¬Г» Г±ГІГ Г­ГіГІ Г®ГІГЄГ°Г»ГўГ ГІГјГ±Гї Г¬Г®Г¬ГҐГ­ГІГ Г«ГјГ­Г® Г­Г  ГЄГ«Г ГўГЁГёГі H.')
 			imgui.PopFont()
 			
 			new_draw(97, 81)
 			imgui.SetCursorPos(imgui.ImVec2(639, 110))
-			if skin.Switch(u8'##Отключить рацию департамента', setting.dep_off) then
+			if skin.Switch(u8'##ГЋГІГЄГ«ГѕГ·ГЁГІГј Г°Г Г¶ГЁГѕ Г¤ГҐГЇГ Г°ГІГ Г¬ГҐГ­ГІГ ', setting.dep_off) then
 				setting.dep_off = not setting.dep_off 
 				save('setting')
 				if setting.dep_off then
 					sampRegisterChatCommand('d', function()
-						sampAddChatMessage(script_tag..'{FFFFFF}Вы отключили команду /d в настройках.', color_tag)
+						sampAddChatMessage(script_tag..'{FFFFFF}Г‚Г» Г®ГІГЄГ«ГѕГ·ГЁГ«ГЁ ГЄГ®Г¬Г Г­Г¤Гі /d Гў Г­Г Г±ГІГ°Г®Г©ГЄГ Гµ.', color_tag)
 					end)
 				else
 					sampUnregisterChatCommand('d')
@@ -3433,34 +3433,34 @@ function window.main()
 			end
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 111))
-			imgui.Text(u8'Отключить команду рации департамента (/d)')
+			imgui.Text(u8'ГЋГІГЄГ«ГѕГ·ГЁГІГј ГЄГ®Г¬Г Г­Г¤Гі Г°Г Г¶ГЁГЁ Г¤ГҐГЇГ Г°ГІГ Г¬ГҐГ­ГІГ  (/d)')
 			imgui.PopFont()
 			imgui.PushFont(font[3])
 			imgui.SetCursorPos(imgui.ImVec2(34, 133))
-			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Если Вы очень часто по случайности отправляете информацию в рацию департамента, то можете отклю-')
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Г…Г±Г«ГЁ Г‚Г» Г®Г·ГҐГ­Гј Г·Г Г±ГІГ® ГЇГ® Г±Г«ГіГ·Г Г©Г­Г®Г±ГІГЁ Г®ГІГЇГ°Г ГўГ«ГїГҐГІГҐ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Гў Г°Г Г¶ГЁГѕ Г¤ГҐГЇГ Г°ГІГ Г¬ГҐГ­ГІГ , ГІГ® Г¬Г®Г¦ГҐГІГҐ Г®ГІГЄГ«Гѕ-')
 			imgui.SetCursorPos(imgui.ImVec2(34, 147))
-			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'чить команду /d. Тогда эта команда просто перестанет работать.')
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Г·ГЁГІГј ГЄГ®Г¬Г Г­Г¤Гі /d. Г’Г®ГЈГ¤Г  ГЅГІГ  ГЄГ®Г¬Г Г­Г¤Г  ГЇГ°Г®Г±ГІГ® ГЇГҐГ°ГҐГ±ГІГ Г­ГҐГІ Г°Г ГЎГ®ГІГ ГІГј.')
 			imgui.PopFont()
 			
 			new_draw(190, 68)
 			imgui.SetCursorPos(imgui.ImVec2(639, 203))
-			if skin.Switch(u8'##Автопринятие документов', setting.show_dialog_auto) then
+			if skin.Switch(u8'##ГЂГўГІГ®ГЇГ°ГЁГ­ГїГІГЁГҐ Г¤Г®ГЄГіГ¬ГҐГ­ГІГ®Гў', setting.show_dialog_auto) then
 				setting.show_dialog_auto = not setting.show_dialog_auto save('setting')
 			end
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 204))
-			imgui.Text(u8'Автоматическое принятие документов')
+			imgui.Text(u8'ГЂГўГІГ®Г¬Г ГІГЁГ·ГҐГ±ГЄГ®ГҐ ГЇГ°ГЁГ­ГїГІГЁГҐ Г¤Г®ГЄГіГ¬ГҐГ­ГІГ®Гў')
 			imgui.PopFont()
 			imgui.SetCursorPos(imgui.ImVec2(34, 226))
 			imgui.PushFont(font[3])
-			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'/offer будет приниматься автоматически.')
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'/offer ГЎГіГ¤ГҐГІ ГЇГ°ГЁГ­ГЁГ¬Г ГІГјГ±Гї Г ГўГІГ®Г¬Г ГІГЁГ·ГҐГ±ГЄГЁ.')
 			imgui.PopFont()
 			
 			imgui.EndChild()
 		elseif select_basic[9] then
-			if menu_draw_up(u8'Настройки скрипта', true) then select_basic[9] = false end
+			if menu_draw_up(u8'ГЌГ Г±ГІГ°Г®Г©ГЄГЁ Г±ГЄГ°ГЁГЇГІГ ', true) then select_basic[9] = false end
 			imgui.SetCursorPos(imgui.ImVec2(163, 41))
-			imgui.BeginChild(u8'Настройки скрипта', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'ГЌГ Г±ГІГ°Г®Г©ГЄГЁ Г±ГЄГ°ГЁГЇГІГ ', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
 			
 			new_draw(17, 225)
 			if buf_setting.theme[1].v then
@@ -3505,7 +3505,7 @@ function window.main()
 			
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(98, 170))
-			imgui.Text(u8'Светлое оформление')
+			imgui.Text(u8'Г‘ГўГҐГІГ«Г®ГҐ Г®ГґГ®Г°Г¬Г«ГҐГ­ГЁГҐ')
 
 			if buf_setting.theme[1].v then
 				if skin.CheckboxOne(u8'##whitebox', 160, 200) then
@@ -3531,7 +3531,7 @@ function window.main()
 			end
 
 			imgui.SetCursorPos(imgui.ImVec2(470, 170))
-			imgui.Text(u8'Тёмное оформление')
+			imgui.Text(u8'Г’ВёГ¬Г­Г®ГҐ Г®ГґГ®Г°Г¬Г«ГҐГ­ГЁГҐ')
 			if buf_setting.theme[2].v then
 				if skin.CheckboxOne(u8'##blackebox', 530, 200) then
 					
@@ -3553,7 +3553,7 @@ function window.main()
 				local p = imgui.GetCursorScreenPos()
 				
 				imgui.SetCursorPos(imgui.ImVec2(343 + (num_acc * 43), 266))
-				if imgui.InvisibleButton(u8'##Выбрать акцент'..num_acc, imgui.ImVec2(22, 22)) then
+				if imgui.InvisibleButton(u8'##Г‚Г»ГЎГ°Г ГІГј Г ГЄГ¶ГҐГ­ГІ'..num_acc, imgui.ImVec2(22, 22)) then
 					setting.col_acc_non = color_acc
 					setting.col_acc_act = color_acc_act
 					setting.color_accent_num = num_acc
@@ -3571,7 +3571,7 @@ function window.main()
 			end
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 268))
-			imgui.Text(u8'Цветовой акцент')
+			imgui.Text(u8'Г–ГўГҐГІГ®ГўГ®Г© Г ГЄГ¶ГҐГ­ГІ')
 			accent_col(1, {0.26, 0.45, 0.94}, {0.26, 0.35, 0.94})
 			accent_col(2, {0.75, 0.35, 0.87}, {0.75, 0.25, 0.87})
 			accent_col(3, {1.00, 0.22, 0.37}, {1.00, 0.12, 0.37})
@@ -3583,39 +3583,39 @@ function window.main()
 			
 			new_draw(313, 47)
 			imgui.SetCursorPos(imgui.ImVec2(639, 326))
-			if skin.Switch(u8'##Отключить анимацию открытия и закрытия окна', setting.anim_main) then setting.anim_main = not setting.anim_main save('setting') end
+			if skin.Switch(u8'##ГЋГІГЄГ«ГѕГ·ГЁГІГј Г Г­ГЁГ¬Г Г¶ГЁГѕ Г®ГІГЄГ°Г»ГІГЁГї ГЁ Г§Г ГЄГ°Г»ГІГЁГї Г®ГЄГ­Г ', setting.anim_main) then setting.anim_main = not setting.anim_main save('setting') end
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 327))
-			imgui.Text(u8'Отключить анимацию движения окон')
+			imgui.Text(u8'ГЋГІГЄГ«ГѕГ·ГЁГІГј Г Г­ГЁГ¬Г Г¶ГЁГѕ Г¤ГўГЁГ¦ГҐГ­ГЁГї Г®ГЄГ®Г­')
 			imgui.PopFont()
 			
 			imgui.EndChild()
 		elseif select_basic[10] then
-			if menu_draw_up(u8'Обновления', true) then select_basic[10] = false end
+			if menu_draw_up(u8'ГЋГЎГ­Г®ГўГ«ГҐГ­ГЁГї', true) then select_basic[10] = false end
 			imgui.SetCursorPos(imgui.ImVec2(163, 41))
-			imgui.BeginChild(u8'Обновления', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'ГЋГЎГ­Г®ГўГ«ГҐГ­ГЁГї', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
 			new_draw(17, 68)
 			imgui.SetCursorPos(imgui.ImVec2(639, 30))
-			if skin.Switch(u8'##Автообновление', setting.auto_update) then
+			if skin.Switch(u8'##ГЂГўГІГ®Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ', setting.auto_update) then
 				setting.auto_update = not setting.auto_update 
 				save('setting')
 			end
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 31))
-			imgui.Text(u8'Автоматическое обновление')
+			imgui.Text(u8'ГЂГўГІГ®Г¬Г ГІГЁГ·ГҐГ±ГЄГ®ГҐ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ')
 			imgui.SetCursorPos(imgui.ImVec2(34, 53))
 			imgui.PushFont(font[3])
-			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Скрипт будет обновляться автоматически, без Вашего подтверждения.')
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Г‘ГЄГ°ГЁГЇГІ ГЎГіГ¤ГҐГІ Г®ГЎГ­Г®ГўГ«ГїГІГјГ±Гї Г ГўГІГ®Г¬Г ГІГЁГ·ГҐГ±ГЄГЁ, ГЎГҐГ§ Г‚Г ГёГҐГЈГ® ГЇГ®Г¤ГІГўГҐГ°Г¦Г¤ГҐГ­ГЁГї.')
 			imgui.PopFont()
 			if upd_status == 0 then
 				new_draw(97, 85)
 				imgui.SetCursorPos(imgui.ImVec2(34, 109))
-				imgui.Text(u8'Обновлений нет. Установлена актуальная версия скрипта.')
-				skin.Button(u8'Проверить наличие обновления', 32, 137, 636, 27, function() update_check() end)
+				imgui.Text(u8'ГЋГЎГ­Г®ГўГ«ГҐГ­ГЁГ© Г­ГҐГІ. Г“Г±ГІГ Г­Г®ГўГ«ГҐГ­Г  Г ГЄГІГіГ Г«ГјГ­Г Гї ГўГҐГ°Г±ГЁГї Г±ГЄГ°ГЁГЇГІГ .')
+				skin.Button(u8'ГЏГ°Г®ГўГҐГ°ГЁГІГј Г­Г Г«ГЁГ·ГЁГҐ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї', 32, 137, 636, 27, function() update_check() end)
 			elseif upd_status == 1 then
 				new_draw(97, 43)
 				imgui.SetCursorPos(imgui.ImVec2(34, 109))
-				imgui.Text(u8'Проверка наличия обновлений...')
+				imgui.Text(u8'ГЏГ°Г®ГўГҐГ°ГЄГ  Г­Г Г«ГЁГ·ГЁГї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГ©...')
 			elseif upd_status == 2 then
 				new_draw(97, 308)
 				imgui.SetCursorPos(imgui.ImVec2(30, 110))
@@ -3627,24 +3627,24 @@ function window.main()
 				imgui.PopFont()
 				
 				imgui.SetCursorPos(imgui.ImVec2(32, 185))
-				imgui.BeginChild(u8'Инфо обновления', imgui.ImVec2(636, 180), false)
+				imgui.BeginChild(u8'Г€Г­ГґГ® Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї', imgui.ImVec2(636, 180), false)
 				imgui.TextWrapped(u8(upd.text)..'\n\n'..u8(upd.info))
 				imgui.EndChild()
 				
 				if not update_box then
-					skin.Button(u8'Обновить', 32, 365, 636, 27, function() 
+					skin.Button(u8'ГЋГЎГ­Г®ГўГЁГІГј', 32, 365, 636, 27, function() 
 						update_download()
 						update_box = true
 					end)
 				else
-					skin.Button(u8'Обновление запрошено...##false_non', 32, 365, 636, 27, function() end)
+					skin.Button(u8'ГЋГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ Г§Г ГЇГ°Г®ГёГҐГ­Г®...##false_non', 32, 365, 636, 27, function() end)
 				end
 			end
 			imgui.PopFont()
 			imgui.EndChild()
 		end
 		
-	----> [2] Команды
+	----> [2] ГЉГ®Г¬Г Г­Г¤Г»
 	elseif select_main_menu[2] and select_cmd == 0 then
 		local function new_draw(pos_draw, par_dr_y)
 			imgui.SetCursorPos(imgui.ImVec2(0, pos_draw))
@@ -3655,12 +3655,12 @@ function window.main()
 				imgui.GetWindowDrawList():AddRectFilled(imgui.ImVec2(p.x, p.y), imgui.ImVec2(p.x + 666, p.y + par_dr_y), imgui.GetColorU32(imgui.ImVec4(col_end.fond_two[1] + 0.09, col_end.fond_two[2] + 0.09, col_end.fond_two[3] + 0.09, 1.00)), 8, 15)
 			end
 		end
-		menu_draw_up(u8'Команды')
+		menu_draw_up(u8'ГЉГ®Г¬Г Г­Г¤Г»')
 		
 		imgui.PushFont(fa_font[1])
 		imgui.SetCursorPos(imgui.ImVec2(826, 11))
 		imgui.PushStyleVar(imgui.StyleVar.FrameRounding, 4)
-		if imgui.Button(u8'##Добавить команду', imgui.ImVec2(22, 22)) then
+		if imgui.Button(u8'##Г„Г®ГЎГ ГўГЁГІГј ГЄГ®Г¬Г Г­Г¤Гі', imgui.ImVec2(22, 22)) then
 			local comp = 1
 			local num_el = {}
 			if #setting.cmd ~= 0 then
@@ -3696,7 +3696,7 @@ function window.main()
 				not_send_chat = false,
 				rank = '1'
 			}
-			local f = io.open(dirml..'/PoliceHelper/Отыгровки/cmd'..comp..'.json', 'w')
+			local f = io.open(dirml..'/PoliceHelper/ГЋГІГ»ГЈГ°Г®ГўГЄГЁ/cmd'..comp..'.json', 'w')
 			f:write(encodeJson(cmd))
 			f:flush()
 			f:close()
@@ -3733,11 +3733,11 @@ function window.main()
 		end
 		
 		imgui.SetCursorPos(imgui.ImVec2(180, 41))
-		imgui.BeginChild(u8'Команды', imgui.ImVec2(682, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
+		imgui.BeginChild(u8'ГЉГ®Г¬Г Г­Г¤Г»', imgui.ImVec2(682, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
 		if #setting.cmd == 0 then
 			imgui.PushFont(bold_font[4])
 			imgui.SetCursorPos(imgui.ImVec2(141, 187 + ((start_pos + new_pos) / 2)))
-			imgui.Text(u8'Нет ни одной команды')
+			imgui.Text(u8'ГЌГҐГІ Г­ГЁ Г®Г¤Г­Г®Г© ГЄГ®Г¬Г Г­Г¤Г»')
 			imgui.PopFont()
 		else
 			if sdvig == 0 then
@@ -3755,7 +3755,7 @@ function window.main()
 			local remove_cmd
 			for i = 1, #setting.cmd do
 				imgui.SetCursorPos(imgui.ImVec2(0 - sdvig, 17 + ( (i - 1) * 68)))
-				if imgui.InvisibleButton(u8'##Перейти в редактор отыгровки'..i, imgui.ImVec2(666, 68)) then 
+				if imgui.InvisibleButton(u8'##ГЏГҐГ°ГҐГ©ГІГЁ Гў Г°ГҐГ¤Г ГЄГІГ®Г° Г®ГІГ»ГЈГ°Г®ГўГЄГЁ'..i, imgui.ImVec2(666, 68)) then 
 					sdvig_bool = not sdvig_bool
 					if sdvig_num == 0 then
 						sdvig_num = i
@@ -3802,7 +3802,7 @@ function window.main()
 					imgui.SetCursorPos(imgui.ImVec2(17, 51 + ( (i - 1) * 68)))
 					imgui.PushStyleColor(imgui.Col.Text, imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.60))
 					if setting.cmd[i][2]:gsub('%s','') == '' then
-						imgui.Text(u8'Без описания')
+						imgui.Text(u8'ГЃГҐГ§ Г®ГЇГЁГ±Г Г­ГЁГї')
 					else
 						imgui.Text(setting.cmd[i][2])
 					end
@@ -3820,7 +3820,7 @@ function window.main()
 					imgui.SetCursorPos(imgui.ImVec2(17, 51 + ( (i - 1) * 68)))
 					imgui.PushStyleColor(imgui.Col.Text, imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.10))
 					if setting.cmd[i][2]:gsub('%s','') == '' then
-						imgui.Text(u8'Без описания')
+						imgui.Text(u8'ГЃГҐГ§ Г®ГЇГЁГ±Г Г­ГЁГї')
 					else
 						imgui.Text(setting.cmd[i][2])
 					end
@@ -3856,7 +3856,7 @@ function window.main()
 						end
 					end
 					imgui.SetCursorPos(imgui.ImVec2(606, 17 + ( (i - 1) * 68)))
-					if imgui.InvisibleButton(u8'##Удалить команду', imgui.ImVec2(60, 68)) then
+					if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј ГЄГ®Г¬Г Г­Г¤Гі', imgui.ImVec2(60, 68)) then
 						remove_cmd = i
 						sdvig_bool = false
 						sdvig_num = 0
@@ -3944,20 +3944,20 @@ function window.main()
 					imgui.SetCursorPos(imgui.ImVec2(17 - sdvig, 51 + ( (i - 1) * 68)))
 					imgui.PushStyleColor(imgui.Col.Text, imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.60))
 					if setting.cmd[i][2]:gsub('%s','') == '' then
-						imgui.Text(u8'Без описания')
+						imgui.Text(u8'ГЃГҐГ§ Г®ГЇГЁГ±Г Г­ГЁГї')
 					else
 						imgui.Text(setting.cmd[i][2])
 					end
 					imgui.PopStyleColor(1)
 					imgui.SetCursorPos(imgui.ImVec2(546, 17 + ( (i - 1) * 68)))
-					if imgui.InvisibleButton(u8'##Открыть команду', imgui.ImVec2(60, 68)) then
+					if imgui.InvisibleButton(u8'##ГЋГІГЄГ°Г»ГІГј ГЄГ®Г¬Г Г­Г¤Гі', imgui.ImVec2(60, 68)) then
 						sdvig_bool = false
 						sdvig_num = 0
 						sdvig = 0
 						
 						POS_Y = 380
-						if doesFileExist(dirml..'/PoliceHelper/Отыгровки/'..setting.cmd[i][1]..'.json') then
-							local f = io.open(dirml..'/PoliceHelper/Отыгровки/'..setting.cmd[i][1]..'.json')
+						if doesFileExist(dirml..'/PoliceHelper/ГЋГІГ»ГЈГ°Г®ГўГЄГЁ/'..setting.cmd[i][1]..'.json') then
+							local f = io.open(dirml..'/PoliceHelper/ГЋГІГ»ГЈГ°Г®ГўГЄГЁ/'..setting.cmd[i][1]..'.json')
 							local setm = f:read('*a')
 							f:close()
 							local res, set = pcall(decodeJson, setm)
@@ -3986,8 +3986,8 @@ function window.main()
 				end
 			end
 			if remove_cmd ~= nil then
-				if doesFileExist(dirml..'/PoliceHelper/Отыгровки/'..setting.cmd[remove_cmd][1]..'.json') then
-					os.remove(dirml..'/PoliceHelper/Отыгровки/'..setting.cmd[remove_cmd][1]..'.json')
+				if doesFileExist(dirml..'/PoliceHelper/ГЋГІГ»ГЈГ°Г®ГўГЄГЁ/'..setting.cmd[remove_cmd][1]..'.json') then
+					os.remove(dirml..'/PoliceHelper/ГЋГІГ»ГЈГ°Г®ГўГЄГЁ/'..setting.cmd[remove_cmd][1]..'.json')
 				end
 				sampUnregisterChatCommand(setting.cmd[remove_cmd][1])
 				if #setting.cmd[remove_cmd][3] ~= 0 then
@@ -4032,15 +4032,15 @@ function window.main()
 			end
 		end
 		
-		if menu_draw_up(u8'Редактирование команды', true) then
-			imgui.OpenPopup(u8'Дальнейшие действия с командой')
+		if menu_draw_up(u8'ГђГҐГ¤Г ГЄГІГЁГ°Г®ГўГ Г­ГЁГҐ ГЄГ®Г¬Г Г­Г¤Г»', true) then
+			imgui.OpenPopup(u8'Г„Г Г«ГјГ­ГҐГ©ГёГЁГҐ Г¤ГҐГ©Г±ГІГўГЁГї Г± ГЄГ®Г¬Г Г­Г¤Г®Г©')
 			command_err_nm = false
 			command_err_cmd = false
 		end
-		if imgui.BeginPopupModal(u8'Дальнейшие действия с командой', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
-			imgui.BeginChild(u8'Действие с командой', imgui.ImVec2(400, 200), false, imgui.WindowFlags.NoScrollbar)
+		if imgui.BeginPopupModal(u8'Г„Г Г«ГјГ­ГҐГ©ГёГЁГҐ Г¤ГҐГ©Г±ГІГўГЁГї Г± ГЄГ®Г¬Г Г­Г¤Г®Г©', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
+			imgui.BeginChild(u8'Г„ГҐГ©Г±ГІГўГЁГҐ Г± ГЄГ®Г¬Г Г­Г¤Г®Г©', imgui.ImVec2(400, 200), false, imgui.WindowFlags.NoScrollbar)
 			imgui.SetCursorPos(imgui.ImVec2(0, 0))
-			if imgui.InvisibleButton(u8'##Закрыть окошко команд', imgui.ImVec2(20, 20)) then
+			if imgui.InvisibleButton(u8'##Г‡Г ГЄГ°Г»ГІГј Г®ГЄГ®ГёГЄГ® ГЄГ®Г¬Г Г­Г¤', imgui.ImVec2(20, 20)) then
 				imgui.CloseCurrentPopup()
 			end
 			imgui.SetCursorPos(imgui.ImVec2(10, 10))
@@ -4058,27 +4058,27 @@ function window.main()
 			imgui.PushFont(bold_font[4])
 			if not command_err_nm and not command_err_cmd then
 				imgui.SetCursorPos(imgui.ImVec2(35, 55))
-				imgui.Text(u8'Выберите действие')
+				imgui.Text(u8'Г‚Г»ГЎГҐГ°ГЁГІГҐ Г¤ГҐГ©Г±ГІГўГЁГҐ')
 			elseif not command_err_cmd then
 				imgui.SetCursorPos(imgui.ImVec2(127, 39))
-				imgui.TextColored(imgui.ImVec4(1.00, 0.33, 0.27, 1.00), u8'ОШИБКА')
+				imgui.TextColored(imgui.ImVec4(1.00, 0.33, 0.27, 1.00), u8'ГЋГГ€ГЃГЉГЂ')
 				
 				imgui.PushFont(font[4])
 				imgui.SetCursorPos(imgui.ImVec2(63, 95))
-				imgui.Text(u8'Такая команда уже существует!')
+				imgui.Text(u8'Г’Г ГЄГ Гї ГЄГ®Г¬Г Г­Г¤Г  ГіГ¦ГҐ Г±ГіГ№ГҐГ±ГІГўГіГҐГІ!')
 				imgui.PopFont()
 			elseif command_err_cmd then
 				imgui.SetCursorPos(imgui.ImVec2(127, 39))
-				imgui.TextColored(imgui.ImVec4(1.00, 0.33, 0.27, 1.00), u8'ОШИБКА')
+				imgui.TextColored(imgui.ImVec4(1.00, 0.33, 0.27, 1.00), u8'ГЋГГ€ГЃГЉГЂ')
 				
 				imgui.PushFont(font[4])
 				imgui.SetCursorPos(imgui.ImVec2(126, 95))
-				imgui.Text(u8'Задайте команду!')
+				imgui.Text(u8'Г‡Г Г¤Г Г©ГІГҐ ГЄГ®Г¬Г Г­Г¤Гі!')
 				imgui.PopFont()
 			end
 			imgui.PopFont()
 			imgui.PushFont(font[1])
-			skin.Button(u8'Сохранить', 10, 167, 123, 25, function()
+			skin.Button(u8'Г‘Г®ГµГ°Г Г­ГЁГІГј', 10, 167, 123, 25, function()
 				if cmd.nm == 'sh' or cmd.nm == 'ts' then command_err_nm = true end
 				for i = 1, #setting.cmd do
 					if setting.cmd[i][1] == cmd.nm and i ~= select_cmd then
@@ -4090,10 +4090,10 @@ function window.main()
 					command_err_cmd = true
 				end
 				if not command_err_nm and not command_err_cmd then
-					if doesFileExist(dirml..'/PoliceHelper/Отыгровки/'..setting.cmd[select_cmd][1]..'.json') then
-						os.remove(dirml..'/PoliceHelper/Отыгровки/'..setting.cmd[select_cmd][1]..'.json')
+					if doesFileExist(dirml..'/PoliceHelper/ГЋГІГ»ГЈГ°Г®ГўГЄГЁ/'..setting.cmd[select_cmd][1]..'.json') then
+						os.remove(dirml..'/PoliceHelper/ГЋГІГ»ГЈГ°Г®ГўГЄГЁ/'..setting.cmd[select_cmd][1]..'.json')
 					end
-					local f = io.open(dirml..'/PoliceHelper/Отыгровки/'..cmd.nm..'.json', 'w')
+					local f = io.open(dirml..'/PoliceHelper/ГЋГІГ»ГЈГ°Г®ГўГЄГЁ/'..cmd.nm..'.json', 'w')
 					f:write(encodeJson(cmd))
 					f:flush()
 					f:close()
@@ -4113,13 +4113,13 @@ function window.main()
 					imgui.CloseCurrentPopup()
 				end
 			end)
-			skin.Button(u8'Не сохранять', 138, 167, 124, 25, function()
+			skin.Button(u8'ГЌГҐ Г±Г®ГµГ°Г Г­ГїГІГј', 138, 167, 124, 25, function()
 				select_cmd = 0
 				imgui.CloseCurrentPopup()
 			end)
-			skin.Button(u8'Удалить', 267, 167, 123, 25, function()
-				if doesFileExist(dirml..'/PoliceHelper/Отыгровки/'..setting.cmd[select_cmd][1]..'.json') then
-					os.remove(dirml..'/PoliceHelper/Отыгровки/'..setting.cmd[select_cmd][1]..'.json')
+			skin.Button(u8'Г“Г¤Г Г«ГЁГІГј', 267, 167, 123, 25, function()
+				if doesFileExist(dirml..'/PoliceHelper/ГЋГІГ»ГЈГ°Г®ГўГЄГЁ/'..setting.cmd[select_cmd][1]..'.json') then
+					os.remove(dirml..'/PoliceHelper/ГЋГІГ»ГЈГ°Г®ГўГЄГЁ/'..setting.cmd[select_cmd][1]..'.json')
 				end
 				sampUnregisterChatCommand(setting.cmd[select_cmd][1])
 				if #setting.cmd[select_cmd][3] ~= 0 then
@@ -4142,40 +4142,40 @@ function window.main()
 				local pos_icon = {4, 0}
 				local text_add_func = ''
 				if icon_circ == fa.ICON_SHARE then
-					text_add_func = u8'Отправить в чат'
+					text_add_func = u8'ГЋГІГЇГ°Г ГўГЁГІГј Гў Г·Г ГІ'
 				elseif icon_circ == fa.ICON_HOURGLASS then
 					pos_icon = {6, -1}
-					text_add_func = u8'Ожидание нажатия клавиши Enter'
+					text_add_func = u8'ГЋГ¦ГЁГ¤Г Г­ГЁГҐ Г­Г Г¦Г ГІГЁГї ГЄГ«Г ГўГЁГёГЁ Enter'
 				elseif icon_circ == fa.ICON_LIST then
 					pos_icon = {4, -1}
-					text_add_func = u8'Вывести информацию в чат (для себя)'
+					text_add_func = u8'Г‚Г»ГўГҐГ±ГІГЁ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Гў Г·Г ГІ (Г¤Г«Гї Г±ГҐГЎГї)'
 				elseif icon_circ == fa.ICON_PENCIL then
 					pos_icon = {6, -1}
-					text_add_func = u8'Изменить значение переменной'
+					text_add_func = u8'Г€Г§Г¬ГҐГ­ГЁГІГј Г§Г­Г Г·ГҐГ­ГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г©'
 				elseif icon_circ == fa.ICON_ALIGN_LEFT then
-					text_add_func = u8'Комментарий'
+					text_add_func = u8'ГЉГ®Г¬Г¬ГҐГ­ГІГ Г°ГЁГ©'
 				elseif icon_circ == fa.ICON_LIST_OL then
 					pos_icon = {4, -1}
-					text_add_func = u8'Диалог выбора дальнейшего действия'
+					text_add_func = u8'Г„ГЁГ Г«Г®ГЈ ГўГ»ГЎГ®Г°Г  Г¤Г Г«ГјГ­ГҐГ©ГёГҐГЈГ® Г¤ГҐГ©Г±ГІГўГЁГї'
 				elseif icon_circ == fa.ICON_SIGN_OUT then
 					pos_icon = {5, -1}
-					text_add_func = u8'Если выбран вариант диалога...'
+					text_add_func = u8'Г…Г±Г«ГЁ ГўГ»ГЎГ°Г Г­ ГўГ Г°ГЁГ Г­ГІ Г¤ГЁГ Г«Г®ГЈГ ...'
 				elseif icon_circ == fa.ICON_STOP..'2' then
 					pos_icon = {6, -1}
-					text_add_func = u8'Завершить диалог'
+					text_add_func = u8'Г‡Г ГўГҐГ°ГёГЁГІГј Г¤ГЁГ Г«Г®ГЈ'
 				elseif icon_circ == fa.ICON_SUPERSCRIPT then
 					pos_icon = {6, -1}
-					text_add_func = u8'Если переменная равна...'
+					text_add_func = u8'Г…Г±Г«ГЁ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї Г°Г ГўГ­Г ...'
 				elseif icon_circ == fa.ICON_STOP..'1' then
 					pos_icon = {6, -1}
-					text_add_func = u8'Завершить условие переменной'
+					text_add_func = u8'Г‡Г ГўГҐГ°ГёГЁГІГј ГіГ±Г«Г®ГўГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г©'
 				end
 				
 				imgui.SetCursorPos(imgui.ImVec2(100, POS_Y_CMD_F + y_pos_plus))
 				local p = imgui.GetCursorScreenPos()
 				imgui.GetWindowDrawList():AddRect(imgui.ImVec2(p.x, p.y), imgui.ImVec2(p.x + 500, p.y + 34), imgui.GetColorU32(imgui.ImVec4(setting.col_acc_non[1], setting.col_acc_non[2], setting.col_acc_non[3], 1.00)), 8, 15)
 				imgui.SetCursorPos(imgui.ImVec2(100, POS_Y_CMD_F + y_pos_plus))
-				if imgui.InvisibleButton(u8'##Добавить функцию в редакторе'..POS_Y_CMD_F + y_pos_plus..icon_circ, imgui.ImVec2(500, 34)) then return_bool = true end
+				if imgui.InvisibleButton(u8'##Г„Г®ГЎГ ГўГЁГІГј ГґГіГ­ГЄГ¶ГЁГѕ Гў Г°ГҐГ¤Г ГЄГІГ®Г°ГҐ'..POS_Y_CMD_F + y_pos_plus..icon_circ, imgui.ImVec2(500, 34)) then return_bool = true end
 				if imgui.IsItemActive() then
 					imgui.SetCursorPos(imgui.ImVec2(101, POS_Y_CMD_F + y_pos_plus + 1))
 					local p = imgui.GetCursorScreenPos()
@@ -4218,7 +4218,7 @@ function window.main()
 				end
 			end
 			imgui.SetCursorPos(imgui.ImVec2(162, 429 - (pos_Y_cmd - 35) + start_pos + new_pos))
-			if imgui.InvisibleButton(u8'##Посмотреть варианты сл действия', imgui.ImVec2(702, 35)) then
+			if imgui.InvisibleButton(u8'##ГЏГ®Г±Г¬Г®ГІГ°ГҐГІГј ГўГ Г°ГЁГ Г­ГІГ» Г±Г« Г¤ГҐГ©Г±ГІГўГЁГї', imgui.ImVec2(702, 35)) then
 				active_child_cmd = not active_child_cmd
 			end
 			if imgui.IsItemActive() then
@@ -4243,7 +4243,7 @@ function window.main()
 			skin.DrawFond({162, 428 - (pos_Y_cmd - 35) + start_pos + new_pos}, {-0.5, 0}, {702, 0.6}, imgui.ImVec4(0.50, 0.50, 0.50, 0.30), 15, 2)
 			imgui.PushFont(font[4])
 			imgui.SetCursorPos(imgui.ImVec2(360, 434 - (pos_Y_cmd - 35) + start_pos + new_pos))
-			imgui.TextColored(imgui.ImVec4(0.50, 0.50, 0.50, 1.00), u8'Варианты следующего действия')
+			imgui.TextColored(imgui.ImVec4(0.50, 0.50, 0.50, 1.00), u8'Г‚Г Г°ГЁГ Г­ГІГ» Г±Г«ГҐГ¤ГіГѕГ№ГҐГЈГ® Г¤ГҐГ©Г±ГІГўГЁГї')
 			imgui.PopFont()
 			imgui.PushFont(fa_font[5])
 			imgui.SetCursorPos(imgui.ImVec2(650, 433 - (pos_Y_cmd - 35) + start_pos + new_pos))
@@ -4257,7 +4257,7 @@ function window.main()
 			if active_child_cmd then
 				skin.DrawFond({162, 462 - (pos_Y_cmd - 35) + start_pos + new_pos}, {-0.5, 0}, {702, 1.6}, imgui.ImVec4(0.50, 0.50, 0.50, 0.30), 15, 2)
 				imgui.SetCursorPos(imgui.ImVec2(163, 464 - (pos_Y_cmd - 35) + start_pos + new_pos))
-				imgui.BeginChild(u8'Функции действия', imgui.ImVec2(700, pos_Y_cmd - 35), false)
+				imgui.BeginChild(u8'Г”ГіГ­ГЄГ¶ГЁГЁ Г¤ГҐГ©Г±ГІГўГЁГї', imgui.ImVec2(700, pos_Y_cmd - 35), false)
 				local num_a = #cmd.act + 1
 				if cmd.add_f[1] and #cmd.act ~= 0 then
 					num_a = cmd.add_f[2] + 1
@@ -4289,9 +4289,9 @@ function window.main()
 				end
 				if dr_circuit_mini(170, fa.ICON_LIST_OL, imgui.ImVec4(0.88, 0.18, 0.20 ,1.00)) then
 					if not cmd.add_f[1] or #cmd.act == 0 then
-						cmd.act[num_a] = {3, cmd.num_d, 2, {u8'Действие 1', u8'Действие 2'}}
+						cmd.act[num_a] = {3, cmd.num_d, 2, {u8'Г„ГҐГ©Г±ГІГўГЁГҐ 1', u8'Г„ГҐГ©Г±ГІГўГЁГҐ 2'}}
 					elseif cmd.add_f[1] and #cmd.act ~= 0 then
-						table.insert(cmd.act, num_a, {3, cmd.num_d, 2, {u8'Действие 1', u8'Действие 2'}})
+						table.insert(cmd.act, num_a, {3, cmd.num_d, 2, {u8'Г„ГҐГ©Г±ГІГўГЁГҐ 1', u8'Г„ГҐГ©Г±ГІГўГЁГҐ 2'}})
 						cmd.add_f[2] = cmd.add_f[2] + 1
 					end
 					cmd.num_d = cmd.num_d + 1
@@ -4393,33 +4393,33 @@ function window.main()
 	
 			imgui.PushStyleVar(imgui.StyleVar.Alpha, anim_menu_cmd[3])
 			imgui.SetCursorPos(imgui.ImVec2(163, anim_menu_cmd[1]))
-			imgui.BeginChild(u8'Редактирование команды основа', imgui.ImVec2(700, 422 - pos_Y_cmd + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'ГђГҐГ¤Г ГЄГІГЁГ°Г®ГўГ Г­ГЁГҐ ГЄГ®Г¬Г Г­Г¤Г» Г®Г±Г­Г®ГўГ ', imgui.ImVec2(700, 422 - pos_Y_cmd + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
 			
 			imgui.PushFont(font[1])
 			new_draw(17, 97)
-			skin.InputText(114, 31, u8'Установите команду', 'cmd.nm', 15, 553, '[%a%d+-]+')
+			skin.InputText(114, 31, u8'Г“Г±ГІГ Г­Г®ГўГЁГІГҐ ГЄГ®Г¬Г Г­Г¤Гі', 'cmd.nm', 15, 553, '[%a%d+-]+')
 			if cmd.nm:find('%A+') then
 				local characters_to_remove = {
-					'Й', 'Ц', 'У', 'К', 'Е', 'Н', 'Г', 'Ш', 'Щ', 'З', 'Х', 'Ъ', 'Ф', 'Ы', 'В', 'А',
-					'П', 'Р', 'О', 'Л', 'Д', 'Ж', 'Э', 'Я', 'Ч', 'С', 'М', 'И', 'Т', 'Ь', 'Б', 'Ю',
-					'Ё', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', 'ф', 'ы', 'в',
-					'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю'
+					'Г‰', 'Г–', 'Г“', 'ГЉ', 'Г…', 'ГЌ', 'Гѓ', 'Г', 'Г™', 'Г‡', 'Г•', 'Гљ', 'Г”', 'Г›', 'Г‚', 'ГЂ',
+					'ГЏ', 'Гђ', 'ГЋ', 'Г‹', 'Г„', 'Г†', 'Гќ', 'Гџ', 'Г—', 'Г‘', 'ГЊ', 'Г€', 'Г’', 'Гњ', 'ГЃ', 'Гћ',
+					'ВЁ', 'Г©', 'Г¶', 'Гі', 'ГЄ', 'ГҐ', 'Г­', 'ГЈ', 'Гё', 'Г№', 'Г§', 'Гµ', 'Гє', 'Гґ', 'Г»', 'Гў',
+					'Г ', 'ГЇ', 'Г°', 'Г®', 'Г«', 'Г¤', 'Г¦', 'ГЅ', 'Гї', 'Г·', 'Г±', 'Г¬', 'ГЁ', 'ГІ', 'Гј', 'ГЎ', 'Гѕ'
 				}
 				local remove_pattern = '[' .. table.concat(characters_to_remove, '') .. ']'
 				cmd.nm = string.gsub(cmd.nm, remove_pattern, '')
 			end
 			imgui.SetCursorPos(imgui.ImVec2(35, 34))
-			imgui.Text(u8'Команда   /')
-			skin.Button(u8'Назначить, изменить или очистить клавишу активации', 34, 68, 633, nil, function()
-				imgui.OpenPopup(u8'Клавиша активации команды')
+			imgui.Text(u8'ГЉГ®Г¬Г Г­Г¤Г    /')
+			skin.Button(u8'ГЌГ Г§Г­Г Г·ГЁГІГј, ГЁГ§Г¬ГҐГ­ГЁГІГј ГЁГ«ГЁ Г®Г·ГЁГ±ГІГЁГІГј ГЄГ«Г ГўГЁГёГі Г ГЄГІГЁГўГ Г¶ГЁГЁ', 34, 68, 633, nil, function()
+				imgui.OpenPopup(u8'ГЉГ«Г ГўГЁГёГ  Г ГЄГІГЁГўГ Г¶ГЁГЁ ГЄГ®Г¬Г Г­Г¤Г»')
 				lockPlayerControl(true)
 				current_key = {'', {}}
 				edit_key = true
 			end)
 			
-			if imgui.BeginPopupModal(u8'Клавиша активации команды', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
+			if imgui.BeginPopupModal(u8'ГЉГ«Г ГўГЁГёГ  Г ГЄГІГЁГўГ Г¶ГЁГЁ ГЄГ®Г¬Г Г­Г¤Г»', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
 				imgui.SetCursorPos(imgui.ImVec2(10, 10))
-				if imgui.InvisibleButton(u8'##Закрыть окошко клавиш активации', imgui.ImVec2(20, 20)) then
+				if imgui.InvisibleButton(u8'##Г‡Г ГЄГ°Г»ГІГј Г®ГЄГ®ГёГЄГ® ГЄГ«Г ГўГЁГё Г ГЄГІГЁГўГ Г¶ГЁГЁ', imgui.ImVec2(20, 20)) then
 					lockPlayerControl(false)
 					edit_key = false
 					imgui.CloseCurrentPopup()
@@ -4436,17 +4436,17 @@ function window.main()
 					imgui.GetWindowDrawList():AddCircleFilled(imgui.ImVec2(p.x - 0.4, p.y - 0.2), 7, imgui.GetColorU32(imgui.ImVec4(0.98, 0.42, 0.38 ,1.00)), 60)
 				end
 				imgui.SetCursorPos(imgui.ImVec2(10, 40))
-				imgui.BeginChild(u8'Назначение клавиши активации', imgui.ImVec2(383, 217), false, imgui.WindowFlags.NoScrollbar)
+				imgui.BeginChild(u8'ГЌГ Г§Г­Г Г·ГҐГ­ГЁГҐ ГЄГ«Г ГўГЁГёГЁ Г ГЄГІГЁГўГ Г¶ГЁГЁ', imgui.ImVec2(383, 217), false, imgui.WindowFlags.NoScrollbar)
 				
 				imgui.PushFont(font[4])
 				imgui.SetCursorPos(imgui.ImVec2(10, 0))
-				imgui.Text(u8'Нажмите сочетание клавиш для установки')
+				imgui.Text(u8'ГЌГ Г¦Г¬ГЁГІГҐ Г±Г®Г·ГҐГІГ Г­ГЁГҐ ГЄГ«Г ГўГЁГё Г¤Г«Гї ГіГ±ГІГ Г­Г®ГўГЄГЁ')
 				imgui.PushFont(font[1])
 				imgui.SetCursorPos(imgui.ImVec2(10, 50))
-				imgui.Text(u8'Текущее сочетание:')
+				imgui.Text(u8'Г’ГҐГЄГіГ№ГҐГҐ Г±Г®Г·ГҐГІГ Г­ГЁГҐ:')
 				imgui.SetCursorPos(imgui.ImVec2(145, 50))
 				if #cmd.key == 0 then
-					imgui.TextColored(imgui.ImVec4(0.90, 0.22, 0.22 ,1.00), u8'Отсутствует')
+					imgui.TextColored(imgui.ImVec4(0.90, 0.22, 0.22 ,1.00), u8'ГЋГІГ±ГіГІГ±ГІГўГіГҐГІ')
 				else
 					local all_keys = {}
 					for i = 1, #cmd.key do
@@ -4455,12 +4455,12 @@ function window.main()
 					imgui.TextColored(imgui.ImVec4(0.90, 0.63, 0.22 ,1.00), table.concat(all_keys, ' + '))
 				end
 				imgui.SetCursorPos(imgui.ImVec2(10, 80))
-				imgui.Text(u8'Использовать ПКМ в комбинации с клавишами')
+				imgui.Text(u8'Г€Г±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј ГЏГЉГЊ Гў ГЄГ®Г¬ГЎГЁГ­Г Г¶ГЁГЁ Г± ГЄГ«Г ГўГЁГёГ Г¬ГЁ')
 				imgui.PopFont()
 				imgui.PopFont()
 				skin.DrawFond({0, 36}, {0, 0}, {381, 1}, imgui.ImVec4(0.70, 0.70, 0.70, 1.00), 15, 15)
 				imgui.SetCursorPos(imgui.ImVec2(342, 79))
-				if skin.Switch(u8'##ПКМ в сочетании', right_mb) then right_mb = not right_mb end
+				if skin.Switch(u8'##ГЏГЉГЊ Гў Г±Г®Г·ГҐГІГ Г­ГЁГЁ', right_mb) then right_mb = not right_mb end
 				
 				if imgui.IsMouseClicked(0) then
 					lua_thread.create(function()
@@ -4501,7 +4501,7 @@ function window.main()
 				if current_key[1] == nil then
 					current_key[1] = 'nil'
 				end
-				if current_key[1] ~= u8'Такая комбинация уже существует' then
+				if current_key[1] ~= u8'Г’Г ГЄГ Гї ГЄГ®Г¬ГЎГЁГ­Г Г¶ГЁГї ГіГ¦ГҐ Г±ГіГ№ГҐГ±ГІГўГіГҐГІ' then
 					imgui.PushFont(bold_font[4])
 					local calc = imgui.CalcTextSize(current_key[1])
 					imgui.SetCursorPos(imgui.ImVec2(192 - calc.x / 2, 116))
@@ -4522,7 +4522,7 @@ function window.main()
 				end
 				
 				
-				skin.Button(u8'Применить', 0, 180, 185, nil, function()
+				skin.Button(u8'ГЏГ°ГЁГ¬ГҐГ­ГЁГІГј', 0, 180, 185, nil, function()
 					local is_hot_key_done = rkeys.isHotKeyDefined(current_key[2])
 					
 					if #setting.cmd[select_cmd][3] ~= 0 and #current_key[2] ~= 0 then
@@ -4536,7 +4536,7 @@ function window.main()
 						end
 						if comp_key == #setting.cmd[select_cmd][3] then is_hot_key_done = false end
 					end
-					if is_hot_key_done then current_key = {u8'Такая комбинация уже существует', {}} end
+					if is_hot_key_done then current_key = {u8'Г’Г ГЄГ Гї ГЄГ®Г¬ГЎГЁГ­Г Г¶ГЁГї ГіГ¦ГҐ Г±ГіГ№ГҐГ±ГІГўГіГҐГІ', {}} end
 					if not is_hot_key_done then
 						if right_mb then table.insert(current_key[2], 1, 2) end
 						cmd.key = current_key[2]
@@ -4545,7 +4545,7 @@ function window.main()
 						imgui.CloseCurrentPopup()
 					end
 				end)
-				skin.Button(u8'Очистить', 195, 180, 186, nil, function()
+				skin.Button(u8'ГЋГ·ГЁГ±ГІГЁГІГј', 195, 180, 186, nil, function()
 					current_key = {'', {}}
 				end)
 				
@@ -4554,22 +4554,22 @@ function window.main()
 			end
 			
 			new_draw(126, 50)
-			skin.InputText(114, 140, u8'Введите описание', 'cmd.desc', 120, 553)
+			skin.InputText(114, 140, u8'Г‚ГўГҐГ¤ГЁГІГҐ Г®ГЇГЁГ±Г Г­ГЁГҐ', 'cmd.desc', 120, 553)
 			imgui.SetCursorPos(imgui.ImVec2(35, 143))
-			imgui.Text(u8'Описание')
+			imgui.Text(u8'ГЋГЇГЁГ±Г Г­ГЁГҐ')
 			
 			new_draw(188, 50)
 			imgui.SetCursorPos(imgui.ImVec2(35, 205))
-			imgui.Text(u8'Доступ к команде')
-			if skin.Slider('##Доступ к команде', 'cmd.rank', 1, 10, 205, {470, 202}, '') then
+			imgui.Text(u8'Г„Г®Г±ГІГіГЇ ГЄ ГЄГ®Г¬Г Г­Г¤ГҐ')
+			if skin.Slider('##Г„Г®Г±ГІГіГЇ ГЄ ГЄГ®Г¬Г Г­Г¤ГҐ', 'cmd.rank', 1, 10, 205, {470, 202}, '') then
 				cmd.rank = round(cmd.rank, 1)
 			end
 			imgui.SetCursorPos(imgui.ImVec2(396, 201))
-			imgui.Text(u8'с ' ..cmd.rank.. u8' ранга')
+			imgui.Text(u8'Г± ' ..cmd.rank.. u8' Г°Г Г­ГЈГ ')
 			
 			new_draw(250, 84)
-			skin.Button(u8'Задать или изменить аргументы', 34, 262, 633, nil, function()
-				imgui.OpenPopup(u8'Редактирование аргументов')
+			skin.Button(u8'Г‡Г Г¤Г ГІГј ГЁГ«ГЁ ГЁГ§Г¬ГҐГ­ГЁГІГј Г Г°ГЈГіГ¬ГҐГ­ГІГ»', 34, 262, 633, nil, function()
+				imgui.OpenPopup(u8'ГђГҐГ¤Г ГЄГІГЁГ°Г®ГўГ Г­ГЁГҐ Г Г°ГЈГіГ¬ГҐГ­ГІГ®Гў')
 			end)
 			local all_arguments = ''
 			if #cmd.arg ~= 0 then
@@ -4577,15 +4577,15 @@ function window.main()
 					all_arguments = all_arguments..' {arg'..ka..'}'
 				end
 			else
-				all_arguments = u8' Отсутствуют'
+				all_arguments = u8' ГЋГІГ±ГіГІГ±ГІГўГіГѕГІ'
 			end
 			imgui.SetCursorPos(imgui.ImVec2(35, 309))
-			imgui.Text(u8'Текущие аргументы:'..all_arguments)
+			imgui.Text(u8'Г’ГҐГЄГіГ№ГЁГҐ Г Г°ГЈГіГ¬ГҐГ­ГІГ»:'..all_arguments)
 			
-			if imgui.BeginPopupModal(u8'Редактирование аргументов', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
-				imgui.BeginChild(u8'Редактор аргументов', imgui.ImVec2(400, 300), false, imgui.WindowFlags.NoScrollbar)
+			if imgui.BeginPopupModal(u8'ГђГҐГ¤Г ГЄГІГЁГ°Г®ГўГ Г­ГЁГҐ Г Г°ГЈГіГ¬ГҐГ­ГІГ®Гў', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
+				imgui.BeginChild(u8'ГђГҐГ¤Г ГЄГІГ®Г° Г Г°ГЈГіГ¬ГҐГ­ГІГ®Гў', imgui.ImVec2(400, 300), false, imgui.WindowFlags.NoScrollbar)
 				imgui.SetCursorPos(imgui.ImVec2(0, 0))
-				if imgui.InvisibleButton(u8'##Закрыть окошко аргументов', imgui.ImVec2(20, 20)) then
+				if imgui.InvisibleButton(u8'##Г‡Г ГЄГ°Г»ГІГј Г®ГЄГ®ГёГЄГ® Г Г°ГЈГіГ¬ГҐГ­ГІГ®Гў', imgui.ImVec2(20, 20)) then
 					imgui.CloseCurrentPopup()
 				end
 				imgui.SetCursorPos(imgui.ImVec2(10, 10))
@@ -4603,7 +4603,7 @@ function window.main()
 				if #cmd.arg == 0 then
 					imgui.PushFont(font[4])
 					imgui.SetCursorPos(imgui.ImVec2(134, 104))
-					imgui.TextColored(imgui.ImVec4(0.50, 0.50, 0.50, 1.00), u8'Нет аргументов')
+					imgui.TextColored(imgui.ImVec4(0.50, 0.50, 0.50, 1.00), u8'ГЌГҐГІ Г Г°ГЈГіГ¬ГҐГ­ГІГ®Гў')
 					imgui.PopFont()
 				else
 					for cm = 1, #cmd.arg do
@@ -4611,7 +4611,7 @@ function window.main()
 						new_draw(28 + pos_y_c, 30, {5, 390})
 						
 						imgui.SetCursorPos(imgui.ImVec2(370, 32 + pos_y_c))
-						if imgui.InvisibleButton(u8'##Удалить аргумент'..cm, imgui.ImVec2(20, 20)) then table.remove(cmd.arg, cm) break end
+						if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј Г Г°ГЈГіГ¬ГҐГ­ГІ'..cm, imgui.ImVec2(20, 20)) then table.remove(cmd.arg, cm) break end
 						imgui.PushFont(fa_font[1])
 						imgui.SetCursorPos(imgui.ImVec2(373, 36 + pos_y_c))
 						imgui.TextColored(imgui.ImVec4(1.00, 1.00, 1.00, 1.00), fa.ICON_TRASH)
@@ -4619,23 +4619,23 @@ function window.main()
 						
 						imgui.SetCursorPos(imgui.ImVec2(15, 34 + pos_y_c))
 						if cmd.arg[cm][1] == 0 then
-							imgui.Text(cm.. u8' числовой с тегом {arg'..cm..'}')
+							imgui.Text(cm.. u8' Г·ГЁГ±Г«Г®ГўГ®Г© Г± ГІГҐГЈГ®Г¬ {arg'..cm..'}')
 						else
-							imgui.Text(cm.. u8' текстовый с тегом {arg'..cm..'}')
+							imgui.Text(cm.. u8' ГІГҐГЄГ±ГІГ®ГўГ»Г© Г± ГІГҐГЈГ®Г¬ {arg'..cm..'}')
 						end
-						skin.InputText(190, 32 + pos_y_c, u8'Название аргумента##vgas'..cm, 'cmd.arg.'..cm..'.2', 64, 170)
+						skin.InputText(190, 32 + pos_y_c, u8'ГЌГ Г§ГўГ Г­ГЁГҐ Г Г°ГЈГіГ¬ГҐГ­ГІГ ##vgas'..cm, 'cmd.arg.'..cm..'.2', 64, 170)
 					end
 				end
 				if #cmd.arg < 5 then
-					skin.Button(u8'Добавить числовой аргумент', 0, 240, 400, 25, function() 
-						table.insert(cmd.arg, {0, u8'Число'})
+					skin.Button(u8'Г„Г®ГЎГ ГўГЁГІГј Г·ГЁГ±Г«Г®ГўГ®Г© Г Г°ГЈГіГ¬ГҐГ­ГІ', 0, 240, 400, 25, function() 
+						table.insert(cmd.arg, {0, u8'Г—ГЁГ±Г«Г®'})
 					end)
-					skin.Button(u8'Добавить текстовый аргумент', 0, 270, 400, 25, function() 
-						table.insert(cmd.arg, {1, u8'Текст'})
+					skin.Button(u8'Г„Г®ГЎГ ГўГЁГІГј ГІГҐГЄГ±ГІГ®ГўГ»Г© Г Г°ГЈГіГ¬ГҐГ­ГІ', 0, 270, 400, 25, function() 
+						table.insert(cmd.arg, {1, u8'Г’ГҐГЄГ±ГІ'})
 					end)
 				else
-					skin.Button(u8'Добавить числовой аргумент##false_non', 0, 240, 400, 25, function() end)
-					skin.Button(u8'Добавить текстовый аргумент##false_non', 0, 270, 400, 25, function() end)
+					skin.Button(u8'Г„Г®ГЎГ ГўГЁГІГј Г·ГЁГ±Г«Г®ГўГ®Г© Г Г°ГЈГіГ¬ГҐГ­ГІ##false_non', 0, 240, 400, 25, function() end)
+					skin.Button(u8'Г„Г®ГЎГ ГўГЁГІГј ГІГҐГЄГ±ГІГ®ГўГ»Г© Г Г°ГЈГіГ¬ГҐГ­ГІ##false_non', 0, 270, 400, 25, function() end)
 				end
 				
 				imgui.EndChild()
@@ -4643,16 +4643,16 @@ function window.main()
 			end
 			
 			new_draw(346, 84)
-			skin.Button(u8'Задать или изменить переменные', 34, 358, 633, nil, function()
-				imgui.OpenPopup(u8'Редактирование переменных')
+			skin.Button(u8'Г‡Г Г¤Г ГІГј ГЁГ«ГЁ ГЁГ§Г¬ГҐГ­ГЁГІГј ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г»ГҐ', 34, 358, 633, nil, function()
+				imgui.OpenPopup(u8'ГђГҐГ¤Г ГЄГІГЁГ°Г®ГўГ Г­ГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г»Гµ')
 			end)
 			imgui.SetCursorPos(imgui.ImVec2(35, 405))
-			imgui.Text(u8'Текущее количество переменных: '..#cmd.var)
+			imgui.Text(u8'Г’ГҐГЄГіГ№ГҐГҐ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г»Гµ: '..#cmd.var)
 			
-			if imgui.BeginPopupModal(u8'Редактирование переменных', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
-				imgui.BeginChild(u8'Редактор переменных', imgui.ImVec2(400, 300), false, imgui.WindowFlags.NoScrollbar)
+			if imgui.BeginPopupModal(u8'ГђГҐГ¤Г ГЄГІГЁГ°Г®ГўГ Г­ГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г»Гµ', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
+				imgui.BeginChild(u8'ГђГҐГ¤Г ГЄГІГ®Г° ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г»Гµ', imgui.ImVec2(400, 300), false, imgui.WindowFlags.NoScrollbar)
 				imgui.SetCursorPos(imgui.ImVec2(0, 0))
-				if imgui.InvisibleButton(u8'##Закрыть окошко переменных', imgui.ImVec2(20, 20)) then
+				if imgui.InvisibleButton(u8'##Г‡Г ГЄГ°Г»ГІГј Г®ГЄГ®ГёГЄГ® ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г»Гµ', imgui.ImVec2(20, 20)) then
 					imgui.CloseCurrentPopup()
 				end
 				imgui.SetCursorPos(imgui.ImVec2(10, 10))
@@ -4670,7 +4670,7 @@ function window.main()
 				if #cmd.var == 0 then
 					imgui.PushFont(font[4])
 					imgui.SetCursorPos(imgui.ImVec2(134, 118))
-					imgui.TextColored(imgui.ImVec4(0.50, 0.50, 0.50, 1.00), u8'Нет переменных')
+					imgui.TextColored(imgui.ImVec4(0.50, 0.50, 0.50, 1.00), u8'ГЌГҐГІ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г»Гµ')
 					imgui.PopFont()
 				else
 					for cm = 1, #cmd.var do
@@ -4678,7 +4678,7 @@ function window.main()
 						new_draw(28 + pos_y_c, 30, {5, 390})
 						
 						imgui.SetCursorPos(imgui.ImVec2(370, 32 + pos_y_c))
-						if imgui.InvisibleButton(u8'##Удалить переменную'..cm, imgui.ImVec2(20, 20)) then 
+						if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ'..cm, imgui.ImVec2(20, 20)) then 
 							table.remove(cmd.var, cm)
 							if #cmd.var == 0 and #cmd.act ~= 0 then
 								cmd.tr_fl[1] = 0
@@ -4700,18 +4700,18 @@ function window.main()
 						imgui.PopFont()
 						
 						imgui.SetCursorPos(imgui.ImVec2(15, 34 + pos_y_c))
-						imgui.Text(cm.. u8'. Тег {var'..cm..'}')
+						imgui.Text(cm.. u8'. Г’ГҐГЈ {var'..cm..'}')
 						if cmd.var[cm] ~= nil then
-							skin.InputText(110, 32 + pos_y_c, u8'Значение переменной##'..cm, 'cmd.var.'..cm..'.2', 40, 250)
+							skin.InputText(110, 32 + pos_y_c, u8'Г‡Г­Г Г·ГҐГ­ГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г©##'..cm, 'cmd.var.'..cm..'.2', 40, 250)
 						end
 					end
 				end
 				if #cmd.var < 6 then
-					skin.Button(u8'Добавить новую переменную', 0, 270, 400, 25, function() 
+					skin.Button(u8'Г„Г®ГЎГ ГўГЁГІГј Г­Г®ГўГіГѕ ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ', 0, 270, 400, 25, function() 
 						table.insert(cmd.var, {1, u8''})
 					end)
 				else
-					skin.Button(u8'Добавить новую переменную##false_non', 0, 270, 400, 25, function() end)
+					skin.Button(u8'Г„Г®ГЎГ ГўГЁГІГј Г­Г®ГўГіГѕ ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ##false_non', 0, 270, 400, 25, function() end)
 				end
 				
 				imgui.EndChild()
@@ -4720,49 +4720,49 @@ function window.main()
 			
 			new_draw(442, 44)
 			imgui.SetCursorPos(imgui.ImVec2(35, 454))
-			imgui.Text(u8'Задержка проигрывания отыгровки')
-			skin.Slider('##Задержка проигрывания отыгровки', 'cmd.delay', 400, 10000, 205, {470, 453}, nil)
+			imgui.Text(u8'Г‡Г Г¤ГҐГ°Г¦ГЄГ  ГЇГ°Г®ГЁГЈГ°Г»ГўГ Г­ГЁГї Г®ГІГ»ГЈГ°Г®ГўГЄГЁ')
+			skin.Slider('##Г‡Г Г¤ГҐГ°Г¦ГЄГ  ГЇГ°Г®ГЁГЈГ°Г»ГўГ Г­ГЁГї Г®ГІГ»ГЈГ°Г®ГўГЄГЁ', 'cmd.delay', 400, 10000, 205, {470, 453}, nil)
 			imgui.SetCursorPos(imgui.ImVec2(417, 452))
-			imgui.Text(round(cmd.delay / 1000, 0.1)..u8' сек.')
+			imgui.Text(round(cmd.delay / 1000, 0.1)..u8' Г±ГҐГЄ.')
 			
 			new_draw(498, 44)
 			imgui.SetCursorPos(imgui.ImVec2(35, 510))
-			imgui.Text(u8'Не отправлять последнее сообщение в чат')
+			imgui.Text(u8'ГЌГҐ Г®ГІГЇГ°Г ГўГ«ГїГІГј ГЇГ®Г±Г«ГҐГ¤Г­ГҐГҐ Г±Г®Г®ГЎГ№ГҐГ­ГЁГҐ Гў Г·Г ГІ')
 			imgui.SetCursorPos(imgui.ImVec2(639, 509))
-			if skin.Switch(u8'##Не отправлять сообщение в чат', setting.not_send_chat) then setting.not_send_chat = not setting.not_send_chat save('setting') end
+			if skin.Switch(u8'##ГЌГҐ Г®ГІГЇГ°Г ГўГ«ГїГІГј Г±Г®Г®ГЎГ№ГҐГ­ГЁГҐ Гў Г·Г ГІ', setting.not_send_chat) then setting.not_send_chat = not setting.not_send_chat save('setting') end
 			local POS_Y = 560
 			
 			local function ic_draw(icon_circ, imvec4_ic)
 				local pos_icon = {4, 0}
 				local text_add_func = ''
 				if icon_circ == fa.ICON_SHARE then
-					text_add_func = u8'Отправить в чат'
+					text_add_func = u8'ГЋГІГЇГ°Г ГўГЁГІГј Гў Г·Г ГІ'
 				elseif icon_circ == fa.ICON_HOURGLASS then
 					pos_icon = {6, -1}
-					text_add_func = u8'Ожидание нажатия клавиши Enter'
+					text_add_func = u8'ГЋГ¦ГЁГ¤Г Г­ГЁГҐ Г­Г Г¦Г ГІГЁГї ГЄГ«Г ГўГЁГёГЁ Enter'
 				elseif icon_circ == fa.ICON_LIST then
 					pos_icon = {4, -1}
-					text_add_func = u8'Вывести информацию в чат (для себя)'
+					text_add_func = u8'Г‚Г»ГўГҐГ±ГІГЁ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Гў Г·Г ГІ (Г¤Г«Гї Г±ГҐГЎГї)'
 				elseif icon_circ == fa.ICON_PENCIL then
 					pos_icon = {6, -1}
-					text_add_func = u8'Изменить значение переменной'
+					text_add_func = u8'Г€Г§Г¬ГҐГ­ГЁГІГј Г§Г­Г Г·ГҐГ­ГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г©'
 				elseif icon_circ == fa.ICON_ALIGN_LEFT then
-					text_add_func = u8'Комментарий'
+					text_add_func = u8'ГЉГ®Г¬Г¬ГҐГ­ГІГ Г°ГЁГ©'
 				elseif icon_circ == fa.ICON_LIST_OL then
 					pos_icon = {4, -1}
-					text_add_func = u8'Диалог выбора действия'
+					text_add_func = u8'Г„ГЁГ Г«Г®ГЈ ГўГ»ГЎГ®Г°Г  Г¤ГҐГ©Г±ГІГўГЁГї'
 				elseif icon_circ == fa.ICON_SIGN_OUT then
 					pos_icon = {5, -1}
-					text_add_func = u8'Если в диалоге                     выбран вариант'
+					text_add_func = u8'Г…Г±Г«ГЁ Гў Г¤ГЁГ Г«Г®ГЈГҐ                     ГўГ»ГЎГ°Г Г­ ГўГ Г°ГЁГ Г­ГІ'
 				elseif icon_circ == fa.ICON_STOP..'2' then
 					pos_icon = {6, -1}
-					text_add_func = u8'Завершить вариант диалога'
+					text_add_func = u8'Г‡Г ГўГҐГ°ГёГЁГІГј ГўГ Г°ГЁГ Г­ГІ Г¤ГЁГ Г«Г®ГЈГ '
 				elseif icon_circ == fa.ICON_SUPERSCRIPT then
 					pos_icon = {6, -1}
-					text_add_func = u8'Если переменная                               равна'
+					text_add_func = u8'Г…Г±Г«ГЁ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї                               Г°Г ГўГ­Г '
 				elseif icon_circ == fa.ICON_STOP..'1' then
 					pos_icon = {6, -1}
-					text_add_func = u8'Завершить условие переменной'
+					text_add_func = u8'Г‡Г ГўГҐГ°ГёГЁГІГј ГіГ±Г«Г®ГўГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г©'
 				end
 				
 				imgui.SetCursorPos(imgui.ImVec2(35, POS_Y + 10))
@@ -4811,13 +4811,13 @@ function window.main()
 					if v[1] == 0 then
 						new_draw(POS_Y, 97)
 						ic_draw(fa.ICON_SHARE, imgui.ImVec4(0.99, 0.60, 0.00 ,1.00))
-						skin.InputText(35, POS_Y + 60, u8'Текст##fj'..i, 'cmd.act.'..i..'.2', 256, 630)
+						skin.InputText(35, POS_Y + 60, u8'Г’ГҐГЄГ±ГІ##fj'..i, 'cmd.act.'..i..'.2', 256, 630)
 						imgui.SetCursorPos(imgui.ImVec2(645, POS_Y + 12))
-						if imgui.InvisibleButton(u8'##Удалить действие'..i..v[1], imgui.ImVec2(20, 20)) then table.insert(remove_table, i) end
+						if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј Г¤ГҐГ©Г±ГІГўГЁГҐ'..i..v[1], imgui.ImVec2(20, 20)) then table.insert(remove_table, i) end
 						
 						if cmd.add_f[1] then
 							imgui.SetCursorPos(imgui.ImVec2(17, POS_Y + 97))
-							if imgui.InvisibleButton(u8'##Выбрать место вставки'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
+							if imgui.InvisibleButton(u8'##Г‚Г»ГЎГ°Г ГІГј Г¬ГҐГ±ГІГ® ГўГ±ГІГ ГўГЄГЁ'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
 						end
 						sel_add_f(97, i)
 						POS_Y = POS_Y + 109
@@ -4825,24 +4825,24 @@ function window.main()
 						new_draw(POS_Y, 45)
 						ic_draw(fa.ICON_HOURGLASS, imgui.ImVec4(0.13, 0.83, 0.24 ,1.00))
 						imgui.SetCursorPos(imgui.ImVec2(645, POS_Y + 12))
-						if imgui.InvisibleButton(u8'##Удалить действие'..i..v[1], imgui.ImVec2(20, 20)) then table.insert(remove_table, i) end
+						if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј Г¤ГҐГ©Г±ГІГўГЁГҐ'..i..v[1], imgui.ImVec2(20, 20)) then table.insert(remove_table, i) end
 						
 						if cmd.add_f[1] then
 							imgui.SetCursorPos(imgui.ImVec2(17, POS_Y + 45))
-							if imgui.InvisibleButton(u8'##Выбрать место вставки'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
+							if imgui.InvisibleButton(u8'##Г‚Г»ГЎГ°Г ГІГј Г¬ГҐГ±ГІГ® ГўГ±ГІГ ГўГЄГЁ'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
 						end
 						sel_add_f(45, i)
 						POS_Y = POS_Y + 57
 					elseif v[1] == 2 then
 						new_draw(POS_Y, 97)
 						ic_draw(fa.ICON_LIST, imgui.ImVec4(0.99, 0.60, 0.00 ,1.00))
-						skin.InputText(35, POS_Y + 60, u8'Текст##fe3'..i, 'cmd.act.'..i..'.2', 256, 630)
+						skin.InputText(35, POS_Y + 60, u8'Г’ГҐГЄГ±ГІ##fe3'..i, 'cmd.act.'..i..'.2', 256, 630)
 						imgui.SetCursorPos(imgui.ImVec2(645, POS_Y + 12))
-						if imgui.InvisibleButton(u8'##Удалить действие'..i..v[1], imgui.ImVec2(20, 20)) then table.insert(remove_table, i) end
+						if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј Г¤ГҐГ©Г±ГІГўГЁГҐ'..i..v[1], imgui.ImVec2(20, 20)) then table.insert(remove_table, i) end
 						
 						if cmd.add_f[1] then
 							imgui.SetCursorPos(imgui.ImVec2(17, POS_Y + 97))
-							if imgui.InvisibleButton(u8'##Выбрать место вставки'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
+							if imgui.InvisibleButton(u8'##Г‚Г»ГЎГ°Г ГІГј Г¬ГҐГ±ГІГ® ГўГ±ГІГ ГўГЄГЁ'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
 						end
 						sel_add_f(97, i)
 						POS_Y = POS_Y + 109
@@ -4863,8 +4863,8 @@ function window.main()
 						
 						for d = 1, v[3] do
 							imgui.SetCursorPos(imgui.ImVec2(34, POS_Y + 32 + (d * 30)))
-							imgui.Text(d..u8' Действие')
-							skin.InputText(125, POS_Y + 30 + (d * 30), u8'Имя действия##'..i..d, 'cmd.act.'..i..'.4.'..d, 40, 500)
+							imgui.Text(d..u8' Г„ГҐГ©Г±ГІГўГЁГҐ')
+							skin.InputText(125, POS_Y + 30 + (d * 30), u8'Г€Г¬Гї Г¤ГҐГ©Г±ГІГўГЁГї##'..i..d, 'cmd.act.'..i..'.4.'..d, 40, 500)
 						end
 						
 						if v[3] >= 3 then
@@ -4874,7 +4874,7 @@ function window.main()
 								imgui.Text(fa.ICON_TRASH)
 								imgui.PopFont()
 								imgui.SetCursorPos(imgui.ImVec2(645, POS_Y + 30 + (d * 30)))
-								if imgui.InvisibleButton(u8'##Удалить действие диалога'..i..d, imgui.ImVec2(20, 20)) then
+								if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј Г¤ГҐГ©Г±ГІГўГЁГҐ Г¤ГЁГ Г«Г®ГЈГ '..i..d, imgui.ImVec2(20, 20)) then
 									table.remove(v[4], d)
 									v[3] = v[3] - 1
 									for h = 1, #cmd.act do
@@ -4892,16 +4892,16 @@ function window.main()
 							end
 						end
 						if v[3] <= 4 then
-							skin.Button(u8'Добавить##'..i, 34, POS_Y + 60 + (v[3] * 30), 100, 23, function()
+							skin.Button(u8'Г„Г®ГЎГ ГўГЁГІГј##'..i, 34, POS_Y + 60 + (v[3] * 30), 100, 23, function()
 								v[3] = v[3] + 1
-								table.insert(v[4], u8'Действие '..v[3])
+								table.insert(v[4], u8'Г„ГҐГ©Г±ГІГўГЁГҐ '..v[3])
 							end)
 						else
-							skin.Button(u8'Добавить##false_non', 34, POS_Y + 60 + (v[3] * 30), 100, 23, function() end)
+							skin.Button(u8'Г„Г®ГЎГ ГўГЁГІГј##false_non', 34, POS_Y + 60 + (v[3] * 30), 100, 23, function() end)
 						end
 						
 						imgui.SetCursorPos(imgui.ImVec2(645, POS_Y + 12))
-						if imgui.InvisibleButton(u8'##Удалить действие'..i..v[1], imgui.ImVec2(20, 20)) then
+						if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј Г¤ГҐГ©Г±ГІГўГЁГҐ'..i..v[1], imgui.ImVec2(20, 20)) then
 							for k, m in ipairs(cmd.act) do
 								if m[1] == 3 then
 									if m[2] > v[2] then
@@ -4925,20 +4925,20 @@ function window.main()
 						
 						if cmd.add_f[1] then
 							imgui.SetCursorPos(imgui.ImVec2(17, POS_Y + 98 + (cmd.act[i][3] * 30)))
-							if imgui.InvisibleButton(u8'##Выбрать место вставки'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
+							if imgui.InvisibleButton(u8'##Г‚Г»ГЎГ°Г ГІГј Г¬ГҐГ±ГІГ® ГўГ±ГІГ ГўГЄГЁ'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
 						end
 						sel_add_f(98 + (cmd.act[i][3] * 30), i)
 						POS_Y = POS_Y + 110 + (cmd.act[i][3] * 30)
 					elseif v[1] == 4 then
 						new_draw(POS_Y, 97, nil, 'comm')
 						ic_draw(fa.ICON_ALIGN_LEFT, imgui.ImVec4(0.88, 0.81, 0.18 ,1.00))
-						skin.InputText(35, POS_Y + 60, u8'Текст комментария##'..i, 'cmd.act.'..i..'.2', 256, 630)
+						skin.InputText(35, POS_Y + 60, u8'Г’ГҐГЄГ±ГІ ГЄГ®Г¬Г¬ГҐГ­ГІГ Г°ГЁГї##'..i, 'cmd.act.'..i..'.2', 256, 630)
 						imgui.SetCursorPos(imgui.ImVec2(645, POS_Y + 12))
-						if imgui.InvisibleButton(u8'##Удалить действие'..i..v[1], imgui.ImVec2(20, 20)) then table.insert(remove_table, i) end
+						if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј Г¤ГҐГ©Г±ГІГўГЁГҐ'..i..v[1], imgui.ImVec2(20, 20)) then table.insert(remove_table, i) end
 						
 						if cmd.add_f[1] then
 							imgui.SetCursorPos(imgui.ImVec2(17, POS_Y + 97))
-							if imgui.InvisibleButton(u8'##Выбрать место вставки'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
+							if imgui.InvisibleButton(u8'##Г‚Г»ГЎГ°Г ГІГј Г¬ГҐГ±ГІГ® ГўГ±ГІГ ГўГЄГЁ'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
 						end
 						sel_add_f(97, i)
 						POS_Y = POS_Y + 109
@@ -4950,13 +4950,13 @@ function window.main()
 							var_sum[k] = '{var'..k..'}'
 						end
 						skin.List({36, POS_Y + 56}, cmd.act[i][2], var_sum, 185, 'cmd.act.'..i..'.2')
-						skin.InputText(235, POS_Y + 60, u8'Новое значение##'..i, 'cmd.act.'..i..'.3', 256, 430)
+						skin.InputText(235, POS_Y + 60, u8'ГЌГ®ГўГ®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ##'..i, 'cmd.act.'..i..'.3', 256, 430)
 						imgui.SetCursorPos(imgui.ImVec2(645, POS_Y + 12))
-						if imgui.InvisibleButton(u8'##Удалить действие'..i, imgui.ImVec2(20, 20)) then table.insert(remove_table, i) end
+						if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј Г¤ГҐГ©Г±ГІГўГЁГҐ'..i, imgui.ImVec2(20, 20)) then table.insert(remove_table, i) end
 						
 						if cmd.add_f[1] then
 							imgui.SetCursorPos(imgui.ImVec2(17, POS_Y + 97))
-							if imgui.InvisibleButton(u8'##Выбрать место вставки'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
+							if imgui.InvisibleButton(u8'##Г‚Г»ГЎГ°Г ГІГј Г¬ГҐГ±ГІГ® ГўГ±ГІГ ГўГЄГЁ'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
 						end
 						sel_add_f(97, i)
 						POS_Y = POS_Y + 109
@@ -4968,9 +4968,9 @@ function window.main()
 							all_var[j] = '{var'..j..'}'
 						end
 						skin.List({190, POS_Y + 6}, v[2], all_var, 100, 'cmd.act.'..i..'.2')
-						skin.InputText(345, POS_Y + 10, u8'Значение переменной##'..i, 'cmd.act.'..i..'.3', 256, 260)
+						skin.InputText(345, POS_Y + 10, u8'Г‡Г­Г Г·ГҐГ­ГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г©##'..i, 'cmd.act.'..i..'.3', 256, 260)
 						imgui.SetCursorPos(imgui.ImVec2(645, POS_Y + 12))
-						if imgui.InvisibleButton(u8'##Удалить действие'..i, imgui.ImVec2(20, 20)) then 
+						if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј Г¤ГҐГ©Г±ГІГўГЁГҐ'..i, imgui.ImVec2(20, 20)) then 
 							table.insert(remove_table, i)
 							cmd.tr_fl[1] = cmd.tr_fl[1] - 1
 							if cmd.tr_fl[1] == 0 then
@@ -4982,7 +4982,7 @@ function window.main()
 						
 						if cmd.add_f[1] then
 							imgui.SetCursorPos(imgui.ImVec2(17, POS_Y + 43))
-							if imgui.InvisibleButton(u8'##Выбрать место вставки'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
+							if imgui.InvisibleButton(u8'##Г‚Г»ГЎГ°Г ГІГј Г¬ГҐГ±ГІГ® ГўГ±ГІГ ГўГЄГЁ'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
 						end
 						sel_add_f(43, i)
 						POS_Y = POS_Y + 55
@@ -4990,11 +4990,11 @@ function window.main()
 						new_draw(POS_Y, 43)
 						ic_draw(fa.ICON_STOP..'1', imgui.ImVec4(0.21, 0.59, 1.00 ,1.00))
 						imgui.SetCursorPos(imgui.ImVec2(645, POS_Y + 12))
-						if imgui.InvisibleButton(u8'##Удалить действие'..i, imgui.ImVec2(20, 20)) then table.insert(remove_table, i) end
+						if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј Г¤ГҐГ©Г±ГІГўГЁГҐ'..i, imgui.ImVec2(20, 20)) then table.insert(remove_table, i) end
 						
 						if cmd.add_f[1] then
 							imgui.SetCursorPos(imgui.ImVec2(17, POS_Y + 43))
-							if imgui.InvisibleButton(u8'##Выбрать место вставки'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
+							if imgui.InvisibleButton(u8'##Г‚Г»ГЎГ°Г ГІГј Г¬ГҐГ±ГІГ® ГўГ±ГІГ ГўГЄГЁ'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
 						end
 						sel_add_f(43, i)
 						POS_Y = POS_Y + 55
@@ -5022,7 +5022,7 @@ function window.main()
 						skin.List({176, POS_Y + 6}, v[2], all_dialogs[2], 60, 'cmd.act.'..i..'.2')
 						skin.List({360, POS_Y + 6}, v[3], all_dialogs[3], 60, 'cmd.act.'..i..'.3')
 						imgui.SetCursorPos(imgui.ImVec2(645, POS_Y + 12))
-						if imgui.InvisibleButton(u8'##Удалить действие'..i..v[1], imgui.ImVec2(20, 20)) then
+						if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј Г¤ГҐГ©Г±ГІГўГЁГҐ'..i..v[1], imgui.ImVec2(20, 20)) then
 							table.insert(remove_table, i)
 							cmd.tr_fl[3] = cmd.tr_fl[3] - 1
 							for s = 1, #cmd.act do
@@ -5036,7 +5036,7 @@ function window.main()
 						
 						if cmd.add_f[1] then
 							imgui.SetCursorPos(imgui.ImVec2(17, POS_Y + 43))
-							if imgui.InvisibleButton(u8'##Выбрать место вставки'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
+							if imgui.InvisibleButton(u8'##Г‚Г»ГЎГ°Г ГІГј Г¬ГҐГ±ГІГ® ГўГ±ГІГ ГўГЄГЁ'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
 						end
 						sel_add_f(43, i)
 						POS_Y = POS_Y + 55
@@ -5044,11 +5044,11 @@ function window.main()
 						new_draw(POS_Y, 43)
 						ic_draw(fa.ICON_STOP..'2', imgui.ImVec4(0.21, 0.59, 1.00 ,1.00))
 						imgui.SetCursorPos(imgui.ImVec2(645, POS_Y + 12))
-						if imgui.InvisibleButton(u8'##Удалить действие'..i..v[1], imgui.ImVec2(20, 20)) then table.insert(remove_table, i) end
+						if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј Г¤ГҐГ©Г±ГІГўГЁГҐ'..i..v[1], imgui.ImVec2(20, 20)) then table.insert(remove_table, i) end
 						
 						if cmd.add_f[1] then
 							imgui.SetCursorPos(imgui.ImVec2(17, POS_Y + 43))
-							if imgui.InvisibleButton(u8'##Выбрать место вставки'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
+							if imgui.InvisibleButton(u8'##Г‚Г»ГЎГ°Г ГІГј Г¬ГҐГ±ГІГ® ГўГ±ГІГ ГўГЄГЁ'..i, imgui.ImVec2(666, 12)) then cmd.add_f[2] = i end
 						end
 						sel_add_f(43, i)
 						POS_Y = POS_Y + 55
@@ -5073,7 +5073,7 @@ function window.main()
 			
 			imgui.PushFont(font[4])
 			imgui.SetCursorPos(imgui.ImVec2(197, POS_Y + 13))
-			imgui.TextColored(imgui.ImVec4(0.50, 0.50, 0.50, 1.00), u8'Варианты следующего действия')
+			imgui.TextColored(imgui.ImVec4(0.50, 0.50, 0.50, 1.00), u8'Г‚Г Г°ГЁГ Г­ГІГ» Г±Г«ГҐГ¤ГіГѕГ№ГҐГЈГ® Г¤ГҐГ©Г±ГІГўГЁГї')
 			imgui.PopFont()
 			imgui.PushFont(fa_font[5])
 			imgui.SetCursorPos(imgui.ImVec2(487, POS_Y + 12))
@@ -5086,40 +5086,40 @@ function window.main()
 				local pos_icon = {4, 0}
 				local text_add_func = ''
 				if icon_circ == fa.ICON_SHARE then
-					text_add_func = u8'Отправить в чат'
+					text_add_func = u8'ГЋГІГЇГ°Г ГўГЁГІГј Гў Г·Г ГІ'
 				elseif icon_circ == fa.ICON_HOURGLASS then
 					pos_icon = {6, -1}
-					text_add_func = u8'Ожидание нажатия клавиши Enter'
+					text_add_func = u8'ГЋГ¦ГЁГ¤Г Г­ГЁГҐ Г­Г Г¦Г ГІГЁГї ГЄГ«Г ГўГЁГёГЁ Enter'
 				elseif icon_circ == fa.ICON_LIST then
 					pos_icon = {4, -1}
-					text_add_func = u8'Вывести информацию в чат (для себя)'
+					text_add_func = u8'Г‚Г»ГўГҐГ±ГІГЁ ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Гў Г·Г ГІ (Г¤Г«Гї Г±ГҐГЎГї)'
 				elseif icon_circ == fa.ICON_PENCIL then
 					pos_icon = {6, -1}
-					text_add_func = u8'Изменить значение переменной'
+					text_add_func = u8'Г€Г§Г¬ГҐГ­ГЁГІГј Г§Г­Г Г·ГҐГ­ГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г©'
 				elseif icon_circ == fa.ICON_ALIGN_LEFT then
-					text_add_func = u8'Комментарий'
+					text_add_func = u8'ГЉГ®Г¬Г¬ГҐГ­ГІГ Г°ГЁГ©'
 				elseif icon_circ == fa.ICON_LIST_OL then
 					pos_icon = {4, -1}
-					text_add_func = u8'Диалог выбора дальнейшего действия'
+					text_add_func = u8'Г„ГЁГ Г«Г®ГЈ ГўГ»ГЎГ®Г°Г  Г¤Г Г«ГјГ­ГҐГ©ГёГҐГЈГ® Г¤ГҐГ©Г±ГІГўГЁГї'
 				elseif icon_circ == fa.ICON_SIGN_OUT then
 					pos_icon = {5, -1}
-					text_add_func = u8'Если выбран вариант диалога...'
+					text_add_func = u8'Г…Г±Г«ГЁ ГўГ»ГЎГ°Г Г­ ГўГ Г°ГЁГ Г­ГІ Г¤ГЁГ Г«Г®ГЈГ ...'
 				elseif icon_circ == fa.ICON_STOP..'2' then
 					pos_icon = {6, -1}
-					text_add_func = u8'Завершить диалог'
+					text_add_func = u8'Г‡Г ГўГҐГ°ГёГЁГІГј Г¤ГЁГ Г«Г®ГЈ'
 				elseif icon_circ == fa.ICON_SUPERSCRIPT then
 					pos_icon = {6, -1}
-					text_add_func = u8'Если переменная равна...'
+					text_add_func = u8'Г…Г±Г«ГЁ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї Г°Г ГўГ­Г ...'
 				elseif icon_circ == fa.ICON_STOP..'1' then
 					pos_icon = {6, -1}
-					text_add_func = u8'Завершить условие переменной'
+					text_add_func = u8'Г‡Г ГўГҐГ°ГёГЁГІГј ГіГ±Г«Г®ГўГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г©'
 				end
 				
 				imgui.SetCursorPos(imgui.ImVec2(100, POS_Y + y_pos_plus))
 				local p = imgui.GetCursorScreenPos()
 				imgui.GetWindowDrawList():AddRect(imgui.ImVec2(p.x, p.y), imgui.ImVec2(p.x + 500, p.y + 34), imgui.GetColorU32(imgui.ImVec4(setting.col_acc_non[1], setting.col_acc_non[2], setting.col_acc_non[3], 1.00)), 8, 15)
 				imgui.SetCursorPos(imgui.ImVec2(100, POS_Y + y_pos_plus))
-				if imgui.InvisibleButton(u8'##Добавить функцию в редакторе'..POS_Y + y_pos_plus..icon_circ, imgui.ImVec2(500, 34)) then return_bool = true end
+				if imgui.InvisibleButton(u8'##Г„Г®ГЎГ ГўГЁГІГј ГґГіГ­ГЄГ¶ГЁГѕ Гў Г°ГҐГ¤Г ГЄГІГ®Г°ГҐ'..POS_Y + y_pos_plus..icon_circ, imgui.ImVec2(500, 34)) then return_bool = true end
 				if imgui.IsItemActive() then
 					imgui.SetCursorPos(imgui.ImVec2(101, POS_Y + y_pos_plus + 1))
 					local p = imgui.GetCursorScreenPos()
@@ -5180,9 +5180,9 @@ function window.main()
 			end
 			if dr_circuit(170, fa.ICON_LIST_OL, imgui.ImVec4(0.88, 0.18, 0.20 ,1.00)) then
 				if not cmd.add_f[1] or #cmd.act == 0 then
-					cmd.act[num_a] = {3, cmd.num_d, 2, {u8'Действие 1', u8'Действие 2'}}
+					cmd.act[num_a] = {3, cmd.num_d, 2, {u8'Г„ГҐГ©Г±ГІГўГЁГҐ 1', u8'Г„ГҐГ©Г±ГІГўГЁГҐ 2'}}
 				elseif cmd.add_f[1] and #cmd.act ~= 0 then
-					table.insert(cmd.act, num_a, {3, cmd.num_d, 2, {u8'Действие 1', u8'Действие 2'}})
+					table.insert(cmd.act, num_a, {3, cmd.num_d, 2, {u8'Г„ГҐГ©Г±ГІГўГЁГҐ 1', u8'Г„ГҐГ©Г±ГІГўГЁГҐ 2'}})
 					cmd.add_f[2] = cmd.add_f[2] + 1
 				end
 				cmd.num_d = cmd.num_d + 1
@@ -5255,22 +5255,22 @@ function window.main()
 			end
 			
 			if not cmd.add_f[1] and #cmd.act >= 2 then
-				skin.Button(u8'Добавлять в конец', 100, POS_Y + res_pos + 30, 245, 25, function() cmd.add_f[1] = false end)
-				skin.Button(u8'Добавлять в место##false_func', 352, POS_Y + res_pos + 30, 245, 25, function() cmd.add_f[1] = true cmd.add_f[2] = #cmd.act end)
+				skin.Button(u8'Г„Г®ГЎГ ГўГ«ГїГІГј Гў ГЄГ®Г­ГҐГ¶', 100, POS_Y + res_pos + 30, 245, 25, function() cmd.add_f[1] = false end)
+				skin.Button(u8'Г„Г®ГЎГ ГўГ«ГїГІГј Гў Г¬ГҐГ±ГІГ®##false_func', 352, POS_Y + res_pos + 30, 245, 25, function() cmd.add_f[1] = true cmd.add_f[2] = #cmd.act end)
 				res_pos = res_pos + 60
 			elseif cmd.add_f[1] and #cmd.act >= 2 then 
-				skin.Button(u8'Добавлять в конец##false_func', 100, POS_Y + res_pos + 30, 245, 25, function() cmd.add_f[1] = false end)
-				skin.Button(u8'Добавлять в место', 352, POS_Y + res_pos + 30, 245, 25, function() cmd.add_f[1] = true cmd.add_f[2] = #cmd.act end)
+				skin.Button(u8'Г„Г®ГЎГ ГўГ«ГїГІГј Гў ГЄГ®Г­ГҐГ¶##false_func', 100, POS_Y + res_pos + 30, 245, 25, function() cmd.add_f[1] = false end)
+				skin.Button(u8'Г„Г®ГЎГ ГўГ«ГїГІГј Гў Г¬ГҐГ±ГІГ®', 352, POS_Y + res_pos + 30, 245, 25, function() cmd.add_f[1] = true cmd.add_f[2] = #cmd.act end)
 				res_pos = res_pos + 60
 			end
 			
-			skin.Button(u8'Посмотреть доступные теги', 100, POS_Y + res_pos + 30, 495, 35, function()
-				imgui.OpenPopup(u8'Просмотр доступных тегов')
+			skin.Button(u8'ГЏГ®Г±Г¬Г®ГІГ°ГҐГІГј Г¤Г®Г±ГІГіГЇГ­Г»ГҐ ГІГҐГЈГЁ', 100, POS_Y + res_pos + 30, 495, 35, function()
+				imgui.OpenPopup(u8'ГЏГ°Г®Г±Г¬Г®ГІГ° Г¤Г®Г±ГІГіГЇГ­Г»Гµ ГІГҐГЈГ®Гў')
 			end)
 			
-			if imgui.BeginPopupModal(u8'Просмотр доступных тегов', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
+			if imgui.BeginPopupModal(u8'ГЏГ°Г®Г±Г¬Г®ГІГ° Г¤Г®Г±ГІГіГЇГ­Г»Гµ ГІГҐГЈГ®Гў', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
 				imgui.SetCursorPos(imgui.ImVec2(10, 10))
-				if imgui.InvisibleButton(u8'##Закрыть окошко тегов', imgui.ImVec2(20, 20)) then
+				if imgui.InvisibleButton(u8'##Г‡Г ГЄГ°Г»ГІГј Г®ГЄГ®ГёГЄГ® ГІГҐГЈГ®Гў', imgui.ImVec2(20, 20)) then
 					imgui.CloseCurrentPopup()
 				end
 				imgui.SetCursorPos(imgui.ImVec2(20, 20))
@@ -5285,7 +5285,7 @@ function window.main()
 					imgui.GetWindowDrawList():AddCircleFilled(imgui.ImVec2(p.x - 0.4, p.y - 0.2), 7, imgui.GetColorU32(imgui.ImVec4(0.98, 0.42, 0.38 ,1.00)), 60)
 				end
 				imgui.SetCursorPos(imgui.ImVec2(10, 35))
-				imgui.BeginChild(u8'Просмотр тегов', imgui.ImVec2(600, 400), false, imgui.WindowFlags.NoScrollbar)
+				imgui.BeginChild(u8'ГЏГ°Г®Г±Г¬Г®ГІГ° ГІГҐГЈГ®Гў', imgui.ImVec2(600, 400), false, imgui.WindowFlags.NoScrollbar)
 				
 				local function tag_hint_text(numb_str, text_one_t, text_two_t)
 					local col_text_srt_t = '{000000}'
@@ -5296,34 +5296,34 @@ function window.main()
 					imgui.PopFont()
 				end
 				
-				tag_hint_text(1, '{mynick}', 'Выведет Ваш никнейм на английском')
-				tag_hint_text(2, '{myid}', 'Выведет Ваш id')
-				tag_hint_text(3, '{mynickrus}', 'Выведет Ваш никнейм на русском')
-				tag_hint_text(4, '{myrank}', 'Выведет Вашу должность')
-				tag_hint_text(5, '{time}', 'Выведет текущее время')
-				tag_hint_text(6, '{day}', 'Выведет текущий день')
-				tag_hint_text(7, '{week}', 'Выведет текущую неделю')
-				tag_hint_text(8, '{month}', 'Выведет текущий месяц')
-				tag_hint_text(9, '{getplnick[ID]}', 'Выведет ник игрока по его ID')
-				tag_hint_text(10, '{sex:муж,жен}', 'Добавит текст в соответствии с выбранным полом')
-				tag_hint_text(11, '{target}', 'Выведет id с последнего прицела на игрока')
-				tag_hint_text(12, '{prtsc}', 'Сделает скриншот игры F8')
+				tag_hint_text(1, '{mynick}', 'Г‚Г»ГўГҐГ¤ГҐГІ Г‚Г Гё Г­ГЁГЄГ­ГҐГ©Г¬ Г­Г  Г Г­ГЈГ«ГЁГ©Г±ГЄГ®Г¬')
+				tag_hint_text(2, '{myid}', 'Г‚Г»ГўГҐГ¤ГҐГІ Г‚Г Гё id')
+				tag_hint_text(3, '{mynickrus}', 'Г‚Г»ГўГҐГ¤ГҐГІ Г‚Г Гё Г­ГЁГЄГ­ГҐГ©Г¬ Г­Г  Г°ГіГ±Г±ГЄГ®Г¬')
+				tag_hint_text(4, '{myrank}', 'Г‚Г»ГўГҐГ¤ГҐГІ Г‚Г ГёГі Г¤Г®Г«Г¦Г­Г®Г±ГІГј')
+				tag_hint_text(5, '{time}', 'Г‚Г»ГўГҐГ¤ГҐГІ ГІГҐГЄГіГ№ГҐГҐ ГўГ°ГҐГ¬Гї')
+				tag_hint_text(6, '{day}', 'Г‚Г»ГўГҐГ¤ГҐГІ ГІГҐГЄГіГ№ГЁГ© Г¤ГҐГ­Гј')
+				tag_hint_text(7, '{week}', 'Г‚Г»ГўГҐГ¤ГҐГІ ГІГҐГЄГіГ№ГіГѕ Г­ГҐГ¤ГҐГ«Гѕ')
+				tag_hint_text(8, '{month}', 'Г‚Г»ГўГҐГ¤ГҐГІ ГІГҐГЄГіГ№ГЁГ© Г¬ГҐГ±ГїГ¶')
+				tag_hint_text(9, '{getplnick[ID]}', 'Г‚Г»ГўГҐГ¤ГҐГІ Г­ГЁГЄ ГЁГЈГ°Г®ГЄГ  ГЇГ® ГҐГЈГ® ID')
+				tag_hint_text(10, '{sex:Г¬ГіГ¦,Г¦ГҐГ­}', 'Г„Г®ГЎГ ГўГЁГІ ГІГҐГЄГ±ГІ Гў Г±Г®Г®ГІГўГҐГІГ±ГІГўГЁГЁ Г± ГўГ»ГЎГ°Г Г­Г­Г»Г¬ ГЇГ®Г«Г®Г¬')
+				tag_hint_text(11, '{target}', 'Г‚Г»ГўГҐГ¤ГҐГІ id Г± ГЇГ®Г±Г«ГҐГ¤Г­ГҐГЈГ® ГЇГ°ГЁГ¶ГҐГ«Г  Г­Г  ГЁГЈГ°Г®ГЄГ ')
+				tag_hint_text(12, '{prtsc}', 'Г‘Г¤ГҐГ«Г ГҐГІ Г±ГЄГ°ГЁГ­ГёГ®ГІ ГЁГЈГ°Г» F8')
 				
 				imgui.EndChild()
 				
 				imgui.EndPopup()
 			end
 			--[[
-			0 - Отправить в чат
-			1 - Ожидание нажатия Enter
-			2 - Вывести инфо в чат
-			3 - Диалог выбора действия
-			4 - Комментарий
-			5 - Изменить переменную
-			6 - Если переменная равна
-			7 - Завершить условие переменной
-			8 - Если выбран вариант диалога
-			9 - Завершить диалог
+			0 - ГЋГІГЇГ°Г ГўГЁГІГј Гў Г·Г ГІ
+			1 - ГЋГ¦ГЁГ¤Г Г­ГЁГҐ Г­Г Г¦Г ГІГЁГї Enter
+			2 - Г‚Г»ГўГҐГ±ГІГЁ ГЁГ­ГґГ® Гў Г·Г ГІ
+			3 - Г„ГЁГ Г«Г®ГЈ ГўГ»ГЎГ®Г°Г  Г¤ГҐГ©Г±ГІГўГЁГї
+			4 - ГЉГ®Г¬Г¬ГҐГ­ГІГ Г°ГЁГ©
+			5 - Г€Г§Г¬ГҐГ­ГЁГІГј ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ
+			6 - Г…Г±Г«ГЁ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї Г°Г ГўГ­Г 
+			7 - Г‡Г ГўГҐГ°ГёГЁГІГј ГіГ±Г«Г®ГўГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г©
+			8 - Г…Г±Г«ГЁ ГўГ»ГЎГ°Г Г­ ГўГ Г°ГЁГ Г­ГІ Г¤ГЁГ Г«Г®ГЈГ 
+			9 - Г‡Г ГўГҐГ°ГёГЁГІГј Г¤ГЁГ Г«Г®ГЈ
 			]]
 			
 			imgui.Dummy(imgui.ImVec2(0, 90))
@@ -5335,7 +5335,7 @@ function window.main()
 			imgui.PopStyleVar(1)
 		end
 		
-	----> [3] Шпоры
+	----> [3] ГГЇГ®Г°Г»
 	elseif select_main_menu[3] and select_shpora == 0 then
 		local function new_draw(pos_draw, par_dr_y)
 			imgui.SetCursorPos(imgui.ImVec2(0, pos_draw))
@@ -5346,12 +5346,12 @@ function window.main()
 				imgui.GetWindowDrawList():AddRectFilled(imgui.ImVec2(p.x, p.y), imgui.ImVec2(p.x + 666, p.y + par_dr_y), imgui.GetColorU32(imgui.ImVec4(col_end.fond_two[1] + 0.09, col_end.fond_two[2] + 0.09, col_end.fond_two[3] + 0.09, 1.00)), 8, 15)
 			end
 		end
-		menu_draw_up(u8'Шпоры')
+		menu_draw_up(u8'ГГЇГ®Г°Г»')
 		
 		imgui.PushFont(fa_font[1])
 		imgui.SetCursorPos(imgui.ImVec2(826, 11))
 		imgui.PushStyleVar(imgui.StyleVar.FrameRounding, 4)
-		if imgui.Button(u8'##Добавить шпаргалку', imgui.ImVec2(22, 22)) then
+		if imgui.Button(u8'##Г„Г®ГЎГ ГўГЁГІГј ГёГЇГ Г°ГЈГ Г«ГЄГі', imgui.ImVec2(22, 22)) then
 			local comp = 1
 			local num_el = {}
 			if #setting.shpora ~= 0 then
@@ -5377,7 +5377,7 @@ function window.main()
 				nm = 'shpora'..comp,
 				text = ''
 			}
-			local f = io.open(dirml..'/PoliceHelper/Шпаргалки/shpora'..comp..'.txt', 'w')
+			local f = io.open(dirml..'/PoliceHelper/ГГЇГ Г°ГЈГ Г«ГЄГЁ/shpora'..comp..'.txt', 'w')
 			f:write(u8:decode(shpora.text))
 			f:flush()
 			f:close()
@@ -5412,11 +5412,11 @@ function window.main()
 		end
 	
 		imgui.SetCursorPos(imgui.ImVec2(180, 41))
-		imgui.BeginChild(u8'Шпаргалка', imgui.ImVec2(682, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
+		imgui.BeginChild(u8'ГГЇГ Г°ГЈГ Г«ГЄГ ', imgui.ImVec2(682, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
 		if #setting.shpora == 0 then
 			imgui.PushFont(bold_font[4])
 			imgui.SetCursorPos(imgui.ImVec2(137, 187 + ((start_pos + new_pos) / 2)))
-			imgui.Text(u8'Нет ни одной шпаргалки')
+			imgui.Text(u8'ГЌГҐГІ Г­ГЁ Г®Г¤Г­Г®Г© ГёГЇГ Г°ГЈГ Г«ГЄГЁ')
 			imgui.PopFont()
 		else
 			if anim_menu_shpora[1] == 0 then
@@ -5434,7 +5434,7 @@ function window.main()
 			local remove_shpora
 			for i = 1, #setting.shpora do
 				imgui.SetCursorPos(imgui.ImVec2(0 - anim_menu_shpora[1], 17 + ( (i - 1) * 68)))
-				if imgui.InvisibleButton(u8'##Перейти в редактор шпаргалки'..i, imgui.ImVec2(666, 68)) then
+				if imgui.InvisibleButton(u8'##ГЏГҐГ°ГҐГ©ГІГЁ Гў Г°ГҐГ¤Г ГЄГІГ®Г° ГёГЇГ Г°ГЈГ Г«ГЄГЁ'..i, imgui.ImVec2(666, 68)) then
 					anim_menu_shpora[2] = os.clock()
 					anim_menu_shpora[3] = not anim_menu_shpora[3]
 					if anim_menu_shpora[4] == 0 then
@@ -5483,7 +5483,7 @@ function window.main()
 					imgui.SetCursorPos(imgui.ImVec2(17, 51 + ( (i - 1) * 68)))
 					imgui.PushStyleColor(imgui.Col.Text, imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.60))
 					if setting.shpora[i][2]:gsub('%s', '') == '' then
-						imgui.Text(u8'Без текста')
+						imgui.Text(u8'ГЃГҐГ§ ГІГҐГЄГ±ГІГ ')
 					else
 						imgui.Text(setting.shpora[i][2])
 					end
@@ -5502,7 +5502,7 @@ function window.main()
 					imgui.SetCursorPos(imgui.ImVec2(17, 51 + ( (i - 1) * 68)))
 					imgui.PushStyleColor(imgui.Col.Text, imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.10))
 					if setting.shpora[i][2]:gsub('%s', '') == '' then
-						imgui.Text(u8'Без текста')
+						imgui.Text(u8'ГЃГҐГ§ ГІГҐГЄГ±ГІГ ')
 					else
 						imgui.Text(setting.shpora[i][2])
 					end
@@ -5538,7 +5538,7 @@ function window.main()
 						end
 					end
 					imgui.SetCursorPos(imgui.ImVec2(606, 17 + ( (i - 1) * 68)))
-					if imgui.InvisibleButton(u8'##Удалить команду', imgui.ImVec2(60, 68)) then
+					if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј ГЄГ®Г¬Г Г­Г¤Гі', imgui.ImVec2(60, 68)) then
 						remove_shpora = i
 						anim_menu_shpora[3] = false
 						anim_menu_shpora[1] = 0
@@ -5627,20 +5627,20 @@ function window.main()
 					imgui.SetCursorPos(imgui.ImVec2(17 - anim_menu_shpora[1], 51 + ( (i - 1) * 68)))
 					imgui.PushStyleColor(imgui.Col.Text, imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.60))
 					if setting.shpora[i][2]:gsub('%s', '') == '' then
-						imgui.Text(u8'Без текста')
+						imgui.Text(u8'ГЃГҐГ§ ГІГҐГЄГ±ГІГ ')
 					else
 						imgui.Text(setting.shpora[i][2])
 					end
 					imgui.PopStyleColor(1)
 					imgui.SetCursorPos(imgui.ImVec2(546, 17 + ( (i - 1) * 68)))
-					if imgui.InvisibleButton(u8'##Открыть шпору', imgui.ImVec2(60, 68)) then
+					if imgui.InvisibleButton(u8'##ГЋГІГЄГ°Г»ГІГј ГёГЇГ®Г°Гі', imgui.ImVec2(60, 68)) then
 						anim_menu_shpora[3] = false
 						anim_menu_shpora[1] = 0
 						anim_menu_shpora[4] = 0
 						
 						POS_Y = 380
-						if doesFileExist(dirml..'/PoliceHelper/Шпаргалки/'..setting.shpora[i][1]..'.txt') then
-							local f = io.open(dirml..'/PoliceHelper/Шпаргалки/'..setting.shpora[i][1]..'.txt')
+						if doesFileExist(dirml..'/PoliceHelper/ГГЇГ Г°ГЈГ Г«ГЄГЁ/'..setting.shpora[i][1]..'.txt') then
+							local f = io.open(dirml..'/PoliceHelper/ГГЇГ Г°ГЈГ Г«ГЄГЁ/'..setting.shpora[i][1]..'.txt')
 							shpora = {
 								nm = setting.shpora[i][1],
 								text = u8(f:read('*a'))
@@ -5702,20 +5702,20 @@ function window.main()
 			end
 		end
 		
-		if menu_draw_up(u8'Редактирование шпаргалки', true) then
-			imgui.OpenPopup(u8'Дальнейшие действия с шпаргалкой')
+		if menu_draw_up(u8'ГђГҐГ¤Г ГЄГІГЁГ°Г®ГўГ Г­ГЁГҐ ГёГЇГ Г°ГЈГ Г«ГЄГЁ', true) then
+			imgui.OpenPopup(u8'Г„Г Г«ГјГ­ГҐГ©ГёГЁГҐ Г¤ГҐГ©Г±ГІГўГЁГї Г± ГёГЇГ Г°ГЈГ Г«ГЄГ®Г©')
 			shpora_err_nm = false
 		end
 		imgui.PushFont(font[1])
-		skin.Button(u8'Открыть для просмотра', 666, 9, 180, 26, function() 
+		skin.Button(u8'ГЋГІГЄГ°Г»ГІГј Г¤Г«Гї ГЇГ°Г®Г±Г¬Г®ГІГ°Г ', 666, 9, 180, 26, function() 
 			text_spur = shpora.text
 			win.spur_big.v = true
 		end)
 		imgui.PopFont()
-		if imgui.BeginPopupModal(u8'Дальнейшие действия с шпаргалкой', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
-			imgui.BeginChild(u8'Действие с шпаргалкой', imgui.ImVec2(400, 200), false, imgui.WindowFlags.NoScrollbar)
+		if imgui.BeginPopupModal(u8'Г„Г Г«ГјГ­ГҐГ©ГёГЁГҐ Г¤ГҐГ©Г±ГІГўГЁГї Г± ГёГЇГ Г°ГЈГ Г«ГЄГ®Г©', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
+			imgui.BeginChild(u8'Г„ГҐГ©Г±ГІГўГЁГҐ Г± ГёГЇГ Г°ГЈГ Г«ГЄГ®Г©', imgui.ImVec2(400, 200), false, imgui.WindowFlags.NoScrollbar)
 			imgui.SetCursorPos(imgui.ImVec2(0, 0))
-			if imgui.InvisibleButton(u8'##Закрыть окошко шпаргалки', imgui.ImVec2(20, 20)) then
+			if imgui.InvisibleButton(u8'##Г‡Г ГЄГ°Г»ГІГј Г®ГЄГ®ГёГЄГ® ГёГЇГ Г°ГЈГ Г«ГЄГЁ', imgui.ImVec2(20, 20)) then
 				imgui.CloseCurrentPopup()
 			end
 			imgui.SetCursorPos(imgui.ImVec2(10, 10))
@@ -5733,19 +5733,19 @@ function window.main()
 			imgui.PushFont(bold_font[4])
 			if not shpora_err_nm then
 				imgui.SetCursorPos(imgui.ImVec2(35, 55))
-				imgui.Text(u8'Выберите действие')
+				imgui.Text(u8'Г‚Г»ГЎГҐГ°ГЁГІГҐ Г¤ГҐГ©Г±ГІГўГЁГҐ')
 			else
 				imgui.SetCursorPos(imgui.ImVec2(127, 39))
-				imgui.TextColored(imgui.ImVec4(1.00, 0.33, 0.27, 1.00), u8'ОШИБКА')
+				imgui.TextColored(imgui.ImVec4(1.00, 0.33, 0.27, 1.00), u8'ГЋГГ€ГЃГЉГЂ')
 				
 				imgui.PushFont(font[4])
 				imgui.SetCursorPos(imgui.ImVec2(86, 95))
-				imgui.Text(u8'Такое имя уже существует')
+				imgui.Text(u8'Г’Г ГЄГ®ГҐ ГЁГ¬Гї ГіГ¦ГҐ Г±ГіГ№ГҐГ±ГІГўГіГҐГІ')
 				imgui.PopFont()
 			end
 			imgui.PopFont()
 			imgui.PushFont(font[1])
-			skin.Button(u8'Сохранить', 10, 167, 123, 25, function()
+			skin.Button(u8'Г‘Г®ГµГ°Г Г­ГЁГІГј', 10, 167, 123, 25, function()
 				for i = 1, #setting.shpora do
 					if setting.shpora[i][1] == shpora.nm and i ~= select_shpora then
 						shpora_err_nm = true
@@ -5753,10 +5753,10 @@ function window.main()
 					end
 				end
 				if not shpora_err_nm  then
-					if doesFileExist(dirml..'/PoliceHelper/Шпаргалки/'..setting.shpora[select_shpora][1]..'.txt') then
-						os.remove(dirml..'/PoliceHelper/Шпаргалки/'..setting.shpora[select_shpora][1]..'.txt')
+					if doesFileExist(dirml..'/PoliceHelper/ГГЇГ Г°ГЈГ Г«ГЄГЁ/'..setting.shpora[select_shpora][1]..'.txt') then
+						os.remove(dirml..'/PoliceHelper/ГГЇГ Г°ГЈГ Г«ГЄГЁ/'..setting.shpora[select_shpora][1]..'.txt')
 					end
-					local f = io.open(dirml..'/PoliceHelper/Шпаргалки/'..shpora.nm..'.txt', 'w')
+					local f = io.open(dirml..'/PoliceHelper/ГГЇГ Г°ГЈГ Г«ГЄГЁ/'..shpora.nm..'.txt', 'w')
 					f:write(u8:decode(shpora.text))
 					f:flush()
 					f:close()
@@ -5765,21 +5765,21 @@ function window.main()
 					buf_text_shpora.v = u8:decode(shpora.text)
 					buf_text_shpora.v = string.gsub(buf_text_shpora.v, '\n.+', '')
 					textes = u8(buf_text_shpora.v)
-					if shpora.text ~= '' and buf_text_shpora.v == '' then textes = u8'Пустая строка' end
-					if textes ~= shpora.text and textes ~= u8'Пустая строка' then textes = textes..' ...' end
+					if shpora.text ~= '' and buf_text_shpora.v == '' then textes = u8'ГЏГіГ±ГІГ Гї Г±ГІГ°Г®ГЄГ ' end
+					if textes ~= shpora.text and textes ~= u8'ГЏГіГ±ГІГ Гї Г±ГІГ°Г®ГЄГ ' then textes = textes..' ...' end
 					setting.shpora[select_shpora] = {shpora.nm, textes}
 					save('setting')
 					select_shpora = 0
 					imgui.CloseCurrentPopup()
 				end
 			end)
-			skin.Button(u8'Не сохранять', 138, 167, 124, 25, function()
+			skin.Button(u8'ГЌГҐ Г±Г®ГµГ°Г Г­ГїГІГј', 138, 167, 124, 25, function()
 				select_shpora = 0
 				imgui.CloseCurrentPopup()
 			end)
-			skin.Button(u8'Удалить', 267, 167, 123, 25, function()
-				if doesFileExist(dirml..'/PoliceHelper/Шпаргалки/'..setting.shpora[select_shpora][1]..'.txt') then
-					os.remove(dirml..'/PoliceHelper/Шпаргалки/'..setting.shpora[select_shpora][1]..'.txt')
+			skin.Button(u8'Г“Г¤Г Г«ГЁГІГј', 267, 167, 123, 25, function()
+				if doesFileExist(dirml..'/PoliceHelper/ГГЇГ Г°ГЈГ Г«ГЄГЁ/'..setting.shpora[select_shpora][1]..'.txt') then
+					os.remove(dirml..'/PoliceHelper/ГГЇГ Г°ГЈГ Г«ГЄГЁ/'..setting.shpora[select_shpora][1]..'.txt')
 				end
 				table.remove(setting.shpora, select_shpora)
 				save('setting')
@@ -5793,24 +5793,24 @@ function window.main()
 		
 		if select_shpora ~= 0 then
 			imgui.SetCursorPos(imgui.ImVec2(163, 41))
-			imgui.BeginChild(u8'Редактирование шпоры', imgui.ImVec2(700, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'ГђГҐГ¤Г ГЄГІГЁГ°Г®ГўГ Г­ГЁГҐ ГёГЇГ®Г°Г»', imgui.ImVec2(700, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
 			
 			imgui.PushFont(font[1])
 			new_draw(17, 48)
 			imgui.SetCursorPos(imgui.ImVec2(35, 32))
-			imgui.Text(u8'Имя шпоры')
-			skin.InputText(125, 30, u8'Задайте имя шпаргалки', 'shpora.nm', 95, 539, nil)
+			imgui.Text(u8'Г€Г¬Гї ГёГЇГ®Г°Г»')
+			skin.InputText(125, 30, u8'Г‡Г Г¤Г Г©ГІГҐ ГЁГ¬Гї ГёГЇГ Г°ГЈГ Г«ГЄГЁ', 'shpora.nm', 95, 539, nil)
 			new_draw(77, 328)
 			imgui.SetCursorPos(imgui.ImVec2(25, 87))
 			local text_multiline = imgui.ImBuffer(512000)
 			text_multiline.v = shpora.text
 			imgui.PushStyleColor(imgui.Col.FrameBg, imgui.ImVec4(0.50, 0.50, 0.50, 0.00))
-			imgui.InputTextMultiline('##Окно ввода текста шпоры', text_multiline, imgui.ImVec2(649, 318))
+			imgui.InputTextMultiline('##ГЋГЄГ­Г® ГўГўГ®Г¤Г  ГІГҐГЄГ±ГІГ  ГёГЇГ®Г°Г»', text_multiline, imgui.ImVec2(649, 318))
 			imgui.PopStyleColor()
 			if text_multiline.v == '' and not imgui.IsItemActive() then
 				imgui.PushStyleColor(imgui.Col.Text, imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.60))
 				imgui.SetCursorPos(imgui.ImVec2(29, 88))
-				imgui.Text(u8'Вводите текст Вашей шпаргалки')
+				imgui.Text(u8'Г‚ГўГ®Г¤ГЁГІГҐ ГІГҐГЄГ±ГІ Г‚Г ГёГҐГ© ГёГЇГ Г°ГЈГ Г«ГЄГЁ')
 				imgui.PopStyleColor()
 			end
 			shpora.text = text_multiline.v
@@ -5819,7 +5819,7 @@ function window.main()
 			imgui.EndChild()
 		end
 		
-	----> [4] Департамент
+	----> [4] Г„ГҐГЇГ Г°ГІГ Г¬ГҐГ­ГІ
 	elseif select_main_menu[4] then
 		local function new_draw(pos_draw, par_dr_y)
 			imgui.SetCursorPos(imgui.ImVec2(0, pos_draw))
@@ -5830,57 +5830,57 @@ function window.main()
 				imgui.GetWindowDrawList():AddRectFilled(imgui.ImVec2(p.x, p.y), imgui.ImVec2(p.x + 666, p.y + par_dr_y), imgui.GetColorU32(imgui.ImVec4(col_end.fond_two[1] + 0.09, col_end.fond_two[2] + 0.09, col_end.fond_two[3] + 0.09, 1.00)), 8, 15)
 			end
 		end
-		menu_draw_up(u8'Департамент')
+		menu_draw_up(u8'Г„ГҐГЇГ Г°ГІГ Г¬ГҐГ­ГІ')
 		imgui.SetCursorPos(imgui.ImVec2(180, 41))
-		imgui.BeginChild(u8'Департамент', imgui.ImVec2(682, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
+		imgui.BeginChild(u8'Г„ГҐГЇГ Г°ГІГ Г¬ГҐГ­ГІ', imgui.ImVec2(682, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
 		new_draw(17, 44)
 		imgui.PushFont(font[1])
 		imgui.SetCursorPos(imgui.ImVec2(15, 29))
-		imgui.Text(u8'Формат обращения')
+		imgui.Text(u8'Г”Г®Г°Г¬Г ГІ Г®ГЎГ°Г Г№ГҐГ­ГЁГї')
 		
 		new_draw(73, 44)
 		
-		if skin.List({350, 24}, setting.depart.format, {u8'[LSPD] - [SFPD]:', u8'к SFPD,', u8'[Полиция LS] - [100,3] - [Полиция ЛС]:'}, 300, 'setting.depart.format') then 
+		if skin.List({350, 24}, setting.depart.format, {u8'[LSPD] - [SFPD]:', u8'ГЄ SFPD,', u8'[ГЏГ®Г«ГЁГ¶ГЁГї LS] - [100,3] - [ГЏГ®Г«ГЁГ¶ГЁГї Г‹Г‘]:'}, 300, 'setting.depart.format') then 
 			save('setting')
 			if setting.depart.format == u8'[LSPD] - [SFPD]:' then
 				inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.else_tag..']: '
-			elseif setting.depart.format == u8'к SFPD,' then
-				inp_text_dep = '/d '..u8'к'..' '..setting.depart.else_tag..', '
-			elseif setting.depart.format == u8'[Полиция LS] - [100,3] - [Полиция ЛС]:' then
+			elseif setting.depart.format == u8'ГЄ SFPD,' then
+				inp_text_dep = '/d '..u8'ГЄ'..' '..setting.depart.else_tag..', '
+			elseif setting.depart.format == u8'[ГЏГ®Г«ГЁГ¶ГЁГї LS] - [100,3] - [ГЏГ®Г«ГЁГ¶ГЁГї Г‹Г‘]:' then
 				inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.volna..'] - ['..setting.depart.else_tag..']: '
 			end
 		end
 		
 		if setting.depart.format == u8'[LSPD] - [SFPD]:' then
 			imgui.SetCursorPos(imgui.ImVec2(15, 85))
-			imgui.Text(u8'Ваш тег')
+			imgui.Text(u8'Г‚Г Гё ГІГҐГЈ')
 			imgui.SetCursorPos(imgui.ImVec2(310, 85))
-			imgui.Text(u8'Тег к обращаемому')
+			imgui.Text(u8'Г’ГҐГЈ ГЄ Г®ГЎГ°Г Г№Г ГҐГ¬Г®Г¬Гі')
 			local dans = {setting.depart.my_tag, setting.depart.else_tag}
-			skin.InputText(79, 84, u8'Ваш тег', 'setting.depart.my_tag', 40, 170, nil, 'setting')
-			skin.InputText(450, 84, u8'Тег к обращаемому', 'setting.depart.else_tag', 40, 200, nil, 'setting')
+			skin.InputText(79, 84, u8'Г‚Г Гё ГІГҐГЈ', 'setting.depart.my_tag', 40, 170, nil, 'setting')
+			skin.InputText(450, 84, u8'Г’ГҐГЈ ГЄ Г®ГЎГ°Г Г№Г ГҐГ¬Г®Г¬Гі', 'setting.depart.else_tag', 40, 200, nil, 'setting')
 			if dans[1] ~= setting.depart.my_tag or dans[2] ~= setting.depart.else_tag then
 				inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.else_tag..']: '
 			end
-		elseif setting.depart.format == u8'к SFPD,' then
+		elseif setting.depart.format == u8'ГЄ SFPD,' then
 			imgui.SetCursorPos(imgui.ImVec2(15, 85))
-			imgui.Text(u8'Тег к обращаемому')
+			imgui.Text(u8'Г’ГҐГЈ ГЄ Г®ГЎГ°Г Г№Г ГҐГ¬Г®Г¬Гі')
 			local dans = setting.depart.else_tag
-			skin.InputText(155, 84, u8'Тег к обращаемому', 'setting.depart.else_tag', 40, 200, nil, 'setting')
+			skin.InputText(155, 84, u8'Г’ГҐГЈ ГЄ Г®ГЎГ°Г Г№Г ГҐГ¬Г®Г¬Гі', 'setting.depart.else_tag', 40, 200, nil, 'setting')
 			if dans ~= setting.depart.else_tag then
-				inp_text_dep = '/d '..u8'к'..' '..setting.depart.else_tag..', '
+				inp_text_dep = '/d '..u8'ГЄ'..' '..setting.depart.else_tag..', '
 			end
-		elseif setting.depart.format == u8'[Полиция LS] - [100,3] - [Полиция ЛС]:' then
+		elseif setting.depart.format == u8'[ГЏГ®Г«ГЁГ¶ГЁГї LS] - [100,3] - [ГЏГ®Г«ГЁГ¶ГЁГї Г‹Г‘]:' then
 			imgui.SetCursorPos(imgui.ImVec2(15, 85))
-			imgui.Text(u8'Ваш тег')
+			imgui.Text(u8'Г‚Г Гё ГІГҐГЈ')
 			imgui.SetCursorPos(imgui.ImVec2(214, 85))
-			imgui.Text(u8'Волна')
+			imgui.Text(u8'Г‚Г®Г«Г­Г ')
 			imgui.SetCursorPos(imgui.ImVec2(403, 85))
-			imgui.Text(u8'Тег к обращаемому')
+			imgui.Text(u8'Г’ГҐГЈ ГЄ Г®ГЎГ°Г Г№Г ГҐГ¬Г®Г¬Гі')
 			local dans = {setting.depart.my_tag, setting.depart.volna, setting.depart.else_tag}
-			skin.InputText(73, 84, u8'Ваш тег', 'setting.depart.my_tag', 40, 111, nil, 'setting')
-			skin.InputText(261, 84, u8'Волна', 'setting.depart.volna', 40, 111, nil, 'setting')
-			skin.InputText(538, 84, u8'Обращаемому', 'setting.depart.else_tag', 40, 111, nil, 'setting')
+			skin.InputText(73, 84, u8'Г‚Г Гё ГІГҐГЈ', 'setting.depart.my_tag', 40, 111, nil, 'setting')
+			skin.InputText(261, 84, u8'Г‚Г®Г«Г­Г ', 'setting.depart.volna', 40, 111, nil, 'setting')
+			skin.InputText(538, 84, u8'ГЋГЎГ°Г Г№Г ГҐГ¬Г®Г¬Гі', 'setting.depart.else_tag', 40, 111, nil, 'setting')
 			if dans[1] ~= setting.depart.my_tag or dans[2] ~= setting.depart.volna or dans[3] ~= setting.depart.else_tag then
 				inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.volna..'] - ['..setting.depart.else_tag..']: '
 			end
@@ -5888,12 +5888,12 @@ function window.main()
 		imgui.PopFont()
 		imgui.PushFont(bold_font[3])
 		imgui.SetCursorPos(imgui.ImVec2(270, 130))
-		imgui.Text(u8'Локальный чат')
+		imgui.Text(u8'Г‹Г®ГЄГ Г«ГјГ­Г»Г© Г·Г ГІ')
 		imgui.PopFont()
 		new_draw(157, 248)
 		
 		imgui.SetCursorPos(imgui.ImVec2(0, 157))
-		imgui.BeginChild(u8'Департамент', imgui.ImVec2(667, 199), false, imgui.WindowFlags.NoScrollbar + imgui.WindowFlags.NoScrollWithMouse)
+		imgui.BeginChild(u8'Г„ГҐГЇГ Г°ГІГ Г¬ГҐГ­ГІ', imgui.ImVec2(667, 199), false, imgui.WindowFlags.NoScrollbar + imgui.WindowFlags.NoScrollWithMouse)
 		imgui.SetScrollY(imgui.GetScrollMaxY())
 		
 		if #dep_history > 30 then
@@ -5916,24 +5916,24 @@ function window.main()
 			end
 		end
 		imgui.EndChild()
-		skin.InputText(10, 372, u8'Текст сообщения', 'inp_text_dep', 512, 555)
+		skin.InputText(10, 372, u8'Г’ГҐГЄГ±ГІ Г±Г®Г®ГЎГ№ГҐГ­ГЁГї', 'inp_text_dep', 512, 555)
 		if inp_text_dep ~= '' then
-			skin.Button(u8'Отправить', 575, 369, 81, 28, function()
+			skin.Button(u8'ГЋГІГЇГ°Г ГўГЁГІГј', 575, 369, 81, 28, function()
 				sampSendChat(u8:decode(inp_text_dep))
 				if setting.depart.format == u8'[LSPD] - [SFPD]:' then
 					inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.else_tag..']: '
-				elseif setting.depart.format == u8'к SFPD,' then
-					inp_text_dep = '/d '..u8'к'..' '..setting.depart.else_tag..', '
-				elseif setting.depart.format == u8'[Полиция LS] - [100,3] - [Полиция ЛС]:' then
+				elseif setting.depart.format == u8'ГЄ SFPD,' then
+					inp_text_dep = '/d '..u8'ГЄ'..' '..setting.depart.else_tag..', '
+				elseif setting.depart.format == u8'[ГЏГ®Г«ГЁГ¶ГЁГї LS] - [100,3] - [ГЏГ®Г«ГЁГ¶ГЁГї Г‹Г‘]:' then
 					inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.volna..'] - ['..setting.depart.else_tag..']: '
 				end
 			end)
 		else
-			skin.Button(u8'Отправить##false_non', 575, 369, 81, 28, function() end)
+			skin.Button(u8'ГЋГІГЇГ°Г ГўГЁГІГј##false_non', 575, 369, 81, 28, function() end)
 		end
 		imgui.EndChild()
 	
-	----> [5] Собеседование
+	----> [5] Г‘Г®ГЎГҐГ±ГҐГ¤Г®ГўГ Г­ГЁГҐ
 	elseif select_main_menu[5] then
 		local function new_draw(pos_draw, par_dr_y)
 			imgui.SetCursorPos(imgui.ImVec2(0, pos_draw))
@@ -5944,17 +5944,17 @@ function window.main()
 				imgui.GetWindowDrawList():AddRectFilled(imgui.ImVec2(p.x, p.y), imgui.ImVec2(p.x + 666, p.y + par_dr_y), imgui.GetColorU32(imgui.ImVec4(col_end.fond_two[1] + 0.09, col_end.fond_two[2] + 0.09, col_end.fond_two[3] + 0.09, 1.00)), 8, 15)
 			end
 		end
-		menu_draw_up(u8'Меню собеседования')
+		menu_draw_up(u8'ГЊГҐГ­Гѕ Г±Г®ГЎГҐГ±ГҐГ¤Г®ГўГ Г­ГЁГї')
 		imgui.SetCursorPos(imgui.ImVec2(180, 41))
-		imgui.BeginChild(u8'Меню собеседования', imgui.ImVec2(682, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
+		imgui.BeginChild(u8'ГЊГҐГ­Гѕ Г±Г®ГЎГҐГ±ГҐГ¤Г®ГўГ Г­ГЁГї', imgui.ImVec2(682, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
 		if not sobes_menu then
 			new_draw(17, 43)
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(15, 29))
-			imgui.Text(u8'Введите id игрока')
-			skin.InputText(140, 27, u8'Укажите id игрока', 'id_sobes', 4, 150, 'num')
+			imgui.Text(u8'Г‚ГўГҐГ¤ГЁГІГҐ id ГЁГЈГ°Г®ГЄГ ')
+			skin.InputText(140, 27, u8'Г“ГЄГ Г¦ГЁГІГҐ id ГЁГЈГ°Г®ГЄГ ', 'id_sobes', 4, 150, 'num')
 			if setting.sob.level ~= '' and setting.sob.legal ~= '' and setting.sob.narko ~= '' and id_sobes ~= '' then
-				skin.Button(u8'Начать собеседование', 310, 24, 170, 28, function()
+				skin.Button(u8'ГЌГ Г·Г ГІГј Г±Г®ГЎГҐГ±ГҐГ¤Г®ГўГ Г­ГЁГҐ', 310, 24, 170, 28, function()
 					if sampIsPlayerConnected(id_sobes) then
 						sob_history = {}
 						sob_info = {
@@ -5971,38 +5971,38 @@ function window.main()
 					end
 				end)
 			elseif id_sobes ~= '' then
-				skin.Button(u8'Начать собеседование##false_non', 310, 24, 170, 28, function() end)
+				skin.Button(u8'ГЌГ Г·Г ГІГј Г±Г®ГЎГҐГ±ГҐГ¤Г®ГўГ Г­ГЁГҐ##false_non', 310, 24, 170, 28, function() end)
 				imgui.SetCursorPos(imgui.ImVec2(490, 29))
-				imgui.TextColoredRGB('{cf2727}Заполните все поля ниже!')
+				imgui.TextColoredRGB('{cf2727}Г‡Г ГЇГ®Г«Г­ГЁГІГҐ ГўГ±ГҐ ГЇГ®Г«Гї Г­ГЁГ¦ГҐ!')
 			else
-				skin.Button(u8'Начать собеседование##false_non', 310, 24, 170, 28, function() end)
+				skin.Button(u8'ГЌГ Г·Г ГІГј Г±Г®ГЎГҐГ±ГҐГ¤Г®ГўГ Г­ГЁГҐ##false_non', 310, 24, 170, 28, function() end)
 				imgui.SetCursorPos(imgui.ImVec2(490, 29))
-				imgui.TextColoredRGB('{cf2727}Укажите id игрока!')
+				imgui.TextColoredRGB('{cf2727}Г“ГЄГ Г¦ГЁГІГҐ id ГЁГЈГ°Г®ГЄГ !')
 			end
 			imgui.PopFont()
 			
 			imgui.PushFont(bold_font[3])
 			imgui.SetCursorPos(imgui.ImVec2(198, 75))
-			imgui.Text(u8'Настройки меню собеседования')
+			imgui.Text(u8'ГЌГ Г±ГІГ°Г®Г©ГЄГЁ Г¬ГҐГ­Гѕ Г±Г®ГЎГҐГ±ГҐГ¤Г®ГўГ Г­ГЁГї')
 			imgui.PopFont()
 			
 			new_draw(103, 103)
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(15, 115))
-			imgui.Text(u8'Минимальный уровень игрока для вступления')
+			imgui.Text(u8'ГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г»Г© ГіГ°Г®ГўГҐГ­Гј ГЁГЈГ°Г®ГЄГ  Г¤Г«Гї ГўГ±ГІГіГЇГ«ГҐГ­ГЁГї')
 			imgui.SetCursorPos(imgui.ImVec2(15, 145))
-			imgui.Text(u8'Минимальное значение законопослушности игрока для вступления')
+			imgui.Text(u8'ГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ Г§Г ГЄГ®Г­Г®ГЇГ®Г±Г«ГіГёГ­Г®Г±ГІГЁ ГЁГЈГ°Г®ГЄГ  Г¤Г«Гї ГўГ±ГІГіГЇГ«ГҐГ­ГЁГї')
 			imgui.SetCursorPos(imgui.ImVec2(15, 175))
-			imgui.Text(u8'Допустимое количество наркозависимости игрока для вступления')
+			imgui.Text(u8'Г„Г®ГЇГіГ±ГІГЁГ¬Г®ГҐ ГЄГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г­Г Г°ГЄГ®Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГЁ ГЁГЈГ°Г®ГЄГ  Г¤Г«Гї ГўГ±ГІГіГЇГ«ГҐГ­ГЁГї')
 			
-			skin.InputText(531, 113, u8'Значение##1', 'setting.sob.level', 3, 120, 'num', 'setting')
-			skin.InputText(531, 143, u8'Значение##2', 'setting.sob.legal', 4, 120, 'num', 'setting')
-			skin.InputText(531, 173, u8'Значение##3', 'setting.sob.narko', 4, 120, 'num', 'setting')
+			skin.InputText(531, 113, u8'Г‡Г­Г Г·ГҐГ­ГЁГҐ##1', 'setting.sob.level', 3, 120, 'num', 'setting')
+			skin.InputText(531, 143, u8'Г‡Г­Г Г·ГҐГ­ГЁГҐ##2', 'setting.sob.legal', 4, 120, 'num', 'setting')
+			skin.InputText(531, 173, u8'Г‡Г­Г Г·ГҐГ­ГЁГҐ##3', 'setting.sob.narko', 4, 120, 'num', 'setting')
 			imgui.PopFont()
 			
 			imgui.PushFont(bold_font[3])
 			imgui.SetCursorPos(imgui.ImVec2(251, 221))
-			imgui.Text(u8'Перечень вопросов')
+			imgui.Text(u8'ГЏГҐГ°ГҐГ·ГҐГ­Гј ГўГ®ГЇГ°Г®Г±Г®Гў')
 			imgui.PopFont()
 			
 			local POS_QY = 252
@@ -6012,12 +6012,12 @@ function window.main()
 				for i = 1, #setting.sob.qq do
 					new_draw(POS_QY, 106 + (#setting.sob.qq[i].q * 35))
 					imgui.SetCursorPos(imgui.ImVec2(15, POS_QY + 12))
-					imgui.Text(u8'Имя вопроса')
-					skin.InputText(110, POS_QY + 11, u8'Задайте имя вопроса##sel'..i, 'setting.sob.qq.'..i..'.nm', 50, 541, nil, 'setting')
+					imgui.Text(u8'Г€Г¬Гї ГўГ®ГЇГ°Г®Г±Г ')
+					skin.InputText(110, POS_QY + 11, u8'Г‡Г Г¤Г Г©ГІГҐ ГЁГ¬Гї ГўГ®ГЇГ°Г®Г±Г ##sel'..i, 'setting.sob.qq.'..i..'.nm', 50, 541, nil, 'setting')
 					if #setting.sob.qq[i].q ~= 0 then
 						local tabl_rem_2 = 0
 						for m = 1, #setting.sob.qq[i].q do
-							skin.InputText(15, POS_QY + 55 + ((m - 1) * 35), u8'Напишите Ваше сообщение, которое отправится в чат##sel'..i..m, 'setting.sob.qq.'..i..'.q.'..m, 512, 608, nil, 'setting')
+							skin.InputText(15, POS_QY + 55 + ((m - 1) * 35), u8'ГЌГ ГЇГЁГёГЁГІГҐ Г‚Г ГёГҐ Г±Г®Г®ГЎГ№ГҐГ­ГЁГҐ, ГЄГ®ГІГ®Г°Г®ГҐ Г®ГІГЇГ°Г ГўГЁГІГ±Гї Гў Г·Г ГІ##sel'..i..m, 'setting.sob.qq.'..i..'.q.'..m, 512, 608, nil, 'setting')
 							imgui.SetCursorPos(imgui.ImVec2(630, POS_QY + 57 + ((m - 1) * 35)))
 							if imgui.InvisibleButton(u8'##DEL_F'..i..m, imgui.ImVec2(20, 20)) then tabl_rem_2 = m end
 							imgui.PushFont(fa_font[1])
@@ -6028,25 +6028,25 @@ function window.main()
 						if tabl_rem_2 ~= 0 then table.remove(setting.sob.qq[i].q, tabl_rem_2) save('setting') end
 					end
 					if #setting.sob.qq[i].q >= 10 then
-						skin.Button(u8'Добавить ответ##false_non', 15, POS_QY + 55 + (#setting.sob.qq[i].q * 35), 150, 33, function() end)
+						skin.Button(u8'Г„Г®ГЎГ ГўГЁГІГј Г®ГІГўГҐГІ##false_non', 15, POS_QY + 55 + (#setting.sob.qq[i].q * 35), 150, 33, function() end)
 					else
-						skin.Button(u8'Добавить ответ##sel'..i, 15, POS_QY + 55 + (#setting.sob.qq[i].q * 35), 150, 33, function() 
+						skin.Button(u8'Г„Г®ГЎГ ГўГЁГІГј Г®ГІГўГҐГІ##sel'..i, 15, POS_QY + 55 + (#setting.sob.qq[i].q * 35), 150, 33, function() 
 							table.insert(setting.sob.qq[i].q, '')
 							save('setting')
 						end)
 					end
-					skin.Button(u8'Удалить вопрос##fas'..i, 180, POS_QY + 55 + (#setting.sob.qq[i].q * 35), 150, 33, function() tabl_rem = i end)
+					skin.Button(u8'Г“Г¤Г Г«ГЁГІГј ГўГ®ГЇГ°Г®Г±##fas'..i, 180, POS_QY + 55 + (#setting.sob.qq[i].q * 35), 150, 33, function() tabl_rem = i end)
 					POS_QY = POS_QY + 118 + (#setting.sob.qq[i].q * 35)
 				end
 				if tabl_rem ~= 0 then table.remove(setting.sob.qq, tabl_rem) save('setting') end
 			end
 			POS_QY = POS_QY + 2
 			if #setting.sob.qq >= 26 then
-				skin.Button(u8'Создать новый вопрос##false_non', 208, POS_QY, 250, 33, function() end)
+				skin.Button(u8'Г‘Г®Г§Г¤Г ГІГј Г­Г®ГўГ»Г© ГўГ®ГЇГ°Г®Г±##false_non', 208, POS_QY, 250, 33, function() end)
 			else
-				skin.Button(u8'Создать новый вопрос', 208, POS_QY, 250, 33, function()
+				skin.Button(u8'Г‘Г®Г§Г¤Г ГІГј Г­Г®ГўГ»Г© ГўГ®ГЇГ°Г®Г±', 208, POS_QY, 250, 33, function()
 					table.insert(setting.sob.qq, {
-						nm = u8'Вопрос '..(#setting.sob.qq + 1),
+						nm = u8'Г‚Г®ГЇГ°Г®Г± '..(#setting.sob.qq + 1),
 						q = {}
 					})
 					save('setting')
@@ -6067,82 +6067,82 @@ function window.main()
 			
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(17, 62))
-			imgui.Text(u8'Лет в штате:')
+			imgui.Text(u8'Г‹ГҐГІ Гў ГёГІГ ГІГҐ:')
 			imgui.SetCursorPos(imgui.ImVec2(17, 84))
-			imgui.Text(u8'Законопослушность:')
+			imgui.Text(u8'Г‡Г ГЄГ®Г­Г®ГЇГ®Г±Г«ГіГёГ­Г®Г±ГІГј:')
 			imgui.SetCursorPos(imgui.ImVec2(17, 106))
-			imgui.Text(u8'Работает:')
+			imgui.Text(u8'ГђГ ГЎГ®ГІГ ГҐГІ:')
 			imgui.SetCursorPos(imgui.ImVec2(350, 62))
-			imgui.Text(u8'Наркозависимость:')
+			imgui.Text(u8'ГЌГ Г°ГЄГ®Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГј:')
 			imgui.SetCursorPos(imgui.ImVec2(350, 84))
-			imgui.Text(u8'Здоровье:')
+			imgui.Text(u8'Г‡Г¤Г®Г°Г®ГўГјГҐ:')
 			imgui.SetCursorPos(imgui.ImVec2(350, 106))
-			imgui.Text(u8'Чёрный список:')
+			imgui.Text(u8'Г—ВёГ°Г­Г»Г© Г±ГЇГЁГ±Г®ГЄ:')
 			
 			imgui.SetCursorPos(imgui.ImVec2(104, 62))
 			if sob_info.level == -1 then
-				imgui.TextColoredRGB('{CF0000}Неизвестно')
+				imgui.TextColoredRGB('{CF0000}ГЌГҐГЁГ§ГўГҐГ±ГІГ­Г®')
 			elseif sob_info.level >= tonumber(setting.sob.level) then
-				imgui.TextColoredRGB('{00A115}'..tostring(sob_info.level)..' из '..setting.sob.level)
+				imgui.TextColoredRGB('{00A115}'..tostring(sob_info.level)..' ГЁГ§ '..setting.sob.level)
 			elseif sob_info.level < tonumber(setting.sob.level) then
-				imgui.TextColoredRGB('{CF0000}'..tostring(sob_info.level)..' из '..setting.sob.level)
+				imgui.TextColoredRGB('{CF0000}'..tostring(sob_info.level)..' ГЁГ§ '..setting.sob.level)
 			end
 			imgui.SetCursorPos(imgui.ImVec2(154, 84))
 			if sob_info.legal == -1 then
-				imgui.TextColoredRGB('{CF0000}Неизвестно')
+				imgui.TextColoredRGB('{CF0000}ГЌГҐГЁГ§ГўГҐГ±ГІГ­Г®')
 			elseif sob_info.legal >= tonumber(setting.sob.legal) then
-				imgui.TextColoredRGB('{00A115}'..tostring(sob_info.legal)..' из '..setting.sob.legal)
+				imgui.TextColoredRGB('{00A115}'..tostring(sob_info.legal)..' ГЁГ§ '..setting.sob.legal)
 			elseif sob_info.legal < tonumber(setting.sob.legal) then
-				imgui.TextColoredRGB('{CF0000}'..tostring(sob_info.legal)..' из '..setting.sob.legal)
+				imgui.TextColoredRGB('{CF0000}'..tostring(sob_info.legal)..' ГЁГ§ '..setting.sob.legal)
 			end
 			imgui.SetCursorPos(imgui.ImVec2(86, 106))
 			if sob_info.work == -1 then
-				imgui.TextColoredRGB('{CF0000}Неизвестно')
+				imgui.TextColoredRGB('{CF0000}ГЌГҐГЁГ§ГўГҐГ±ГІГ­Г®')
 			elseif sob_info.work == 0 then
-				imgui.TextColoredRGB('{00A115}Безработный')
+				imgui.TextColoredRGB('{00A115}ГЃГҐГ§Г°Г ГЎГ®ГІГ­Г»Г©')
 			elseif sob_info.work == 1 then
-				imgui.TextColoredRGB('{CF0000}Состоит во фракции')
+				imgui.TextColoredRGB('{CF0000}Г‘Г®Г±ГІГ®ГЁГІ ГўГ® ГґГ°Г ГЄГ¶ГЁГЁ')
 			end
 			imgui.SetCursorPos(imgui.ImVec2(479, 62))
 			if sob_info.narko == -1 then
-				imgui.TextColoredRGB('{CF0000}Неизвестно')
+				imgui.TextColoredRGB('{CF0000}ГЌГҐГЁГ§ГўГҐГ±ГІГ­Г®')
 			elseif sob_info.narko <= tonumber(setting.sob.narko) then
-				imgui.TextColoredRGB('{00A115}'..tostring(sob_info.narko)..' из '..setting.sob.narko)
+				imgui.TextColoredRGB('{00A115}'..tostring(sob_info.narko)..' ГЁГ§ '..setting.sob.narko)
 			elseif sob_info.narko > tonumber(setting.sob.narko) then
-				imgui.TextColoredRGB('{CF0000}'..tostring(sob_info.narko)..' из '..setting.sob.narko)
+				imgui.TextColoredRGB('{CF0000}'..tostring(sob_info.narko)..' ГЁГ§ '..setting.sob.narko)
 			end
 			imgui.SetCursorPos(imgui.ImVec2(421, 84))
 			if sob_info.hp == -1 then
-				imgui.TextColoredRGB('{CF0000}Неизвестно')
+				imgui.TextColoredRGB('{CF0000}ГЌГҐГЁГ§ГўГҐГ±ГІГ­Г®')
 			elseif sob_info.hp == 0 then
-				imgui.TextColoredRGB('{00A115}Псих. здоров')
+				imgui.TextColoredRGB('{00A115}ГЏГ±ГЁГµ. Г§Г¤Г®Г°Г®Гў')
 			elseif sob_info.hp == 1 then
-				imgui.TextColoredRGB('{CF0000}Имеются отклонения')
+				imgui.TextColoredRGB('{CF0000}Г€Г¬ГҐГѕГІГ±Гї Г®ГІГЄГ«Г®Г­ГҐГ­ГЁГї')
 			end
 			imgui.SetCursorPos(imgui.ImVec2(458, 106))
 			if sob_info.bl == -1 then
-				imgui.TextColoredRGB('{CF0000}Неизвестно')
+				imgui.TextColoredRGB('{CF0000}ГЌГҐГЁГ§ГўГҐГ±ГІГ­Г®')
 			elseif sob_info.bl == 0 then
-				imgui.TextColoredRGB('{00A115}Не состоит в ЧС')
+				imgui.TextColoredRGB('{00A115}ГЌГҐ Г±Г®Г±ГІГ®ГЁГІ Гў Г—Г‘')
 			elseif sob_info.bl == 1 then
-				imgui.TextColoredRGB('{CF0000}Состоит в ЧС')
+				imgui.TextColoredRGB('{CF0000}Г‘Г®Г±ГІГ®ГЁГІ Гў Г—Г‘')
 			end
 			imgui.PopFont()
 			
 			imgui.PushFont(font[4])
 			imgui.SetCursorPos(imgui.ImVec2(270, 145))
-			imgui.Text(u8'Локальный чат')
+			imgui.Text(u8'Г‹Г®ГЄГ Г«ГјГ­Г»Г© Г·Г ГІ')
 			imgui.PopFont()
 			new_draw(172, 190)
 			
 			imgui.PushFont(font[1])
 			if #setting.sob.qq ~= 0 then
-				skin.Button(u8'Задать вопрос', 0, 373, 219, 32, function() imgui.OpenPopup(u8'Задать вопрос') end)
+				skin.Button(u8'Г‡Г Г¤Г ГІГј ГўГ®ГЇГ°Г®Г±', 0, 373, 219, 32, function() imgui.OpenPopup(u8'Г‡Г Г¤Г ГІГј ГўГ®ГЇГ°Г®Г±') end)
 			else
-				skin.Button(u8'Задать вопрос##false_non', 0, 373, 219, 32, function() end)
+				skin.Button(u8'Г‡Г Г¤Г ГІГј ГўГ®ГЇГ°Г®Г±##false_non', 0, 373, 219, 32, function() end)
 			end
-			skin.Button(u8'Определить годность', 224, 373, 218, 32, function() imgui.OpenPopup(u8'Определение годности') end)
-			skin.Button(u8'Прекратить собеседование', 447, 373, 219, 32, function()
+			skin.Button(u8'ГЋГЇГ°ГҐГ¤ГҐГ«ГЁГІГј ГЈГ®Г¤Г­Г®Г±ГІГј', 224, 373, 218, 32, function() imgui.OpenPopup(u8'ГЋГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГҐ ГЈГ®Г¤Г­Г®Г±ГІГЁ') end)
+			skin.Button(u8'ГЏГ°ГҐГЄГ°Г ГІГЁГІГј Г±Г®ГЎГҐГ±ГҐГ¤Г®ГўГ Г­ГЁГҐ', 447, 373, 219, 32, function()
 				sobes_menu = false
 				sob_history = {}
 				sob_info = {
@@ -6155,9 +6155,9 @@ function window.main()
 				}
 			end)
 			
-			if imgui.BeginPopupModal(u8'Задать вопрос', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
+			if imgui.BeginPopupModal(u8'Г‡Г Г¤Г ГІГј ГўГ®ГЇГ°Г®Г±', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
 				imgui.SetCursorPos(imgui.ImVec2(10, 10))
-				if imgui.InvisibleButton(u8'##Закрыть окошко определения годности', imgui.ImVec2(20, 20)) then
+				if imgui.InvisibleButton(u8'##Г‡Г ГЄГ°Г»ГІГј Г®ГЄГ®ГёГЄГ® Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГї ГЈГ®Г¤Г­Г®Г±ГІГЁ', imgui.ImVec2(20, 20)) then
 					lockPlayerControl(false)
 					edit_key = false
 					imgui.CloseCurrentPopup()
@@ -6174,7 +6174,7 @@ function window.main()
 					imgui.GetWindowDrawList():AddCircleFilled(imgui.ImVec2(p.x - 0.4, p.y - 0.2), 7, imgui.GetColorU32(imgui.ImVec4(0.98, 0.42, 0.38 ,1.00)), 60)
 				end
 				imgui.SetCursorPos(imgui.ImVec2(10, 40))
-				imgui.BeginChild(u8'Задать вопрос', imgui.ImVec2(300, 15 + (#setting.sob.qq * 35)), false, imgui.WindowFlags.NoScrollbar)
+				imgui.BeginChild(u8'Г‡Г Г¤Г ГІГј ГўГ®ГЇГ°Г®Г±', imgui.ImVec2(300, 15 + (#setting.sob.qq * 35)), false, imgui.WindowFlags.NoScrollbar)
 				imgui.PushFont(font[1])
 				for i = 1, #setting.sob.qq do
 					skin.Button(setting.sob.qq[i].nm, 15, (i - 1) * 35, 270, 28, function()
@@ -6194,9 +6194,9 @@ function window.main()
 				imgui.EndPopup()
 			end
 			
-			if imgui.BeginPopupModal(u8'Определение годности', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
+			if imgui.BeginPopupModal(u8'ГЋГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГҐ ГЈГ®Г¤Г­Г®Г±ГІГЁ', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
 				imgui.SetCursorPos(imgui.ImVec2(10, 10))
-				if imgui.InvisibleButton(u8'##Закрыть окошко определения годности', imgui.ImVec2(20, 20)) then
+				if imgui.InvisibleButton(u8'##Г‡Г ГЄГ°Г»ГІГј Г®ГЄГ®ГёГЄГ® Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГї ГЈГ®Г¤Г­Г®Г±ГІГЁ', imgui.ImVec2(20, 20)) then
 					lockPlayerControl(false)
 					edit_key = false
 					imgui.CloseCurrentPopup()
@@ -6213,136 +6213,136 @@ function window.main()
 					imgui.GetWindowDrawList():AddCircleFilled(imgui.ImVec2(p.x - 0.4, p.y - 0.2), 7, imgui.GetColorU32(imgui.ImVec4(0.98, 0.42, 0.38 ,1.00)), 60)
 				end
 				imgui.SetCursorPos(imgui.ImVec2(10, 40))
-				imgui.BeginChild(u8'Определение годности', imgui.ImVec2(300, 425), false, imgui.WindowFlags.NoScrollbar)
+				imgui.BeginChild(u8'ГЋГЇГ°ГҐГ¤ГҐГ«ГҐГ­ГЁГҐ ГЈГ®Г¤Г­Г®Г±ГІГЁ', imgui.ImVec2(300, 425), false, imgui.WindowFlags.NoScrollbar)
 				imgui.PushFont(font[1])
-				skin.Button(u8'Принять игрока', 15, 0, 270, 28, function()
+				skin.Button(u8'ГЏГ°ГЁГ­ГїГІГј ГЁГЈГ°Г®ГЄГ ', 15, 0, 270, 28, function()
 					imgui.CloseCurrentPopup()
 					sobes_menu = false
 					if thread:status() == 'dead' then
 						thread = lua_thread.create(function()
-							sampSendChat('Отлично, Вы приняты к нам на работу!')
+							sampSendChat('ГЋГІГ«ГЁГ·Г­Г®, Г‚Г» ГЇГ°ГЁГ­ГїГІГ» ГЄ Г­Г Г¬ Г­Г  Г°Г ГЎГ®ГІГі!')
 							wait(2100)
-							sampSendChat('Сейчас я выдам Вам ключи от шкафчика с формой и другими вещами.')
+							sampSendChat('Г‘ГҐГ©Г·Г Г± Гї ГўГ»Г¤Г Г¬ Г‚Г Г¬ ГЄГ«ГѕГ·ГЁ Г®ГІ ГёГЄГ ГґГ·ГЁГЄГ  Г± ГґГ®Г°Г¬Г®Г© ГЁ Г¤Г°ГіГЈГЁГ¬ГЁ ГўГҐГ№Г Г¬ГЁ.')
 							wait(2100)
-							sampSendChat('/do В кармане находятся ключи от шкафчиков.')
+							sampSendChat('/do Г‚ ГЄГ Г°Г¬Г Г­ГҐ Г­Г ГµГ®Г¤ГїГІГ±Гї ГЄГ«ГѕГ·ГЁ Г®ГІ ГёГЄГ ГґГ·ГЁГЄГ®Гў.')
 							wait(2100)
-							sampSendChat('/me потянувшись во внутренний карман, достал'.. chsex('', 'а') ..' оттуда ключ')
+							sampSendChat('/me ГЇГ®ГІГїГ­ГіГўГёГЁГ±Гј ГўГ® ГўГ­ГіГІГ°ГҐГ­Г­ГЁГ© ГЄГ Г°Г¬Г Г­, Г¤Г®Г±ГІГ Г«'.. chsex('', 'Г ') ..' Г®ГІГІГіГ¤Г  ГЄГ«ГѕГ·')
 							wait(2100)
-							sampSendChat('/me передал'.. chsex('', 'а') ..' ключ от шкафчика с формой человеку напротив')
+							sampSendChat('/me ГЇГҐГ°ГҐГ¤Г Г«'.. chsex('', 'Г ') ..' ГЄГ«ГѕГ· Г®ГІ ГёГЄГ ГґГ·ГЁГЄГ  Г± ГґГ®Г°Г¬Г®Г© Г·ГҐГ«Г®ГўГҐГЄГі Г­Г ГЇГ°Г®ГІГЁГў')
 							wait(2100)
 							sampSendChat('/invite '..pl_sob.id)
 							wait(2100)
-							sampSendChat('/r Приветствуем нового сотрудника нашей организации - '.. pl_sob.nm:gsub('_', ' ') ..'.')
+							sampSendChat('/r ГЏГ°ГЁГўГҐГІГ±ГІГўГіГҐГ¬ Г­Г®ГўГ®ГЈГ® Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГ  Г­Г ГёГҐГ© Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ - '.. pl_sob.nm:gsub('_', ' ') ..'.')
 						end)
 					end
 				end)
-				skin.Button(u8'Опечатка в паспорте (нонРП ник)', 15, 60, 270, 28, function() 
+				skin.Button(u8'ГЋГЇГҐГ·Г ГІГЄГ  Гў ГЇГ Г±ГЇГ®Г°ГІГҐ (Г­Г®Г­ГђГЏ Г­ГЁГЄ)', 15, 60, 270, 28, function() 
 					imgui.CloseCurrentPopup()
 					sobes_menu = false
 					if thread:status() == 'dead' then
 						thread = lua_thread.create(function()
-							sampSendChat('Извините, но Вы нам не подходите. У Вас опечатка в паспорте.')
+							sampSendChat('Г€Г§ГўГЁГ­ГЁГІГҐ, Г­Г® Г‚Г» Г­Г Г¬ Г­ГҐ ГЇГ®Г¤ГµГ®Г¤ГЁГІГҐ. Г“ Г‚Г Г± Г®ГЇГҐГ·Г ГІГЄГ  Гў ГЇГ Г±ГЇГ®Г°ГІГҐ.')
 							wait(2100)
-							sampSendChat('/n нонРП ник. С таким ником, к сожалению, нельзя в организацию.')
+							sampSendChat('/n Г­Г®Г­ГђГЏ Г­ГЁГЄ. Г‘ ГІГ ГЄГЁГ¬ Г­ГЁГЄГ®Г¬, ГЄ Г±Г®Г¦Г Г«ГҐГ­ГЁГѕ, Г­ГҐГ«ГјГ§Гї Гў Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГѕ.')
 						end)
 					end
 				end)
-				skin.Button(u8'Мало лет проживания', 15, 95, 270, 28, function() 
+				skin.Button(u8'ГЊГ Г«Г® Г«ГҐГІ ГЇГ°Г®Г¦ГЁГўГ Г­ГЁГї', 15, 95, 270, 28, function() 
 					imgui.CloseCurrentPopup()
 					sobes_menu = false
 					if thread:status() == 'dead' then
 						thread = lua_thread.create(function()
-							sampSendChat('Извините, но Вы нам не подходите. Ваш возраст проживания в штате слишком мал.')
+							sampSendChat('Г€Г§ГўГЁГ­ГЁГІГҐ, Г­Г® Г‚Г» Г­Г Г¬ Г­ГҐ ГЇГ®Г¤ГµГ®Г¤ГЁГІГҐ. Г‚Г Гё ГўГ®Г§Г°Г Г±ГІ ГЇГ°Г®Г¦ГЁГўГ Г­ГЁГї Гў ГёГІГ ГІГҐ Г±Г«ГЁГёГЄГ®Г¬ Г¬Г Г«.')
 							wait(2100)
-							sampSendChat('Минимальный возраст проживания в годах должен быть не менее, чем '..setting.sob.level)
+							sampSendChat('ГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г»Г© ГўГ®Г§Г°Г Г±ГІ ГЇГ°Г®Г¦ГЁГўГ Г­ГЁГї Гў ГЈГ®Г¤Г Гµ Г¤Г®Г«Г¦ГҐГ­ ГЎГ»ГІГј Г­ГҐ Г¬ГҐГ­ГҐГҐ, Г·ГҐГ¬ '..setting.sob.level)
 						end)
 					end
 				end)
-				skin.Button(u8'Проблемы с законом', 15, 130, 270, 28, function()
+				skin.Button(u8'ГЏГ°Г®ГЎГ«ГҐГ¬Г» Г± Г§Г ГЄГ®Г­Г®Г¬', 15, 130, 270, 28, function()
 					imgui.CloseCurrentPopup()
 					sobes_menu = false
 					if thread:status() == 'dead' then
 						thread = lua_thread.create(function()
-							sampSendChat('Извините, но Вы нам не подходите. У Вас проблемы с законом.')
+							sampSendChat('Г€Г§ГўГЁГ­ГЁГІГҐ, Г­Г® Г‚Г» Г­Г Г¬ Г­ГҐ ГЇГ®Г¤ГµГ®Г¤ГЁГІГҐ. Г“ Г‚Г Г± ГЇГ°Г®ГЎГ«ГҐГ¬Г» Г± Г§Г ГЄГ®Г­Г®Г¬.')
 							wait(2100)
-							sampSendChat('/n Требуется минимум '..setting.sob.legal..' законопослушности.')
+							sampSendChat('/n Г’Г°ГҐГЎГіГҐГІГ±Гї Г¬ГЁГ­ГЁГ¬ГіГ¬ '..setting.sob.legal..' Г§Г ГЄГ®Г­Г®ГЇГ®Г±Г«ГіГёГ­Г®Г±ГІГЁ.')
 						end)
 					end
 				end)
-				skin.Button(u8'Уже состоит во фракции', 15, 165, 270, 28, function()
+				skin.Button(u8'Г“Г¦ГҐ Г±Г®Г±ГІГ®ГЁГІ ГўГ® ГґГ°Г ГЄГ¶ГЁГЁ', 15, 165, 270, 28, function()
 					imgui.CloseCurrentPopup()
 					sobes_menu = false
 					if thread:status() == 'dead' then
 						thread = lua_thread.create(function()
-							sampSendChat('Извините, но Вы нам не подходите.')
+							sampSendChat('Г€Г§ГўГЁГ­ГЁГІГҐ, Г­Г® Г‚Г» Г­Г Г¬ Г­ГҐ ГЇГ®Г¤ГµГ®Г¤ГЁГІГҐ.')
 							wait(2100)
-							sampSendChat('На данный момент Вы уже работаете в другой организации.')
+							sampSendChat('ГЌГ  Г¤Г Г­Г­Г»Г© Г¬Г®Г¬ГҐГ­ГІ Г‚Г» ГіГ¦ГҐ Г°Г ГЎГ®ГІГ ГҐГІГҐ Гў Г¤Г°ГіГЈГ®Г© Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ.')
 							wait(2100)
-							sampSendChat('Если хотите к нам, то для начала Вам необходимо уволиться оттуда.')
+							sampSendChat('Г…Г±Г«ГЁ ГµГ®ГІГЁГІГҐ ГЄ Г­Г Г¬, ГІГ® Г¤Г«Гї Г­Г Г·Г Г«Г  Г‚Г Г¬ Г­ГҐГ®ГЎГµГ®Г¤ГЁГ¬Г® ГіГўГ®Г«ГЁГІГјГ±Гї Г®ГІГІГіГ¤Г .')
 						end)
 					end
 				end)
-				skin.Button(u8'Имеет наркозависимость', 15, 200, 270, 28, function() 
+				skin.Button(u8'Г€Г¬ГҐГҐГІ Г­Г Г°ГЄГ®Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГј', 15, 200, 270, 28, function() 
 					imgui.CloseCurrentPopup()
 					sobes_menu = false
 					if thread:status() == 'dead' then
 						thread = lua_thread.create(function()
-							sampSendChat('Извините, но Вы нам не подходите. У Вас имеется наркозависимость.')
+							sampSendChat('Г€Г§ГўГЁГ­ГЁГІГҐ, Г­Г® Г‚Г» Г­Г Г¬ Г­ГҐ ГЇГ®Г¤ГµГ®Г¤ГЁГІГҐ. Г“ Г‚Г Г± ГЁГ¬ГҐГҐГІГ±Гї Г­Г Г°ГЄГ®Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГј.')
 							wait(2100)
-							sampSendChat('Вы можете вылечиться от наркозависимости, попросив об этом врача больницы.')
+							sampSendChat('Г‚Г» Г¬Г®Г¦ГҐГІГҐ ГўГ»Г«ГҐГ·ГЁГІГјГ±Гї Г®ГІ Г­Г Г°ГЄГ®Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГЁ, ГЇГ®ГЇГ°Г®Г±ГЁГў Г®ГЎ ГЅГІГ®Г¬ ГўГ°Г Г·Г  ГЎГ®Г«ГјГ­ГЁГ¶Г».')
 						end)
 					end
 				end)
-				skin.Button(u8'Проблемы с псих. здоровьем', 15, 235, 270, 28, function()
+				skin.Button(u8'ГЏГ°Г®ГЎГ«ГҐГ¬Г» Г± ГЇГ±ГЁГµ. Г§Г¤Г®Г°Г®ГўГјГҐГ¬', 15, 235, 270, 28, function()
 					imgui.CloseCurrentPopup()
 					sobes_menu = false
 					if thread:status() == 'dead' then
 						thread = lua_thread.create(function()
-							sampSendChat('Извините, но Вы нам не подходите. У Вас проблемы с псих. здоровьем.')
+							sampSendChat('Г€Г§ГўГЁГ­ГЁГІГҐ, Г­Г® Г‚Г» Г­Г Г¬ Г­ГҐ ГЇГ®Г¤ГµГ®Г¤ГЁГІГҐ. Г“ Г‚Г Г± ГЇГ°Г®ГЎГ«ГҐГ¬Г» Г± ГЇГ±ГЁГµ. Г§Г¤Г®Г°Г®ГўГјГҐГ¬.')
 						end)
 					end
 				end)
-				skin.Button(u8'Состоит в чёрном списке', 15, 270, 270, 28, function() 
+				skin.Button(u8'Г‘Г®Г±ГІГ®ГЁГІ Гў Г·ВёГ°Г­Г®Г¬ Г±ГЇГЁГ±ГЄГҐ', 15, 270, 270, 28, function() 
 					imgui.CloseCurrentPopup()
 					sobes_menu = false
 					if thread:status() == 'dead' then
 						thread = lua_thread.create(function()
-							sampSendChat('Извините, но Вы нам не подходите. Вы состоите в чёрном списке организации.')
+							sampSendChat('Г€Г§ГўГЁГ­ГЁГІГҐ, Г­Г® Г‚Г» Г­Г Г¬ Г­ГҐ ГЇГ®Г¤ГµГ®Г¤ГЁГІГҐ. Г‚Г» Г±Г®Г±ГІГ®ГЁГІГҐ Гў Г·ВёГ°Г­Г®Г¬ Г±ГЇГЁГ±ГЄГҐ Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ.')
 						end)
 					end
 				end)
-				skin.Button(u8'Нет паспорта', 15, 305, 270, 28, function() 
+				skin.Button(u8'ГЌГҐГІ ГЇГ Г±ГЇГ®Г°ГІГ ', 15, 305, 270, 28, function() 
 					imgui.CloseCurrentPopup()
 					sobes_menu = false
 					if thread:status() == 'dead' then
 						thread = lua_thread.create(function()
-							sampSendChat('Для начала собеседования необходимо предоставить паспорт.')
+							sampSendChat('Г„Г«Гї Г­Г Г·Г Г«Г  Г±Г®ГЎГҐГ±ГҐГ¤Г®ГўГ Г­ГЁГї Г­ГҐГ®ГЎГµГ®Г¤ГЁГ¬Г® ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГЁГІГј ГЇГ Г±ГЇГ®Г°ГІ.')
 							wait(2100)
-							sampSendChat('Получить его можно в мерии г. Лос-Сантос.')
+							sampSendChat('ГЏГ®Г«ГіГ·ГЁГІГј ГҐГЈГ® Г¬Г®Г¦Г­Г® Гў Г¬ГҐГ°ГЁГЁ ГЈ. Г‹Г®Г±-Г‘Г Г­ГІГ®Г±.')
 							wait(2100)
-							sampSendChat('Без него, к сожалению, продолжить мы не сможем.')
+							sampSendChat('ГЃГҐГ§ Г­ГҐГЈГ®, ГЄ Г±Г®Г¦Г Г«ГҐГ­ГЁГѕ, ГЇГ°Г®Г¤Г®Г«Г¦ГЁГІГј Г¬Г» Г­ГҐ Г±Г¬Г®Г¦ГҐГ¬.')
 						end)
 					end
 				end)
-				skin.Button(u8'Нет мед. карты', 15, 340, 270, 28, function() 
+				skin.Button(u8'ГЌГҐГІ Г¬ГҐГ¤. ГЄГ Г°ГІГ»', 15, 340, 270, 28, function() 
 					imgui.CloseCurrentPopup()
 					sobes_menu = false
 					if thread:status() == 'dead' then
 						thread = lua_thread.create(function()
-							sampSendChat('Для начала собеседования необходимо предоставить паспорт.')
+							sampSendChat('Г„Г«Гї Г­Г Г·Г Г«Г  Г±Г®ГЎГҐГ±ГҐГ¤Г®ГўГ Г­ГЁГї Г­ГҐГ®ГЎГµГ®Г¤ГЁГ¬Г® ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГЁГІГј ГЇГ Г±ГЇГ®Г°ГІ.')
 							wait(2100)
-							sampSendChat('Без неё, к сожалению, продолжить мы не сможем.')
+							sampSendChat('ГЃГҐГ§ Г­ГҐВё, ГЄ Г±Г®Г¦Г Г«ГҐГ­ГЁГѕ, ГЇГ°Г®Г¤Г®Г«Г¦ГЁГІГј Г¬Г» Г­ГҐ Г±Г¬Г®Г¦ГҐГ¬.')
 						end)
 					end
 				end)
-				skin.Button(u8'Нет лицензий', 15, 375, 270, 28, function() 
+				skin.Button(u8'ГЌГҐГІ Г«ГЁГ¶ГҐГ­Г§ГЁГ©', 15, 375, 270, 28, function() 
 					imgui.CloseCurrentPopup()
 					sobes_menu = false
 					if thread:status() == 'dead' then
 						thread = lua_thread.create(function()
-							sampSendChat('Для начала собеседования необходимо предоставить пакет лицензий.')
+							sampSendChat('Г„Г«Гї Г­Г Г·Г Г«Г  Г±Г®ГЎГҐГ±ГҐГ¤Г®ГўГ Г­ГЁГї Г­ГҐГ®ГЎГµГ®Г¤ГЁГ¬Г® ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГЁГІГј ГЇГ ГЄГҐГІ Г«ГЁГ¶ГҐГ­Г§ГЁГ©.')
 							wait(2100)
-							sampSendChat('Без них, к сожалению, продолжить мы не сможем.')
+							sampSendChat('ГЃГҐГ§ Г­ГЁГµ, ГЄ Г±Г®Г¦Г Г«ГҐГ­ГЁГѕ, ГЇГ°Г®Г¤Г®Г«Г¦ГЁГІГј Г¬Г» Г­ГҐ Г±Г¬Г®Г¦ГҐГ¬.')
 						end)
 					end
 				end)
@@ -6353,7 +6353,7 @@ function window.main()
 			end
 			
 			imgui.SetCursorPos(imgui.ImVec2(0, 172))
-			imgui.BeginChild(u8'Локальный чат собеседования', imgui.ImVec2(667, 141), false)
+			imgui.BeginChild(u8'Г‹Г®ГЄГ Г«ГјГ­Г»Г© Г·Г ГІ Г±Г®ГЎГҐГ±ГҐГ¤Г®ГўГ Г­ГЁГї', imgui.ImVec2(667, 141), false)
 			if not imgui.IsMouseDown(1) then
 				imgui.SetScrollY(imgui.GetScrollMaxY())
 			end
@@ -6371,21 +6371,21 @@ function window.main()
 			end
 			imgui.EndChild()
 			
-			skin.InputText(10, 329, u8'Текст сообщения', 'inp_text_sob', 512, 555)
+			skin.InputText(10, 329, u8'Г’ГҐГЄГ±ГІ Г±Г®Г®ГЎГ№ГҐГ­ГЁГї', 'inp_text_sob', 512, 555)
 			if inp_text_sob ~= '' then
-				skin.Button(u8'Отправить', 575, 326, 81, 28, function()
+				skin.Button(u8'ГЋГІГЇГ°Г ГўГЁГІГј', 575, 326, 81, 28, function()
 					sampSendChat(u8:decode(inp_text_sob))
 					inp_text_sob = ''
 				end)
 			else
-				skin.Button(u8'Отправить##false_non', 575, 326, 81, 28, function() end)
+				skin.Button(u8'ГЋГІГЇГ°Г ГўГЁГІГј##false_non', 575, 326, 81, 28, function() end)
 			end
 		
 			imgui.PopFont()
 		end
 		imgui.EndChild()
 		
-	----> [6] Напоминания
+	----> [6] ГЌГ ГЇГ®Г¬ГЁГ­Г Г­ГЁГї
 	elseif select_main_menu[6] then
 		local function new_draw(pos_draw, par_dr_y)
 			imgui.SetCursorPos(imgui.ImVec2(0, pos_draw))
@@ -6396,7 +6396,7 @@ function window.main()
 				imgui.GetWindowDrawList():AddRectFilled(imgui.ImVec2(p.x, p.y), imgui.ImVec2(p.x + 666, p.y + par_dr_y), imgui.GetColorU32(imgui.ImVec4(col_end.fond_two[1] + 0.09, col_end.fond_two[2] + 0.09, col_end.fond_two[3] + 0.09, 1.00)), 8, 15)
 			end
 		end
-		menu_draw_up(u8'Напоминания')
+		menu_draw_up(u8'ГЌГ ГЇГ®Г¬ГЁГ­Г Г­ГЁГї')
 		
 			if setting.int.theme == 'White' then
 				skin.DrawFond({162, 429 + start_pos + new_pos}, {0, 0}, {702, 35}, imgui.ImVec4(col_end.fond_two[1] + 0.03, col_end.fond_two[2] + 0.03, col_end.fond_two[3] + 0.03, 1.00), 15, 20)
@@ -6409,9 +6409,9 @@ function window.main()
 			local p = imgui.GetCursorScreenPos()
 			imgui.GetWindowDrawList():AddCircleFilled(imgui.ImVec2(p.x, p.y), 12, imgui.GetColorU32(imgui.ImVec4(setting.col_acc_non[1], setting.col_acc_non[2], setting.col_acc_non[3], 1.00)), 60)
 			imgui.SetCursorPos(imgui.ImVec2(177, 433 + start_pos + new_pos))
-			if imgui.InvisibleButton(u8'##Новое напоминание', imgui.ImVec2(175, 25)) then
+			if imgui.InvisibleButton(u8'##ГЌГ®ГўГ®ГҐ Г­Г ГЇГ®Г¬ГЁГ­Г Г­ГЁГҐ', imgui.ImVec2(175, 25)) then
 				reminder_buf = {
-					nm = u8'Напоминание '..(#setting.reminder + 1),
+					nm = u8'ГЌГ ГЇГ®Г¬ГЁГ­Г Г­ГЁГҐ '..(#setting.reminder + 1),
 					year = tonumber(os.date('%Y')),
 					mon = tonumber(os.date('%m')),
 					day = tonumber(os.date('%d')),
@@ -6435,7 +6435,7 @@ function window.main()
 			end
 			imgui.SetCursorPos(imgui.ImVec2(212, 435 + start_pos + new_pos))
 			imgui.PushFont(font[4])
-			imgui.TextColored(imgui.ImVec4(setting.col_acc_non[1], setting.col_acc_non[2], setting.col_acc_non[3], 1.00), u8'Напоминание')
+			imgui.TextColored(imgui.ImVec4(setting.col_acc_non[1], setting.col_acc_non[2], setting.col_acc_non[3], 1.00), u8'ГЌГ ГЇГ®Г¬ГЁГ­Г Г­ГЁГҐ')
 			imgui.PopFont()
 			imgui.PushFont(fa_font[1])
 			imgui.SetCursorPos(imgui.ImVec2(183, 441 + start_pos + new_pos))
@@ -6443,7 +6443,7 @@ function window.main()
 			imgui.PopFont()
 		else
 			imgui.PushFont(font[1])
-			local mont = {'Января', 'Февраля', 'Марта', 'Апреля', 'Мая', 'Июня', 'Июля', 'Августа', 'Сентября', 'Октября', 'Ноября', 'Декабря'}
+			local mont = {'ГџГ­ГўГ Г°Гї', 'Г”ГҐГўГ°Г Г«Гї', 'ГЊГ Г°ГІГ ', 'ГЂГЇГ°ГҐГ«Гї', 'ГЊГ Гї', 'Г€ГѕГ­Гї', 'Г€ГѕГ«Гї', 'ГЂГўГЈГіГ±ГІГ ', 'Г‘ГҐГ­ГІГїГЎГ°Гї', 'ГЋГЄГІГїГЎГ°Гї', 'ГЌГ®ГїГЎГ°Гї', 'Г„ГҐГЄГ ГЎГ°Гї'}
 			local hr = tostring(reminder_buf.hour)
 			local mn = tostring(reminder_buf.min)
 			if reminder_buf.hour <= 9 then
@@ -6452,35 +6452,35 @@ function window.main()
 			if reminder_buf.min <= 9 then
 				mn = '0'..mn
 			end
-			local calc = imgui.CalcTextSize(reminder_buf.day..' '..u8(mont[reminder_buf.mon])..' '..reminder_buf.year..u8' г. в '..hr..':'..mn)
+			local calc = imgui.CalcTextSize(reminder_buf.day..' '..u8(mont[reminder_buf.mon])..' '..reminder_buf.year..u8' ГЈ. Гў '..hr..':'..mn)
 			imgui.SetCursorPos(imgui.ImVec2(512 - calc.x / 2, 437 + start_pos + new_pos))
-			imgui.Text(reminder_buf.day..' '..u8(mont[reminder_buf.mon])..' '..reminder_buf.year..u8' г. в '..hr..':'..mn)
+			imgui.Text(reminder_buf.day..' '..u8(mont[reminder_buf.mon])..' '..reminder_buf.year..u8' ГЈ. Гў '..hr..':'..mn)
 			imgui.PopFont()
-			skin.Button(u8'Сохранить', 179, 433 + start_pos + new_pos, 180, 26, function() 
+			skin.Button(u8'Г‘Г®ГµГ°Г Г­ГЁГІГј', 179, 433 + start_pos + new_pos, 180, 26, function() 
 				reminder_edit = false
 				table.insert(setting.reminder, 1, reminder_buf)
 				save('setting')
 				reminder_buf = {}
 			end)
-			skin.Button(u8'Удалить', 666, 433 + start_pos + new_pos, 180, 26, function()
+			skin.Button(u8'Г“Г¤Г Г«ГЁГІГј', 666, 433 + start_pos + new_pos, 180, 26, function()
 				reminder_edit = false
 				reminder_buf = {}
 			end)
 		end
 		
 		imgui.SetCursorPos(imgui.ImVec2(180, 41))
-		imgui.BeginChild(u8'Напоминания', imgui.ImVec2(682, 387 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
+		imgui.BeginChild(u8'ГЌГ ГЇГ®Г¬ГЁГ­Г Г­ГЁГї', imgui.ImVec2(682, 387 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
 		if not reminder_edit then
 			if #setting.reminder == 0 then
 				imgui.PushFont(bold_font[4])
 				imgui.SetCursorPos(imgui.ImVec2(185, 170 + ((start_pos + new_pos) / 2)))
-				imgui.Text(u8'Нет напоминаний')
+				imgui.Text(u8'ГЌГҐГІ Г­Г ГЇГ®Г¬ГЁГ­Г Г­ГЁГ©')
 				imgui.PopFont()
 			else
 				for i = 1, #setting.reminder do
 					local pos_y = 17 + ((i - 1) * 107)
 					imgui.SetCursorPos(imgui.ImVec2(0, pos_y))
-					if imgui.InvisibleButton(u8'##Удаление напоминания'..i, imgui.ImVec2(666, 95)) then imgui.OpenPopup(u8'Удаление напоминания') remove_reminder = i end
+					if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГҐГ­ГЁГҐ Г­Г ГЇГ®Г¬ГЁГ­Г Г­ГЁГї'..i, imgui.ImVec2(666, 95)) then imgui.OpenPopup(u8'Г“Г¤Г Г«ГҐГ­ГЁГҐ Г­Г ГЇГ®Г¬ГЁГ­Г Г­ГЁГї') remove_reminder = i end
 					if imgui.IsItemActive() then
 						
 						if setting.int.theme == 'White' then
@@ -6505,12 +6505,12 @@ function window.main()
 					imgui.PushFont(font[1])
 					imgui.SetCursorPos(imgui.ImVec2(17, pos_y + 12))
 					if not string.match(setting.reminder[i].nm, '%S') or setting.reminder[i].nm == '' then
-						imgui.Text(u8'Без содержания')
+						imgui.Text(u8'ГЃГҐГ§ Г±Г®Г¤ГҐГ°Г¦Г Г­ГЁГї')
 					else
 						imgui.Text(setting.reminder[i].nm)
 					end
 					skin.DrawFond({17, pos_y + 43}, {0, 0}, {632, 1}, imgui.ImVec4(0.50, 0.50, 0.50, 0.40))
-					local week_dot = {u8'ПН, ', u8'ВТ, ', u8'СР, ', u8'ЧТ, ', u8'ПТ, ', u8'СБ, ', u8'ВС, '}
+					local week_dot = {u8'ГЏГЌ, ', u8'Г‚Г’, ', u8'Г‘Гђ, ', u8'Г—Г’, ', u8'ГЏГ’, ', u8'Г‘ГЃ, ', u8'Г‚Г‘, '}
 					local repeat_true = false
 					local repeat_text = u8''
 					for m = 1, #setting.reminder[i].repeats do
@@ -6522,13 +6522,13 @@ function window.main()
 					if repeat_true then
 						repeat_text = string.gsub(repeat_text, ', $', '')
 					else
-						repeat_text = u8'Без повторений'
+						repeat_text = u8'ГЃГҐГ§ ГЇГ®ГўГІГ®Г°ГҐГ­ГЁГ©'
 					end
 					local calc = imgui.CalcTextSize(repeat_text)
 					imgui.SetCursorPos(imgui.ImVec2(649 - calc.x, pos_y + 12))
 					imgui.Text(repeat_text)
 					skin.DrawFond({17, pos_y + 57}, {0, 0}, {4, 25}, imgui.ImVec4(1.00, 0.58, 0.02 ,1.00))
-					local mont = {'Января', 'Февраля', 'Марта', 'Апреля', 'Мая', 'Июня', 'Июля', 'Августа', 'Сентября', 'Октября', 'Ноября', 'Декабря'}
+					local mont = {'ГџГ­ГўГ Г°Гї', 'Г”ГҐГўГ°Г Г«Гї', 'ГЊГ Г°ГІГ ', 'ГЂГЇГ°ГҐГ«Гї', 'ГЊГ Гї', 'Г€ГѕГ­Гї', 'Г€ГѕГ«Гї', 'ГЂГўГЈГіГ±ГІГ ', 'Г‘ГҐГ­ГІГїГЎГ°Гї', 'ГЋГЄГІГїГЎГ°Гї', 'ГЌГ®ГїГЎГ°Гї', 'Г„ГҐГЄГ ГЎГ°Гї'}
 					local hr = tostring(setting.reminder[i].hour)
 					local mn = tostring(setting.reminder[i].min)
 					if setting.reminder[i].hour <= 9 then
@@ -6538,16 +6538,16 @@ function window.main()
 						mn = '0'..mn
 					end
 					imgui.SetCursorPos(imgui.ImVec2(31, pos_y + 62))
-					imgui.Text(setting.reminder[i].day..' '..u8(mont[setting.reminder[i].mon])..' '..setting.reminder[i].year..u8' г. в '..hr..':'..mn)
+					imgui.Text(setting.reminder[i].day..' '..u8(mont[setting.reminder[i].mon])..' '..setting.reminder[i].year..u8' ГЈ. Гў '..hr..':'..mn)
 					imgui.PopFont()
 				end
 				imgui.Dummy(imgui.ImVec2(0, 28))
-				if imgui.BeginPopupModal(u8'Удаление напоминания', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
+				if imgui.BeginPopupModal(u8'Г“Г¤Г Г«ГҐГ­ГЁГҐ Г­Г ГЇГ®Г¬ГЁГ­Г Г­ГЁГї', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
 					imgui.PushFont(font[1])
 					imgui.SetCursorPos(imgui.ImVec2(15, 12))
-					imgui.Text(u8'Вы уверены, что хотите удалить напоминание?  ')
-					skin.Button(u8'Удалить##напоминание', 15, 40, 145, 30, function() table.remove(setting.reminder, remove_reminder) save('setting') imgui.CloseCurrentPopup() end)
-					skin.Button(u8'Оставить##напоминание', 170, 40, 145, 30, function() imgui.CloseCurrentPopup() end)
+					imgui.Text(u8'Г‚Г» ГіГўГҐГ°ГҐГ­Г», Г·ГІГ® ГµГ®ГІГЁГІГҐ ГіГ¤Г Г«ГЁГІГј Г­Г ГЇГ®Г¬ГЁГ­Г Г­ГЁГҐ?  ')
+					skin.Button(u8'Г“Г¤Г Г«ГЁГІГј##Г­Г ГЇГ®Г¬ГЁГ­Г Г­ГЁГҐ', 15, 40, 145, 30, function() table.remove(setting.reminder, remove_reminder) save('setting') imgui.CloseCurrentPopup() end)
+					skin.Button(u8'ГЋГ±ГІГ ГўГЁГІГј##Г­Г ГЇГ®Г¬ГЁГ­Г Г­ГЁГҐ', 170, 40, 145, 30, function() imgui.CloseCurrentPopup() end)
 					imgui.PopFont()
 					imgui.Dummy(imgui.ImVec2(0, 7))
 					imgui.EndPopup()
@@ -6557,8 +6557,8 @@ function window.main()
 			new_draw(17, 44)
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(15, 29))
-			imgui.Text(u8'Текст напоминания')
-			skin.InputText(150, 28, u8'Введите текст##df', 'reminder_buf.nm', 100, 500)
+			imgui.Text(u8'Г’ГҐГЄГ±ГІ Г­Г ГЇГ®Г¬ГЁГ­Г Г­ГЁГї')
+			skin.InputText(150, 28, u8'Г‚ГўГҐГ¤ГЁГІГҐ ГІГҐГЄГ±ГІ##df', 'reminder_buf.nm', 100, 500)
 			
 			imgui.SetCursorPos(imgui.ImVec2(0, 73))
 			local p = imgui.GetCursorScreenPos()
@@ -6590,15 +6590,15 @@ function window.main()
 			end
 			
 			imgui.SetCursorPos(imgui.ImVec2(475, 84))
-			imgui.Text(u8'ПН\n\nВТ\n\nСР\n\nЧТ\n\nПТ\n\nСБ\n\nВС')
+			imgui.Text(u8'ГЏГЌ\n\nГ‚Г’\n\nГ‘Гђ\n\nГ—Г’\n\nГЏГ’\n\nГ‘ГЃ\n\nГ‚Г‘')
 			for i = 1, 7 do
 				imgui.SetCursorPos(imgui.ImVec2(500, 82 + ((i - 1) * 30)))
-				if skin.Switch(u8'##Повторение неделями'..i, reminder_buf.repeats[i]) then reminder_buf.repeats[i] = not reminder_buf.repeats[i] end
+				if skin.Switch(u8'##ГЏГ®ГўГІГ®Г°ГҐГ­ГЁГҐ Г­ГҐГ¤ГҐГ«ГїГ¬ГЁ'..i, reminder_buf.repeats[i]) then reminder_buf.repeats[i] = not reminder_buf.repeats[i] end
 			end
 			imgui.SetCursorPos(imgui.ImVec2(488, 314))
-			imgui.Text(u8'Звук')
+			imgui.Text(u8'Г‡ГўГіГЄ')
 			imgui.SetCursorPos(imgui.ImVec2(488.5, 335))
-			if skin.Switch(u8'##Звуковой сигнал', reminder_buf.sound) then reminder_buf.sound = not reminder_buf.sound end
+			if skin.Switch(u8'##Г‡ГўГіГЄГ®ГўГ®Г© Г±ГЁГЈГ­Г Г«', reminder_buf.sound) then reminder_buf.sound = not reminder_buf.sound end
 			imgui.SetCursorPos(imgui.ImVec2(583, 84))
 			imgui.PushFont(font[4])
 			local hr = tostring(reminder_buf.hour)
@@ -6617,9 +6617,9 @@ function window.main()
 			imgui.PushStyleColor(imgui.Col.SliderGrab, imgui.ImColor(0, 0, 0, 0):GetVec4())
 			imgui.PushStyleColor(imgui.Col.SliderGrabActive, imgui.ImColor(0, 0, 0, 0):GetVec4())
 			imgui.SetCursorPos(imgui.ImVec2(571, 133))
-			if imgui.VSliderFloat(u8'##Часы слайдера', imgui.ImVec2(18, 220), rem_fl_h, 0, 22, '') then reminder_buf.hour = round(rem_fl_h.v, 1) end
+			if imgui.VSliderFloat(u8'##Г—Г Г±Г» Г±Г«Г Г©Г¤ГҐГ°Г ', imgui.ImVec2(18, 220), rem_fl_h, 0, 22, '') then reminder_buf.hour = round(rem_fl_h.v, 1) end
 			imgui.SetCursorPos(imgui.ImVec2(630, 133))
-			if imgui.VSliderFloat(u8'##Минуты слайдера', imgui.ImVec2(18, 220), rem_fl_m, 0, 58, '') then reminder_buf.min = round(rem_fl_m.v, 1) end
+			if imgui.VSliderFloat(u8'##ГЊГЁГ­ГіГІГ» Г±Г«Г Г©Г¤ГҐГ°Г ', imgui.ImVec2(18, 220), rem_fl_m, 0, 58, '') then reminder_buf.min = round(rem_fl_m.v, 1) end
 			
 			local col_neitral = imgui.GetColorU32(imgui.ImVec4(0.60, 0.60, 0.60, 1.00))
 			if setting.int.theme == 'White' then
@@ -6646,14 +6646,14 @@ function window.main()
 			imgui.GetWindowDrawList():AddRectFilled(imgui.ImVec2(p.x, p.y), imgui.ImVec2(p.x + 28, p.y + 15), imgui.GetColorU32(imgui.ImVec4(1.00, 1.00, 1.00, 1.00)), 8, 15)
 			imgui.PopStyleColor(3)
 			
-			local month = {u8'Январь', u8'Февраль', u8'Март', u8'Апрель', u8'Май', u8'Июнь', u8'Июль', u8'Август', u8'Сентябрь', u8'Октябрь', u8'Ноябрь', u8'Декабрь'}
+			local month = {u8'ГџГ­ГўГ Г°Гј', u8'Г”ГҐГўГ°Г Г«Гј', u8'ГЊГ Г°ГІ', u8'ГЂГЇГ°ГҐГ«Гј', u8'ГЊГ Г©', u8'Г€ГѕГ­Гј', u8'Г€ГѕГ«Гј', u8'ГЂГўГЈГіГ±ГІ', u8'Г‘ГҐГ­ГІГїГЎГ°Гј', u8'ГЋГЄГІГїГЎГ°Гј', u8'ГЌГ®ГїГЎГ°Гј', u8'Г„ГҐГЄГ ГЎГ°Гј'}
 			imgui.SetCursorPos(imgui.ImVec2(15, 83))
 			imgui.PushFont(font[4])
-			imgui.Text(month[tonumber(reminder_buf.mon)]..' '..reminder_buf.year..u8' г.')
+			imgui.Text(month[tonumber(reminder_buf.mon)]..' '..reminder_buf.year..u8' ГЈ.')
 			imgui.PopFont()
 			skin.DrawFond({15, 118}, {0, 0}, {420, 1.0}, imgui.ImVec4(0.50, 0.50, 0.50, 0.30), 15, 2)
 			imgui.SetCursorPos(imgui.ImVec2(373, 82))
-			if imgui.InvisibleButton('##Смах влево', imgui.ImVec2(25, 25)) then
+			if imgui.InvisibleButton('##Г‘Г¬Г Гµ ГўГ«ГҐГўГ®', imgui.ImVec2(25, 25)) then
 				if reminder_buf.mon == 1 then
 					reminder_buf.mon = 12
 					reminder_buf.year = reminder_buf.year - 1
@@ -6671,7 +6671,7 @@ function window.main()
 			end
 			
 			imgui.SetCursorPos(imgui.ImVec2(417, 82))
-			if imgui.InvisibleButton('##Смах вправо', imgui.ImVec2(25, 25)) then
+			if imgui.InvisibleButton('##Г‘Г¬Г Гµ ГўГЇГ°Г ГўГ®', imgui.ImVec2(25, 25)) then
 				if reminder_buf.mon == 12 then
 					reminder_buf.mon = 1
 					reminder_buf.year = reminder_buf.year + 1
@@ -6688,7 +6688,7 @@ function window.main()
 			end
 			imgui.PopFont()
 			
-			local week_name = {u8'ПН', u8'ВТ', u8'СР', u8'ЧТ', u8'ПТ', u8'СБ', u8'ВС'}
+			local week_name = {u8'ГЏГЌ', u8'Г‚Г’', u8'Г‘Гђ', u8'Г—Г’', u8'ГЏГ’', u8'Г‘ГЃ', u8'Г‚Г‘'}
 			for i = 1, 7 do
 				imgui.SetCursorPos(imgui.ImVec2(42 + ((i - 1) * 58), 133))
 				imgui.TextColored(imgui.ImVec4(0.50, 0.50, 0.50 ,1.00), week_name[i])
@@ -6721,7 +6721,7 @@ function window.main()
 			local pos_y_week = 0
 			for i = 1, get_days_in_month(reminder_buf.mon, reminder_buf.year) do
 				imgui.SetCursorPos(imgui.ImVec2(38 + ((week_buf - 1) * 58), 169 + (pos_y_week * 32)))
-				if imgui.InvisibleButton(u8'##Номер дня'..i, imgui.ImVec2(24, 24)) then reminder_buf.day = i end
+				if imgui.InvisibleButton(u8'##ГЌГ®Г¬ГҐГ° Г¤Г­Гї'..i, imgui.ImVec2(24, 24)) then reminder_buf.day = i end
 				if imgui.IsItemHovered() then
 					imgui.SetCursorPos(imgui.ImVec2(51 + ((week_buf - 1) * 58), 177 + (pos_y_week * 32)))
 					local p = imgui.GetCursorScreenPos()
@@ -6750,7 +6750,7 @@ function window.main()
 		
 		imgui.EndChild()
 		
-	----> [7] Статистика
+	----> [7] Г‘ГІГ ГІГЁГ±ГІГЁГЄГ 
 	elseif select_main_menu[7] then
 		local function new_draw(pos_draw, par_dr_y)
 			imgui.SetCursorPos(imgui.ImVec2(0, pos_draw))
@@ -6791,7 +6791,7 @@ function window.main()
 			end
 			imgui.SetCursorPos(imgui.ImVec2(pos_draw[1], pos_draw[2]))
 			if select_stat ~= num_select then
-				if imgui.InvisibleButton(u8'##Сменить вкладку статистики'..pos_draw[1], imgui.ImVec2(351, 25)) then select_stat = num_select end
+				if imgui.InvisibleButton(u8'##Г‘Г¬ГҐГ­ГЁГІГј ГўГЄГ«Г Г¤ГЄГі Г±ГІГ ГІГЁГ±ГІГЁГЄГЁ'..pos_draw[1], imgui.ImVec2(351, 25)) then select_stat = num_select end
 				if imgui.IsItemActive() then
 					imgui.SetCursorPos(imgui.ImVec2(pos_draw[1], pos_draw[2]))
 					if setting.int.theme == 'White' then
@@ -6822,15 +6822,15 @@ function window.main()
 			end
 			imgui.PopFont()
 		end
-		menu_draw_up(u8'Статистика')
+		menu_draw_up(u8'Г‘ГІГ ГІГЁГ±ГІГЁГЄГ ')
 		
-		draw_button({162, 40}, u8'Статистика прибыли', 0)
-		draw_button({513, 40}, u8'Статистика онлайна', 1)
+		draw_button({162, 40}, u8'Г‘ГІГ ГІГЁГ±ГІГЁГЄГ  ГЇГ°ГЁГЎГ»Г«ГЁ', 0)
+		draw_button({513, 40}, u8'Г‘ГІГ ГІГЁГ±ГІГЁГЄГ  Г®Г­Г«Г Г©Г­Г ', 1)
 		
 		imgui.SetCursorPos(imgui.ImVec2(180, 65))
 		if select_stat == 0 then
-			imgui.BeginChild(u8'Статистика прибыли', imgui.ImVec2(682, 398 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
-			if setting.frac.org:find(u8'Больница') then
+			imgui.BeginChild(u8'Г‘ГІГ ГІГЁГ±ГІГЁГЄГ  ГЇГ°ГЁГЎГ»Г«ГЁ', imgui.ImVec2(682, 398 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
+			if setting.frac.org:find(u8'ГЃГ®Г«ГјГ­ГЁГ¶Г ') then
 				local non_stat = false
 				local pos_y = 0
 				local psl_y = 0
@@ -6858,22 +6858,22 @@ function window.main()
 							local calc = imgui.CalcTextSize(setting.stat.hosp.date_week[i])
 							imgui.PopFont()
 							skin.DrawFond({17, 55 + pos_y}, {0, 0}, {calc.x, 4}, imgui.ImVec4(1.00, 0.58, 0.02 ,1.00))
-							if earnings_text('Зарплата:', setting.stat.hosp.payday[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.payday[i] end
-							if earnings_text('Лечение:', setting.stat.hosp.lec[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.lec[i] end
-							if earnings_text('Оформление мед.карт:', setting.stat.hosp.medcard[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.medcard[i] end
-							if earnings_text('Снятие наркозависимости:', setting.stat.hosp.apt[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.apt[i] end
-							if earnings_text('Продажа антибиотиков:', setting.stat.hosp.ant[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.ant[i] end
-							if earnings_text('Продажа рецептов:', setting.stat.hosp.rec[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.rec[i] end
-							if earnings_text('Перевозка медикаментов:', setting.stat.hosp.medcam[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.medcam[i] end
-							if earnings_text('За вызовы:', setting.stat.hosp.cure[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.cure[i] end
-							if earnings_text('Сведение татуировок:', setting.stat.hosp.tatu[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.tatu[i] end
+							if earnings_text('Г‡Г Г°ГЇГ«Г ГІГ :', setting.stat.hosp.payday[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.payday[i] end
+							if earnings_text('Г‹ГҐГ·ГҐГ­ГЁГҐ:', setting.stat.hosp.lec[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.lec[i] end
+							if earnings_text('ГЋГґГ®Г°Г¬Г«ГҐГ­ГЁГҐ Г¬ГҐГ¤.ГЄГ Г°ГІ:', setting.stat.hosp.medcard[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.medcard[i] end
+							if earnings_text('Г‘Г­ГїГІГЁГҐ Г­Г Г°ГЄГ®Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГЁ:', setting.stat.hosp.apt[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.apt[i] end
+							if earnings_text('ГЏГ°Г®Г¤Г Г¦Г  Г Г­ГІГЁГЎГЁГ®ГІГЁГЄГ®Гў:', setting.stat.hosp.ant[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.ant[i] end
+							if earnings_text('ГЏГ°Г®Г¤Г Г¦Г  Г°ГҐГ¶ГҐГЇГІГ®Гў:', setting.stat.hosp.rec[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.rec[i] end
+							if earnings_text('ГЏГҐГ°ГҐГўГ®Г§ГЄГ  Г¬ГҐГ¤ГЁГЄГ Г¬ГҐГ­ГІГ®Гў:', setting.stat.hosp.medcam[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.medcam[i] end
+							if earnings_text('Г‡Г  ГўГ»Г§Г®ГўГ»:', setting.stat.hosp.cure[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.cure[i] end
+							if earnings_text('Г‘ГўГҐГ¤ГҐГ­ГЁГҐ ГІГ ГІГіГЁГ°Г®ГўГ®ГЄ:', setting.stat.hosp.tatu[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.hosp.tatu[i] end
 							
 							imgui.PushFont(font[1])
 							imgui.SetCursorPos(imgui.ImVec2(17, 79 + pos_y + pp_y))
 							if setting.int.theme == 'White' then
-								imgui.TextColoredRGB('{000000}Итого за день: {279643}'..point_sum(total_day)..'$')
+								imgui.TextColoredRGB('{000000}Г€ГІГ®ГЈГ® Г§Г  Г¤ГҐГ­Гј: {279643}'..point_sum(total_day)..'$')
 							else
-								imgui.TextColoredRGB('{FFFFFF}Итого за день: {36CF5C}'..point_sum(total_day)..'$')
+								imgui.TextColoredRGB('{FFFFFF}Г€ГІГ®ГЈГ® Г§Г  Г¤ГҐГ­Гј: {36CF5C}'..point_sum(total_day)..'$')
 							end
 							imgui.PopFont()
 							pos_y = pos_y + 91 + (money_true * 23) + 12
@@ -6887,7 +6887,7 @@ function window.main()
 							skin.DrawFond({17, 55 + pos_y}, {0, 0}, {calc.x, 4}, imgui.ImVec4(1.00, 0.58, 0.02 ,1.00))
 							imgui.PushFont(font[1])
 							imgui.SetCursorPos(imgui.ImVec2(17, 69 + pos_y))
-							imgui.Text(u8'В этот день Вы ничего не заработали')
+							imgui.Text(u8'Г‚ ГЅГІГ®ГІ Г¤ГҐГ­Гј Г‚Г» Г­ГЁГ·ГҐГЈГ® Г­ГҐ Г§Г Г°Г ГЎГ®ГІГ Г«ГЁ')
 							imgui.PopFont()
 							pos_y = pos_y + 96
 						end
@@ -6901,19 +6901,19 @@ function window.main()
 					setting.stat.hosp.total_week = setting.stat.hosp.total_week + setting.stat.hosp.payday[i] + setting.stat.hosp.lec[i] + setting.stat.hosp.medcard[i] + setting.stat.hosp.apt[i] + setting.stat.hosp.ant[i] + setting.stat.hosp.rec[i] + setting.stat.hosp.medcam[i] + setting.stat.hosp.tatu[i]
 				end
 				if setting.int.theme == 'White' then
-					imgui.TextColoredRGB('{000000}Итого за неделю: {279643}'..point_sum(setting.stat.hosp.total_week)..'$')
+					imgui.TextColoredRGB('{000000}Г€ГІГ®ГЈГ® Г§Г  Г­ГҐГ¤ГҐГ«Гѕ: {279643}'..point_sum(setting.stat.hosp.total_week)..'$')
 				else
-					imgui.TextColoredRGB('{FFFFFF}Итого за неделю: {36CF5C}'..point_sum(setting.stat.hosp.total_week)..'$')
+					imgui.TextColoredRGB('{FFFFFF}Г€ГІГ®ГЈГ® Г§Г  Г­ГҐГ¤ГҐГ«Гѕ: {36CF5C}'..point_sum(setting.stat.hosp.total_week)..'$')
 				end
 				imgui.SetCursorPos(imgui.ImVec2(17, 49 + pos_y))
 				if setting.int.theme == 'White' then
-					imgui.TextColoredRGB('{000000}Итого за всё время: {279643}'..point_sum(setting.stat.hosp.total_all)..'$')
+					imgui.TextColoredRGB('{000000}Г€ГІГ®ГЈГ® Г§Г  ГўГ±Вё ГўГ°ГҐГ¬Гї: {279643}'..point_sum(setting.stat.hosp.total_all)..'$')
 				else
-					imgui.TextColoredRGB('{FFFFFF}Итого за всё время: {36CF5C}'..point_sum(setting.stat.hosp.total_all)..'$')
+					imgui.TextColoredRGB('{FFFFFF}Г€ГІГ®ГЈГ® Г§Г  ГўГ±Вё ГўГ°ГҐГ¬Гї: {36CF5C}'..point_sum(setting.stat.hosp.total_all)..'$')
 				end
 				imgui.PopFont()
-				skin.Button(u8'Сбросить статистику', 270, 98 + pos_y, 145, 30, function()
-					if setting.frac.org:find(u8'Больница') then
+				skin.Button(u8'Г‘ГЎГ°Г®Г±ГЁГІГј Г±ГІГ ГІГЁГ±ГІГЁГЄГі', 270, 98 + pos_y, 145, 30, function()
+					if setting.frac.org:find(u8'ГЃГ®Г«ГјГ­ГЁГ¶Г ') then
 						setting.stat.hosp = {
 							payday = {0, 0, 0, 0, 0, 0, 0},
 							lec = {0, 0, 0, 0, 0, 0, 0},
@@ -6937,7 +6937,7 @@ function window.main()
 				end)
 				imgui.Dummy(imgui.ImVec2(0, 18))
 				
-			--[[elseif setting.frac.org:find(u8'Центр Лицензирования') then
+			--[[elseif setting.frac.org:find(u8'Г–ГҐГ­ГІГ° Г‹ГЁГ¶ГҐГ­Г§ГЁГ°Г®ГўГ Г­ГЁГї') then
 				local non_stat = false
 				local pos_y = 0
 				local psl_y = 0
@@ -6967,23 +6967,23 @@ function window.main()
 							local calc = imgui.CalcTextSize(setting.stat.school.date_week[i])
 							imgui.PopFont()
 							skin.DrawFond({17, 55 + pos_y}, {0, 0}, {calc.x, 4}, imgui.ImVec4(1.00, 0.58, 0.02 ,1.00))
-							if earnings_text('Зарплата:', setting.stat.school.payday[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.payday[i] end
-							if earnings_text('Авто:', setting.stat.school.auto[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.auto[i] end
-							if earnings_text('Мото:', setting.stat.school.moto[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.moto[i] end
-							if earnings_text('Рыбалка:', setting.stat.school.fish[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.fish[i] end
-							if earnings_text('Плавание:', setting.stat.school.swim[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.swim[i] end
-							if earnings_text('Оружие:', setting.stat.school.gun[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.gun[i] end
-							if earnings_text('Охота:', setting.stat.school.hun[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.hun[i] end
-							if earnings_text('Раскопки:', setting.stat.school.exc[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.exc[i] end
-							if earnings_text('Такси:', setting.stat.school.taxi[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.taxi[i] end
-							if earnings_text('Механика:', setting.stat.school.meh[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.meh[i] end
+							if earnings_text('Г‡Г Г°ГЇГ«Г ГІГ :', setting.stat.school.payday[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.payday[i] end
+							if earnings_text('ГЂГўГІГ®:', setting.stat.school.auto[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.auto[i] end
+							if earnings_text('ГЊГ®ГІГ®:', setting.stat.school.moto[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.moto[i] end
+							if earnings_text('ГђГ»ГЎГ Г«ГЄГ :', setting.stat.school.fish[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.fish[i] end
+							if earnings_text('ГЏГ«Г ГўГ Г­ГЁГҐ:', setting.stat.school.swim[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.swim[i] end
+							if earnings_text('ГЋГ°ГіГ¦ГЁГҐ:', setting.stat.school.gun[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.gun[i] end
+							if earnings_text('ГЋГµГ®ГІГ :', setting.stat.school.hun[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.hun[i] end
+							if earnings_text('ГђГ Г±ГЄГ®ГЇГЄГЁ:', setting.stat.school.exc[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.exc[i] end
+							if earnings_text('Г’Г ГЄГ±ГЁ:', setting.stat.school.taxi[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.taxi[i] end
+							if earnings_text('ГЊГҐГµГ Г­ГЁГЄГ :', setting.stat.school.meh[i], 17, 69 + pos_y + pp_y) then pp_y = pp_y + 23 total_day = total_day + setting.stat.school.meh[i] end
 							
 							imgui.PushFont(font[1])
 							imgui.SetCursorPos(imgui.ImVec2(17, 79 + pos_y + pp_y))
 							if setting.int.theme == 'White' then
-								imgui.TextColoredRGB('{000000}Итого за день: {279643}'..point_sum(total_day)..'$')
+								imgui.TextColoredRGB('{000000}Г€ГІГ®ГЈГ® Г§Г  Г¤ГҐГ­Гј: {279643}'..point_sum(total_day)..'$')
 							else
-								imgui.TextColoredRGB('{FFFFFF}Итого за день: {36CF5C}'..point_sum(total_day)..'$')
+								imgui.TextColoredRGB('{FFFFFF}Г€ГІГ®ГЈГ® Г§Г  Г¤ГҐГ­Гј: {36CF5C}'..point_sum(total_day)..'$')
 							end
 							imgui.PopFont()
 							pos_y = pos_y + 91 + (money_true * 23) + 12
@@ -6997,7 +6997,7 @@ function window.main()
 							skin.DrawFond({17, 55 + pos_y}, {0, 0}, {calc.x, 4}, imgui.ImVec4(1.00, 0.58, 0.02 ,1.00))
 							imgui.PushFont(font[1])
 							imgui.SetCursorPos(imgui.ImVec2(17, 69 + pos_y))
-							imgui.Text(u8'В этот день Вы ничего не заработали')
+							imgui.Text(u8'Г‚ ГЅГІГ®ГІ Г¤ГҐГ­Гј Г‚Г» Г­ГЁГ·ГҐГЈГ® Г­ГҐ Г§Г Г°Г ГЎГ®ГІГ Г«ГЁ')
 							imgui.PopFont()
 							pos_y = pos_y + 96
 						end
@@ -7013,19 +7013,19 @@ function window.main()
 					setting.stat.school.taxi[i] + setting.stat.school.meh[i] + setting.stat.school.hun[i] + setting.stat.school.total_week
 				end
 				if setting.int.theme == 'White' then
-					imgui.TextColoredRGB('{000000}Итого за неделю: {279643}'..point_sum(setting.stat.school.total_week)..'$')
+					imgui.TextColoredRGB('{000000}Г€ГІГ®ГЈГ® Г§Г  Г­ГҐГ¤ГҐГ«Гѕ: {279643}'..point_sum(setting.stat.school.total_week)..'$')
 				else
-					imgui.TextColoredRGB('{FFFFFF}Итого за неделю: {36CF5C}'..point_sum(setting.stat.school.total_week)..'$')
+					imgui.TextColoredRGB('{FFFFFF}Г€ГІГ®ГЈГ® Г§Г  Г­ГҐГ¤ГҐГ«Гѕ: {36CF5C}'..point_sum(setting.stat.school.total_week)..'$')
 				end
 				imgui.SetCursorPos(imgui.ImVec2(17, 49 + pos_y))
 				if setting.int.theme == 'White' then
-					imgui.TextColoredRGB('{000000}Итого за всё время: {279643}'..point_sum(setting.stat.school.total_all)..'$')
+					imgui.TextColoredRGB('{000000}Г€ГІГ®ГЈГ® Г§Г  ГўГ±Вё ГўГ°ГҐГ¬Гї: {279643}'..point_sum(setting.stat.school.total_all)..'$')
 				else
-					imgui.TextColoredRGB('{FFFFFF}Итого за всё время: {36CF5C}'..point_sum(setting.stat.school.total_all)..'$')
+					imgui.TextColoredRGB('{FFFFFF}Г€ГІГ®ГЈГ® Г§Г  ГўГ±Вё ГўГ°ГҐГ¬Гї: {36CF5C}'..point_sum(setting.stat.school.total_all)..'$')
 				end
 				imgui.PopFont()
-				skin.Button(u8'Сбросить статистику', 270, 98 + pos_y, 145, 30, function()
-					if setting.frac.org:find(u8'Центр Лицензирования') then
+				skin.Button(u8'Г‘ГЎГ°Г®Г±ГЁГІГј Г±ГІГ ГІГЁГ±ГІГЁГЄГі', 270, 98 + pos_y, 145, 30, function()
+					if setting.frac.org:find(u8'Г–ГҐГ­ГІГ° Г‹ГЁГ¶ГҐГ­Г§ГЁГ°Г®ГўГ Г­ГЁГї') then
 						setting.stat.school = {
 							payday = {0, 0, 0, 0, 0, 0, 0},
 							auto = {0, 0, 0, 0, 0, 0, 0},
@@ -7051,13 +7051,13 @@ function window.main()
 			else
 				imgui.PushFont(bold_font[4])
 				imgui.SetCursorPos(imgui.ImVec2(121, 176 + ((start_pos + new_pos) / 2)))
-				imgui.Text(u8'Для Вас пока недоступно')
+				imgui.Text(u8'Г„Г«Гї Г‚Г Г± ГЇГ®ГЄГ  Г­ГҐГ¤Г®Г±ГІГіГЇГ­Г®')
 				imgui.PopFont()
 			end
 			
 			imgui.EndChild()
 		else
-			imgui.BeginChild(u8'Статистика онлайна', imgui.ImVec2(682, 398 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'Г‘ГІГ ГІГЁГ±ГІГЁГЄГ  Г®Г­Г«Г Г©Г­Г ', imgui.ImVec2(682, 398 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
 			local pos_y = 17
 			
 			for i = 1, 7 do
@@ -7077,21 +7077,21 @@ function window.main()
 					
 					imgui.SetCursorPos(imgui.ImVec2(17, 52 + pos_y))
 					if setting.int.theme == 'White' then
-						imgui.TextColoredRGB('{000000}Чистый онлайн за день: {279643}'.. print_time(setting.online_stat.clean[i]))
+						imgui.TextColoredRGB('{000000}Г—ГЁГ±ГІГ»Г© Г®Г­Г«Г Г©Г­ Г§Г  Г¤ГҐГ­Гј: {279643}'.. print_time(setting.online_stat.clean[i]))
 					else
-						imgui.TextColoredRGB('{FFFFFF}Чистый онлайн за день: {36CF5C}'.. print_time(setting.online_stat.clean[i]))
+						imgui.TextColoredRGB('{FFFFFF}Г—ГЁГ±ГІГ»Г© Г®Г­Г«Г Г©Г­ Г§Г  Г¤ГҐГ­Гј: {36CF5C}'.. print_time(setting.online_stat.clean[i]))
 					end
 					imgui.SetCursorPos(imgui.ImVec2(17, 75 + pos_y))
 					if setting.int.theme == 'White' then
-						imgui.TextColoredRGB('{000000}АФК за день: {279643}'.. print_time(setting.online_stat.afk[i]))
+						imgui.TextColoredRGB('{000000}ГЂГ”ГЉ Г§Г  Г¤ГҐГ­Гј: {279643}'.. print_time(setting.online_stat.afk[i]))
 					else
-						imgui.TextColoredRGB('{FFFFFF}АФК за день: {36CF5C}'.. print_time(setting.online_stat.afk[i]))
+						imgui.TextColoredRGB('{FFFFFF}ГЂГ”ГЉ Г§Г  Г¤ГҐГ­Гј: {36CF5C}'.. print_time(setting.online_stat.afk[i]))
 					end
 					imgui.SetCursorPos(imgui.ImVec2(17, 98 + pos_y))
 					if setting.int.theme == 'White' then
-						imgui.TextColoredRGB('{000000}Всего за день: {279643}'.. print_time(setting.online_stat.all[i]))
+						imgui.TextColoredRGB('{000000}Г‚Г±ГҐГЈГ® Г§Г  Г¤ГҐГ­Гј: {279643}'.. print_time(setting.online_stat.all[i]))
 					else
-						imgui.TextColoredRGB('{FFFFFF}Всего за день: {36CF5C}'.. print_time(setting.online_stat.all[i]))
+						imgui.TextColoredRGB('{FFFFFF}Г‚Г±ГҐГЈГ® Г§Г  Г¤ГҐГ­Гј: {36CF5C}'.. print_time(setting.online_stat.all[i]))
 					end
 					
 					pos_y = pos_y + 144
@@ -7099,21 +7099,21 @@ function window.main()
 					if i == 1 then
 						imgui.SetCursorPos(imgui.ImVec2(17, -17 + pos_y))
 						if setting.int.theme == 'White' then
-							imgui.TextColoredRGB('{000000}Чистый за сессию: {279643}'.. print_time(session_clean.v))
+							imgui.TextColoredRGB('{000000}Г—ГЁГ±ГІГ»Г© Г§Г  Г±ГҐГ±Г±ГЁГѕ: {279643}'.. print_time(session_clean.v))
 						else
-							imgui.TextColoredRGB('{FFFFFF}Чистый за сессию: {36CF5C}'.. print_time(session_clean.v))
+							imgui.TextColoredRGB('{FFFFFF}Г—ГЁГ±ГІГ»Г© Г§Г  Г±ГҐГ±Г±ГЁГѕ: {36CF5C}'.. print_time(session_clean.v))
 						end
 						imgui.SetCursorPos(imgui.ImVec2(17, 6 + pos_y))
 						if setting.int.theme == 'White' then
-							imgui.TextColoredRGB('{000000}АФК за сессию: {279643}'.. print_time(session_afk.v))
+							imgui.TextColoredRGB('{000000}ГЂГ”ГЉ Г§Г  Г±ГҐГ±Г±ГЁГѕ: {279643}'.. print_time(session_afk.v))
 						else
-							imgui.TextColoredRGB('{FFFFFF}АФК за сессию: {36CF5C}'.. print_time(session_afk.v))
+							imgui.TextColoredRGB('{FFFFFF}ГЂГ”ГЉ Г§Г  Г±ГҐГ±Г±ГЁГѕ: {36CF5C}'.. print_time(session_afk.v))
 						end
 						imgui.SetCursorPos(imgui.ImVec2(17, 29 + pos_y))
 						if setting.int.theme == 'White' then
-							imgui.TextColoredRGB('{000000}Всего за сессию: {279643}'.. print_time(session_all.v))
+							imgui.TextColoredRGB('{000000}Г‚Г±ГҐГЈГ® Г§Г  Г±ГҐГ±Г±ГЁГѕ: {279643}'.. print_time(session_all.v))
 						else
-							imgui.TextColoredRGB('{FFFFFF}Всего за сессию: {36CF5C}'.. print_time(session_all.v))
+							imgui.TextColoredRGB('{FFFFFF}Г‚Г±ГҐГЈГ® Г§Г  Г±ГҐГ±Г±ГЁГѕ: {36CF5C}'.. print_time(session_all.v))
 						end
 						pos_y = pos_y + 75
 					end
@@ -7128,20 +7128,20 @@ function window.main()
 			setting.online_stat.clean[4] + setting.online_stat.clean[5] + setting.online_stat.clean[6] + setting.online_stat.clean[7]
 			imgui.SetCursorPos(imgui.ImVec2(17, 11 + pos_y))
 			if setting.int.theme == 'White' then
-				imgui.TextColoredRGB('{000000}Чистый онлайн за неделю: {279643}'.. print_time(setting.online_stat.total_week))
+				imgui.TextColoredRGB('{000000}Г—ГЁГ±ГІГ»Г© Г®Г­Г«Г Г©Г­ Г§Г  Г­ГҐГ¤ГҐГ«Гѕ: {279643}'.. print_time(setting.online_stat.total_week))
 			else
-				imgui.TextColoredRGB('{FFFFFF}Чистый онлайн за неделю: {36CF5C}'.. print_time(setting.online_stat.total_week))
+				imgui.TextColoredRGB('{FFFFFF}Г—ГЁГ±ГІГ»Г© Г®Г­Г«Г Г©Г­ Г§Г  Г­ГҐГ¤ГҐГ«Гѕ: {36CF5C}'.. print_time(setting.online_stat.total_week))
 			end
 			imgui.SetCursorPos(imgui.ImVec2(17, 34 + pos_y))
 			if setting.int.theme == 'White' then
-				imgui.TextColoredRGB('{000000}Чистый онлайн за всё время: {279643}'.. print_time(setting.online_stat.total_all))
+				imgui.TextColoredRGB('{000000}Г—ГЁГ±ГІГ»Г© Г®Г­Г«Г Г©Г­ Г§Г  ГўГ±Вё ГўГ°ГҐГ¬Гї: {279643}'.. print_time(setting.online_stat.total_all))
 			else
-				imgui.TextColoredRGB('{FFFFFF}Чистый онлайн за всё время: {36CF5C}'.. print_time(setting.online_stat.total_all))
+				imgui.TextColoredRGB('{FFFFFF}Г—ГЁГ±ГІГ»Г© Г®Г­Г«Г Г©Г­ Г§Г  ГўГ±Вё ГўГ°ГҐГ¬Гї: {36CF5C}'.. print_time(setting.online_stat.total_all))
 			end
 			imgui.PopFont()
 			pos_y = pos_y + 81
 			
-			skin.Button(u8'Сбросить статистику##онлайна', 270, pos_y, 145, 30, function()
+			skin.Button(u8'Г‘ГЎГ°Г®Г±ГЁГІГј Г±ГІГ ГІГЁГ±ГІГЁГЄГі##Г®Г­Г«Г Г©Г­Г ', 270, pos_y, 145, 30, function()
 				setting.online_stat = {
 					clean = {0, 0, 0, 0, 0, 0, 0},
 					afk = {0, 0, 0, 0, 0, 0, 0},
@@ -7160,7 +7160,7 @@ function window.main()
 			imgui.EndChild()
 		end
 		
-	----> [8] Музыка
+	----> [8] ГЊГіГ§Г»ГЄГ 
 	elseif select_main_menu[8] then
 		local function new_draw(pos_draw, par_dr_y)
 			imgui.SetCursorPos(imgui.ImVec2(0, pos_draw))
@@ -7181,7 +7181,7 @@ function window.main()
 			end
 			imgui.SetCursorPos(imgui.ImVec2(pos_draw[1], pos_draw[2]))
 			if select_music ~= num_select then
-				if imgui.InvisibleButton(u8'##Сменить вкладку музыки'..pos_draw[1], imgui.ImVec2(234, 25)) then select_music = num_select end
+				if imgui.InvisibleButton(u8'##Г‘Г¬ГҐГ­ГЁГІГј ГўГЄГ«Г Г¤ГЄГі Г¬ГіГ§Г»ГЄГЁ'..pos_draw[1], imgui.ImVec2(234, 25)) then select_music = num_select end
 				if imgui.IsItemActive() then
 					imgui.SetCursorPos(imgui.ImVec2(pos_draw[1], pos_draw[2]))
 					if setting.int.theme == 'White' then
@@ -7212,11 +7212,11 @@ function window.main()
 			end
 			imgui.PopFont()
 		end
-		menu_draw_up(u8'Музыка')
+		menu_draw_up(u8'ГЊГіГ§Г»ГЄГ ')
 		
-		draw_button({162, 40}, u8'Поиск в интернете', 1)
-		draw_button({396, 40}, u8'Избранные', 2)
-		draw_button({630, 40}, u8'Радио Record', 3)
+		draw_button({162, 40}, u8'ГЏГ®ГЁГ±ГЄ Гў ГЁГ­ГІГҐГ°Г­ГҐГІГҐ', 1)
+		draw_button({396, 40}, u8'Г€Г§ГЎГ°Г Г­Г­Г»ГҐ', 2)
+		draw_button({630, 40}, u8'ГђГ Г¤ГЁГ® Record', 3)
 		
 		if setting.int.theme == 'White' then
 			skin.DrawFond({162, 406 + start_pos + new_pos}, {0, 0}, {702, 58}, imgui.ImVec4(col_end.fond_two[1] + 0.03, col_end.fond_two[2] + 0.03, col_end.fond_two[3] + 0.03, 1.00), 15, 20)
@@ -7238,7 +7238,7 @@ function window.main()
 		else
 			if menu_play_track[1] or menu_play_track[2] then
 				imgui.SetCursorPos(imgui.ImVec2(176, 427 + start_pos + new_pos))
-				if imgui.InvisibleButton(u8'##Переключить назад', imgui.ImVec2(18, 17)) then back_track() end
+				if imgui.InvisibleButton(u8'##ГЏГҐГ°ГҐГЄГ«ГѕГ·ГЁГІГј Г­Г Г§Г Г¤', imgui.ImVec2(18, 17)) then back_track() end
 				if imgui.IsItemActive() then
 					imgui.SetCursorPos(imgui.ImVec2(176, 429 + start_pos + new_pos))
 					imgui.TextColored(imgui.ImVec4(setting.col_acc_non[1], setting.col_acc_non[2], setting.col_acc_non[3], 1.00), fa.ICON_BACKWARD)
@@ -7251,7 +7251,7 @@ function window.main()
 				end
 				
 				imgui.SetCursorPos(imgui.ImVec2(243, 427 + start_pos + new_pos))
-				if imgui.InvisibleButton(u8'##Переключить вперёд', imgui.ImVec2(18, 17)) then next_track() end
+				if imgui.InvisibleButton(u8'##ГЏГҐГ°ГҐГЄГ«ГѕГ·ГЁГІГј ГўГЇГҐГ°ВёГ¤', imgui.ImVec2(18, 17)) then next_track() end
 				if imgui.IsItemActive() then
 					imgui.SetCursorPos(imgui.ImVec2(245, 429 + start_pos + new_pos))
 					imgui.TextColored(imgui.ImVec4(setting.col_acc_non[1], setting.col_acc_non[2], setting.col_acc_non[3], 1.00), fa.ICON_FORWARD)
@@ -7272,7 +7272,7 @@ function window.main()
 			imgui.PushFont(fa_font[6])
 			if status_track_pl == 'PLAY' then
 				imgui.SetCursorPos(imgui.ImVec2(206, 420 + start_pos + new_pos))
-				if imgui.InvisibleButton(u8'##Пауза', imgui.ImVec2(27, 27)) then action_song('PAUSE') end
+				if imgui.InvisibleButton(u8'##ГЏГ ГіГ§Г ', imgui.ImVec2(27, 27)) then action_song('PAUSE') end
 				if imgui.IsItemActive() then
 					imgui.SetCursorPos(imgui.ImVec2(204, 416 + start_pos + new_pos))
 					imgui.TextColored(imgui.ImVec4(setting.col_acc_non[1], setting.col_acc_non[2], setting.col_acc_non[3], 1.00), fa.ICON_PAUSE_CIRCLE_O)
@@ -7285,7 +7285,7 @@ function window.main()
 				end
 			else
 				imgui.SetCursorPos(imgui.ImVec2(206, 420 + start_pos + new_pos))
-				if imgui.InvisibleButton(u8'##Возобновить', imgui.ImVec2(27, 27)) then action_song('PLAY') end
+				if imgui.InvisibleButton(u8'##Г‚Г®Г§Г®ГЎГ­Г®ГўГЁГІГј', imgui.ImVec2(27, 27)) then action_song('PLAY') end
 				if imgui.IsItemActive() then
 					imgui.SetCursorPos(imgui.ImVec2(204, 416 + start_pos + new_pos))
 					imgui.TextColored(imgui.ImVec4(setting.col_acc_non[1], setting.col_acc_non[2], setting.col_acc_non[3], 1.00), fa.ICON_PLAY_CIRCLE_O)
@@ -7330,7 +7330,7 @@ function window.main()
 		imgui.PushFont(font[1])
 		if status_track_pl == 'STOP' then
 			imgui.SetCursorPos(imgui.ImVec2(336, 420 + start_pos + new_pos))
-			imgui.Text(u8'Ничего не воспроизводится')
+			imgui.Text(u8'ГЌГЁГ·ГҐГЈГ® Г­ГҐ ГўГ®Г±ГЇГ°Г®ГЁГ§ГўГ®Г¤ГЁГІГ±Гї')
 		else
 			local artist_buf = imgui.ImBuffer(58)
 			local name_buf = imgui.ImBuffer(58)
@@ -7372,7 +7372,7 @@ function window.main()
 			
 				imgui.SetCursorPos(imgui.ImVec2(325, 445 + start_pos + new_pos))
 				imgui.PushItemWidth(419)
-				if imgui.SliderFloat(u8'##Перемотка', sectime_track, 0, track_time_hc - 2, u8'') then rewind_song(sectime_track.v) end
+				if imgui.SliderFloat(u8'##ГЏГҐГ°ГҐГ¬Г®ГІГЄГ ', sectime_track, 0, track_time_hc - 2, u8'') then rewind_song(sectime_track.v) end
 				if imgui.IsItemHovered() then
 					imgui.SetCursorPos(imgui.ImVec2(336 + size_X_line, 454 + start_pos + new_pos))
 					local p = imgui.GetCursorScreenPos()
@@ -7397,7 +7397,7 @@ function window.main()
 		imgui.GetWindowDrawList():AddRectFilled(imgui.ImVec2(p.x, p.y), imgui.ImVec2(p.x + (volume_buf.v * 50), p.y + 3), imgui.GetColorU32(imgui.ImVec4(setting.col_acc_act[1], setting.col_acc_act[2], setting.col_acc_act[3], 1.00)))
 		imgui.SetCursorPos(imgui.ImVec2(740, 445 + start_pos + new_pos))
 		imgui.PushItemWidth(119)
-		if imgui.SliderFloat(u8'##Громкость', volume_buf, 0, 2, u8'') then 
+		if imgui.SliderFloat(u8'##ГѓГ°Г®Г¬ГЄГ®Г±ГІГј', volume_buf, 0, 2, u8'') then 
 			setting.mus.volume = volume_buf.v 
 			save('setting')
 			volume_song(setting.mus.volume)
@@ -7414,7 +7414,7 @@ function window.main()
 		
 		imgui.PushFont(fa_font[4])
 		imgui.SetCursorPos(imgui.ImVec2(748, 419 + start_pos + new_pos))
-		if imgui.InvisibleButton(u8'##Повторение', imgui.ImVec2(20, 20)) then setting.mus.rep = not setting.mus.rep save('setting') end
+		if imgui.InvisibleButton(u8'##ГЏГ®ГўГІГ®Г°ГҐГ­ГЁГҐ', imgui.ImVec2(20, 20)) then setting.mus.rep = not setting.mus.rep save('setting') end
 		imgui.SetCursorPos(imgui.ImVec2(751, 421 + start_pos + new_pos))
 		if setting.mus.rep and not imgui.IsItemActive() then
 			imgui.Text(fa.ICON_REPEAT)
@@ -7424,7 +7424,7 @@ function window.main()
 			imgui.TextColored(imgui.ImVec4(setting.col_acc_act[1], setting.col_acc_act[2], setting.col_acc_act[3], 1.00), fa.ICON_REPEAT)
 		end
 		imgui.SetCursorPos(imgui.ImVec2(789, 419 + start_pos + new_pos))
-		if imgui.InvisibleButton(u8'##Окно плеера', imgui.ImVec2(20, 20)) then setting.mus.win = not setting.mus.win save('setting') end
+		if imgui.InvisibleButton(u8'##ГЋГЄГ­Г® ГЇГ«ГҐГҐГ°Г ', imgui.ImVec2(20, 20)) then setting.mus.win = not setting.mus.win save('setting') end
 		imgui.SetCursorPos(imgui.ImVec2(792, 421 + start_pos + new_pos))
 		if setting.mus.win and not imgui.IsItemActive() then
 			imgui.Text(fa.ICON_WINDOW_MAXIMIZE)
@@ -7434,7 +7434,7 @@ function window.main()
 			imgui.TextColored(imgui.ImVec4(setting.col_acc_act[1], setting.col_acc_act[2], setting.col_acc_act[3], 1.00), fa.ICON_WINDOW_MAXIMIZE)
 		end
 		imgui.SetCursorPos(imgui.ImVec2(832, 419 + start_pos + new_pos))
-		if imgui.InvisibleButton(u8'##Остановить музыку', imgui.ImVec2(20, 20)) then
+		if imgui.InvisibleButton(u8'##ГЋГ±ГІГ Г­Г®ГўГЁГІГј Г¬ГіГ§Г»ГЄГі', imgui.ImVec2(20, 20)) then
 			action_song('STOP')
 			sel_link = ''
 		end
@@ -7456,7 +7456,7 @@ function window.main()
 				imgui.GetWindowDrawList():AddRectFilled(imgui.ImVec2(p.x, p.y), imgui.ImVec2(p.x + 702, p.y + 36), imgui.GetColorU32(imgui.ImVec4(0.30, 0.30, 0.30, 1.00)))
 			end
 			
-			if skin.InputText(193, 72, u8'Введите название песни или его исполнителя', 'text_find_track', 100, 591, nil, nil, 'enterflag') then
+			if skin.InputText(193, 72, u8'Г‚ГўГҐГ¤ГЁГІГҐ Г­Г Г§ГўГ Г­ГЁГҐ ГЇГҐГ±Г­ГЁ ГЁГ«ГЁ ГҐГЈГ® ГЁГ±ГЇГ®Г«Г­ГЁГІГҐГ«Гї', 'text_find_track', 100, 591, nil, nil, 'enterflag') then
 				if text_find_track ~= '' then
 					qua_page = 1
 					sel_link = ''
@@ -7469,7 +7469,7 @@ function window.main()
 			imgui.PopFont()
 			
 			imgui.PushStyleVar(imgui.StyleVar.FrameRounding, 0)
-			skin.Button(u8'Поиск', 784, 65, 80, 36, function() 
+			skin.Button(u8'ГЏГ®ГЁГ±ГЄ', 784, 65, 80, 36, function() 
 				if text_find_track ~= '' then
 					qua_page = 1
 					sel_link = ''
@@ -7478,14 +7478,14 @@ function window.main()
 			end)
 			imgui.PopStyleVar(1)
 			imgui.SetCursorPos(imgui.ImVec2(180, 101))
-			imgui.BeginChild(u8'Поиск в интернете', imgui.ImVec2(682, 304 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'ГЏГ®ГЁГ±ГЄ Гў ГЁГ­ГІГҐГ°Г­ГҐГІГҐ', imgui.ImVec2(682, 304 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
 			
-			if tracks.link[1] ~= 'Ошибка404' then
+			if tracks.link[1] ~= 'ГЋГёГЁГЎГЄГ 404' then
 				local POS_Y_T = 17
 				for i = 1, #tracks.link do
 					new_draw(POS_Y_T, 36)
 					imgui.SetCursorPos(imgui.ImVec2(32, POS_Y_T))
-					if imgui.InvisibleButton(u8'##Включить трек'..i, imgui.ImVec2(634, 36)) then
+					if imgui.InvisibleButton(u8'##Г‚ГЄГ«ГѕГ·ГЁГІГј ГІГ°ГҐГЄ'..i, imgui.ImVec2(634, 36)) then
 						if menu_play_track[1] and selectis == i and sel_link == tracks.link[i] then
 							if status_track_pl == 'PLAY' then
 								action_song('PAUSE')
@@ -7541,7 +7541,7 @@ function window.main()
 						end
 					end
 					imgui.SetCursorPos(imgui.ImVec2(7, POS_Y_T + 8))
-					if imgui.InvisibleButton(u8'##Добавить в избранные'..i, imgui.ImVec2(20, 20)) then
+					if imgui.InvisibleButton(u8'##Г„Г®ГЎГ ГўГЁГІГј Гў ГЁГ§ГЎГ°Г Г­Г­Г»ГҐ'..i, imgui.ImVec2(20, 20)) then
 						if favorite_track then
 							table.remove(save_tracks.link, favorite_track_i)
 							table.remove(save_tracks.artist, favorite_track_i)
@@ -7642,7 +7642,7 @@ function window.main()
 						if m == current_page then
 							imgui.GetWindowDrawList():AddCircleFilled(imgui.ImVec2(p.x + 0.5, p.y - 0.5), 11, imvec4_col, 60)
 						end
-						if imgui.InvisibleButton(u8'##Перейти к странице'..m, imgui.ImVec2(23, 23)) then
+						if imgui.InvisibleButton(u8'##ГЏГҐГ°ГҐГ©ГІГЁ ГЄ Г±ГІГ°Г Г­ГЁГ¶ГҐ'..m, imgui.ImVec2(23, 23)) then
 							find_track_link(text_find_track, m)
 							current_page = m
 						end
@@ -7657,7 +7657,7 @@ function window.main()
 			else
 				imgui.PushFont(bold_font[4])
 				imgui.SetCursorPos(imgui.ImVec2(172, 128 + ((start_pos + new_pos) / 2)))
-				imgui.Text(u8'Ничего не найдено')
+				imgui.Text(u8'ГЌГЁГ·ГҐГЈГ® Г­ГҐ Г­Г Г©Г¤ГҐГ­Г®')
 				imgui.PopFont()
 			end
 			imgui.EndChild()
@@ -7665,7 +7665,7 @@ function window.main()
 			
 		elseif select_music == 2 then
 			imgui.SetCursorPos(imgui.ImVec2(180, 65))
-			imgui.BeginChild(u8'Избранные', imgui.ImVec2(682, 340 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'Г€Г§ГЎГ°Г Г­Г­Г»ГҐ', imgui.ImVec2(682, 340 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
 			
 			local remove_table_track = nil
 			if #save_tracks.link ~= 0 then
@@ -7673,7 +7673,7 @@ function window.main()
 				for i = 1, #save_tracks.link do
 					new_draw(POS_Y_T, 36)
 					imgui.SetCursorPos(imgui.ImVec2(32, POS_Y_T))
-					if imgui.InvisibleButton(u8'##Включить сохранённый трек'..i, imgui.ImVec2(634, 36)) then
+					if imgui.InvisibleButton(u8'##Г‚ГЄГ«ГѕГ·ГЁГІГј Г±Г®ГµГ°Г Г­ВёГ­Г­Г»Г© ГІГ°ГҐГЄ'..i, imgui.ImVec2(634, 36)) then
 						if menu_play_track[2] and selectis == i then
 							if status_track_pl == 'PLAY' then
 								action_song('PAUSE')
@@ -7717,7 +7717,7 @@ function window.main()
 					
 					imgui.PushFont(fa_font[4])
 					imgui.SetCursorPos(imgui.ImVec2(7, POS_Y_T + 8))
-					if imgui.InvisibleButton(u8'##Удалить из избранных'..i, imgui.ImVec2(20, 20)) then
+					if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј ГЁГ§ ГЁГ§ГЎГ°Г Г­Г­Г»Гµ'..i, imgui.ImVec2(20, 20)) then
 						remove_table_track = i
 					end
 					imgui.SetCursorPos(imgui.ImVec2(11, POS_Y_T + 10))
@@ -7758,7 +7758,7 @@ function window.main()
 			else
 				imgui.PushFont(bold_font[4])
 				imgui.SetCursorPos(imgui.ImVec2(145, 146 + ((start_pos + new_pos) / 2)))
-				imgui.Text(u8'Нет избранных треков')
+				imgui.Text(u8'ГЌГҐГІ ГЁГ§ГЎГ°Г Г­Г­Г»Гµ ГІГ°ГҐГЄГ®Гў')
 				imgui.PopFont()
 			end
 			
@@ -7790,11 +7790,11 @@ function window.main()
 			imgui.EndChild()
 		elseif select_music == 3 then
 			imgui.SetCursorPos(imgui.ImVec2(162, 65))
-			imgui.BeginChild(u8'Радио Record', imgui.ImVec2(702, 340 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'ГђГ Г¤ГЁГ® Record', imgui.ImVec2(702, 340 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
 			
 			local function background_record_card(posX_R, posY_R, i_R, record_text_name)
 				imgui.SetCursorPos(imgui.ImVec2(posX_R, posY_R))
-				if imgui.InvisibleButton(u8'##Включить радиостанцию'..i_R, imgui.ImVec2(126, 156)) then 
+				if imgui.InvisibleButton(u8'##Г‚ГЄГ«ГѕГ·ГЁГІГј Г°Г Г¤ГЁГ®Г±ГІГ Г­Г¶ГЁГѕ'..i_R, imgui.ImVec2(126, 156)) then 
 					selectis = 0
 					menu_play_track = {false, false, true}
 					if select_record ~= i_R then
@@ -7849,9 +7849,9 @@ function window.main()
 			background_record_card(150, 12 + ((start_pos + new_pos) / 2), 2, 'Megamix')
 			background_record_card(288, 12 + ((start_pos + new_pos) / 2), 3, 'Party 24/7')
 			background_record_card(426, 12 + ((start_pos + new_pos) / 2), 4, 'Phonk')
-			background_record_card(564, 12 + ((start_pos + new_pos) / 2), 5, 'Гоп FM')
+			background_record_card(564, 12 + ((start_pos + new_pos) / 2), 5, 'ГѓГ®ГЇ FM')
 			
-			background_record_card(12, 176 + ((start_pos + new_pos) / 2), 6, 'Руки Вверх')
+			background_record_card(12, 176 + ((start_pos + new_pos) / 2), 6, 'ГђГіГЄГЁ Г‚ГўГҐГ°Гµ')
 			background_record_card(150, 176 + ((start_pos + new_pos) / 2), 7, 'Dupstep')
 			background_record_card(288, 176 + ((start_pos + new_pos) / 2), 8, 'Big Hits')
 			background_record_card(426, 176 + ((start_pos + new_pos) / 2), 9, 'Organic')
@@ -7860,7 +7860,7 @@ function window.main()
 			imgui.EndChild()
 		end
 		
-	----> [9] РП зона
+	----> [9] ГђГЏ Г§Г®Г­Г 
 	elseif select_main_menu[9] then
 		local function new_draw(pos_draw, par_dr_y)
 			imgui.SetCursorPos(imgui.ImVec2(0, pos_draw))
@@ -7872,20 +7872,20 @@ function window.main()
 			end
 		end
 		
-		menu_draw_up(u8'РП зона')
+		menu_draw_up(u8'ГђГЏ Г§Г®Г­Г ')
 		imgui.SetCursorPos(imgui.ImVec2(180, 41))
-		imgui.BeginChild(u8'РП зона', imgui.ImVec2(682, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
+		imgui.BeginChild(u8'ГђГЏ Г§Г®Г­Г ', imgui.ImVec2(682, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
 		
 		if select_scene == 0 then
 			if not setting.rp_zone then
 				imgui.PushFont(font[4])
 				imgui.SetCursorPos(imgui.ImVec2(93, 155 + ((start_pos + new_pos) / 2)))
-				imgui.Text(u8'Здесь Вы можете создать Role Play SS для Вашего отчёта')
+				imgui.Text(u8'Г‡Г¤ГҐГ±Гј Г‚Г» Г¬Г®Г¦ГҐГІГҐ Г±Г®Г§Г¤Г ГІГј Role Play SS Г¤Г«Гї Г‚Г ГёГҐГЈГ® Г®ГІГ·ВёГІГ ')
 				imgui.SetCursorPos(imgui.ImVec2(168, 185 + ((start_pos + new_pos) / 2)))
-				imgui.Text(u8'прямо в игре без сторонних программ!')
+				imgui.Text(u8'ГЇГ°ГїГ¬Г® Гў ГЁГЈГ°ГҐ ГЎГҐГ§ Г±ГІГ®Г°Г®Г­Г­ГЁГµ ГЇГ°Г®ГЈГ°Г Г¬Г¬!')
 				imgui.PopFont()
 				imgui.PushFont(font[1])
-				skin.Button(u8'Начать', 270, 225 + ((start_pos + new_pos) / 2), 125, 35, function()
+				skin.Button(u8'ГЌГ Г·Г ГІГј', 270, 225 + ((start_pos + new_pos) / 2), 125, 35, function()
 					setting.rp_zone = true
 					save('setting')
 				end)
@@ -7894,12 +7894,12 @@ function window.main()
 				if #scene.bq == 0 then
 					imgui.PushFont(bold_font[4])
 					imgui.SetCursorPos(imgui.ImVec2(258, 159 + ((start_pos + new_pos) / 2)))
-					imgui.Text(u8'Нет сцен')
+					imgui.Text(u8'ГЌГҐГІ Г±Г¶ГҐГ­')
 					imgui.PopFont()
 					imgui.PushFont(font[1])
-					skin.Button(u8'Добавить сцену', 270, 212 + ((start_pos + new_pos) / 2), 125, 35, function()
+					skin.Button(u8'Г„Г®ГЎГ ГўГЁГІГј Г±Г¶ГҐГ­Гі', 270, 212 + ((start_pos + new_pos) / 2), 125, 35, function()
 						local new_scene = {
-							nm = u8'Сцена '..(#scene + 1),
+							nm = u8'Г‘Г¶ГҐГ­Г  '..(#scene + 1),
 							pos = {x = 20, y = 20},
 							size = 13,
 							dist = 21,
@@ -7922,7 +7922,7 @@ function window.main()
 					imgui.PushFont(font[1])
 					for i = 1, #scene.bq do
 						imgui.SetCursorPos(imgui.ImVec2(0, 17 + ( (i - 1) * 68)))
-						if imgui.InvisibleButton(u8'##Перейти в редактор сцены'..i, imgui.ImVec2(666, 68)) then 
+						if imgui.InvisibleButton(u8'##ГЏГҐГ°ГҐГ©ГІГЁ Гў Г°ГҐГ¤Г ГЄГІГ®Г° Г±Г¶ГҐГ­Г»'..i, imgui.ImVec2(666, 68)) then 
 							POS_Y = 380
 							col_sc = {}
 							if scene.bq[i].qq ~= 0 then
@@ -7979,9 +7979,9 @@ function window.main()
 							skin.DrawFond({17, 16 + (draw * 68)}, {0, 0}, {632, 1}, imgui.ImVec4(0.50, 0.50, 0.50, 0.40), 0, 0)
 						end
 					end
-					skin.Button(u8'Добавить сцену', 270, 34 + (#scene.bq * 68), 125, 35, function()
+					skin.Button(u8'Г„Г®ГЎГ ГўГЁГІГј Г±Г¶ГҐГ­Гі', 270, 34 + (#scene.bq * 68), 125, 35, function()
 						local new_scene = {
-							nm = u8'Сцена '..(#scene + 1),
+							nm = u8'Г‘Г¶ГҐГ­Г  '..(#scene + 1),
 							pos = {x = 20, y = 20},
 							size = 13,
 							dist = 21,
@@ -8004,19 +8004,19 @@ function window.main()
 		else
 			imgui.PushFont(font[1])
 			new_draw(17, 84)
-			skin.Button(u8'Сохранить сцену', 15, 29, 202, 30, function() 
+			skin.Button(u8'Г‘Г®ГµГ°Г Г­ГЁГІГј Г±Г¶ГҐГ­Гі', 15, 29, 202, 30, function() 
 				scene.bq[select_scene] = scene_buf
 				save('scene')
 				select_scene = 0
 				edit_sc = false
 			end)
-			skin.Button(u8'Удалить сцену', 232, 29, 202, 30, function()
+			skin.Button(u8'Г“Г¤Г Г«ГЁГІГј Г±Г¶ГҐГ­Гі', 232, 29, 202, 30, function()
 				table.remove(scene.bq, select_scene)
 				save('scene')
 				select_scene = 0
 				edit_sc = false
 			end)
-			skin.Button(u8'Включить сцену', 449, 29, 202, 30, function()
+			skin.Button(u8'Г‚ГЄГ«ГѕГ·ГЁГІГј Г±Г¶ГҐГ­Гі', 449, 29, 202, 30, function()
 				scene_active = true
 				scene_edit_i = false
 				win.main.v = false
@@ -8031,43 +8031,43 @@ function window.main()
 				angY = 0.0
 			end)
 			imgui.SetCursorPos(imgui.ImVec2(15, 73))
-			imgui.Text(u8'Предосмотр')
+			imgui.Text(u8'ГЏГ°ГҐГ¤Г®Г±Г¬Г®ГІГ°')
 			imgui.SetCursorPos(imgui.ImVec2(620, 72))
-			if skin.Switch(u8'##Предосмотр', preview_sc) then preview_sc = not preview_sc end
+			if skin.Switch(u8'##ГЏГ°ГҐГ¤Г®Г±Г¬Г®ГІГ°', preview_sc) then preview_sc = not preview_sc end
 			
 			new_draw(113, 50)
-			skin.InputText(15, 127, u8'Задайте имя сцены', 'scene_buf.nm', 80, 636)
+			skin.InputText(15, 127, u8'Г‡Г Г¤Г Г©ГІГҐ ГЁГ¬Гї Г±Г¶ГҐГ­Г»', 'scene_buf.nm', 80, 636)
 			
 			new_draw(175, 213)
-			if skin.Slider('##Размер шрифта', 'scene_buf.size', 1, 30, 205, {455, 186}, '') then font_sc = renderCreateFont('Arial', scene_buf.size, scene_buf.flag) end
-			if skin.Slider('##Флаг шрифта', 'scene_buf.flag', 1, 30, 205, {455, 217}, '') then font_sc = renderCreateFont('Arial', scene_buf.size, scene_buf.flag) end
-			skin.Slider('##Расстояние между строками', 'scene_buf.dist', 1, 40, 205, {455, 247})
-			skin.Slider('##Прозрачность текста', 'scene_buf.vis', 1, 255, 205, {455, 277})
+			if skin.Slider('##ГђГ Г§Г¬ГҐГ° ГёГ°ГЁГґГІГ ', 'scene_buf.size', 1, 30, 205, {455, 186}, '') then font_sc = renderCreateFont('Arial', scene_buf.size, scene_buf.flag) end
+			if skin.Slider('##Г”Г«Г ГЈ ГёГ°ГЁГґГІГ ', 'scene_buf.flag', 1, 30, 205, {455, 217}, '') then font_sc = renderCreateFont('Arial', scene_buf.size, scene_buf.flag) end
+			skin.Slider('##ГђГ Г±Г±ГІГ®ГїГ­ГЁГҐ Г¬ГҐГ¦Г¤Гі Г±ГІГ°Г®ГЄГ Г¬ГЁ', 'scene_buf.dist', 1, 40, 205, {455, 247})
+			skin.Slider('##ГЏГ°Г®Г§Г°Г Г·Г­Г®Г±ГІГј ГІГҐГЄГ±ГІГ ', 'scene_buf.vis', 1, 255, 205, {455, 277})
 			imgui.SetCursorPos(imgui.ImVec2(620, 309))
-			if skin.Switch(u8'##Инверсировать текст', scene_buf.invers) then scene_buf.invers = not scene_buf.invers end
+			if skin.Switch(u8'##Г€Г­ГўГҐГ°Г±ГЁГ°Г®ГўГ ГІГј ГІГҐГЄГ±ГІ', scene_buf.invers) then scene_buf.invers = not scene_buf.invers end
 			imgui.SetCursorPos(imgui.ImVec2(15, 188))
-			imgui.Text(u8'Размер шрифта')
+			imgui.Text(u8'ГђГ Г§Г¬ГҐГ° ГёГ°ГЁГґГІГ ')
 			imgui.SetCursorPos(imgui.ImVec2(15, 219))
-			imgui.Text(u8'Флаг шрифта')
+			imgui.Text(u8'Г”Г«Г ГЈ ГёГ°ГЁГґГІГ ')
 			imgui.SetCursorPos(imgui.ImVec2(15, 249))
-			imgui.Text(u8'Расстояние между строками')
+			imgui.Text(u8'ГђГ Г±Г±ГІГ®ГїГ­ГЁГҐ Г¬ГҐГ¦Г¤Гі Г±ГІГ°Г®ГЄГ Г¬ГЁ')
 			imgui.SetCursorPos(imgui.ImVec2(15, 279))
-			imgui.Text(u8'Прозрачность текста')
+			imgui.Text(u8'ГЏГ°Г®Г§Г°Г Г·Г­Г®Г±ГІГј ГІГҐГЄГ±ГІГ ')
 			imgui.SetCursorPos(imgui.ImVec2(15, 310))
-			imgui.Text(u8'Инверсировать текст')
-			skin.Button(u8'Изменить положение текста', 15, 346, 636, 30, function() scene_edit() end)
+			imgui.Text(u8'Г€Г­ГўГҐГ°Г±ГЁГ°Г®ГўГ ГІГј ГІГҐГЄГ±ГІ')
+			skin.Button(u8'Г€Г§Г¬ГҐГ­ГЁГІГј ГЇГ®Г«Г®Г¦ГҐГ­ГЁГҐ ГІГҐГЄГ±ГІГ ', 15, 346, 636, 30, function() scene_edit() end)
 			
 			local pos_X_sc = 470
 			imgui.PushFont(bold_font[4])
 			imgui.SetCursorPos(imgui.ImVec2(243, pos_X_sc - 58))
-			imgui.Text(u8'Отыгровки')
+			imgui.Text(u8'ГЋГІГ»ГЈГ°Г®ГўГЄГЁ')
 			imgui.PopFont()
 			new_draw(pos_X_sc - 12, 58 + (#scene_buf.qq * 95))
-			skin.Button(u8'Добавить отыгровку', 238, pos_X_sc + (#scene_buf.qq * 95), 202, 30, function() 
+			skin.Button(u8'Г„Г®ГЎГ ГўГЁГІГј Г®ГІГ»ГЈГ°Г®ГўГЄГі', 238, pos_X_sc + (#scene_buf.qq * 95), 202, 30, function() 
 				table.insert(scene_buf.qq, {
 					text = '',
 					act = '',
-					type_color = u8'Свой текст и цвет',
+					type_color = u8'Г‘ГўГ®Г© ГІГҐГЄГ±ГІ ГЁ Г¶ГўГҐГІ',
 					nm = sampGetPlayerNickname(my.id),
 					color = 0xFFFFFFFF
 				})
@@ -8078,17 +8078,17 @@ function window.main()
 			for i = 1, #scene_buf.qq do
 				local pos_Y_scene = pos_X_sc + ((i - 1) * 95)
 				if scene_buf.qq[i].type_color ~= u8'/todo' then
-					skin.InputText(15, pos_Y_scene, u8'Текст отыгровки##'..i, 'scene_buf.qq.'..i..'.text', 300, 595)
+					skin.InputText(15, pos_Y_scene, u8'Г’ГҐГЄГ±ГІ Г®ГІГ»ГЈГ°Г®ГўГЄГЁ##'..i, 'scene_buf.qq.'..i..'.text', 300, 595)
 				else
-					skin.InputText(15, pos_Y_scene, u8'Текст речи##'..i, 'scene_buf.qq.'..i..'.text', 300, 290)
-					skin.InputText(320, pos_Y_scene, u8'Текст отыгровки##'..i, 'scene_buf.qq.'..i..'.act', 300, 290)
+					skin.InputText(15, pos_Y_scene, u8'Г’ГҐГЄГ±ГІ Г°ГҐГ·ГЁ##'..i, 'scene_buf.qq.'..i..'.text', 300, 290)
+					skin.InputText(320, pos_Y_scene, u8'Г’ГҐГЄГ±ГІ Г®ГІГ»ГЈГ°Г®ГўГЄГЁ##'..i, 'scene_buf.qq.'..i..'.act', 300, 290)
 				end
 				local scroll_bool = false
-				if skin.List({15, pos_Y_scene + 35}, scene_buf.qq[i].type_color, {u8'Свой текст и цвет', u8'/me', u8'/do', u8'/todo', u8'Речь'}, 200, 'scene_buf.qq.'..i..'.type_color', '') then
+				if skin.List({15, pos_Y_scene + 35}, scene_buf.qq[i].type_color, {u8'Г‘ГўГ®Г© ГІГҐГЄГ±ГІ ГЁ Г¶ГўГҐГІ', u8'/me', u8'/do', u8'/todo', u8'ГђГҐГ·Гј'}, 200, 'scene_buf.qq.'..i..'.type_color', '') then
 				end
-				if scene_buf.qq[i].type_color == u8'Свой текст и цвет' then
+				if scene_buf.qq[i].type_color == u8'Г‘ГўГ®Г© ГІГҐГЄГ±ГІ ГЁ Г¶ГўГҐГІ' then
 					imgui.SetCursorPos(imgui.ImVec2(230, pos_Y_scene + 41))
-					imgui.Text(u8'Цвет')
+					imgui.Text(u8'Г–ГўГҐГІ')
 					imgui.SetCursorPos(imgui.ImVec2(270, pos_Y_scene + 40))
 					if imgui.ColorEdit4('##Color'..i, col_sc[i], imgui.ColorEditFlags.NoInputs + imgui.ColorEditFlags.NoLabel + imgui.ColorEditFlags.NoAlpha) then
 						local c = imgui.ImVec4(col_sc[i].v[1], col_sc[i].v[2], col_sc[i].v[3], col_sc[i].v[4])
@@ -8097,11 +8097,11 @@ function window.main()
 					end
 				else
 					imgui.SetCursorPos(imgui.ImVec2(230, pos_Y_scene + 41))
-					imgui.Text(u8'Имя персонажа')
-					skin.InputText(340, pos_Y_scene + 39, u8'Имя персонажа##'..i, 'scene_buf.qq.'..i..'.nm', 150, 270)
+					imgui.Text(u8'Г€Г¬Гї ГЇГҐГ°Г±Г®Г­Г Г¦Г ')
+					skin.InputText(340, pos_Y_scene + 39, u8'Г€Г¬Гї ГЇГҐГ°Г±Г®Г­Г Г¦Г ##'..i, 'scene_buf.qq.'..i..'.nm', 150, 270)
 				end
 				imgui.SetCursorPos(imgui.ImVec2(632, pos_Y_scene - 1))
-				if imgui.InvisibleButton(u8'##Удалить'..i, imgui.ImVec2(22, 22)) then remove_table_qq = i end
+				if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј'..i, imgui.ImVec2(22, 22)) then remove_table_qq = i end
 				imgui.PushFont(fa_font[1])
 				imgui.SetCursorPos(imgui.ImVec2(636, pos_Y_scene + 4))
 				imgui.Text(fa.ICON_TRASH)
@@ -8121,7 +8121,7 @@ function window.main()
 		
 		imgui.EndChild()
 	
-	----> [11] Лекционная
+	----> [11] Г‹ГҐГЄГ¶ГЁГ®Г­Г­Г Гї
 	elseif select_main_menu[11] and select_lec == 0 then
 		local function new_draw(pos_draw, par_dr_y)
 			imgui.SetCursorPos(imgui.ImVec2(0, pos_draw))
@@ -8133,12 +8133,12 @@ function window.main()
 			end
 		end
 		
-		menu_draw_up(u8'Лекционная')
+		menu_draw_up(u8'Г‹ГҐГЄГ¶ГЁГ®Г­Г­Г Гї')
 		
 		imgui.PushFont(fa_font[1])
 		imgui.SetCursorPos(imgui.ImVec2(826, 11))
 		imgui.PushStyleVar(imgui.StyleVar.FrameRounding, 4)
-		if imgui.Button(u8'##Добавить лекцию', imgui.ImVec2(22, 22)) then
+		if imgui.Button(u8'##Г„Г®ГЎГ ГўГЁГІГј Г«ГҐГЄГ¶ГЁГѕ', imgui.ImVec2(22, 22)) then
 			lec_buf = {
 				q = {},
 				wait = 2000,
@@ -8154,11 +8154,11 @@ function window.main()
 		imgui.PopFont()
 		imgui.SetCursorPos(imgui.ImVec2(180, 41))
 		
-		imgui.BeginChild(u8'Лекционная', imgui.ImVec2(682, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
+		imgui.BeginChild(u8'Г‹ГҐГЄГ¶ГЁГ®Г­Г­Г Гї', imgui.ImVec2(682, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
 		if #setting.lec == 0 then
 			imgui.PushFont(bold_font[4])
 			imgui.SetCursorPos(imgui.ImVec2(154, 187 + ((start_pos + new_pos) / 2)))
-			imgui.Text(u8'Нет ни одной лекции')
+			imgui.Text(u8'ГЌГҐГІ Г­ГЁ Г®Г¤Г­Г®Г© Г«ГҐГЄГ¶ГЁГЁ')
 			imgui.PopFont()
 		else
 			new_draw(17, -1 + (#setting.lec * 68))
@@ -8166,7 +8166,7 @@ function window.main()
 			local remove_lec
 			for i = 1, #setting.lec do
 				imgui.SetCursorPos(imgui.ImVec2(0, 17 + ( (i - 1) * 68)))
-				if imgui.InvisibleButton(u8'##Перейти в редактор лекции'..i, imgui.ImVec2(666, 68)) then 
+				if imgui.InvisibleButton(u8'##ГЏГҐГ°ГҐГ©ГІГЁ Гў Г°ГҐГ¤Г ГЄГІГ®Г° Г«ГҐГЄГ¶ГЁГЁ'..i, imgui.ImVec2(666, 68)) then 
 					local function deepCopy(orig)
 						local copy
 							if type(orig) == 'table' then
@@ -8255,15 +8255,15 @@ function window.main()
 			end
 		end
 		
-		if menu_draw_up(u8'Редактирование лекции', true) then
-			imgui.OpenPopup(u8'Дальнейшие действия с лекцией')
+		if menu_draw_up(u8'ГђГҐГ¤Г ГЄГІГЁГ°Г®ГўГ Г­ГЁГҐ Г«ГҐГЄГ¶ГЁГЁ', true) then
+			imgui.OpenPopup(u8'Г„Г Г«ГјГ­ГҐГ©ГёГЁГҐ Г¤ГҐГ©Г±ГІГўГЁГї Г± Г«ГҐГЄГ¶ГЁГҐГ©')
 			lec_err_nm = false
 			lec_err_fact = false
 		end
-		if imgui.BeginPopupModal(u8'Дальнейшие действия с лекцией', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
-			imgui.BeginChild(u8'Действие с лекцией', imgui.ImVec2(400, 200), false, imgui.WindowFlags.NoScrollbar)
+		if imgui.BeginPopupModal(u8'Г„Г Г«ГјГ­ГҐГ©ГёГЁГҐ Г¤ГҐГ©Г±ГІГўГЁГї Г± Г«ГҐГЄГ¶ГЁГҐГ©', null, imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoMove + imgui.WindowFlags.NoTitleBar) then
+			imgui.BeginChild(u8'Г„ГҐГ©Г±ГІГўГЁГҐ Г± Г«ГҐГЄГ¶ГЁГҐГ©', imgui.ImVec2(400, 200), false, imgui.WindowFlags.NoScrollbar)
 			imgui.SetCursorPos(imgui.ImVec2(0, 0))
-			if imgui.InvisibleButton(u8'##Закрыть окошко лекции', imgui.ImVec2(20, 20)) then
+			if imgui.InvisibleButton(u8'##Г‡Г ГЄГ°Г»ГІГј Г®ГЄГ®ГёГЄГ® Г«ГҐГЄГ¶ГЁГЁ', imgui.ImVec2(20, 20)) then
 				imgui.CloseCurrentPopup()
 			end
 			imgui.SetCursorPos(imgui.ImVec2(10, 10))
@@ -8281,27 +8281,27 @@ function window.main()
 			imgui.PushFont(bold_font[4])
 			if not lec_err_nm and not lec_err_fact then
 				imgui.SetCursorPos(imgui.ImVec2(35, 55))
-				imgui.Text(u8'Выберите действие')
+				imgui.Text(u8'Г‚Г»ГЎГҐГ°ГЁГІГҐ Г¤ГҐГ©Г±ГІГўГЁГҐ')
 			elseif not lec_err_fact then
 				imgui.SetCursorPos(imgui.ImVec2(127, 39))
-				imgui.TextColored(imgui.ImVec4(1.00, 0.33, 0.27, 1.00), u8'ОШИБКА')
+				imgui.TextColored(imgui.ImVec4(1.00, 0.33, 0.27, 1.00), u8'ГЋГГ€ГЃГЉГЂ')
 				
 				imgui.PushFont(font[4])
 				imgui.SetCursorPos(imgui.ImVec2(63, 95))
-				imgui.Text(u8'Такая команда уже существует!')
+				imgui.Text(u8'Г’Г ГЄГ Гї ГЄГ®Г¬Г Г­Г¤Г  ГіГ¦ГҐ Г±ГіГ№ГҐГ±ГІГўГіГҐГІ!')
 				imgui.PopFont()
 			elseif not lec_err_nm then
 				imgui.SetCursorPos(imgui.ImVec2(127, 39))
-				imgui.TextColored(imgui.ImVec4(1.00, 0.33, 0.27, 1.00), u8'ОШИБКА')
+				imgui.TextColored(imgui.ImVec4(1.00, 0.33, 0.27, 1.00), u8'ГЋГГ€ГЃГЉГЂ')
 				
 				imgui.PushFont(font[4])
 				imgui.SetCursorPos(imgui.ImVec2(126, 95))
-				imgui.Text(u8'Задайте команду!')
+				imgui.Text(u8'Г‡Г Г¤Г Г©ГІГҐ ГЄГ®Г¬Г Г­Г¤Гі!')
 				imgui.PopFont()
 			end
 			imgui.PopFont()
 			imgui.PushFont(font[1])
-			skin.Button(u8'Сохранить##команду', 10, 167, 123, 25, function()
+			skin.Button(u8'Г‘Г®ГµГ°Г Г­ГЁГІГј##ГЄГ®Г¬Г Г­Г¤Гі', 10, 167, 123, 25, function()
 				if lec_buf.cmd == 'sh' or lec_buf.cmd == 'ts' then lec_err_nm = true end
 				for i = 1, #setting.cmd do
 					if setting.cmd[i][1] == lec_buf.cmd then
@@ -8330,11 +8330,11 @@ function window.main()
 					imgui.CloseCurrentPopup()
 				end
 			end)
-			skin.Button(u8'Не сохранять', 138, 167, 124, 25, function()
+			skin.Button(u8'ГЌГҐ Г±Г®ГµГ°Г Г­ГїГІГј', 138, 167, 124, 25, function()
 				select_lec = 0
 				imgui.CloseCurrentPopup()
 			end)
-			skin.Button(u8'Удалить', 267, 167, 123, 25, function()
+			skin.Button(u8'Г“Г¤Г Г«ГЁГІГј', 267, 167, 123, 25, function()
 				if setting.lec[select_lec] ~= nil then
 					table.remove(setting.lec, select_lec)
 				end
@@ -8349,40 +8349,40 @@ function window.main()
 		
 		if select_lec ~= 0 then
 			imgui.SetCursorPos(imgui.ImVec2(163, 41))
-			imgui.BeginChild(u8'Редактирование лекции', imgui.ImVec2(700, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'ГђГҐГ¤Г ГЄГІГЁГ°Г®ГўГ Г­ГЁГҐ Г«ГҐГЄГ¶ГЁГЁ', imgui.ImVec2(700, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
 			
 			new_draw(17, 50)
 			imgui.PushFont(font[1])
-			skin.InputText(114, 31, u8'Установите команду', 'lec_buf.cmd', 15, 553, '[%a%d+-]+')
+			skin.InputText(114, 31, u8'Г“Г±ГІГ Г­Г®ГўГЁГІГҐ ГЄГ®Г¬Г Г­Г¤Гі', 'lec_buf.cmd', 15, 553, '[%a%d+-]+')
 			if lec_buf.cmd:find('%A+') then
 				local characters_to_remove = {
-					'Й', 'Ц', 'У', 'К', 'Е', 'Н', 'Г', 'Ш', 'Щ', 'З', 'Х', 'Ъ', 'Ф', 'Ы', 'В', 'А',
-					'П', 'Р', 'О', 'Л', 'Д', 'Ж', 'Э', 'Я', 'Ч', 'С', 'М', 'И', 'Т', 'Ь', 'Б', 'Ю',
-					'Ё', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', 'ф', 'ы', 'в',
-					'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю'
+					'Г‰', 'Г–', 'Г“', 'ГЉ', 'Г…', 'ГЌ', 'Гѓ', 'Г', 'Г™', 'Г‡', 'Г•', 'Гљ', 'Г”', 'Г›', 'Г‚', 'ГЂ',
+					'ГЏ', 'Гђ', 'ГЋ', 'Г‹', 'Г„', 'Г†', 'Гќ', 'Гџ', 'Г—', 'Г‘', 'ГЊ', 'Г€', 'Г’', 'Гњ', 'ГЃ', 'Гћ',
+					'ВЁ', 'Г©', 'Г¶', 'Гі', 'ГЄ', 'ГҐ', 'Г­', 'ГЈ', 'Гё', 'Г№', 'Г§', 'Гµ', 'Гє', 'Гґ', 'Г»', 'Гў',
+					'Г ', 'ГЇ', 'Г°', 'Г®', 'Г«', 'Г¤', 'Г¦', 'ГЅ', 'Гї', 'Г·', 'Г±', 'Г¬', 'ГЁ', 'ГІ', 'Гј', 'ГЎ', 'Гѕ'
 				}
 				local remove_pattern = '[' .. table.concat(characters_to_remove, '') .. ']'
 				lec_buf.cmd = string.gsub(lec_buf.cmd, remove_pattern, '')
 			end
 			imgui.SetCursorPos(imgui.ImVec2(35, 34))
-			imgui.Text(u8'Команда   /')
+			imgui.Text(u8'ГЉГ®Г¬Г Г­Г¤Г    /')
 			
 			
 			new_draw(79, 44)
 			imgui.SetCursorPos(imgui.ImVec2(35, 91))
-			imgui.Text(u8'Задержка проигрывания отыгровки')
-			skin.Slider('##Задержка проигрывания отыгровки лекции', 'lec_buf.wait', 400, 10000, 205, {470, 90}, nil)
+			imgui.Text(u8'Г‡Г Г¤ГҐГ°Г¦ГЄГ  ГЇГ°Г®ГЁГЈГ°Г»ГўГ Г­ГЁГї Г®ГІГ»ГЈГ°Г®ГўГЄГЁ')
+			skin.Slider('##Г‡Г Г¤ГҐГ°Г¦ГЄГ  ГЇГ°Г®ГЁГЈГ°Г»ГўГ Г­ГЁГї Г®ГІГ»ГЈГ°Г®ГўГЄГЁ Г«ГҐГЄГ¶ГЁГЁ', 'lec_buf.wait', 400, 10000, 205, {470, 90}, nil)
 			imgui.SetCursorPos(imgui.ImVec2(417, 89))
-			imgui.Text(round(lec_buf.wait / 1000, 0.1)..u8' сек.')
+			imgui.Text(round(lec_buf.wait / 1000, 0.1)..u8' Г±ГҐГЄ.')
 			
 			new_draw(135, 53 + (#lec_buf.q * 40))
 			if #lec_buf.q ~= 0 then
 				local remove_table_qq
 				for i = 1, #lec_buf.q do
-					skin.InputText(30, 149 + ((i - 1) * 40), u8'Введите отыгровку##'..i, 'lec_buf.q.'..i, 1024, 595)
+					skin.InputText(30, 149 + ((i - 1) * 40), u8'Г‚ГўГҐГ¤ГЁГІГҐ Г®ГІГ»ГЈГ°Г®ГўГЄГі##'..i, 'lec_buf.q.'..i, 1024, 595)
 					
 					imgui.SetCursorPos(imgui.ImVec2(647, 148 + ((i - 1) * 40)))
-					if imgui.InvisibleButton(u8'##Удалить отыгровку'..i, imgui.ImVec2(22, 22)) then remove_table_qq = i end
+					if imgui.InvisibleButton(u8'##Г“Г¤Г Г«ГЁГІГј Г®ГІГ»ГЈГ°Г®ГўГЄГі'..i, imgui.ImVec2(22, 22)) then remove_table_qq = i end
 					imgui.PushFont(fa_font[1])
 					imgui.SetCursorPos(imgui.ImVec2(651, 153 + ((i - 1) * 40)))
 					imgui.Text(fa.ICON_TRASH)
@@ -8390,14 +8390,14 @@ function window.main()
 				end
 				if remove_table_qq ~= nil then table.remove(lec_buf.q, remove_table_qq) end
 			end
-			skin.Button(u8'Добавить отыгровку', 242, 149 + (#lec_buf.q * 40), 173, 25, function() table.insert(lec_buf.q, '') end)
+			skin.Button(u8'Г„Г®ГЎГ ГўГЁГІГј Г®ГІГ»ГЈГ°Г®ГўГЄГі', 242, 149 + (#lec_buf.q * 40), 173, 25, function() table.insert(lec_buf.q, '') end)
 			imgui.PopFont()
 			
 			imgui.Dummy(imgui.ImVec2(0, 29))
 			imgui.EndChild()
 		end
 		
-	----> [10] О скрипте
+	----> [10] ГЋ Г±ГЄГ°ГЁГЇГІГҐ
 	elseif select_main_menu[10] then
 		local function new_draw(pos_draw, par_dr_y)
 			imgui.SetCursorPos(imgui.ImVec2(0, pos_draw))
@@ -8409,9 +8409,9 @@ function window.main()
 			end
 		end
 		
-		menu_draw_up(u8'О скрипте')
+		menu_draw_up(u8'ГЋ Г±ГЄГ°ГЁГЇГІГҐ')
 		imgui.SetCursorPos(imgui.ImVec2(180, 41))
-		imgui.BeginChild(u8'О скрипте', imgui.ImVec2(682, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
+		imgui.BeginChild(u8'ГЋ Г±ГЄГ°ГЁГЇГІГҐ', imgui.ImVec2(682, 422 + start_pos + new_pos), false, (size_win and imgui.WindowFlags.NoMove or 0))
 		
 		new_draw(17, 40)
 		imgui.PushFont(bold_font[3])
@@ -8423,17 +8423,17 @@ function window.main()
 		new_draw(69, 43)
 		imgui.PushFont(font[1])
 		imgui.SetCursorPos(imgui.ImVec2(15, 81))
-		imgui.Text(u8'© 2023 Все права защищены. Копирование запрещено.')
+		imgui.Text(u8'В© 2023 Г‚Г±ГҐ ГЇГ°Г ГўГ  Г§Г Г№ГЁГ№ГҐГ­Г». ГЉГ®ГЇГЁГ°Г®ГўГ Г­ГЁГҐ Г§Г ГЇГ°ГҐГ№ГҐГ­Г®.')
 		new_draw(124, 43)
 		imgui.SetCursorPos(imgui.ImVec2(15, 136))
-		imgui.Text(u8'Поддержать разработчика: 2200 7007 4739 4087 (номер карты)')
+		imgui.Text(u8'ГЏГ®Г¤Г¤ГҐГ°Г¦Г ГІГј Г°Г Г§Г°Г ГЎГ®ГІГ·ГЁГЄГ : 2200 7007 4739 4087 (Г­Г®Г¬ГҐГ° ГЄГ Г°ГІГ»)')
 		new_draw(179, 54)
-		skin.Button(u8'Задать вопрос разработчику', 15, 191, 636, 30, function()
+		skin.Button(u8'Г‡Г Г¤Г ГІГј ГўГ®ГЇГ°Г®Г± Г°Г Г§Г°Г ГЎГ®ГІГ·ГЁГЄГі', 15, 191, 636, 30, function()
 			shell32.ShellExecuteA(nil, 'open', 'https://vk.me/deadmv', nil, nil, 1)
 		end)
 		new_draw(245, 54)
-		skin.Button(u8'Открыть пользовательское соглашение', 15, 257, 636, 30, function()
-			shell32.ShellExecuteA(nil, 'open', 'https://raw.githubusercontent.com/deadmv/PoliceHelper/main/Пользовательское%20соглашение.txt', nil, nil, 1)
+		skin.Button(u8'ГЋГІГЄГ°Г»ГІГј ГЇГ®Г«ГјГ§Г®ГўГ ГІГҐГ«ГјГ±ГЄГ®ГҐ Г±Г®ГЈГ«Г ГёГҐГ­ГЁГҐ', 15, 257, 636, 30, function()
+			shell32.ShellExecuteA(nil, 'open', 'https://raw.githubusercontent.com/deadmv/PoliceHelper/main/ГЏГ®Г«ГјГ§Г®ГўГ ГІГҐГ«ГјГ±ГЄГ®ГҐ%20Г±Г®ГЈГ«Г ГёГҐГ­ГЁГҐ.txt', nil, nil, 1)
 		end)
 		imgui.PopFont()
 		imgui.EndChild()
@@ -8576,7 +8576,7 @@ function window.act_choice()
 			end
 		end
 		
-		skin.Button(u8'Отменить', 9, 80 + (#setting.fast_acc.sl * 35), 260, 35, function()
+		skin.Button(u8'ГЋГІГ¬ГҐГ­ГЁГІГј', 9, 80 + (#setting.fast_acc.sl * 35), 260, 35, function()
 			win.action_choice.v = false
 		end)
 		imgui.PopFont()
@@ -8592,7 +8592,7 @@ function window.spur()
 	skin.DrawFond({4, 4}, {0, 0}, {900, 650}, imgui.ImVec4(col_end.fond_two[1], col_end.fond_two[2], col_end.fond_two[3], 1.00), 15, 15)
 	
 	imgui.SetCursorPos(imgui.ImVec2(13, 13))
-	if imgui.InvisibleButton(u8'##Закрыть окно шпоры', imgui.ImVec2(20, 20))  then
+	if imgui.InvisibleButton(u8'##Г‡Г ГЄГ°Г»ГІГј Г®ГЄГ­Г® ГёГЇГ®Г°Г»', imgui.ImVec2(20, 20))  then
 		win.spur_big.v = false
 	end
 	imgui.SetCursorPos(imgui.ImVec2(23, 23))
@@ -8610,7 +8610,7 @@ function window.spur()
 	local options_size_font = {6, 3, 1, 4, 5}
 	imgui.PushFont(font[1])
 	imgui.SetCursorPos(imgui.ImVec2(40, 10))
-	if skin.Slider('##Размер текста', 'spur_text_size', 0, 4, 130, {50, 11}) then end
+	if skin.Slider('##ГђГ Г§Г¬ГҐГ° ГІГҐГЄГ±ГІГ ', 'spur_text_size', 0, 4, 130, {50, 11}) then end
 	imgui.PopFont()
 	
 	local text_spur_table = {}
@@ -8619,7 +8619,7 @@ function window.spur()
 	end
 	
 	imgui.SetCursorPos(imgui.ImVec2(15, 50))
-	imgui.BeginChild(u8'Текст шпаргалки', imgui.ImVec2(879, 603), false)
+	imgui.BeginChild(u8'Г’ГҐГЄГ±ГІ ГёГЇГ Г°ГЈГ Г«ГЄГЁ', imgui.ImVec2(879, 603), false)
 	imgui.PushFont(font[options_size_font[round(spur_text_size, 1) + 1]])
 	for i, line in ipairs(text_spur_table) do
 		imgui.TextWrapped(line)
@@ -8637,7 +8637,7 @@ function window.reminder()
 	skin.DrawFond({4, 4}, {0, 0}, {600, 114}, imgui.ImVec4(col_end.fond_two[1], col_end.fond_two[2], col_end.fond_two[3], 1.00), 15, 15)
 	
 	imgui.SetCursorPos(imgui.ImVec2(13, 13))
-	if imgui.InvisibleButton(u8'##Закрыть окно напоминания', imgui.ImVec2(20, 20))  then
+	if imgui.InvisibleButton(u8'##Г‡Г ГЄГ°Г»ГІГј Г®ГЄГ­Г® Г­Г ГЇГ®Г¬ГЁГ­Г Г­ГЁГї', imgui.ImVec2(20, 20))  then
 		win.reminder.v = false
 	end
 	imgui.SetCursorPos(imgui.ImVec2(23, 23))
@@ -8676,16 +8676,16 @@ end
 
 function open_big_shpora(spur_number)
 	if spur_number > #setting.shpora then
-		sampAddChatMessage(script_tag..'{FFFFFF} Такой шпаргалки не существует. Всего их '..#setting.shpora, color_tag)
+		sampAddChatMessage(script_tag..'{FFFFFF} Г’Г ГЄГ®Г© ГёГЇГ Г°ГЈГ Г«ГЄГЁ Г­ГҐ Г±ГіГ№ГҐГ±ГІГўГіГҐГІ. Г‚Г±ГҐГЈГ® ГЁГµ '..#setting.shpora, color_tag)
 		return
 	elseif spur_number <= 0 then
-		sampAddChatMessage(script_tag..'{FFFFFF} Отсчёт шпаргалок начинается с единицы!', color_tag)
+		sampAddChatMessage(script_tag..'{FFFFFF} ГЋГІГ±Г·ВёГІ ГёГЇГ Г°ГЈГ Г«Г®ГЄ Г­Г Г·ГЁГ­Г ГҐГІГ±Гї Г± ГҐГ¤ГЁГ­ГЁГ¶Г»!', color_tag)
 		return
 	end
 	
-	if doesFileExist(dirml..'/PoliceHelper/Шпаргалки/'..setting.shpora[spur_number][1]..'.txt') then
+	if doesFileExist(dirml..'/PoliceHelper/ГГЇГ Г°ГЈГ Г«ГЄГЁ/'..setting.shpora[spur_number][1]..'.txt') then
 		sel_big_spur = spur_number
-		local f = io.open(dirml..'/PoliceHelper/Шпаргалки/'..setting.shpora[spur_number][1]..'.txt')
+		local f = io.open(dirml..'/PoliceHelper/ГГЇГ Г°ГЈГ Г«ГЄГЁ/'..setting.shpora[spur_number][1]..'.txt')
 		text_spur = u8(f:read('*a'))
 		f:close()			
 		win.spur_big.v = true
@@ -8793,18 +8793,18 @@ function style_window()
 	style.GrabRounding = 4.0
 	style.ButtonTextAlign = imgui.ImVec2(0.5, 0.5)
 	
-	colors[clr.FrameBg] 			 = ImVec4(setting.col_acc_non[1], setting.col_acc_non[2], setting.col_acc_non[3], 1.00) -- Чекбокс
-	colors[clr.FrameBgHovered]       = ImVec4(setting.col_acc_non[1], setting.col_acc_non[2], setting.col_acc_non[3], 1.00) -- Чекбокс
-	colors[clr.FrameBgActive]        = ImVec4(setting.col_acc_act[1], setting.col_acc_act[2], setting.col_acc_act[3], 1.00) -- Чекбокс
+	colors[clr.FrameBg] 			 = ImVec4(setting.col_acc_non[1], setting.col_acc_non[2], setting.col_acc_non[3], 1.00) -- Г—ГҐГЄГЎГ®ГЄГ±
+	colors[clr.FrameBgHovered]       = ImVec4(setting.col_acc_non[1], setting.col_acc_non[2], setting.col_acc_non[3], 1.00) -- Г—ГҐГЄГЎГ®ГЄГ±
+	colors[clr.FrameBgActive]        = ImVec4(setting.col_acc_act[1], setting.col_acc_act[2], setting.col_acc_act[3], 1.00) -- Г—ГҐГЄГЎГ®ГЄГ±
 	colors[clr.TitleBg]              = ImVec4(0.00, 0.00, 0.00, 0.50)
 	colors[clr.TitleBgActive]        = ImVec4(1.00, 1.00, 1.00, 0.31)
 	colors[clr.TitleBgCollapsed]     = ImVec4(0.00, 0.00, 0.00, 0.50)
 	colors[clr.CheckMark]            = ImVec4(1.00, 1.00, 1.00, 0.31)
 	colors[clr.SliderGrab]           = ImVec4(1.00, 1.00, 1.00, 0.50)
 	colors[clr.SliderGrabActive]     = ImVec4(1.00, 1.00, 1.00, 0.50)
-	colors[clr.Button]               = ImVec4(setting.col_acc_non[1], setting.col_acc_non[2], setting.col_acc_non[3], 1.00) -- Кнопка
-	colors[clr.ButtonHovered]        = ImVec4(setting.col_acc_non[1], setting.col_acc_non[2], setting.col_acc_non[3], 1.00) -- Кнопка
-	colors[clr.ButtonActive]         = ImVec4(setting.col_acc_act[1], setting.col_acc_act[2], setting.col_acc_act[3], 1.00) -- Кнопка
+	colors[clr.Button]               = ImVec4(setting.col_acc_non[1], setting.col_acc_non[2], setting.col_acc_non[3], 1.00) -- ГЉГ­Г®ГЇГЄГ 
+	colors[clr.ButtonHovered]        = ImVec4(setting.col_acc_non[1], setting.col_acc_non[2], setting.col_acc_non[3], 1.00) -- ГЉГ­Г®ГЇГЄГ 
+	colors[clr.ButtonActive]         = ImVec4(setting.col_acc_act[1], setting.col_acc_act[2], setting.col_acc_act[3], 1.00) -- ГЉГ­Г®ГЇГЄГ 
 	colors[clr.Header]               = ImVec4(1.00, 1.00, 1.00, 0.65)
 	colors[clr.HeaderHovered]        = ImVec4(1.00, 1.00, 1.00, 0.80)
 	colors[clr.HeaderActive]         = ImVec4(1.00, 1.00, 1.00, 0.90)
@@ -8815,43 +8815,43 @@ function style_window()
 	colors[clr.ResizeGripHovered]    = ImVec4(1.00, 1.00, 1.00, 0.50)
 	colors[clr.ResizeGripActive]     = ImVec4(1.00, 1.00, 1.00, 0.50)
 	colors[clr.TextSelectedBg]       = ImVec4(1.00, 1.00, 1.00, 0.50)
-	colors[clr.Text]                 = ImVec4(col_end.text, col_end.text, col_end.text, 1.00) -- Текст
+	colors[clr.Text]                 = ImVec4(col_end.text, col_end.text, col_end.text, 1.00) -- Г’ГҐГЄГ±ГІ
 	colors[clr.TextDisabled]         = ImVec4(0.50, 0.50, 0.50, 1.00)
 	colors[clr.WindowBg]             = ImVec4(0.08, 0.08, 0.08, 0.00)
 	colors[clr.ChildWindowBg]        = ImVec4(1.00, 1.00, 1.00, 0.00)
 	if setting.int.theme == 'White' then
-		colors[clr.PopupBg]          = ImVec4(0.80, 0.80, 0.80, 1.00) -- Окно
+		colors[clr.PopupBg]          = ImVec4(0.80, 0.80, 0.80, 1.00) -- ГЋГЄГ­Г®
 	else
-		colors[clr.PopupBg]          = ImVec4(0.10, 0.10, 0.10, 1.00) -- Окно
+		colors[clr.PopupBg]          = ImVec4(0.10, 0.10, 0.10, 1.00) -- ГЋГЄГ­Г®
 	end
 	colors[clr.ComboBg]              = ImVec4(0.08, 0.08, 0.08, 0.94)
 	colors[clr.Border]               = ImVec4(1.00, 1.00, 1.00, 0.50)
 	colors[clr.BorderShadow]         = ImVec4(0.26, 0.59, 0.98, 0.00)
 	colors[clr.MenuBarBg]            = ImVec4(0.14, 0.14, 0.14, 1.00)
-	colors[clr.ScrollbarBg]          = ImVec4(0.00, 0.00, 0.00, 0.00) -- Пролистывающая дрянь
-	colors[clr.ScrollbarGrab]        = ImVec4(0.31, 0.31, 0.31, 1.00) -- Пролистывающая дрянь
-	colors[clr.ScrollbarGrabHovered] = ImVec4(0.41, 0.41, 0.41, 1.00) -- Пролистывающая дрянь
-	colors[clr.ScrollbarGrabActive]  = ImVec4(0.51, 0.51, 0.51, 1.00) -- Пролистывающая дрянь
+	colors[clr.ScrollbarBg]          = ImVec4(0.00, 0.00, 0.00, 0.00) -- ГЏГ°Г®Г«ГЁГ±ГІГ»ГўГ ГѕГ№Г Гї Г¤Г°ГїГ­Гј
+	colors[clr.ScrollbarGrab]        = ImVec4(0.31, 0.31, 0.31, 1.00) -- ГЏГ°Г®Г«ГЁГ±ГІГ»ГўГ ГѕГ№Г Гї Г¤Г°ГїГ­Гј
+	colors[clr.ScrollbarGrabHovered] = ImVec4(0.41, 0.41, 0.41, 1.00) -- ГЏГ°Г®Г«ГЁГ±ГІГ»ГўГ ГѕГ№Г Гї Г¤Г°ГїГ­Гј
+	colors[clr.ScrollbarGrabActive]  = ImVec4(0.51, 0.51, 0.51, 1.00) -- ГЏГ°Г®Г«ГЁГ±ГІГ»ГўГ ГѕГ№Г Гї Г¤Г°ГїГ­Гј
 	colors[clr.CloseButton]          = ImVec4(0.41, 0.41, 0.41, 0.50)
 	colors[clr.CloseButtonHovered]   = ImVec4(0.98, 0.39, 0.36, 1.00)
 	colors[clr.CloseButtonActive]    = ImVec4(0.98, 0.39, 0.36, 1.00)
 	colors[clr.ModalWindowDarkening] = ImVec4(0.80, 0.80, 0.80, 0.35)
 end
 
---> Сохранение
+--> Г‘Г®ГµГ°Г Г­ГҐГ­ГЁГҐ
 function save(table_name)
 	if table_name == 'setting' then
-		local f = io.open(dirml..'/PoliceHelper/Настройки.json', 'w')
+		local f = io.open(dirml..'/PoliceHelper/ГЌГ Г±ГІГ°Г®Г©ГЄГЁ.json', 'w')
 		f:write(encodeJson(setting))
 		f:flush()
 		f:close()
 	elseif table_name == 'save_tracks' then
-		local f = io.open(dirml..'/PoliceHelper/Треки.json', 'w')
+		local f = io.open(dirml..'/PoliceHelper/Г’Г°ГҐГЄГЁ.json', 'w')
 		f:write(encodeJson(save_tracks))
 		f:flush()
 		f:close()
 	elseif table_name == 'scene' then
-		local f = io.open(dirml..'/PoliceHelper/Сцены.json', 'w')
+		local f = io.open(dirml..'/PoliceHelper/Г‘Г¶ГҐГ­Г».json', 'w')
 		f:write(encodeJson(scene))
 		f:flush()
 		f:close()
@@ -8859,25 +8859,25 @@ function save(table_name)
 end
 
 --[[
-	0 - Отправить в чат
-	1 - Ожидание нажатия Enter
-	2 - Вывести инфо в чат
-	3 - Диалог выбора действия
-	4 - Комментарий
-	5 - Изменить переменную
-	6 - Если переменная равна
-	7 - Завершить условие переменной
-	8 - Если выбран вариант диалога
-	9 - Завершить диалог
+	0 - ГЋГІГЇГ°Г ГўГЁГІГј Гў Г·Г ГІ
+	1 - ГЋГ¦ГЁГ¤Г Г­ГЁГҐ Г­Г Г¦Г ГІГЁГї Enter
+	2 - Г‚Г»ГўГҐГ±ГІГЁ ГЁГ­ГґГ® Гў Г·Г ГІ
+	3 - Г„ГЁГ Г«Г®ГЈ ГўГ»ГЎГ®Г°Г  Г¤ГҐГ©Г±ГІГўГЁГї
+	4 - ГЉГ®Г¬Г¬ГҐГ­ГІГ Г°ГЁГ©
+	5 - Г€Г§Г¬ГҐГ­ГЁГІГј ГЇГҐГ°ГҐГ¬ГҐГ­Г­ГіГѕ
+	6 - Г…Г±Г«ГЁ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї Г°Г ГўГ­Г 
+	7 - Г‡Г ГўГҐГ°ГёГЁГІГј ГіГ±Г«Г®ГўГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г©
+	8 - Г…Г±Г«ГЁ ГўГ»ГЎГ°Г Г­ ГўГ Г°ГЁГ Г­ГІ Г¤ГЁГ Г«Г®ГЈГ 
+	9 - Г‡Г ГўГҐГ°ГёГЁГІГј Г¤ГЁГ Г«Г®ГЈ
 ]]
 			
 function cmd_start(arg_c, command_active)
 	if thread:status() ~= 'dead' then
-		sampAddChatMessage(script_tag..'{FFFFFF}У Вас уже запущена отыгровка! Используйте {ED95A8}Page Down{FFFFFF}, чтобы остановить её.', color_tag)
+		sampAddChatMessage(script_tag..'{FFFFFF}Г“ Г‚Г Г± ГіГ¦ГҐ Г§Г ГЇГіГ№ГҐГ­Г  Г®ГІГ»ГЈГ°Г®ГўГЄГ ! Г€Г±ГЇГ®Г«ГјГ§ГіГ©ГІГҐ {ED95A8}Page Down{FFFFFF}, Г·ГІГ®ГЎГ» Г®Г±ГІГ Г­Г®ГўГЁГІГј ГҐВё.', color_tag)
 		return
 	end
 	
-	local f = io.open(dirml..'/PoliceHelper/Отыгровки/'..command_active..'.json')
+	local f = io.open(dirml..'/PoliceHelper/ГЋГІГ»ГЈГ°Г®ГўГЄГЁ/'..command_active..'.json')
 	local setm = f:read('*a')
 	f:close()
 	local res, set = pcall(decodeJson, setm)
@@ -8886,7 +8886,7 @@ function cmd_start(arg_c, command_active)
 	end
 	
 	if tonumber(setting.frac.rank) < tonumber(cmds.rank) then
-		sampAddChatMessage(script_tag..'{FFFFFF}Данная команда доступна с '..cmds.rank..' ранга!', color_tag)
+		sampAddChatMessage(script_tag..'{FFFFFF}Г„Г Г­Г­Г Гї ГЄГ®Г¬Г Г­Г¤Г  Г¤Г®Г±ГІГіГЇГ­Г  Г± '..cmds.rank..' Г°Г Г­ГЈГ !', color_tag)
 		return
 	end
 	
@@ -8897,7 +8897,7 @@ function cmd_start(arg_c, command_active)
 			for ar = 1, #cmds.arg do
 				table.insert(tbl_ar, '['..u8:decode(cmds.arg[ar][2])..']')
 			end
-			sampAddChatMessage(script_tag..'{FFFFFF}Используйте {a8a8a8}/'..command_active..' '..table.concat(tbl_ar, ' '), color_tag)
+			sampAddChatMessage(script_tag..'{FFFFFF}Г€Г±ГЇГ®Г«ГјГ§ГіГ©ГІГҐ {a8a8a8}/'..command_active..' '..table.concat(tbl_ar, ' '), color_tag)
 		end
 		for word in arg_c:gmatch('%S+') do
 		   table.insert(args, word)
@@ -8967,13 +8967,13 @@ function cmd_start(arg_c, command_active)
 			if tonumber(num_id_dial) > -1 and tonumber(num_id_dial) < 10 then
 				num_give_lic = tonumber(num_id_dial)
 			else
-				sampAddChatMessage(script_tag..'{FF5345}[КРИТИЧЕСКАЯ ОШИБКА] {FFFFFF}Параметр {dialoglic} имеет неверное значение.', color_tag)
+				sampAddChatMessage(script_tag..'{FF5345}[ГЉГђГ€Г’Г€Г—Г…Г‘ГЉГЂГџ ГЋГГ€ГЃГЉГЂ] {FFFFFF}ГЏГ Г°Г Г¬ГҐГІГ° {dialoglic} ГЁГ¬ГҐГҐГІ Г­ГҐГўГҐГ°Г­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ.', color_tag)
 				return ''
 			end
 			if tonumber(num_id_term) >= 0 and tonumber(num_id_term) <= 3 then
 				num_give_lic_term = tonumber(num_id_term)
 			else
-				sampAddChatMessage(script_tag..'{FF5345}[КРИТИЧЕСКАЯ ОШИБКА] {FFFFFF}Параметр {dialoglic} имеет неверное значение.', color_tag)
+				sampAddChatMessage(script_tag..'{FF5345}[ГЉГђГ€Г’Г€Г—Г…Г‘ГЉГЂГџ ГЋГГ€ГЃГЉГЂ] {FFFFFF}ГЏГ Г°Г Г¬ГҐГІГ° {dialoglic} ГЁГ¬ГҐГҐГІ Г­ГҐГўГҐГ°Г­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ.', color_tag)
 				return ''
 			end
 		end
@@ -8985,7 +8985,7 @@ function cmd_start(arg_c, command_active)
 			if tonumber(num_id_dial) > -1 and tonumber(num_id_dial) < 12 then
 				num_give_bank = tonumber(num_id_dial)
 			else
-				sampAddChatMessage(script_tag..'{FF5345}[КРИТИЧЕСКАЯ ОШИБКА] {FFFFFF}Параметр {dialogbank} имеет неверное значение.', color_tag)
+				sampAddChatMessage(script_tag..'{FF5345}[ГЉГђГ€Г’Г€Г—Г…Г‘ГЉГЂГџ ГЋГГ€ГЃГЉГЂ] {FFFFFF}ГЏГ Г°Г Г¬ГҐГІГ° {dialogbank} ГЁГ¬ГҐГҐГІ Г­ГҐГўГҐГ°Г­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ.', color_tag)
 				return ''
 			end
 		end
@@ -9027,9 +9027,9 @@ function cmd_start(arg_c, command_active)
 					end
 				elseif v[1] == 1 then
 					wait(400)
-					sampAddChatMessage(script_tag..'{FFFFFF}Нажмите на {23E64A}Enter{FFFFFF} для продолжения или {FF8FA2}Page Down{FFFFFF}, чтобы закончить отыгровку.', color_tag)
+					sampAddChatMessage(script_tag..'{FFFFFF}ГЌГ Г¦Г¬ГЁГІГҐ Г­Г  {23E64A}Enter{FFFFFF} Г¤Г«Гї ГЇГ°Г®Г¤Г®Г«Г¦ГҐГ­ГЁГї ГЁГ«ГЁ {FF8FA2}Page Down{FFFFFF}, Г·ГІГ®ГЎГ» Г§Г ГЄГ®Г­Г·ГЁГІГј Г®ГІГ»ГЈГ°Г®ГўГЄГі.', color_tag)
 					addOneOffSound(0, 0, 0, 1058)
-					new_notice('wait', {u8'Enter - продолжить отыгровку', u8'Page Down - остановить'})
+					new_notice('wait', {u8'Enter - ГЇГ°Г®Г¤Г®Г«Г¦ГЁГІГј Г®ГІГ»ГЈГ°Г®ГўГЄГі', u8'Page Down - Г®Г±ГІГ Г­Г®ГўГЁГІГј'})
 					while true do wait(0)
 						if isKeyJustPressed(VK_RETURN) and not sampIsChatInputActive() and not sampIsDialogActive() then new_notice('off') break end
 					end
@@ -9111,8 +9111,8 @@ function tag_act(tick_tag)
 				if sampIsPlayerConnected(tonumber(num_id)) then
 					tick_tag = tick_tag:gsub('{getplnick%['.. num_id ..'%]}', tostring(sampGetPlayerNickname(tonumber(num_id))):gsub('_', ' '))
 				else
-					tick_tag = tick_tag:gsub('{getplnick%['.. num_id ..'%]}', u8'неизвестный')
-					sampAddChatMessage(script_tag..'{FF5345}[КРИТИЧЕСКАЯ ОШИБКА] {FFFFFF}Параметр {getplnick} не обнаружил игрока.', color_tag)
+					tick_tag = tick_tag:gsub('{getplnick%['.. num_id ..'%]}', u8'Г­ГҐГЁГ§ГўГҐГ±ГІГ­Г»Г©')
+					sampAddChatMessage(script_tag..'{FF5345}[ГЉГђГ€Г’Г€Г—Г…Г‘ГЉГЂГџ ГЋГГ€ГЃГЉГЂ] {FFFFFF}ГЏГ Г°Г Г¬ГҐГІГ° {getplnick} Г­ГҐ Г®ГЎГ­Г Г°ГіГ¦ГЁГ« ГЁГЈГ°Г®ГЄГ .', color_tag)
 				end
 			elseif tick_tag:find('{target}') then tick_tag = tick_tag:gsub('{target}', tostring(targ_id))
 			elseif tick_tag:find('{med7}') then tick_tag = tick_tag:gsub('{med7}', tostring(setting.price.mede[1]))
@@ -9129,10 +9129,10 @@ function tag_act(tick_tag)
 			elseif tick_tag:find('{priceant}') then tick_tag = tick_tag:gsub('{priceant}', tostring(setting.price.ant))
 			elseif tick_tag:find('{pricelec}') then tick_tag = tick_tag:gsub('{pricelec}', tostring(setting.price.lec))
 			elseif tick_tag:find('{priceosm}') then tick_tag = tick_tag:gsub('{priceosm}', tostring(setting.priceosm))
-			elseif tick_tag:find('{sex:[%w%sа-яА-Я]*,[%w%sа-яА-Я]*}') then	
-				for v in tick_tag:gmatch('{sex:[%w%sа-яА-Я]*,[%w%sа-яА-Я]*}') do
-					local m, w = v:match('{sex:([%w%sа-яА-Я]*),([%w%sа-яА-Я]*)}')
-					if setting.sex == u8'Мужской' then
+			elseif tick_tag:find('{sex:[%w%sГ -ГїГЂ-Гџ]*,[%w%sГ -ГїГЂ-Гџ]*}') then	
+				for v in tick_tag:gmatch('{sex:[%w%sГ -ГїГЂ-Гџ]*,[%w%sГ -ГїГЂ-Гџ]*}') do
+					local m, w = v:match('{sex:([%w%sГ -ГїГЂ-Гџ]*),([%w%sГ -ГїГЂ-Гџ]*)}')
+					if setting.sex == u8'ГЊГіГ¦Г±ГЄГ®Г©' then
 						tick_tag = tick_tag:gsub(v, m)
 					else
 						tick_tag = tick_tag:gsub(v, w)
@@ -9147,7 +9147,7 @@ end
 
 function lec_start(text_arg, cmd_lec)
 	if thread:status() ~= 'dead' then
-		sampAddChatMessage(script_tag..'{FFFFFF}У Вас уже запущена отыгровка! Используйте {ED95A8}Page Down{FFFFFF}, чтобы остановить её.', color_tag)
+		sampAddChatMessage(script_tag..'{FFFFFF}Г“ Г‚Г Г± ГіГ¦ГҐ Г§Г ГЇГіГ№ГҐГ­Г  Г®ГІГ»ГЈГ°Г®ГўГЄГ ! Г€Г±ГЇГ®Г«ГјГ§ГіГ©ГІГҐ {ED95A8}Page Down{FFFFFF}, Г·ГІГ®ГЎГ» Г®Г±ГІГ Г­Г®ГўГЁГІГј ГҐВё.', color_tag)
 		return
 	end
 	
@@ -9188,7 +9188,7 @@ function add_table_act(org_to_replace, default_act)
 			end
 		end
 		if not bool_true then
-			local f = io.open(dirml..'/PoliceHelper/Отыгровки/'..name_file_json..'.json', 'w')
+			local f = io.open(dirml..'/PoliceHelper/ГЋГІГ»ГЈГ°Г®ГўГЄГЁ/'..name_file_json..'.json', 'w')
 			f:write(encodeJson(table_to_save))
 			f:flush()
 			f:close()
@@ -9207,9 +9207,9 @@ function add_table_act(org_to_replace, default_act)
 			nm = 'z',
 			var = {},
 			tr_fl = {0, 0, 0},
-			desc = u8'Приветствие',
+			desc = u8'ГЏГ°ГЁГўГҐГІГ±ГІГўГЁГҐ',
 			act = {
-				{0, u8'Доброго времени суток, {myrank}  {mynickrus}.'}
+				{0, u8'Г„Г®ГЎГ°Г®ГЈГ® ГўГ°ГҐГ¬ГҐГ­ГЁ Г±ГіГІГ®ГЄ, {myrank}  {mynickrus}.'}
 			},
 			delay = 2000,
 			not_send_chat = false,
@@ -9221,17 +9221,17 @@ function add_table_act(org_to_replace, default_act)
 		create_file_json('z', nil, add_table, '1')
 		add_table = {
 			arg = {
-				{0, u8'id игрока'},
-				{1, u8'Причина'}
+				{0, u8'id ГЁГЈГ°Г®ГЄГ '},
+				{1, u8'ГЏГ°ГЁГ·ГЁГ­Г '}
 			},
 			nm = 'out',
 			var = {},
 			tr_fl = {0, 0, 0},
-			desc = u8'Попросить покинуть помещение',
+			desc = u8'ГЏГ®ГЇГ°Г®Г±ГЁГІГј ГЇГ®ГЄГЁГ­ГіГІГј ГЇГ®Г¬ГҐГ№ГҐГ­ГЁГҐ',
 			act = {
-				{0, u8'Сер, не могли бы Вы покинуть помещение?'},
-				{0, u8'Предупреждаю, в случае отказа мне придется применить...'},
-				{0, u8'...Физическую силу по отношению к Вам.'},
+				{0, u8'Г‘ГҐГ°, Г­ГҐ Г¬Г®ГЈГ«ГЁ ГЎГ» Г‚Г» ГЇГ®ГЄГЁГ­ГіГІГј ГЇГ®Г¬ГҐГ№ГҐГ­ГЁГҐ?'},
+				{0, u8'ГЏГ°ГҐГ¤ГіГЇГ°ГҐГ¦Г¤Г Гѕ, Гў Г±Г«ГіГ·Г ГҐ Г®ГІГЄГ Г§Г  Г¬Г­ГҐ ГЇГ°ГЁГ¤ГҐГІГ±Гї ГЇГ°ГЁГ¬ГҐГ­ГЁГІГј...'},
+				{0, u8'...Г”ГЁГ§ГЁГ·ГҐГ±ГЄГіГѕ Г±ГЁГ«Гі ГЇГ® Г®ГІГ­Г®ГёГҐГ­ГЁГѕ ГЄ Г‚Г Г¬.'},
 			},
 			delay = 2000,
 			not_send_chat = false,
@@ -9246,9 +9246,9 @@ function add_table_act(org_to_replace, default_act)
 			nm = 'za',
 			var = {},
 			act = {
-				{0, u8'Сер, пройдёмте за мной.'}
+				{0, u8'Г‘ГҐГ°, ГЇГ°Г®Г©Г¤ВёГ¬ГІГҐ Г§Г  Г¬Г­Г®Г©.'}
 			},
-			desc = u8'Отправит фразу "Пройдёмте за мной"',
+			desc = u8'ГЋГІГЇГ°Г ГўГЁГІ ГґГ°Г Г§Гі "ГЏГ°Г®Г©Г¤ВёГ¬ГІГҐ Г§Г  Г¬Г­Г®Г©"',
 			tr_fl = {0, 0, 0},
 			delay = 2000,
 			not_send_chat = false,
@@ -9260,29 +9260,29 @@ function add_table_act(org_to_replace, default_act)
 		create_file_json('za', nil, add_table, '1')
 		add_table = {
 			arg = {
-				{0, u8'id игрока'}
+				{0, u8'id ГЁГЈГ°Г®ГЄГ '}
 			},
 			nm = 'show',
 			var = {},
 			act = {
-				{3, 1, 3, {u8'Паспорт', u8'Военный билет', u8'Лицензии'}},
+				{3, 1, 3, {u8'ГЏГ Г±ГЇГ®Г°ГІ', u8'Г‚Г®ГҐГ­Г­Г»Г© ГЎГЁГ«ГҐГІ', u8'Г‹ГЁГ¶ГҐГ­Г§ГЁГЁ'}},
 				{8, '1', '1'},
-				{0, u8'/do Паспорт гражданина находится в заднем кармане.'},
-				{0, u8'/me засунув руку в карман, достал{sex:,а} паспорт, после чего передал{sex:,а} его человеку напротив'},
+				{0, u8'/do ГЏГ Г±ГЇГ®Г°ГІ ГЈГ°Г Г¦Г¤Г Г­ГЁГ­Г  Г­Г ГµГ®Г¤ГЁГІГ±Гї Гў Г§Г Г¤Г­ГҐГ¬ ГЄГ Г°Г¬Г Г­ГҐ.'},
+				{0, u8'/me Г§Г Г±ГіГ­ГіГў Г°ГіГЄГі Гў ГЄГ Г°Г¬Г Г­, Г¤Г®Г±ГІГ Г«{sex:,Г } ГЇГ Г±ГЇГ®Г°ГІ, ГЇГ®Г±Г«ГҐ Г·ГҐГЈГ® ГЇГҐГ°ГҐГ¤Г Г«{sex:,Г } ГҐГЈГ® Г·ГҐГ«Г®ГўГҐГЄГі Г­Г ГЇГ°Г®ГІГЁГў'},
 				{0, u8'/pass {arg1}'},
 				{9, '1', '1'},
 				{8, '1', '2'},
-				{0, u8'/do Военный билет находится в нагрудном кармане.'},
-				{0, u8'/me засунув руку в карман, достал{sex:,а} военный билет, после чего передал{sex:,а} её человеку напротив'},
+				{0, u8'/do Г‚Г®ГҐГ­Г­Г»Г© ГЎГЁГ«ГҐГІ Г­Г ГµГ®Г¤ГЁГІГ±Гї Гў Г­Г ГЈГ°ГіГ¤Г­Г®Г¬ ГЄГ Г°Г¬Г Г­ГҐ.'},
+				{0, u8'/me Г§Г Г±ГіГ­ГіГў Г°ГіГЄГі Гў ГЄГ Г°Г¬Г Г­, Г¤Г®Г±ГІГ Г«{sex:,Г } ГўГ®ГҐГ­Г­Г»Г© ГЎГЁГ«ГҐГІ, ГЇГ®Г±Г«ГҐ Г·ГҐГЈГ® ГЇГҐГ°ГҐГ¤Г Г«{sex:,Г } ГҐВё Г·ГҐГ«Г®ГўГҐГЄГі Г­Г ГЇГ°Г®ГІГЁГў'},
 				{0, u8'/vd {arg1}'},
 				{9, '1', '1'},
 				{8, '1', '3'},
-				{0, u8'/do Пакет лицензий находится в нагрудном кармане.'},
-				{0, u8'/me засунув руку в карман, достал{sex:,а} лицензии, после чего передал{sex:,а} их человеку напротив'},
+				{0, u8'/do ГЏГ ГЄГҐГІ Г«ГЁГ¶ГҐГ­Г§ГЁГ© Г­Г ГµГ®Г¤ГЁГІГ±Гї Гў Г­Г ГЈГ°ГіГ¤Г­Г®Г¬ ГЄГ Г°Г¬Г Г­ГҐ.'},
+				{0, u8'/me Г§Г Г±ГіГ­ГіГў Г°ГіГЄГі Гў ГЄГ Г°Г¬Г Г­, Г¤Г®Г±ГІГ Г«{sex:,Г } Г«ГЁГ¶ГҐГ­Г§ГЁГЁ, ГЇГ®Г±Г«ГҐ Г·ГҐГЈГ® ГЇГҐГ°ГҐГ¤Г Г«{sex:,Г } ГЁГµ Г·ГҐГ«Г®ГўГҐГЄГі Г­Г ГЇГ°Г®ГІГЁГў'},
 				{0, u8'/lic {arg1}'},
 				{9, '1', '1'}
 			},
-			desc = u8'Показать игроку свои документы',
+			desc = u8'ГЏГ®ГЄГ Г§Г ГІГј ГЁГЈГ°Г®ГЄГі Г±ГўГ®ГЁ Г¤Г®ГЄГіГ¬ГҐГ­ГІГ»',
 			tr_fl = {0, 1, 3},
 			delay = 2000,
 			not_send_chat = false,
@@ -9297,20 +9297,20 @@ function add_table_act(org_to_replace, default_act)
 			nm = 'cam',
 			var = {},
 			act = {
-				{3, 1, 2, {u8'Включить камеру', u8'Отключить камеру'}},
+				{3, 1, 2, {u8'Г‚ГЄГ«ГѕГ·ГЁГІГј ГЄГ Г¬ГҐГ°Гі', u8'ГЋГІГЄГ«ГѕГ·ГЁГІГј ГЄГ Г¬ГҐГ°Гі'}},
 				{8, '1', '1'},
-				{0, u8'/do Телефон находится в левом кармане.'},
-				{0, u8'/me засунув руку в карман, достал{sex:,а} оттуда телефон, после чего заш{sex:ел,ла} в приложение \'Камера\''},
-				{0, u8'/me нажав на кнопку записи, приступил{sex:,а} к съёмке происходящего'},
-				{0, u8'/do Камера смартфона начала записывать видео и звук.'},
+				{0, u8'/do Г’ГҐГ«ГҐГґГ®Г­ Г­Г ГµГ®Г¤ГЁГІГ±Гї Гў Г«ГҐГўГ®Г¬ ГЄГ Г°Г¬Г Г­ГҐ.'},
+				{0, u8'/me Г§Г Г±ГіГ­ГіГў Г°ГіГЄГі Гў ГЄГ Г°Г¬Г Г­, Г¤Г®Г±ГІГ Г«{sex:,Г } Г®ГІГІГіГ¤Г  ГІГҐГ«ГҐГґГ®Г­, ГЇГ®Г±Г«ГҐ Г·ГҐГЈГ® Г§Г Гё{sex:ГҐГ«,Г«Г } Гў ГЇГ°ГЁГ«Г®Г¦ГҐГ­ГЁГҐ \'ГЉГ Г¬ГҐГ°Г \''},
+				{0, u8'/me Г­Г Г¦Г Гў Г­Г  ГЄГ­Г®ГЇГЄГі Г§Г ГЇГЁГ±ГЁ, ГЇГ°ГЁГ±ГІГіГЇГЁГ«{sex:,Г } ГЄ Г±ГєВёГ¬ГЄГҐ ГЇГ°Г®ГЁГ±ГµГ®Г¤ГїГ№ГҐГЈГ®'},
+				{0, u8'/do ГЉГ Г¬ГҐГ°Г  Г±Г¬Г Г°ГІГґГ®Г­Г  Г­Г Г·Г Г«Г  Г§Г ГЇГЁГ±Г»ГўГ ГІГј ГўГЁГ¤ГҐГ® ГЁ Г§ГўГіГЄ.'},
 				{9, '1', '1'},
 				{8, '1', '2'},
-				{0, u8'/do Телефон находится в руке и ведёт запись.'},
-				{0, u8'/me нажал{sex:,а} на кнопку отключения записи, после чего убрал{sex:,а} телефон в задний карман'},
-				{0, u8'/do Видеофиксация происходящего приостановлена.'},
+				{0, u8'/do Г’ГҐГ«ГҐГґГ®Г­ Г­Г ГµГ®Г¤ГЁГІГ±Гї Гў Г°ГіГЄГҐ ГЁ ГўГҐГ¤ВёГІ Г§Г ГЇГЁГ±Гј.'},
+				{0, u8'/me Г­Г Г¦Г Г«{sex:,Г } Г­Г  ГЄГ­Г®ГЇГЄГі Г®ГІГЄГ«ГѕГ·ГҐГ­ГЁГї Г§Г ГЇГЁГ±ГЁ, ГЇГ®Г±Г«ГҐ Г·ГҐГЈГ® ГіГЎГ°Г Г«{sex:,Г } ГІГҐГ«ГҐГґГ®Г­ Гў Г§Г Г¤Г­ГЁГ© ГЄГ Г°Г¬Г Г­'},
+				{0, u8'/do Г‚ГЁГ¤ГҐГ®ГґГЁГЄГ±Г Г¶ГЁГї ГЇГ°Г®ГЁГ±ГµГ®Г¤ГїГ№ГҐГЈГ® ГЇГ°ГЁГ®Г±ГІГ Г­Г®ГўГ«ГҐГ­Г .'},
 				{9, '1', '1'}
 			},
-			desc = u8'Начать или прекратить видеофиксацию',
+			desc = u8'ГЌГ Г·Г ГІГј ГЁГ«ГЁ ГЇГ°ГҐГЄГ°Г ГІГЁГІГј ГўГЁГ¤ГҐГ®ГґГЁГЄГ±Г Г¶ГЁГѕ',
 			tr_fl = {0, 1, 2},
 			delay = 2000,
 			not_send_chat = false,
@@ -9327,7 +9327,7 @@ function add_table_act(org_to_replace, default_act)
 			act = {
 				{0, u8'/find'}
 			},
-			desc = u8'Сокращённая команда /find',
+			desc = u8'Г‘Г®ГЄГ°Г Г№ВёГ­Г­Г Гї ГЄГ®Г¬Г Г­Г¤Г  /find',
 			tr_fl = {0, 0, 0},
 			delay = 2000,
 			not_send_chat = false,
@@ -9339,20 +9339,20 @@ function add_table_act(org_to_replace, default_act)
 		create_file_json('mb', nil, add_table, '1')
 		add_table = {
 			arg = {
-				{0, u8'id сотрудника'},
-				{0, u8'Время в минутах'},
-				{1, u8'Причина'}
+				{0, u8'id Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГ '},
+				{0, u8'Г‚Г°ГҐГ¬Гї Гў Г¬ГЁГ­ГіГІГ Гµ'},
+				{1, u8'ГЏГ°ГЁГ·ГЁГ­Г '}
 			},
 			nm = 'stroy',
 			var = {},
 			act = {
-				{0, u8'/do Рация весит на поясе.'},
-				{0, u8'/me снял{sex:,а} рацию с пояса, после чего {sex:зашел,зашла} в настройки локальных частот вещания'},
-				{0, u8'/me заглушил{sex:,а} локальную частоту вещания сотруднику {getplnick[{arg1}]}'},
+				{0, u8'/do ГђГ Г¶ГЁГї ГўГҐГ±ГЁГІ Г­Г  ГЇГ®ГїГ±ГҐ.'},
+				{0, u8'/me Г±Г­ГїГ«{sex:,Г } Г°Г Г¶ГЁГѕ Г± ГЇГ®ГїГ±Г , ГЇГ®Г±Г«ГҐ Г·ГҐГЈГ® {sex:Г§Г ГёГҐГ«,Г§Г ГёГ«Г } Гў Г­Г Г±ГІГ°Г®Г©ГЄГЁ Г«Г®ГЄГ Г«ГјГ­Г»Гµ Г·Г Г±ГІГ®ГІ ГўГҐГ№Г Г­ГЁГї'},
+				{0, u8'/me Г§Г ГЈГ«ГіГёГЁГ«{sex:,Г } Г«Г®ГЄГ Г«ГјГ­ГіГѕ Г·Г Г±ГІГ®ГІГі ГўГҐГ№Г Г­ГЁГї Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГі {getplnick[{arg1}]}'},
 				{0, u8'/fmute {arg1} {arg2} {arg3}'},
-				{0, u8'/r Сотруднику {getplnick[{arg1}]} была отключена рация. Причина: {arg3}'}
+				{0, u8'/r Г‘Г®ГІГ°ГіГ¤Г­ГЁГЄГі {getplnick[{arg1}]} ГЎГ»Г«Г  Г®ГІГЄГ«ГѕГ·ГҐГ­Г  Г°Г Г¶ГЁГї. ГЏГ°ГЁГ·ГЁГ­Г : {arg3}'}
 			},
-			desc = u8'Выдать бан чата организации сотруднику',
+			desc = u8'Г‚Г»Г¤Г ГІГј ГЎГ Г­ Г·Г ГІГ  Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГі',
 			tr_fl = {0, 0, 0},
 			delay = 2000,
 			not_send_chat = false,
@@ -9364,18 +9364,18 @@ function add_table_act(org_to_replace, default_act)
 		create_file_json('vig', nil, add_table, '8')
 		add_table = {
 			arg = {
-				{0, u8'id сотрудника'}
+				{0, u8'id Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГ '}
 			},
 			nm = 'unvig',
 			var = {},
 			act = {
-				{0, u8'/do В левом кармане лежит телефон.'},
-				{0, u8'/me достал{sex:,а} телефон из кармана, после чего {sex:зашел,зашла} в базу данных организации'},
-				{0, u8'/me изменил{sex:,а} информацию о сотруднике {getplnick[{arg1}]}'},
+				{0, u8'/do Г‚ Г«ГҐГўГ®Г¬ ГЄГ Г°Г¬Г Г­ГҐ Г«ГҐГ¦ГЁГІ ГІГҐГ«ГҐГґГ®Г­.'},
+				{0, u8'/me Г¤Г®Г±ГІГ Г«{sex:,Г } ГІГҐГ«ГҐГґГ®Г­ ГЁГ§ ГЄГ Г°Г¬Г Г­Г , ГЇГ®Г±Г«ГҐ Г·ГҐГЈГ® {sex:Г§Г ГёГҐГ«,Г§Г ГёГ«Г } Гў ГЎГ Г§Гі Г¤Г Г­Г­Г»Гµ Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ'},
+				{0, u8'/me ГЁГ§Г¬ГҐГ­ГЁГ«{sex:,Г } ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Г® Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГҐ {getplnick[{arg1}]}'},
 				{0, u8'/unvig {arg1}'},
-				{0, u8'/r Сотруднику {getplnick[{arg1}]} снят строгий выговор!'}
+				{0, u8'/r Г‘Г®ГІГ°ГіГ¤Г­ГЁГЄГі {getplnick[{arg1}]} Г±Г­ГїГІ Г±ГІГ°Г®ГЈГЁГ© ГўГ»ГЈГ®ГўГ®Г°!'}
 			},
-			desc = u8'Снять выговор сотруднику',
+			desc = u8'Г‘Г­ГїГІГј ГўГ»ГЈГ®ГўГ®Г° Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГі',
 			tr_fl = {0, 0, 0},
 			delay = 2000,
 			not_send_chat = false,
@@ -9387,18 +9387,18 @@ function add_table_act(org_to_replace, default_act)
 		create_file_json('unvig', nil, add_table, '8')
 		add_table = {
 			arg = {
-				{0, u8'id игрока'}
+				{0, u8'id ГЁГЈГ°Г®ГЄГ '}
 			},
 			nm = 'inv',
 			var = {},
 			act = {
-				{0, u8'/do В кармане находятся ключи от шкафчика.'},
-				{0, u8'/me потянувшись во внутренний карман, достал{sex:,а} оттуда ключ'},
-				{0, u8'/me передал{sex:,а} ключ от шкафчика с формой человеку напротив'},
+				{0, u8'/do Г‚ ГЄГ Г°Г¬Г Г­ГҐ Г­Г ГµГ®Г¤ГїГІГ±Гї ГЄГ«ГѕГ·ГЁ Г®ГІ ГёГЄГ ГґГ·ГЁГЄГ .'},
+				{0, u8'/me ГЇГ®ГІГїГ­ГіГўГёГЁГ±Гј ГўГ® ГўГ­ГіГІГ°ГҐГ­Г­ГЁГ© ГЄГ Г°Г¬Г Г­, Г¤Г®Г±ГІГ Г«{sex:,Г } Г®ГІГІГіГ¤Г  ГЄГ«ГѕГ·'},
+				{0, u8'/me ГЇГҐГ°ГҐГ¤Г Г«{sex:,Г } ГЄГ«ГѕГ· Г®ГІ ГёГЄГ ГґГ·ГЁГЄГ  Г± ГґГ®Г°Г¬Г®Г© Г·ГҐГ«Г®ГўГҐГЄГі Г­Г ГЇГ°Г®ГІГЁГў'},
 				{0, u8'/invite {arg1}'},
-				{0, u8'/r Приветствуем нового сотрудника нашей организации - {getplnick[{arg1}]}'}
+				{0, u8'/r ГЏГ°ГЁГўГҐГІГ±ГІГўГіГҐГ¬ Г­Г®ГўГ®ГЈГ® Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГ  Г­Г ГёГҐГ© Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ - {getplnick[{arg1}]}'}
 			},
-			desc = u8'Принять игрока в организацию',
+			desc = u8'ГЏГ°ГЁГ­ГїГІГј ГЁГЈГ°Г®ГЄГ  Гў Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГѕ',
 			tr_fl = {0, 0, 0},
 			delay = 2000,
 			not_send_chat = false,
@@ -9410,19 +9410,19 @@ function add_table_act(org_to_replace, default_act)
 		create_file_json('inv', nil, add_table, '9')
 		add_table = {
 			arg = {
-				{0, u8'id сотрудника'},
-				{1, u8'Причина'}
+				{0, u8'id Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГ '},
+				{1, u8'ГЏГ°ГЁГ·ГЁГ­Г '}
 			},
 			nm = 'uninv',
 			var = {},
 			act = {
-				{0, u8'/do В левом кармане лежит телефон.'},
-				{0, u8'/me достал{sex:,а} телефон из кармана, после чего {sex:зашел,зашла} в базу данных организации'},
-				{0, u8'/me изменил{sex:,а} информацию о сотруднике {getplnick[{arg1}]}'},
+				{0, u8'/do Г‚ Г«ГҐГўГ®Г¬ ГЄГ Г°Г¬Г Г­ГҐ Г«ГҐГ¦ГЁГІ ГІГҐГ«ГҐГґГ®Г­.'},
+				{0, u8'/me Г¤Г®Г±ГІГ Г«{sex:,Г } ГІГҐГ«ГҐГґГ®Г­ ГЁГ§ ГЄГ Г°Г¬Г Г­Г , ГЇГ®Г±Г«ГҐ Г·ГҐГЈГ® {sex:Г§Г ГёГҐГ«,Г§Г ГёГ«Г } Гў ГЎГ Г§Гі Г¤Г Г­Г­Г»Гµ Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ'},
+				{0, u8'/me ГЁГ§Г¬ГҐГ­ГЁГ«{sex:,Г } ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Г® Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГҐ {getplnick[{arg1}]}'},
 				{0, u8'/uninvite {arg1} {arg2}'},
-				{0, u8'/r Сотрудник {getplnick[{arg1}]} был уволен из организации. Причина: {arg2}'}
+				{0, u8'/r Г‘Г®ГІГ°ГіГ¤Г­ГЁГЄ {getplnick[{arg1}]} ГЎГ»Г« ГіГўГ®Г«ГҐГ­ ГЁГ§ Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ. ГЏГ°ГЁГ·ГЁГ­Г : {arg2}'}
 			},
-			desc = u8'Уволить сотрудника',
+			desc = u8'Г“ГўГ®Г«ГЁГІГј Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГ ',
 			tr_fl = {0, 0, 0},
 			delay = 2000,
 			not_send_chat = false,
@@ -9434,20 +9434,20 @@ function add_table_act(org_to_replace, default_act)
 		create_file_json('uninv', nil, add_table, '9')
 		add_table = {
 			arg = {
-				{0, u8'id сотрудника'},
-				{0, u8'Номер ранга'}
+				{0, u8'id Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГ '},
+				{0, u8'ГЌГ®Г¬ГҐГ° Г°Г Г­ГЈГ '}
 			},
 			nm = 'rank',
 			var = {},
 			act = {
-				{0, u8'/do В кармане халата находится футляр с ключами от шкафчиков с формой.'},
-				{0, u8'/me потянувшись во внутренний карман халата, достал{sex:,а} оттуда футляр'},
-				{0, u8'/me открыв футляр, достал{sex:,а} оттуда ключ от шкафчика с формой'},
-				{0, u8'/me передал{sex:,а} ключ от шкафчика человеку напротив'},
+				{0, u8'/do Г‚ ГЄГ Г°Г¬Г Г­ГҐ ГµГ Г«Г ГІГ  Г­Г ГµГ®Г¤ГЁГІГ±Гї ГґГіГІГ«ГїГ° Г± ГЄГ«ГѕГ·Г Г¬ГЁ Г®ГІ ГёГЄГ ГґГ·ГЁГЄГ®Гў Г± ГґГ®Г°Г¬Г®Г©.'},
+				{0, u8'/me ГЇГ®ГІГїГ­ГіГўГёГЁГ±Гј ГўГ® ГўГ­ГіГІГ°ГҐГ­Г­ГЁГ© ГЄГ Г°Г¬Г Г­ ГµГ Г«Г ГІГ , Г¤Г®Г±ГІГ Г«{sex:,Г } Г®ГІГІГіГ¤Г  ГґГіГІГ«ГїГ°'},
+				{0, u8'/me Г®ГІГЄГ°Г»Гў ГґГіГІГ«ГїГ°, Г¤Г®Г±ГІГ Г«{sex:,Г } Г®ГІГІГіГ¤Г  ГЄГ«ГѕГ· Г®ГІ ГёГЄГ ГґГ·ГЁГЄГ  Г± ГґГ®Г°Г¬Г®Г©'},
+				{0, u8'/me ГЇГҐГ°ГҐГ¤Г Г«{sex:,Г } ГЄГ«ГѕГ· Г®ГІ ГёГЄГ ГґГ·ГЁГЄГ  Г·ГҐГ«Г®ГўГҐГЄГі Г­Г ГЇГ°Г®ГІГЁГў'},
 				{0, u8'/rang {arg1} {arg2}'},
-				{0, u8'/r Сотрудник {getplnick[{arg1}]} получил новую должность. Поздравляем!'}
+				{0, u8'/r Г‘Г®ГІГ°ГіГ¤Г­ГЁГЄ {getplnick[{arg1}]} ГЇГ®Г«ГіГ·ГЁГ« Г­Г®ГўГіГѕ Г¤Г®Г«Г¦Г­Г®Г±ГІГј. ГЏГ®Г§Г¤Г°Г ГўГ«ГїГҐГ¬!'}
 			},
-			desc = u8'Установить сотруднику ранг',
+			desc = u8'Г“Г±ГІГ Г­Г®ГўГЁГІГј Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГі Г°Г Г­ГЈ',
 			tr_fl = {0, 0, 0},
 			delay = 2000,
 			not_send_chat = false,
@@ -9459,19 +9459,19 @@ function add_table_act(org_to_replace, default_act)
 		create_file_json('rank', nil, add_table, '9') 
 	end
 	
-	if org_to_replace:find(u8'Полиция LS') or org_to_replace:find(u8'Полиция SF') or org_to_replace:find(u8'Полиция LV') or org_to_replace:find(u8'FBI') then
+	if org_to_replace:find(u8'ГЏГ®Г«ГЁГ¶ГЁГї LS') or org_to_replace:find(u8'ГЏГ®Г«ГЁГ¶ГЁГї SF') or org_to_replace:find(u8'ГЏГ®Г«ГЁГ¶ГЁГї LV') or org_to_replace:find(u8'FBI') then
 		add_table = {
 			arg = {
-				{0, u8'id игрока'}
+				{0, u8'id ГЁГЈГ°Г®ГЄГ '}
 			},
 			nm = 'cf',
 			var = {},
 			act = {
-				{0, u8'/do Наручники висят на поясном держателе.'},
-				{0, u8'/me сняв наручники с пояса, нацепил{sex:,а} их на задержанного'},
+				{0, u8'/do ГЌГ Г°ГіГ·Г­ГЁГЄГЁ ГўГЁГ±ГїГІ Г­Г  ГЇГ®ГїГ±Г­Г®Г¬ Г¤ГҐГ°Г¦Г ГІГҐГ«ГҐ.'},
+				{0, u8'/me Г±Г­ГїГў Г­Г Г°ГіГ·Г­ГЁГЄГЁ Г± ГЇГ®ГїГ±Г , Г­Г Г¶ГҐГЇГЁГ«{sex:,Г } ГЁГµ Г­Г  Г§Г Г¤ГҐГ°Г¦Г Г­Г­Г®ГЈГ®'},
 				{0, u8'/cuff {arg1}'}
 			},
-			desc = u8'Надеть наручники',
+			desc = u8'ГЌГ Г¤ГҐГІГј Г­Г Г°ГіГ·Г­ГЁГЄГЁ',
 			tr_fl = {0, 0, 0},
 			delay = 2000,
 			not_send_chat = false,
@@ -9480,24 +9480,24 @@ function add_table_act(org_to_replace, default_act)
 			num_d = 1,
 			rank = '2'
 		}
-		create_file_json('cf', u8'Надеть наручники', add_table, '2')
+		create_file_json('cf', u8'ГЌГ Г¤ГҐГІГј Г­Г Г°ГіГ·Г­ГЁГЄГЁ', add_table, '2')
 		add_table = {
 			arg = {
-				{0, u8'id сотрудника'},
-				{0, u8'Сумма'},
-				{0, u8'Причина'}
+				{0, u8'id Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГ '},
+				{0, u8'Г‘ГіГ¬Г¬Г '},
+				{0, u8'ГЏГ°ГЁГ·ГЁГ­Г '}
 			},
 			nm = 'tk',
 			var = {{1, '0'}, {1, '0'}, {1, '0'}},
 			tr_fl = {0, 4, 14},
-			desc = u8'Выписать штраф',
+			desc = u8'Г‚Г»ГЇГЁГ±Г ГІГј ГёГІГ°Г Гґ',
 			act = {
-				{0, u8'Я обязан{sex:,а} выписать Вам штраф.'},
-				{0, u8'Оплатить его Вы сможете в ближайшем отделении банка.'},
-				{0, u8'/me снял{sex:,а} с пояса мини-КПК, после вбил{sex:,а} данные о задержанном'},
-				{0, u8'/do Данные внесены.'},
-				{0, u8'/me выбрав из списка пункт нарушения и сумму штрафа, занес{sex:,ла} его в реестр'},
-				{0, u8'/me выслал{sex:,а} электронный чек на почту задержанного'},
+				{0, u8'Гџ Г®ГЎГїГ§Г Г­{sex:,Г } ГўГ»ГЇГЁГ±Г ГІГј Г‚Г Г¬ ГёГІГ°Г Гґ.'},
+				{0, u8'ГЋГЇГ«Г ГІГЁГІГј ГҐГЈГ® Г‚Г» Г±Г¬Г®Г¦ГҐГІГҐ Гў ГЎГ«ГЁГ¦Г Г©ГёГҐГ¬ Г®ГІГ¤ГҐГ«ГҐГ­ГЁГЁ ГЎГ Г­ГЄГ .'},
+				{0, u8'/me Г±Г­ГїГ«{sex:,Г } Г± ГЇГ®ГїГ±Г  Г¬ГЁГ­ГЁ-ГЉГЏГЉ, ГЇГ®Г±Г«ГҐ ГўГЎГЁГ«{sex:,Г } Г¤Г Г­Г­Г»ГҐ Г® Г§Г Г¤ГҐГ°Г¦Г Г­Г­Г®Г¬'},
+				{0, u8'/do Г„Г Г­Г­Г»ГҐ ГўГ­ГҐГ±ГҐГ­Г».'},
+				{0, u8'/me ГўГ»ГЎГ°Г Гў ГЁГ§ Г±ГЇГЁГ±ГЄГ  ГЇГіГ­ГЄГІ Г­Г Г°ГіГёГҐГ­ГЁГї ГЁ Г±ГіГ¬Г¬Гі ГёГІГ°Г ГґГ , Г§Г Г­ГҐГ±{sex:,Г«Г } ГҐГЈГ® Гў Г°ГҐГҐГ±ГІГ°'},
+				{0, u8'/me ГўГ»Г±Г«Г Г«{sex:,Г } ГЅГ«ГҐГЄГІГ°Г®Г­Г­Г»Г© Г·ГҐГЄ Г­Г  ГЇГ®Г·ГІГі Г§Г Г¤ГҐГ°Г¦Г Г­Г­Г®ГЈГ®'},
 				{0, u8'/ticket {arg1} {arg2} {arg3}'}
 			},
 			delay = 2000,
@@ -9507,21 +9507,21 @@ function add_table_act(org_to_replace, default_act)
 			num_d = 5,
 			rank = '3'
 		}
-		create_file_json('tk', u8'Выписать штраф', add_table, '3')
+		create_file_json('tk', u8'Г‚Г»ГЇГЁГ±Г ГІГј ГёГІГ°Г Гґ', add_table, '3')
 		add_table = {
 			arg = {
-				{0, u8'id игрока'}
+				{0, u8'id ГЁГЈГ°Г®ГЄГ '}
 			},
 			nm = 'sc',
 			var = {1, '0'}, {1, '0'},
 			act = {
-				{0, u8'Развернитесь ко мне спиной,ноги на ширине плеч,руки над головой.'},
+				{0, u8'ГђГ Г§ГўГҐГ°Г­ГЁГІГҐГ±Гј ГЄГ® Г¬Г­ГҐ Г±ГЇГЁГ­Г®Г©,Г­Г®ГЈГЁ Г­Г  ГёГЁГ°ГЁГ­ГҐ ГЇГ«ГҐГ·,Г°ГіГЄГЁ Г­Г Г¤ ГЈГ®Г«Г®ГўГ®Г©.'},
 				{0, u8'/n /anim 33'},
-				{0, u8'/do На тактическом поясе висит пачка с одноразовыми резиновыми перчатками.'},
-				{0, u8'/me достаёт перчатки, после надевает их на руки,затем начинает обыскивать человека'},
+				{0, u8'/do ГЌГ  ГІГ ГЄГІГЁГ·ГҐГ±ГЄГ®Г¬ ГЇГ®ГїГ±ГҐ ГўГЁГ±ГЁГІ ГЇГ Г·ГЄГ  Г± Г®Г¤Г­Г®Г°Г Г§Г®ГўГ»Г¬ГЁ Г°ГҐГ§ГЁГ­Г®ГўГ»Г¬ГЁ ГЇГҐГ°Г·Г ГІГЄГ Г¬ГЁ.'},
+				{0, u8'/me Г¤Г®Г±ГІГ ВёГІ ГЇГҐГ°Г·Г ГІГЄГЁ, ГЇГ®Г±Г«ГҐ Г­Г Г¤ГҐГўГ ГҐГІ ГЁГµ Г­Г  Г°ГіГЄГЁ,Г§Г ГІГҐГ¬ Г­Г Г·ГЁГ­Г ГҐГІ Г®ГЎГ»Г±ГЄГЁГўГ ГІГј Г·ГҐГ«Г®ГўГҐГЄГ '},
 				{0, u8'/search {arg1}'}
 			},
-			desc = u8'Обыскать человека',
+			desc = u8'ГЋГЎГ»Г±ГЄГ ГІГј Г·ГҐГ«Г®ГўГҐГЄГ ',
 			tr_fl = {0, 0, 0},
 			delay = 2000,
 			not_send_chat = false,
@@ -9530,29 +9530,29 @@ function add_table_act(org_to_replace, default_act)
 			num_d = 1,
 			rank = '4'
 		}
-		create_file_json('sc', u8'Обыскать человека', add_table, '4')
+		create_file_json('sc', u8'ГЋГЎГ»Г±ГЄГ ГІГј Г·ГҐГ«Г®ГўГҐГЄГ ', add_table, '4')
 		add_table = {
 			arg = {
-				{0, u8'id игрока'}
+				{0, u8'id ГЁГЈГ°Г®ГЄГ '}
 			},
 			nm = 'doc',
 			var = {},
 			act = {
-				{3, 1, 3, {u8'Паспорт', u8'Военный билет', u8'Лицензии'}},
+				{3, 1, 3, {u8'ГЏГ Г±ГЇГ®Г°ГІ', u8'Г‚Г®ГҐГ­Г­Г»Г© ГЎГЁГ«ГҐГІ', u8'Г‹ГЁГ¶ГҐГ­Г§ГЁГЁ'}},
 				{8, '1', '1'},
-				{0, u8'Предъявите документ, удостоверяющий Вашу личность.'},
+				{0, u8'ГЏГ°ГҐГ¤ГєГїГўГЁГІГҐ Г¤Г®ГЄГіГ¬ГҐГ­ГІ, ГіГ¤Г®Г±ГІГ®ГўГҐГ°ГїГѕГ№ГЁГ© Г‚Г ГёГі Г«ГЁГ·Г­Г®Г±ГІГј.'},
 				{0, u8'/n /pass {myid}'},
 				{9, '1', '1'},
 				{8, '1', '2'},
-				{0, u8'Предъявите свой военный билет, если конечно, он у Вас есть.'},
+				{0, u8'ГЏГ°ГҐГ¤ГєГїГўГЁГІГҐ Г±ГўГ®Г© ГўГ®ГҐГ­Г­Г»Г© ГЎГЁГ«ГҐГІ, ГҐГ±Г«ГЁ ГЄГ®Г­ГҐГ·Г­Г®, Г®Г­ Гі Г‚Г Г± ГҐГ±ГІГј.'},
 				{0, u8'/n /vb {myid}'},
 				{9, '1', '1'},
 				{8, '1', '3'},
-				{0, u8'Предъявите свои лицензии.'},
+				{0, u8'ГЏГ°ГҐГ¤ГєГїГўГЁГІГҐ Г±ГўГ®ГЁ Г«ГЁГ¶ГҐГ­Г§ГЁГЁ.'},
 				{0, u8'/n /lic {myid}'},
 				{9, '1', '1'}
 			},
-			desc = u8'Запросить у игрока документы',
+			desc = u8'Г‡Г ГЇГ°Г®Г±ГЁГІГј Гі ГЁГЈГ°Г®ГЄГ  Г¤Г®ГЄГіГ¬ГҐГ­ГІГ»',
 			tr_fl = {0, 1, 5},
 			delay = 2000,
 			not_send_chat = false,
@@ -9561,22 +9561,22 @@ function add_table_act(org_to_replace, default_act)
 			num_d = 2,
 			rank = '4'
 		}
-		create_file_json('doc', u8'Запросить у игрока документы', add_table, '4')
+		create_file_json('doc', u8'Г‡Г ГЇГ°Г®Г±ГЁГІГј Гі ГЁГЈГ°Г®ГЄГ  Г¤Г®ГЄГіГ¬ГҐГ­ГІГ»', add_table, '4')
 		add_table = {
 			arg = {
-				{0, u8'id сотрудника'},
-				{0, u8'Причина'}
+				{0, u8'id Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГ '},
+				{0, u8'ГЏГ°ГЁГ·ГЁГ­Г '}
 			},
 			nm = 'dm',
 			var = {},
 			act = {
-				{0, u8'/do В левом кармане лежит мини-КПК.'},
-				{0, u8'/me достал{sex:,а} мини-КПК из кармана, после чего {sex:зашел,зашла} в базу данных организации'},
-				{0, u8'/me изменил{sex:,а} информацию о сотруднике {getplnick[{arg1}]}'},
+				{0, u8'/do Г‚ Г«ГҐГўГ®Г¬ ГЄГ Г°Г¬Г Г­ГҐ Г«ГҐГ¦ГЁГІ Г¬ГЁГ­ГЁ-ГЉГЏГЉ.'},
+				{0, u8'/me Г¤Г®Г±ГІГ Г«{sex:,Г } Г¬ГЁГ­ГЁ-ГЉГЏГЉ ГЁГ§ ГЄГ Г°Г¬Г Г­Г , ГЇГ®Г±Г«ГҐ Г·ГҐГЈГ® {sex:Г§Г ГёГҐГ«,Г§Г ГёГ«Г } Гў ГЎГ Г§Гі Г¤Г Г­Г­Г»Гµ Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ'},
+				{0, u8'/me ГЁГ§Г¬ГҐГ­ГЁГ«{sex:,Г } ГЁГ­ГґГ®Г°Г¬Г Г¶ГЁГѕ Г® Г±Г®ГІГ°ГіГ¤Г­ГЁГЄГҐ {getplnick[{arg1}]}'},
 				{0, u8'/demote {arg1} {arg2}'},
-				{0, u8'/d [FBI] - [ALL] Сотрудник {getplnick[{arg1}]} был уволен. Причина: {arg2}'}
+				{0, u8'/d [FBI] - [ALL] Г‘Г®ГІГ°ГіГ¤Г­ГЁГЄ {getplnick[{arg1}]} ГЎГ»Г« ГіГўГ®Г«ГҐГ­. ГЏГ°ГЁГ·ГЁГ­Г : {arg2}'}
 			},
-			desc = u8'Уволить чужого',
+			desc = u8'Г“ГўГ®Г«ГЁГІГј Г·ГіГ¦Г®ГЈГ®',
 			tr_fl = {0, 0, 0},
 			delay = 2000,
 			not_send_chat = false,
@@ -9585,11 +9585,11 @@ function add_table_act(org_to_replace, default_act)
 			num_d = 1,
 			rank = '10'
 	 	}
-		create_file_json('dm', u8'Уволить чужого', add_table, '10')
+		create_file_json('dm', u8'Г“ГўГ®Г«ГЁГІГј Г·ГіГ¦Г®ГЈГ®', add_table, '10')
 		
 		setting.fast_acc.sl = {
 			{
-				text = u8'Надеть наручники',
+				text = u8'ГЌГ Г¤ГҐГІГј Г­Г Г°ГіГ·Г­ГЁГЄГЁ',
 				cmd = 'cf',
 				pass_arg = true,
 				send_chat = true
@@ -9598,16 +9598,16 @@ function add_table_act(org_to_replace, default_act)
 				send_chat = true,
 				cmd = 'tk',
 				pass_arg = true,
-				text = u8'Выписать штраф'
+				text = u8'Г‚Г»ГЇГЁГ±Г ГІГј ГёГІГ°Г Гґ'
 			},
 			{
 				send_chat = true,
 				cmd = 'sc',
 				pass_arg = true,
-				text = u8'Обыскать человека'
+				text = u8'ГЋГЎГ»Г±ГЄГ ГІГј Г·ГҐГ«Г®ГўГҐГЄГ '
 			},
 			{
-				text = u8'Запросить у игрока документы',
+				text = u8'Г‡Г ГЇГ°Г®Г±ГЁГІГј Гі ГЁГЈГ°Г®ГЄГ  Г¤Г®ГЄГіГ¬ГҐГ­ГІГ»',
 				cmd = 'doc',
 				pass_arg = true,
 				send_chat = true
@@ -9616,22 +9616,22 @@ function add_table_act(org_to_replace, default_act)
 				send_chat = true,
 				cmd = 'z',
 				pass_arg = true,
-				text = u8'Поздароваться'
+				text = u8'ГЏГ®Г§Г¤Г Г°Г®ГўГ ГІГјГ±Гї'
 			},
 			{
 				send_chat = true,
 				cmd = 'za',
 				pass_arg = true,
-				text = u8'Пройдёмте за мной'
+				text = u8'ГЏГ°Г®Г©Г¤ВёГ¬ГІГҐ Г§Г  Г¬Г­Г®Г©'
 			},
 			{
 				send_chat = true,
 				cmd = 'dm',
 				pass_arg = true,
-				text = u8'Уволить чужого'
+				text = u8'Г“ГўГ®Г«ГЁГІГј Г·ГіГ¦Г®ГЈГ®'
 			},
 			{
-				text = u8'Попросить выйти',
+				text = u8'ГЏГ®ГЇГ°Г®Г±ГЁГІГј ГўГ»Г©ГІГЁ',
 				cmd = 'out',
 				pass_arg = true,
 				send_chat = false
@@ -9643,7 +9643,7 @@ end
 
 function hook.onServerMessage(mes_color, mes)
 	if setting.chat_pl then
-		if mes:find('Отправил:') or mes:find('Отредактировал сотрудник') then
+		if mes:find('ГЋГІГЇГ°Г ГўГЁГ«:') or mes:find('ГЋГІГ°ГҐГ¤Г ГЄГІГЁГ°Г®ГўГ Г« Г±Г®ГІГ°ГіГ¤Г­ГЁГЄ') then
 			return false
 		end
 	end
@@ -9653,19 +9653,19 @@ function hook.onServerMessage(mes_color, mes)
 		end
 	end
 	if setting.chat_help then
-		if mes:find('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~') or mes:find('- Основные команды сервера: /menu /help /gps /settings') 
-		or mes:find('Пригласи друга и получи бонус в размере') or mes:find('- Донат и получение дополнительных средств Samp Mobile-rp.com/donate') 
-		or mes:find('Подробнее об обновлениях сервера') or mes:find('(Личный кабинет/Донат)') or mes:find('С помощью телефона можно заказать') 
-		or mes:find('В нашем магазине ты можешь') or mes:find('их на желаемый тобой {FFFFFF}бизнес') or mes:find('Игроки со статусом {FFFFFF}VIP{6495ED} имеют большие возможности') 
-		or mes:find('можно приобрести редкие {FFFFFF}автомобили, аксессуары, воздушные') or mes:find('предметы, которые выделят тебя из толпы! Наш сайт:') 
-		or mes:find('Вы можете купить складское помещение') or mes:find('Таким образом вы можете сберечь своё имущество, даже если вас забанят.') 
-		or mes:find('Этот тип недвижимости будет навсегда закреплен за вами и за него не нужно платить.') or mes:find('{ffffff}Уважаемые жители штата, открыта продажа билетов на рейс:') 
-		or mes:find('{ffffff}Подробнее: {FF6666}/help — Перелёты в город Vice City.') or mes:find('{ffffff}Внимание! На сервере Vice City действует акция Х3 PayDay.') 
-		or mes:find('%[Подсказка%] Игроки владеющие (.+) домами могут бесплатно раз в день получать') or mes:find('%[Подсказка%] Игроки владеющие (.+) домами могут получать (.+) Ларца Олигарха') then 
+		if mes:find('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~') or mes:find('- ГЋГ±Г­Г®ГўГ­Г»ГҐ ГЄГ®Г¬Г Г­Г¤Г» Г±ГҐГ°ГўГҐГ°Г : /menu /help /gps /settings') 
+		or mes:find('ГЏГ°ГЁГЈГ«Г Г±ГЁ Г¤Г°ГіГЈГ  ГЁ ГЇГ®Г«ГіГ·ГЁ ГЎГ®Г­ГіГ± Гў Г°Г Г§Г¬ГҐГ°ГҐ') or mes:find('- Г„Г®Г­Г ГІ ГЁ ГЇГ®Г«ГіГ·ГҐГ­ГЁГҐ Г¤Г®ГЇГ®Г«Г­ГЁГІГҐГ«ГјГ­Г»Гµ Г±Г°ГҐГ¤Г±ГІГў Samp Mobile-rp.com/donate') 
+		or mes:find('ГЏГ®Г¤Г°Г®ГЎГ­ГҐГҐ Г®ГЎ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГїГµ Г±ГҐГ°ГўГҐГ°Г ') or mes:find('(Г‹ГЁГ·Г­Г»Г© ГЄГ ГЎГЁГ­ГҐГІ/Г„Г®Г­Г ГІ)') or mes:find('Г‘ ГЇГ®Г¬Г®Г№ГјГѕ ГІГҐГ«ГҐГґГ®Г­Г  Г¬Г®Г¦Г­Г® Г§Г ГЄГ Г§Г ГІГј') 
+		or mes:find('Г‚ Г­Г ГёГҐГ¬ Г¬Г ГЈГ Г§ГЁГ­ГҐ ГІГ» Г¬Г®Г¦ГҐГёГј') or mes:find('ГЁГµ Г­Г  Г¦ГҐГ«Г ГҐГ¬Г»Г© ГІГ®ГЎГ®Г© {FFFFFF}ГЎГЁГ§Г­ГҐГ±') or mes:find('Г€ГЈГ°Г®ГЄГЁ Г±Г® Г±ГІГ ГІГіГ±Г®Г¬ {FFFFFF}VIP{6495ED} ГЁГ¬ГҐГѕГІ ГЎГ®Г«ГјГёГЁГҐ ГўГ®Г§Г¬Г®Г¦Г­Г®Г±ГІГЁ') 
+		or mes:find('Г¬Г®Г¦Г­Г® ГЇГ°ГЁГ®ГЎГ°ГҐГ±ГІГЁ Г°ГҐГ¤ГЄГЁГҐ {FFFFFF}Г ГўГІГ®Г¬Г®ГЎГЁГ«ГЁ, Г ГЄГ±ГҐГ±Г±ГіГ Г°Г», ГўГ®Г§Г¤ГіГёГ­Г»ГҐ') or mes:find('ГЇГ°ГҐГ¤Г¬ГҐГІГ», ГЄГ®ГІГ®Г°Г»ГҐ ГўГ»Г¤ГҐГ«ГїГІ ГІГҐГЎГї ГЁГ§ ГІГ®Г«ГЇГ»! ГЌГ Гё Г±Г Г©ГІ:') 
+		or mes:find('Г‚Г» Г¬Г®Г¦ГҐГІГҐ ГЄГіГЇГЁГІГј Г±ГЄГ«Г Г¤Г±ГЄГ®ГҐ ГЇГ®Г¬ГҐГ№ГҐГ­ГЁГҐ') or mes:find('Г’Г ГЄГЁГ¬ Г®ГЎГ°Г Г§Г®Г¬ ГўГ» Г¬Г®Г¦ГҐГІГҐ Г±ГЎГҐГ°ГҐГ·Гј Г±ГўГ®Вё ГЁГ¬ГіГ№ГҐГ±ГІГўГ®, Г¤Г Г¦ГҐ ГҐГ±Г«ГЁ ГўГ Г± Г§Г ГЎГ Г­ГїГІ.') 
+		or mes:find('ГќГІГ®ГІ ГІГЁГЇ Г­ГҐГ¤ГўГЁГ¦ГЁГ¬Г®Г±ГІГЁ ГЎГіГ¤ГҐГІ Г­Г ГўГ±ГҐГЈГ¤Г  Г§Г ГЄГ°ГҐГЇГ«ГҐГ­ Г§Г  ГўГ Г¬ГЁ ГЁ Г§Г  Г­ГҐГЈГ® Г­ГҐ Г­ГіГ¦Г­Г® ГЇГ«Г ГІГЁГІГј.') or mes:find('{ffffff}Г“ГўГ Г¦Г ГҐГ¬Г»ГҐ Г¦ГЁГІГҐГ«ГЁ ГёГІГ ГІГ , Г®ГІГЄГ°Г»ГІГ  ГЇГ°Г®Г¤Г Г¦Г  ГЎГЁГ«ГҐГІГ®Гў Г­Г  Г°ГҐГ©Г±:') 
+		or mes:find('{ffffff}ГЏГ®Г¤Г°Г®ГЎГ­ГҐГҐ: {FF6666}/help В— ГЏГҐГ°ГҐГ«ВёГІГ» Гў ГЈГ®Г°Г®Г¤ Vice City.') or mes:find('{ffffff}Г‚Г­ГЁГ¬Г Г­ГЁГҐ! ГЌГ  Г±ГҐГ°ГўГҐГ°ГҐ Vice City Г¤ГҐГ©Г±ГІГўГіГҐГІ Г ГЄГ¶ГЁГї Г•3 PayDay.') 
+		or mes:find('%[ГЏГ®Г¤Г±ГЄГ Г§ГЄГ %] Г€ГЈГ°Г®ГЄГЁ ГўГ«Г Г¤ГҐГѕГ№ГЁГҐ (.+) Г¤Г®Г¬Г Г¬ГЁ Г¬Г®ГЈГіГІ ГЎГҐГ±ГЇГ«Г ГІГ­Г® Г°Г Г§ Гў Г¤ГҐГ­Гј ГЇГ®Г«ГіГ·Г ГІГј') or mes:find('%[ГЏГ®Г¤Г±ГЄГ Г§ГЄГ %] Г€ГЈГ°Г®ГЄГЁ ГўГ«Г Г¤ГҐГѕГ№ГЁГҐ (.+) Г¤Г®Г¬Г Г¬ГЁ Г¬Г®ГЈГіГІ ГЇГ®Г«ГіГ·Г ГІГј (.+) Г‹Г Г°Г¶Г  ГЋГ«ГЁГЈГ Г°ГµГ ') then 
 			return false
 		end
 	end
-	if mes:find('Администратор ((%w+)_(%w+)):(.+)спавн') or mes:find('Администратор (%w+)_(%w+):(.+)Спавн') then
+	if mes:find('ГЂГ¤Г¬ГЁГ­ГЁГ±ГІГ°Г ГІГ®Г° ((%w+)_(%w+)):(.+)Г±ГЇГ ГўГ­') or mes:find('ГЂГ¤Г¬ГЁГ­ГЁГ±ГІГ°Г ГІГ®Г° (%w+)_(%w+):(.+)Г‘ГЇГ ГўГ­') then
 		if setting.notice.car and not error_spawn then
 			lua_thread.create(function()
 				error_spawn = true
@@ -9679,7 +9679,7 @@ function hook.onServerMessage(mes_color, mes)
 			end)
 		end
 	end
-	if (mes:find('%[D%](.+)'..u8:decode(setting.dep.my_tag)..'(.+)связь') and setting.notice.dep) or (mes:find('%[D%](.+)'..u8:decode(setting.dep.my_tag_en)..'(.+)связь') and setting.notice.dep and setting.dep.my_tag_en ~= '') then
+	if (mes:find('%[D%](.+)'..u8:decode(setting.dep.my_tag)..'(.+)Г±ГўГїГ§Гј') and setting.notice.dep) or (mes:find('%[D%](.+)'..u8:decode(setting.dep.my_tag_en)..'(.+)Г±ГўГїГ§Гј') and setting.notice.dep and setting.dep.my_tag_en ~= '') then
 		local comparison = mes:match('%[(%d+)%]')
 		comparison = tonumber(comparison)
 		lua_thread.create(function()
@@ -9694,8 +9694,8 @@ function hook.onServerMessage(mes_color, mes)
 				end
 			end
 			if not found_our then
-				sampAddChatMessage(script_tag..'{e3a220}Вашу организацию вызывают в рации департамента!', color_tag)
-				sampAddChatMessage(script_tag..'{e3a220}Вашу организацию вызывают в рации департамента!', color_tag)
+				sampAddChatMessage(script_tag..'{e3a220}Г‚Г ГёГі Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГѕ ГўГ»Г§Г»ГўГ ГѕГІ Гў Г°Г Г¶ГЁГЁ Г¤ГҐГЇГ Г°ГІГ Г¬ГҐГ­ГІГ !', color_tag)
+				sampAddChatMessage(script_tag..'{e3a220}Г‚Г ГёГі Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГѕ ГўГ»Г§Г»ГўГ ГѕГІ Гў Г°Г Г¶ГЁГЁ Г¤ГҐГЇГ Г°ГІГ Г¬ГҐГ­ГІГ !', color_tag)
 				local stop_signal = 0
 				repeat wait(200) 
 					addOneOffSound(0, 0, 0, 1057)
@@ -9705,7 +9705,7 @@ function hook.onServerMessage(mes_color, mes)
 		end)
 	end
 	if setting.show_dialog_auto then
-		if mes:find('%[Новое предложение%]{ffffff} Вам поступило предложение от игрока(.+)%. Используйте команду%: %/offer или клавишу X') then
+		if mes:find('%[ГЌГ®ГўГ®ГҐ ГЇГ°ГҐГ¤Г«Г®Г¦ГҐГ­ГЁГҐ%]{ffffff} Г‚Г Г¬ ГЇГ®Г±ГІГіГЇГЁГ«Г® ГЇГ°ГҐГ¤Г«Г®Г¦ГҐГ­ГЁГҐ Г®ГІ ГЁГЈГ°Г®ГЄГ (.+)%. Г€Г±ГЇГ®Г«ГјГ§ГіГ©ГІГҐ ГЄГ®Г¬Г Г­Г¤Гі%: %/offer ГЁГ«ГЁ ГЄГ«Г ГўГЁГёГі X') then
 			sampSendChat('/offer')
 		end
 	end
@@ -9738,22 +9738,22 @@ function hook.onServerMessage(mes_color, mes)
 			end
 		end
 	end
-	if mes:find('Организационная зарплата: $(%d+)') then
-		local mes_pay = mes:match('Организационная зарплата: $(.+)'):gsub('%D', '')
-		if setting.frac.org:find(u8'Больница') then
+	if mes:find('ГЋГ°ГЈГ Г­ГЁГ§Г Г¶ГЁГ®Г­Г­Г Гї Г§Г Г°ГЇГ«Г ГІГ : $(%d+)') then
+		local mes_pay = mes:match('ГЋГ°ГЈГ Г­ГЁГ§Г Г¶ГЁГ®Г­Г­Г Гї Г§Г Г°ГЇГ«Г ГІГ : $(.+)'):gsub('%D', '')
+		if setting.frac.org:find(u8'ГЃГ®Г«ГјГ­ГЁГ¶Г ') then
 			setting.stat.hosp.total_all = setting.stat.hosp.total_all + tonumber(mes_pay)
 			setting.stat.hosp.payday[1] = setting.stat.hosp.payday[1] + tonumber(mes_pay)
 		end
 		save('setting')
 	end
-	if mes:find('%[Информация%] {FFFFFF}Вы вылечили (.+) за ') then
+	if mes:find('%[Г€Г­ГґГ®Г°Г¬Г Г¶ГЁГї%] {FFFFFF}Г‚Г» ГўГ»Г«ГҐГ·ГЁГ«ГЁ (.+) Г§Г  ') then
 		local mes_pay = mes:match('$(.+)'):gsub('%D', '')
 		setting.stat.hosp.total_all = setting.stat.hosp.total_all + round(tonumber(mes_pay) * 0.6, 1)
 		setting.stat.hosp.lec[1] = setting.stat.hosp.lec[1] + round(tonumber(mes_pay) * 0.6, 1)
 		save('setting')
 	end
-	if mes:find('%[Информация%] {FFFFFF}Вы выдали (.+) сроком') then
-		local mes_pay = mes:match(' на (%d+)')
+	if mes:find('%[Г€Г­ГґГ®Г°Г¬Г Г¶ГЁГї%] {FFFFFF}Г‚Г» ГўГ»Г¤Г Г«ГЁ (.+) Г±Г°Г®ГЄГ®Г¬') then
+		local mes_pay = mes:match(' Г­Г  (%d+)')
 		local money_med = tonumber(setting.price.mede[1])
 		if tonumber(mes_pay) == 14 then
 			money_med = tonumber(setting.price.mede[2])
@@ -9766,59 +9766,59 @@ function hook.onServerMessage(mes_color, mes)
 		setting.stat.hosp.medcard[1] = setting.stat.hosp.medcard[1] + round(money_med / 2, 1)
 		save('setting')
 	end
-	if mes:find('%[Информация%] {FFFFFF}Вы начали лечение (.+) от наркозависимости за ') then
+	if mes:find('%[Г€Г­ГґГ®Г°Г¬Г Г¶ГЁГї%] {FFFFFF}Г‚Г» Г­Г Г·Г Г«ГЁ Г«ГҐГ·ГҐГ­ГЁГҐ (.+) Г®ГІ Г­Г Г°ГЄГ®Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГЁ Г§Г  ') then
 		local mes_pay = mes:match('%$(.+)'):gsub('%D', '')
 		setting.stat.hosp.total_all = setting.stat.hosp.total_all + (tonumber(mes_pay) * 0.8)
 		setting.stat.hosp.apt[1] = setting.stat.hosp.apt[1] + (tonumber(mes_pay) * 0.8)
 		save('setting')
 	end
-	if mes:find('%[Информация%] {FFFFFF}Вы продали антибиотики (.+) игроку (.+) за (.+)ваша') then
-		local mes_pay = mes:match('прибыль: $(.+)'):gsub('%D', '')
+	if mes:find('%[Г€Г­ГґГ®Г°Г¬Г Г¶ГЁГї%] {FFFFFF}Г‚Г» ГЇГ°Г®Г¤Г Г«ГЁ Г Г­ГІГЁГЎГЁГ®ГІГЁГЄГЁ (.+) ГЁГЈГ°Г®ГЄГі (.+) Г§Г  (.+)ГўГ ГёГ ') then
+		local mes_pay = mes:match('ГЇГ°ГЁГЎГ»Г«Гј: $(.+)'):gsub('%D', '')
 		setting.stat.hosp.total_all = setting.stat.hosp.total_all + tonumber(mes_pay)
 		setting.stat.hosp.ant[1] = setting.stat.hosp.ant[1] + tonumber(mes_pay)
 		save('setting')
 	end
-	if mes:find('%[Информация%] {FFFFFF}Вы продали (%d+) рецептов (.+) за ') then
+	if mes:find('%[Г€Г­ГґГ®Г°Г¬Г Г¶ГЁГї%] {FFFFFF}Г‚Г» ГЇГ°Г®Г¤Г Г«ГЁ (%d+) Г°ГҐГ¶ГҐГЇГІГ®Гў (.+) Г§Г  ') then
 		local mes_pay = mes:match('%$(.+)'):gsub('%D', '')
 		setting.stat.hosp.total_all = setting.stat.hosp.total_all + round(tonumber(mes_pay) / 2, 1)
 		setting.stat.hosp.rec[1] = setting.stat.hosp.rec[1] + round(tonumber(mes_pay) / 2, 1)
 		save('setting')
 	end
 	if sampGetGamestate() == 3 then
-		if mes:find('>>>{FFFFFF} '..my.nick..'%[(%d+)%] доставил 100 медикаментов на склад больницы!') then
+		if mes:find('>>>{FFFFFF} '..my.nick..'%[(%d+)%] Г¤Г®Г±ГІГ ГўГЁГ« 100 Г¬ГҐГ¤ГЁГЄГ Г¬ГҐГ­ГІГ®Гў Г­Г  Г±ГЄГ«Г Г¤ ГЎГ®Г«ГјГ­ГЁГ¶Г»!') then
 			setting.stat.hosp.total_all = setting.stat.hosp.total_all + 100000
 			setting.stat.hosp.medcam[1] = setting.stat.hosp.medcam[1] + 100000
 			save('setting')
 		end
 	end
-	if mes:find('Вы поставили на ноги игрока (.+)') then
+	if mes:find('Г‚Г» ГЇГ®Г±ГІГ ГўГЁГ«ГЁ Г­Г  Г­Г®ГЈГЁ ГЁГЈГ°Г®ГЄГ  (.+)') then
 		setting.stat.hosp.total_all = setting.stat.hosp.total_all + 300000
 		setting.stat.hosp.cure[1] = setting.stat.hosp.cure[1] + 300000
 		save('setting')
 	end
-	if mes:find('%[Информация%] %{FFFFFF%}Вы предложили (.+) купить лицензию(.+)') then
-		local price_lic_i = mes:match(' за %$(%d+)')
+	if mes:find('%[Г€Г­ГґГ®Г°Г¬Г Г¶ГЁГї%] %{FFFFFF%}Г‚Г» ГЇГ°ГҐГ¤Г«Г®Г¦ГЁГ«ГЁ (.+) ГЄГіГЇГЁГІГј Г«ГЁГ¶ГҐГ­Г§ГЁГѕ(.+)') then
+		local price_lic_i = mes:match(' Г§Г  %$(%d+)')
 		price_lic = tonumber(price_lic_i) / 2
 	end
-	if mes:find('%[Информация%] {FFFFFF}Вы успешно продали лицензию') then
-		local lic_type = mes:match('%[Информация%] {FFFFFF}Вы успешно продали лицензию (.+) игроку')
-		if lic_type == 'авто' then
+	if mes:find('%[Г€Г­ГґГ®Г°Г¬Г Г¶ГЁГї%] {FFFFFF}Г‚Г» ГіГ±ГЇГҐГёГ­Г® ГЇГ°Г®Г¤Г Г«ГЁ Г«ГЁГ¶ГҐГ­Г§ГЁГѕ') then
+		local lic_type = mes:match('%[Г€Г­ГґГ®Г°Г¬Г Г¶ГЁГї%] {FFFFFF}Г‚Г» ГіГ±ГЇГҐГёГ­Г® ГЇГ°Г®Г¤Г Г«ГЁ Г«ГЁГ¶ГҐГ­Г§ГЁГѕ (.+) ГЁГЈГ°Г®ГЄГі')
+		if lic_type == 'Г ГўГІГ®' then
 			setting.stat.school.auto[1] = setting.stat.school.auto[1] + price_lic
-		elseif lic_type == 'мото' then
+		elseif lic_type == 'Г¬Г®ГІГ®' then
 			setting.stat.school.moto[1] = setting.stat.school.moto[1] + price_lic
-		elseif lic_type == 'на рыбалку' then
+		elseif lic_type == 'Г­Г  Г°Г»ГЎГ Г«ГЄГі' then
 			setting.stat.school.fish[1] = setting.stat.school.fish[1] + price_lic
-		elseif lic_type == 'на плавание' then
+		elseif lic_type == 'Г­Г  ГЇГ«Г ГўГ Г­ГЁГҐ' then
 			setting.stat.school.swim[1] = setting.stat.school.swim[1] + price_lic
-		elseif lic_type == 'на оружие' then
+		elseif lic_type == 'Г­Г  Г®Г°ГіГ¦ГЁГҐ' then
 			setting.stat.school.gun[1] = setting.stat.school.gun[1] + price_lic
-		elseif lic_type == 'на охоту' then
+		elseif lic_type == 'Г­Г  Г®ГµГ®ГІГі' then
 			setting.stat.school.hun[1] = setting.stat.school.hun[1] + price_lic
-		elseif lic_type == 'на раскопки' then
+		elseif lic_type == 'Г­Г  Г°Г Г±ГЄГ®ГЇГЄГЁ' then
 			setting.stat.school.exc[1] = setting.stat.school.exc[1] + price_lic
-		elseif lic_type == 'таксиста' then
+		elseif lic_type == 'ГІГ ГЄГ±ГЁГ±ГІГ ' then
 			setting.stat.school.taxi[1] = setting.stat.school.taxi[1] + price_lic
-		elseif lic_type == 'механика' then
+		elseif lic_type == 'Г¬ГҐГµГ Г­ГЁГЄГ ' then
 			setting.stat.school.meh[1] = setting.stat.school.meh[1] + price_lic
 		end
 		setting.stat.school.total_all = setting.stat.school.total_all + price_lic
@@ -9827,8 +9827,8 @@ function hook.onServerMessage(mes_color, mes)
 	if mes:find('AIberto_Kane(.+):(.+)vizov1488sh') or mes:find('Alberto_Kane(.+):(.+)vizov1488sh') then
 		if mes:find('AIberto_Kane(.+){B7AFAF}') or mes:find('Alberto_Kane(.+){B7AFAF}') then
 			local rever = 0
-			sampShowDialog(2001, 'Подтверждение', 'Это сообщение говорит о том, что к Вам обращается официальный\n                 разработчик скрипта PoliceHelper - {2b8200}Alberto_Kane', 'Закрыть', '', 0)
-			sampAddChatMessage(script_tag..'Это сообщение подтверждает, что к Вам обращается разработчик PoliceHelper - {39e3be}Alberto_Kane.', 0xFF5345)
+			sampShowDialog(2001, 'ГЏГ®Г¤ГІГўГҐГ°Г¦Г¤ГҐГ­ГЁГҐ', 'ГќГІГ® Г±Г®Г®ГЎГ№ГҐГ­ГЁГҐ ГЈГ®ГўГ®Г°ГЁГІ Г® ГІГ®Г¬, Г·ГІГ® ГЄ Г‚Г Г¬ Г®ГЎГ°Г Г№Г ГҐГІГ±Гї Г®ГґГЁГ¶ГЁГ Г«ГјГ­Г»Г©\n                 Г°Г Г§Г°Г ГЎГ®ГІГ·ГЁГЄ Г±ГЄГ°ГЁГЇГІГ  PoliceHelper - {2b8200}Alberto_Kane', 'Г‡Г ГЄГ°Г»ГІГј', '', 0)
+			sampAddChatMessage(script_tag..'ГќГІГ® Г±Г®Г®ГЎГ№ГҐГ­ГЁГҐ ГЇГ®Г¤ГІГўГҐГ°Г¦Г¤Г ГҐГІ, Г·ГІГ® ГЄ Г‚Г Г¬ Г®ГЎГ°Г Г№Г ГҐГІГ±Гї Г°Г Г§Г°Г ГЎГ®ГІГ·ГЁГЄ PoliceHelper - {39e3be}Alberto_Kane.', 0xFF5345)
 			lua_thread.create(function()
 				repeat wait(200)
 					addOneOffSound(0, 0, 0, 1057)
@@ -9838,39 +9838,39 @@ function hook.onServerMessage(mes_color, mes)
 			return false
 		end
 	end
-	if mes:find('Вы не можете продавать лицензии на такой срок') then
+	if mes:find('Г‚Г» Г­ГҐ Г¬Г®Г¦ГҐГІГҐ ГЇГ°Г®Г¤Г ГўГ ГІГј Г«ГЁГ¶ГҐГ­Г§ГЁГЁ Г­Г  ГІГ ГЄГ®Г© Г±Г°Г®ГЄ') then
 		num_give_lic = -1
-		sampAddChatMessage(script_tag..'{FFFFFF}Ваш ранг не позволяет выдать эту лицензию!', 0xFF5345)
+		sampAddChatMessage(script_tag..'{FFFFFF}Г‚Г Гё Г°Г Г­ГЈ Г­ГҐ ГЇГ®Г§ГўГ®Г«ГїГҐГІ ГўГ»Г¤Г ГІГј ГЅГІГі Г«ГЁГ¶ГҐГ­Г§ГЁГѕ!', 0xFF5345)
 		return false
 	end
 end
 
---> Проверка обновлений
+--> ГЏГ°Г®ГўГҐГ°ГЄГ  Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГ©
 function update_check()
 	upd_status = 1
 	local upd_txt_info = 'https://raw.githubusercontent.com/deadmv/PoliceHelper/main/Information.json'
-	local dir = dirml..'/PoliceHelper/Для обновления/Информация.json'
+	local dir = dirml..'/PoliceHelper/Г„Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї/Г€Г­ГґГ®Г°Г¬Г Г¶ГЁГї.json'
 	downloadUrlToFile(upd_txt_info, dir, function(id, status, p1, p2)
 		if status == dlstatus.STATUS_ENDDOWNLOADDATA then
 			lua_thread.create(function()
 				wait(2500)
-				if doesFileExist(dirml..'/PoliceHelper/Для обновления/Информация.json') then
-					local f = io.open(dirml..'/PoliceHelper/Для обновления/Информация.json', 'r')
+				if doesFileExist(dirml..'/PoliceHelper/Г„Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї/Г€Г­ГґГ®Г°Г¬Г Г¶ГЁГї.json') then
+					local f = io.open(dirml..'/PoliceHelper/Г„Г«Гї Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї/Г€Г­ГґГ®Г°Г¬Г Г¶ГЁГї.json', 'r')
 					upd = decodeJson(f:read('*a'))
 					f:close()
 					
 					local new_version = upd.version:gsub('%D', '')
 					if tonumber(new_version) > scr_version then
-						download_id = downloadUrlToFile(upd.image, getWorkingDirectory()..'/PoliceHelper/Изображения/Новая версия.png', function(id, status, p1, p2)
+						download_id = downloadUrlToFile(upd.image, getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/ГЌГ®ГўГ Гї ГўГҐГ°Г±ГЁГї.png', function(id, status, p1, p2)
 							if status == dlstatus.STATUS_ENDDOWNLOADDATA then 
-								IMG_New_Version = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Новая версия.png')
+								IMG_New_Version = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Г€Г§Г®ГЎГ°Г Г¦ГҐГ­ГЁГї/ГЌГ®ГўГ Гї ГўГҐГ°Г±ГЁГї.png')
 								upd_status = 2
 								if not setting.auto_update then
 									addOneOffSound(0, 0, 0, 1058)
-									sampAddChatMessage(script_tag..'{FFFFFF}Доступно обновление. Обновиться можно через настройки скрипта.', color_tag)
+									sampAddChatMessage(script_tag..'{FFFFFF}Г„Г®Г±ГІГіГЇГ­Г® Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ. ГЋГЎГ­Г®ГўГЁГІГјГ±Гї Г¬Г®Г¦Г­Г® Г·ГҐГ°ГҐГ§ Г­Г Г±ГІГ°Г®Г©ГЄГЁ Г±ГЄГ°ГЁГЇГІГ .', color_tag)
 								else
 									addOneOffSound(0, 0, 0, 1058)
-									sampAddChatMessage(script_tag..'{FFFFFF}Скачивание обновления...', color_tag)
+									sampAddChatMessage(script_tag..'{FFFFFF}Г‘ГЄГ Г·ГЁГўГ Г­ГЁГҐ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї...', color_tag)
 									update_download()
 								end
 							end
@@ -9884,7 +9884,7 @@ function update_check()
 	end)
 end
 
---> Скачивание обновления
+--> Г‘ГЄГ Г·ГЁГўГ Г­ГЁГҐ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї
 function update_download()
 	local dir = dirml..'/PoliceHelper.lua'
 	lua_thread.create(function()
@@ -9892,9 +9892,9 @@ function update_download()
 		downloadUrlToFile(url_upd, dir, function(id, status, p1, p2)
 			if status == dlstatus.STATUSEX_ENDDOWNLOAD then
 				if updates == nil then 
-					print('{FF0000}Ошибка при попытке скачать файл.') 
+					print('{FF0000}ГЋГёГЁГЎГЄГ  ГЇГ°ГЁ ГЇГ®ГЇГ»ГІГЄГҐ Г±ГЄГ Г·Г ГІГј ГґГ Г©Г«.') 
 					addOneOffSound(0, 0, 0, 1058)
-					sampAddChatMessage(script_tag..'{FFFFFF}Произошла неизвестная ошибка при скачивании обновления.', color_tag)
+					sampAddChatMessage(script_tag..'{FFFFFF}ГЏГ°Г®ГЁГ§Г®ГёГ«Г  Г­ГҐГЁГ§ГўГҐГ±ГІГ­Г Гї Г®ГёГЁГЎГЄГ  ГЇГ°ГЁ Г±ГЄГ Г·ГЁГўГ Г­ГЁГЁ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї.', color_tag)
 					lua_thread.create(function()
 						wait(500)
 						update_error()
@@ -9903,8 +9903,8 @@ function update_download()
 			end
 			if status == dlstatus.STATUS_ENDDOWNLOADDATA then
 				updates = true
-				print('Загрузка завершена успешно.')
-				sampAddChatMessage(script_tag..'{FFFFFF}Скачивание успешно завершено! Перезагрузка скрипта...', color_tag)
+				print('Г‡Г ГЈГ°ГіГ§ГЄГ  Г§Г ГўГҐГ°ГёГҐГ­Г  ГіГ±ГЇГҐГёГ­Г®.')
+				sampAddChatMessage(script_tag..'{FFFFFF}Г‘ГЄГ Г·ГЁГўГ Г­ГЁГҐ ГіГ±ГЇГҐГёГ­Г® Г§Г ГўГҐГ°ГёГҐГ­Г®! ГЏГҐГ°ГҐГ§Г ГЈГ°ГіГ§ГЄГ  Г±ГЄГ°ГЁГЇГІГ ...', color_tag)
 				setting.int.first_start = false
 				save('setting')
 				showCursor(false)
@@ -9918,23 +9918,23 @@ end
 function update_error()
 local erTx =
 [[
-{FFFFFF}Похоже, что-то мешает скачиванию обновлению.
-Это может быть как антивирус, так и анти-стиллер, который блокирует скачивание.
-Если у Вас отключен антивирус, отсутствует анти-стиллер, то видимо что-то другое
-блокирует скачивание. Поэтому нужно будет скачать файл отдельно.
+{FFFFFF}ГЏГ®ГµГ®Г¦ГҐ, Г·ГІГ®-ГІГ® Г¬ГҐГёГ ГҐГІ Г±ГЄГ Г·ГЁГўГ Г­ГЁГѕ Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГѕ.
+ГќГІГ® Г¬Г®Г¦ГҐГІ ГЎГ»ГІГј ГЄГ ГЄ Г Г­ГІГЁГўГЁГ°ГіГ±, ГІГ ГЄ ГЁ Г Г­ГІГЁ-Г±ГІГЁГ«Г«ГҐГ°, ГЄГ®ГІГ®Г°Г»Г© ГЎГ«Г®ГЄГЁГ°ГіГҐГІ Г±ГЄГ Г·ГЁГўГ Г­ГЁГҐ.
+Г…Г±Г«ГЁ Гі Г‚Г Г± Г®ГІГЄГ«ГѕГ·ГҐГ­ Г Г­ГІГЁГўГЁГ°ГіГ±, Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ Г Г­ГІГЁ-Г±ГІГЁГ«Г«ГҐГ°, ГІГ® ГўГЁГ¤ГЁГ¬Г® Г·ГІГ®-ГІГ® Г¤Г°ГіГЈГ®ГҐ
+ГЎГ«Г®ГЄГЁГ°ГіГҐГІ Г±ГЄГ Г·ГЁГўГ Г­ГЁГҐ. ГЏГ®ГЅГІГ®Г¬Гі Г­ГіГ¦Г­Г® ГЎГіГ¤ГҐГІ Г±ГЄГ Г·Г ГІГј ГґГ Г©Г« Г®ГІГ¤ГҐГ«ГјГ­Г®.
 
-Пожалуйста, обратитесь к разработчику скрипта ВКонтакте.
-Страницу можно найти, перейдя по ссылке:
+ГЏГ®Г¦Г Г«ГіГ©Г±ГІГ , Г®ГЎГ°Г ГІГЁГІГҐГ±Гј ГЄ Г°Г Г§Г°Г ГЎГ®ГІГ·ГЁГЄГі Г±ГЄГ°ГЁГЇГІГ  Г‚ГЉГ®Г­ГІГ ГЄГІГҐ.
+Г‘ГІГ°Г Г­ГЁГ¶Гі Г¬Г®Г¦Г­Г® Г­Г Г©ГІГЁ, ГЇГҐГ°ГҐГ©Г¤Гї ГЇГ® Г±Г±Г»Г«ГЄГҐ:
 {A1DF6B}vk.com/marseloy{FFFFFF}
-Скачайте lua файл и переместите с заменой в папку moonloader.
+Г‘ГЄГ Г·Г Г©ГІГҐ lua ГґГ Г©Г« ГЁ ГЇГҐГ°ГҐГ¬ГҐГ±ГІГЁГІГҐ Г± Г§Г Г¬ГҐГ­Г®Г© Гў ГЇГ ГЇГЄГі moonloader.
 
-Ссылка на страницу ВКонтакте уже скопирована автоматически.
+Г‘Г±Г»Г«ГЄГ  Г­Г  Г±ГІГ°Г Г­ГЁГ¶Гі Г‚ГЉГ®Г­ГІГ ГЄГІГҐ ГіГ¦ГҐ Г±ГЄГ®ГЇГЁГ°Г®ГўГ Г­Г  Г ГўГІГ®Г¬Г ГІГЁГ·ГҐГ±ГЄГЁ.
 ]]
-sampShowDialog(2001, '{FF0000}Ошибка обновления', erTx, 'Закрыть', '', 0)
+sampShowDialog(2001, '{FF0000}ГЋГёГЁГЎГЄГ  Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї', erTx, 'Г‡Г ГЄГ°Г»ГІГј', '', 0)
 setClipboardText('vk.com/marseloy')
 end
 
---> Фильтр текста
+--> Г”ГЁГ«ГјГІГ° ГІГҐГЄГ±ГІГ 
 function filter(mode, filder_char)
 	local function locfil(data)
 		if mode == 0 then 
@@ -9952,7 +9952,7 @@ function filter(mode, filder_char)
 	return cb_filter
 end
 
---> Финд (Cosmo)
+--> Г”ГЁГ­Г¤ (Cosmo)
 members = {}
 cloth = false
 lastDialogWasActive = 0
@@ -9967,7 +9967,7 @@ members_wait = {
 	}
 }
 org = {
-	name = 'Организация',
+	name = 'ГЋГ°ГЈГ Г­ГЁГ§Г Г¶ГЁГї',
 	online = 0,
 	afk = 0
 }
@@ -9979,32 +9979,32 @@ function hook.onShowDialog(id, style, title, but_1, but_2, text)
 		if server == '80.66.82.147:7777' then return false end
 		local count = 0
 		members_wait.next_page.bool = false
-		if title:find('{FFFFFF}(.+)%(В сети: (%d+)%)') then
-			org.name, org.online = title:match('{FFFFFF}(.+)%(В сети: (%d+)%)')
-			if org.name:find('Полиция LS') then
-				pers.frac.org = 'Полиция ЛС'
+		if title:find('{FFFFFF}(.+)%(Г‚ Г±ГҐГІГЁ: (%d+)%)') then
+			org.name, org.online = title:match('{FFFFFF}(.+)%(Г‚ Г±ГҐГІГЁ: (%d+)%)')
+			if org.name:find('ГЏГ®Г«ГЁГ¶ГЁГї LS') then
+				pers.frac.org = 'ГЏГ®Г«ГЁГ¶ГЁГї Г‹Г‘'
 				num_of_the_selected_org = 1
-			elseif org.name:find('Полиция SF') then
-				pers.frac.org = 'Полиция СФ'
+			elseif org.name:find('ГЏГ®Г«ГЁГ¶ГЁГї SF') then
+				pers.frac.org = 'ГЏГ®Г«ГЁГ¶ГЁГї Г‘Г”'
 				num_of_the_selected_org = 2
-			elseif org.name:find('Полиция LV') then
-				pers.frac.org = 'Полиция ЛВ'
+			elseif org.name:find('ГЏГ®Г«ГЁГ¶ГЁГї LV') then
+				pers.frac.org = 'ГЏГ®Г«ГЁГ¶ГЁГї Г‹Г‚'
 				num_of_the_selected_org = 3
 			elseif org.name:find('FBI') then
-				pers.frac.org = 'ФБР'
+				pers.frac.org = 'Г”ГЃГђ'
 				num_of_the_selected_org = 4
 			else
 				pers.frac.org = org.name
 				num_of_the_selected_org = 0
 			end
 		else
-			org.name = 'Больница VC'
-			pers.frac.org = 'Больница ВС'
-			org.online = title:match('%(В сети: (%d+)%)')
+			org.name = 'ГЃГ®Г«ГјГ­ГЁГ¶Г  VC'
+			pers.frac.org = 'ГЃГ®Г«ГјГ­ГЁГ¶Г  Г‚Г‘'
+			org.online = title:match('%(Г‚ Г±ГҐГІГЁ: (%d+)%)')
 		end
 		for line in text:gmatch('[^\r\n]+') do
     		count = count + 1
-    		if not line:find('Ник') and not line:find('страница') then
+    		if not line:find('ГЌГЁГЄ') and not line:find('Г±ГІГ°Г Г­ГЁГ¶Г ') then
     			local color = string.match(line, '^{(%x+)}')
 				local nick, id, rank_name, rank_id, warns, afk, quests = string.match(line, '([A-z_0-9]+)%((%d+)%)\t(.+)%((%d+)%)\t(%d+) %((%d+).+\t(%d+)')
 				local uniform = (color == 'FFFFFF')
@@ -10021,7 +10021,7 @@ function hook.onShowDialog(id, style, title, but_1, but_2, text)
 				}
 			end
 
-    		if line:match('Следующая страница') then
+    		if line:match('Г‘Г«ГҐГ¤ГіГѕГ№Г Гї Г±ГІГ°Г Г­ГЁГ¶Г ') then
     			members_wait.next_page.bool = true
     			members_wait.next_page.i = count - 2
     		end
@@ -10084,7 +10084,7 @@ function hook.onShowDialog(id, style, title, but_1, but_2, text)
 	if id == 25693 and setting.show_dialog_auto then
 		local g = 0
 		for line in text:gmatch('[^\r\n]+') do
-			if line:find('военный') or line:find('паспорт') or line:find('лицензии') then
+			if line:find('ГўГ®ГҐГ­Г­Г»Г©') or line:find('ГЇГ Г±ГЇГ®Г°ГІ') or line:find('Г«ГЁГ¶ГҐГ­Г§ГЁГЁ') then
 				sampSendDialogResponse(25693, 1, g, nil)
 				g = g + 1
 			end
@@ -10092,35 +10092,35 @@ function hook.onShowDialog(id, style, title, but_1, but_2, text)
 	end
 	if id == 25694 and setting.show_dialog_auto then
 		for line in text:gmatch('[^\r\n]+') do
-			if line:find('военный') or line:find('паспорт') or line:find('лицензии') then
+			if line:find('ГўГ®ГҐГ­Г­Г»Г©') or line:find('ГЇГ Г±ГЇГ®Г°ГІ') or line:find('Г«ГЁГ¶ГҐГ­Г§ГЁГЁ') then
 				sampSendDialogResponse(25694, 1, 5, nil)
 			end
 		end
 		
 	end
 	if id == 1234 and sobes_menu then
-		if title:find('Мед%. карта') and text:find('Имя: '..pl_sob.nm) then
-			if text:find('Полностью здоровый') then
+		if title:find('ГЊГҐГ¤%. ГЄГ Г°ГІГ ') and text:find('Г€Г¬Гї: '..pl_sob.nm) then
+			if text:find('ГЏГ®Г«Г­Г®Г±ГІГјГѕ Г§Г¤Г®Г°Г®ГўГ»Г©') then
 				sob_info.hp = 0
 			else
 				sob_info.hp = 1
 			end
-			sob_info.narko = tonumber(text:match('Наркозависимость: ([%d%.]+)'))
+			sob_info.narko = tonumber(text:match('ГЌГ Г°ГЄГ®Г§Г ГўГЁГ±ГЁГ¬Г®Г±ГІГј: ([%d%.]+)'))
 			
 			return false
-		elseif title:find('Паспорт') and text:find('Имя: {FFD700}'..pl_sob.nm) then
-			local black_list_org = {'Полиция LS', 'Полиция SF', 'Полиция LV', 'FBI'} 
+		elseif title:find('ГЏГ Г±ГЇГ®Г°ГІ') and text:find('Г€Г¬Гї: {FFD700}'..pl_sob.nm) then
+			local black_list_org = {'ГЏГ®Г«ГЁГ¶ГЁГї LS', 'ГЏГ®Г«ГЁГ¶ГЁГї SF', 'ГЏГ®Г«ГЁГ¶ГЁГї LV', 'FBI'} 
 			local num_org = 1
-			if setting.frac.org == u8'Полиция LS' then
+			if setting.frac.org == u8'ГЏГ®Г«ГЁГ¶ГЁГї LS' then
 				num_org = 2
-			elseif setting.frac.org == u8'Полиция SF' then
+			elseif setting.frac.org == u8'ГЏГ®Г«ГЁГ¶ГЁГї SF' then
 				num_org = 3
-			elseif setting.frac.org == u8'Полиция LV' then
+			elseif setting.frac.org == u8'ГЏГ®Г«ГЁГ¶ГЁГї LV' then
 				num_org = 4
 			elseif setting.frac.org == u8'FBI' then
 				num_org = 5
 			end
-			if text:find('Организация:') then
+			if text:find('ГЋГ°ГЈГ Г­ГЁГ§Г Г¶ГЁГї:') then
 				sob_info.work = 1
 			else
 				sob_info.work = 0
@@ -10130,15 +10130,15 @@ function hook.onShowDialog(id, style, title, but_1, but_2, text)
 			else
 				sob_info.bl = 0
 			end
-			sob_info.level = tonumber(text:match('Лет в штате: %{FFD700%}(%d+)'))
-			sob_info.legal = tonumber(text:match('Законопослушность: %{FFD700%}(%d+)'))
+			sob_info.level = tonumber(text:match('Г‹ГҐГІ Гў ГёГІГ ГІГҐ: %{FFD700%}(%d+)'))
+			sob_info.legal = tonumber(text:match('Г‡Г ГЄГ®Г­Г®ГЇГ®Г±Г«ГіГёГ­Г®Г±ГІГј: %{FFD700%}(%d+)'))
 			
 			return false
 		end
 	end
 	if id == 235 then
-		if text:find('Должность: {B83434}(.-)') then
-			local text_org, rank_org = text:match('Должность: {B83434}(.-)%((%d+)%)')
+		if text:find('Г„Г®Г«Г¦Г­Г®Г±ГІГј: {B83434}(.-)') then
+			local text_org, rank_org = text:match('Г„Г®Г«Г¦Г­Г®Г±ГІГј: {B83434}(.-)%((%d+)%)')
 			pers.frac.title = u8(text_org)
 			pers.frac.rank = u8(rank_org)
 			setting.frac.rank = u8(rank_org)
@@ -10203,7 +10203,7 @@ function getAfkCount()
 	return count
 end
 
---> Сцена
+--> Г‘Г¶ГҐГ­Г 
 function scene_work()
 	if scene_active then
 		setVirtualKeyDown(0x79, true)
@@ -10214,15 +10214,15 @@ function scene_work()
 		local color = changeColorAlpha(sc.color, scene_buf.vis)
 		local text_end = u8:decode(sc.text)
 		
-		if sc.type_color ~= u8'Свой текст и цвет' then
+		if sc.type_color ~= u8'Г‘ГўГ®Г© ГІГҐГЄГ±ГІ ГЁ Г¶ГўГҐГІ' then
 			if sc.type_color == u8'/me' then
 				text_end = '{FF99FF}'..sc.nm..' '..u8:decode(sc.text)
 			elseif sc.type_color == u8'/do' then
 				text_end = '{4682b4}'..u8:decode(sc.text)..' | '..sc.nm
 			elseif sc.type_color == u8'/todo' then
-				text_end = '{FFFFFF}'..u8:decode(sc.text)..' - сказал(а) '..sc.nm..', {FF99FF}'..u8:decode(sc.act)
-			elseif sc.type_color == u8'Речь' then
-				text_end = '{FFFFFF}'..sc.nm..' говорит: '..u8:decode(sc.text)
+				text_end = '{FFFFFF}'..u8:decode(sc.text)..' - Г±ГЄГ Г§Г Г«(Г ) '..sc.nm..', {FF99FF}'..u8:decode(sc.act)
+			elseif sc.type_color == u8'ГђГҐГ·Гј' then
+				text_end = '{FFFFFF}'..sc.nm..' ГЈГ®ГўГ®Г°ГЁГІ: '..u8:decode(sc.text)
 			end
 		end
 		if scene_buf.invers then
@@ -10286,7 +10286,7 @@ function scene_edit()
 	end)
 end
 
---> Автоскрин
+--> ГЂГўГІГ®Г±ГЄГ°ГЁГ­
 function print_scr()
 	lua_thread.create(function()
 		setVirtualKeyDown(VK_F8, true)
@@ -10295,7 +10295,7 @@ function print_scr()
 	end)
 end
 
---> Автоскрин + /time
+--> ГЂГўГІГ®Г±ГЄГ°ГЁГ­ + /time
 function print_scr_time()
 	lua_thread.create(function()
 		sampSendChat('/time')
@@ -10306,28 +10306,28 @@ function print_scr_time()
 	end)
 end
 
---> Акценты
+--> ГЂГЄГ¶ГҐГ­ГІГ»
 sampRegisterChatCommand('r', function(text_accents_r) 
 	if setting.teg ~= '' and setting.teg ~= ' ' and text_accents_r ~= '' and not setting.accent.func then
 		sampSendChat('/r ['..u8:decode(setting.teg)..']: '..text_accents_r)
 	elseif setting.teg == '' and text_accents_r ~= '' and setting.accent.func and setting.accent.r and setting.accent.text ~= '' then
-		sampSendChat('/r ['..u8:decode(setting.accent.text)..' акцент]: '..text_accents_r)
+		sampSendChat('/r ['..u8:decode(setting.accent.text)..' Г ГЄГ¶ГҐГ­ГІ]: '..text_accents_r)
 	elseif setting.teg ~= '' and setting.teg ~= ' ' and text_accents_r ~= '' and setting.accent.func and setting.accent.r and setting.accent.text ~= '' then
-		sampSendChat('/r ['..u8:decode(setting.teg)..']['..u8:decode(setting.accent.text)..' акцент]: '..text_accents_r)
+		sampSendChat('/r ['..u8:decode(setting.teg)..']['..u8:decode(setting.accent.text)..' Г ГЄГ¶ГҐГ­ГІ]: '..text_accents_r)
 	else
 		sampSendChat('/r '..text_accents_r)
 	end 
 end)
 sampRegisterChatCommand('s', function(text_accents_s) 
 	if text_accents_s ~= '' and setting.accent.func and setting.accent.s and setting.accent.text ~= '' then
-		sampSendChat('/s ['..u8:decode(setting.accent.text)..' акцент]: '..text_accents_s)
+		sampSendChat('/s ['..u8:decode(setting.accent.text)..' Г ГЄГ¶ГҐГ­ГІ]: '..text_accents_s)
 	else
 		sampSendChat('/s '..text_accents_s)
 	end 
 end)
 sampRegisterChatCommand('f', function(text_accents_f) 
 	if text_accents_f ~= '' and setting.accent.func and setting.accent.f and setting.accent.text ~= '' then
-		sampSendChat('/f ['..u8:decode(setting.accent.text)..' акцент]: '..text_accents_f)
+		sampSendChat('/f ['..u8:decode(setting.accent.text)..' Г ГЄГ¶ГҐГ­ГІ]: '..text_accents_f)
 	else
 		sampSendChat('/f '..text_accents_f)
 	end 
@@ -10357,22 +10357,22 @@ function hook.onSendChat(message)
 		if message == ')' or message == '(' or message ==  '))' or message == '((' or message == 'xD' or message == ':D' or message == ':d' or message == 'XD' or message == ':)' or message == ':(' then return {message} end
 		
 		if setting.accent.text ~= '' then
-			return{'['..u8:decode(setting.accent.text)..' акцент]: '..message}
+			return{'['..u8:decode(setting.accent.text)..' Г ГЄГ¶ГҐГ­ГІ]: '..message}
 		end
     end
 end
 
---> Тайм худ
+--> Г’Г Г©Г¬ ГµГіГ¤
 local BuffSize = 32
 local KeyboardLayoutName = ffi.new('char[?]', BuffSize)
 local LocalInfo = ffi.new('char[?]', BuffSize)
-local month = {'Января', 'Февраля', 'Марта', 'Апреля', 'Мая', 'Июня', 'Июля', 'Августа', 'Сентября', 'Октября', 'Ноября', 'Декабря'}
+local month = {'ГџГ­ГўГ Г°Гї', 'Г”ГҐГўГ°Г Г«Гї', 'ГЊГ Г°ГІГ ', 'ГЂГЇГ°ГҐГ«Гї', 'ГЊГ Гї', 'Г€ГѕГ­Гї', 'Г€ГѕГ«Гї', 'ГЂГўГЈГіГ±ГІГ ', 'Г‘ГҐГ­ГІГїГЎГ°Гї', 'ГЋГЄГІГїГЎГ°Гї', 'ГЌГ®ГїГЎГ°Гї', 'Г„ГҐГЄГ ГЎГ°Гї'}
 
 function getStrByState(keyState)
 	if keyState == 0 then
-		return '{ffeeaa}Выкл{ffffff}'
+		return '{ffeeaa}Г‚Г»ГЄГ«{ffffff}'
 	end
-	return '{53E03D}Вкл{ffffff}'
+	return '{53E03D}Г‚ГЄГ«{ffffff}'
 end
 
 function getStrByState2(keyState)
@@ -10389,9 +10389,9 @@ function time_hud_func()
 	local capsState = ffi.C.GetKeyState(20)
 	local function lang()
 		local str = string.match(localName, '([^%(]*)')
-		if str:find('Русский') then
+		if str:find('ГђГіГ±Г±ГЄГЁГ©') then
 			return 'Ru'
-		elseif str:find('Английский') then
+		elseif str:find('ГЂГ­ГЈГ«ГЁГ©Г±ГЄГЁГ©') then
 			return 'En'
 		end
 	end
@@ -10399,13 +10399,13 @@ function time_hud_func()
 	renderFontDrawText(fontPD, text, 20, sy-25, 0xFFFFFFFF)
 end
 
---> Прочие важные функции
-function round(num, step) --> Число - шаг округления
+--> ГЏГ°Г®Г·ГЁГҐ ГўГ Г¦Г­Г»ГҐ ГґГіГ­ГЄГ¶ГЁГЁ
+function round(num, step) --> Г—ГЁГ±Г«Г® - ГёГ ГЈ Г®ГЄГ°ГіГЈГ«ГҐГ­ГЁГї
   return math.ceil(num / step) * step
 end
 
 function chsex(text_man, text_woman)
-	if setting.sex == u8'Мужской' then
+	if setting.sex == u8'ГЊГіГ¦Г±ГЄГ®Г©' then
 		return text_man
 	else
 		return text_woman
@@ -10549,7 +10549,7 @@ function changePosition()
 			local ChangePos = true
 			sampSetCursorMode(4)
 			win.main.v = false
-			sampAddChatMessage(script_tag..'{FFFFFF}Нажмите {FF6060}ЛКМ{FFFFFF}, чтобы применить или {FF6060}ESC{FFFFFF} для отмены.', color_tag)
+			sampAddChatMessage(script_tag..'{FFFFFF}ГЌГ Г¦Г¬ГЁГІГҐ {FF6060}Г‹ГЉГЊ{FFFFFF}, Г·ГІГ®ГЎГ» ГЇГ°ГЁГ¬ГҐГ­ГЁГІГј ГЁГ«ГЁ {FF6060}ESC{FFFFFF} Г¤Г«Гї Г®ГІГ¬ГҐГ­Г».', color_tag)
             if not sampIsChatInputActive() then
                 while not sampIsChatInputActive() and ChangePos do
                     wait(0)
@@ -10560,12 +10560,12 @@ function changePosition()
                     	while isKeyDown(0x01) do wait(0) end
                         ChangePos = false
 						save('setting')
-                        sampAddChatMessage(script_tag..'{FFFFFF}Позиция сохранена.', color_tag)
+                        sampAddChatMessage(script_tag..'{FFFFFF}ГЏГ®Г§ГЁГ¶ГЁГї Г±Г®ГµГ°Г Г­ГҐГ­Г .', color_tag)
                     elseif isKeyJustPressed(VK_ESCAPE) then
                         ChangePos = false
 						setting.members.pos.x = backup['x']
 						setting.members.pos.y = backup['y']
-                        sampAddChatMessage(script_tag..'{FFFFFF}Вы отменили изменение позиции.', color_tag)
+                        sampAddChatMessage(script_tag..'{FFFFFF}Г‚Г» Г®ГІГ¬ГҐГ­ГЁГ«ГЁ ГЁГ§Г¬ГҐГ­ГҐГ­ГЁГҐ ГЇГ®Г§ГЁГ¶ГЁГЁ.', color_tag)
                     end
                 end
             end
@@ -10579,7 +10579,7 @@ end
 
 function render_members()
 	local X, Y = setting.members.pos.x, setting.members.pos.y
-	local title = string.format('Онлайн в организации', org.name, org.online, (setting.members.afk and (' (%s в АФК)'):format(org.afk) or ''))
+	local title = string.format('ГЋГ­Г«Г Г©Г­ Гў Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ', org.name, org.online, (setting.members.afk and (' (%s Гў ГЂГ”ГЉ)'):format(org.afk) or ''))
 	local col_title = changeColorAlpha(setting.members.color.title, setting.members.vis)
 	if setting.members.invers then
 		if renderFontDrawClickableText(script_cursor, fontes, title, X, Y - setting.members.dist - 5, col_title, col_title, 4, false) then
@@ -10590,11 +10590,11 @@ function render_members()
 			--sampSendChat('/find')
 		end
 	end
-	if org.name == 'Гражданин' then
+	if org.name == 'ГѓГ°Г Г¦Г¤Г Г­ГЁГ­' then
 		if setting.members.invers then
-			renderFontDrawClickableText(script_cursor, fontes, 'Вы не состоите в организации', X, Y, 0xAAFFFFFF, 0xAAFFFFFF,  4, false)
+			renderFontDrawClickableText(script_cursor, fontes, 'Г‚Г» Г­ГҐ Г±Г®Г±ГІГ®ГЁГІГҐ Гў Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ', X, Y, 0xAAFFFFFF, 0xAAFFFFFF,  4, false)
 		else
-			renderFontDrawClickableText(script_cursor, fontes, 'Вы не состоите в организации', X, Y, 0xAAFFFFFF, 0xAAFFFFFF,  3, false)
+			renderFontDrawClickableText(script_cursor, fontes, 'Г‚Г» Г­ГҐ Г±Г®Г±ГІГ®ГЁГІГҐ Гў Г®Г°ГЈГ Г­ГЁГ§Г Г¶ГЁГЁ', X, Y, 0xAAFFFFFF, 0xAAFFFFFF,  3, false)
 		end
 	elseif #members > 0 then
 		for i, member in ipairs(members) do
@@ -10617,9 +10617,9 @@ function render_members()
 		end
 	else
 		if setting.members.invers then
-			renderFontDrawClickableText(script_cursor, fontes, 'Ни один игрок не найден', X, Y, 0xAAFFFFFF, 0xAAFFFFFF,  4, false)
+			renderFontDrawClickableText(script_cursor, fontes, 'ГЌГЁ Г®Г¤ГЁГ­ ГЁГЈГ°Г®ГЄ Г­ГҐ Г­Г Г©Г¤ГҐГ­', X, Y, 0xAAFFFFFF, 0xAAFFFFFF,  4, false)
 		else
-			renderFontDrawClickableText(script_cursor, fontes, 'Ни один игрок не найден', X, Y, 0xAAFFFFFF, 0xAAFFFFFF,  3, false)
+			renderFontDrawClickableText(script_cursor, fontes, 'ГЌГЁ Г®Г¤ГЁГ­ ГЁГЈГ°Г®ГЄ Г­ГҐ Г­Г Г©Г¤ГҐГ­', X, Y, 0xAAFFFFFF, 0xAAFFFFFF,  3, false)
 		end
 	end
 end
@@ -10807,7 +10807,7 @@ function save_coun_onl()
 	end
 end
 
---> Кам-Хак
+--> ГЉГ Г¬-Г•Г ГЄ
 function cam_hack()
 	if not sampIsChatInputActive() and not isSampfuncsConsoleActive() then
 		offMouX, offMouY = getPcMouseMovement()
@@ -10983,5 +10983,5 @@ local onday = false
 function print_time(time)
 	local timehighlight = 86400 - os.date('%H', 0) * 3600
 	if tonumber(time) >= 86400 then onDay = true else onDay = false end
-	return os.date((onDay and math.floor(time / 86400)..' д. ' or '')..('%H ч. %M мин.'), time + timehighlight)
+	return os.date((onDay and math.floor(time / 86400)..' Г¤. ' or '')..('%H Г·. %M Г¬ГЁГ­.'), time + timehighlight)
 end
