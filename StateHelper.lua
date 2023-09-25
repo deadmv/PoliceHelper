@@ -1,7 +1,7 @@
-script_name('StateHelper')
+script_name('PoliceHelper')
 script_authors('Kane')
 script_description('Script for employees of state organizations on the Samp Mobile Role Playing Game')
-script_version('1.8')
+script_version('1.9')
 script_properties('work-in-pause')
 beta_version = 7
 
@@ -117,11 +117,11 @@ ole32.CoInitializeEx(nil, 2 + 4)
 
 if not doesFileExist(getGameDirectory()..'/SAMPFUNCS.asi') then
 	ffi.C.ShowWindow(ffi.C.GetActiveWindow(), 6)
-	ffi.C.MessageBoxA(0, text_err_and_read[1], 'StateHelper', 0x00000030 + 0x00010000)
+	ffi.C.MessageBoxA(0, text_err_and_read[1], 'PoliceHelper', 0x00000030 + 0x00010000)
 end
 if #text_err_and_read[4] > 0 then
 	ffi.C.ShowWindow(ffi.C.GetActiveWindow(), 6)
-	ffi.C.MessageBoxA(0, text_err_and_read[2]:format(table.concat(text_err_and_read[4], '\n\t\t')), 'StateHelper', 0x00000030 + 0x00010000)
+	ffi.C.MessageBoxA(0, text_err_and_read[2]:format(table.concat(text_err_and_read[4], '\n\t\t')), 'PoliceHelper', 0x00000030 + 0x00010000)
 end
 text_err_and_read = nil
 
@@ -162,53 +162,53 @@ vkeys.key_names[vkeys.VK_DOWN] = 'Ar.Down'
 --> Скачивание изображений
 IMG_Record = {}
 function download_image()
-	if not doesDirectoryExist(getWorkingDirectory()..'/StateHelper/Изображения/') then
+	if not doesDirectoryExist(getWorkingDirectory()..'/PoliceHelper/Изображения/') then
 		print('{F54A4A}Ошибка. Отсутствует папка для изображений. {82E28C}Создание папки для изображений...')
-		createDirectory(getWorkingDirectory()..'/StateHelper/Изображения/')
+		createDirectory(getWorkingDirectory()..'/PoliceHelper/Изображения/')
 	end
-	if not doesFileExist(getWorkingDirectory()..'/StateHelper/Изображения/No label.png') then
-		download_id = downloadUrlToFile('https://i.imgur.com/Zud78GE.png', getWorkingDirectory()..'/StateHelper/Изображения/No label.png', function(id, status, p1, p2)
+	if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Изображения/No label.png') then
+		download_id = downloadUrlToFile('https://i.imgur.com/Zud78GE.png', getWorkingDirectory()..'/PoliceHelper/Изображения/No label.png', function(id, status, p1, p2)
 			if status == dlstatus.STATUS_ENDDOWNLOADDATA then 
-				IMG_No_Label = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/No label.png')
-				local texture_im = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/No label.png')
+				IMG_No_Label = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/No label.png')
+				local texture_im = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/No label.png')
 				IMG_Record = {texture_im, texture_im, texture_im, texture_im, texture_im, texture_im, texture_im, texture_im, texture_im}
 			end
 		end)
 	end
-	if not doesFileExist(getWorkingDirectory()..'/StateHelper/Изображения/Background.png') then
-		download_id = downloadUrlToFile('https://i.imgur.com/fuPlVzV.png', getWorkingDirectory()..'/StateHelper/Изображения/Background.png', function(id, status, p1, p2)
+	if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Изображения/Background.png') then
+		download_id = downloadUrlToFile('https://i.imgur.com/fuPlVzV.png', getWorkingDirectory()..'/PoliceHelper/Изображения/Background.png', function(id, status, p1, p2)
 			if status == dlstatus.STATUS_ENDDOWNLOADDATA then 
-				IMG_Background = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Background.png')
+				IMG_Background = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Background.png')
 			end
 		end)
 	end
-	if not doesFileExist(getWorkingDirectory()..'/StateHelper/Изображения/Background Black.png') then
-		download_id = downloadUrlToFile('https://i.imgur.com/yi98wxe.png', getWorkingDirectory()..'/StateHelper/Изображения/Background Black.png', function(id, status, p1, p2)
+	if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Изображения/Background Black.png') then
+		download_id = downloadUrlToFile('https://i.imgur.com/yi98wxe.png', getWorkingDirectory()..'/PoliceHelper/Изображения/Background Black.png', function(id, status, p1, p2)
 			if status == dlstatus.STATUS_ENDDOWNLOADDATA then 
-				IMG_Background_Black = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Background Black.png')
+				IMG_Background_Black = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Background Black.png')
 			end
 		end)
 	end
-	if not doesFileExist(getWorkingDirectory()..'/StateHelper/Изображения/Background White.png') then
-		download_id = downloadUrlToFile('https://i.imgur.com/CHJ54FR.png', getWorkingDirectory()..'/StateHelper/Изображения/Background White.png', function(id, status, p1, p2)
+	if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Изображения/Background White.png') then
+		download_id = downloadUrlToFile('https://i.imgur.com/CHJ54FR.png', getWorkingDirectory()..'/PoliceHelper/Изображения/Background White.png', function(id, status, p1, p2)
 			if status == dlstatus.STATUS_ENDDOWNLOADDATA then 
-				IMG_Background_White = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Background White.png')
+				IMG_Background_White = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Background White.png')
 			end
 		end)
 	end
-	if not doesFileExist(getWorkingDirectory()..'/StateHelper/Изображения/Premium.png') then
-		download_id = downloadUrlToFile('https://i.imgur.com/11nmU1n.png', getWorkingDirectory()..'/StateHelper/Изображения/Premium.png', function(id, status, p1, p2)
+	if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Изображения/Premium.png') then
+		download_id = downloadUrlToFile('https://i.imgur.com/11nmU1n.png', getWorkingDirectory()..'/PoliceHelper/Изображения/Premium.png', function(id, status, p1, p2)
 			if status == dlstatus.STATUS_ENDDOWNLOADDATA then 
-				IMG_Premium = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Premium.png')
+				IMG_Premium = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Premium.png')
 			end
 		end)
 	end
 	
 	local function download_record_label(url_label_record, name_label, i_rec)
-		if not doesFileExist(getWorkingDirectory()..'/StateHelper/Изображения/'..name_label..'.png') then
-			download_id = downloadUrlToFile(url_label_record, getWorkingDirectory()..'/StateHelper/Изображения/'..name_label..'.png', function(id, status, p1, p2)
+		if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Изображения/'..name_label..'.png') then
+			download_id = downloadUrlToFile(url_label_record, getWorkingDirectory()..'/PoliceHelper/Изображения/'..name_label..'.png', function(id, status, p1, p2)
 				if status == dlstatus.STATUS_ENDDOWNLOADDATA then 
-					IMG_Record[i_rec] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/'..name_label..'.png')
+					IMG_Record[i_rec] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/'..name_label..'.png')
 				end
 			end)
 		end
@@ -233,18 +233,18 @@ secc_load_font = false
 function download_font()
 	local link_meduim_font = 'https://vk.com/s/v1/doc/M6wrSqXBqVNhL_tTya03mfV4Vu45JxpJVf2YgfUWuHx_LT5vaxY'
 	local link_bold_font = 'https://vk.com/s/v1/doc/OK2diNG7yhEXKf6Re7CA21PiWW6foksR3naH9nuQqSPmCTm-sl0'
-	if not doesDirectoryExist(getWorkingDirectory()..'/StateHelper/Fonts/') then
+	if not doesDirectoryExist(getWorkingDirectory()..'/PoliceHelper/Fonts/') then
 		print('{F54A4A}Ошибка. Отсутствует папка для шрифтов. {82E28C}Создание папки для шрифтов...')
-		createDirectory(getWorkingDirectory()..'/StateHelper/Fonts/')
+		createDirectory(getWorkingDirectory()..'/PoliceHelper/Fonts/')
 	end
-	if not doesFileExist(getWorkingDirectory()..'/StateHelper/Fonts/SF600.ttf') or not doesFileExist(getWorkingDirectory()..'/StateHelper/Fonts/SF800.ttf') then
-		download_id = downloadUrlToFile(link_meduim_font, getWorkingDirectory()..'/StateHelper/Fonts/SF600.ttf', function(id, status, p1, p2)
+	if not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Fonts/SF600.ttf') or not doesFileExist(getWorkingDirectory()..'/PoliceHelper/Fonts/SF800.ttf') then
+		download_id = downloadUrlToFile(link_meduim_font, getWorkingDirectory()..'/PoliceHelper/Fonts/SF600.ttf', function(id, status, p1, p2)
 			if status == dlstatus.STATUS_ENDDOWNLOADDATA then
 				installation_success_font[1] = true
 				secc_load_font = true
 			end
 		end)
-		download_id = downloadUrlToFile(link_bold_font, getWorkingDirectory()..'/StateHelper/Fonts/SF800.ttf', function(id, status, p1, p2)
+		download_id = downloadUrlToFile(link_bold_font, getWorkingDirectory()..'/PoliceHelper/Fonts/SF800.ttf', function(id, status, p1, p2)
 			if status == dlstatus.STATUS_ENDDOWNLOADDATA then
 				installation_success_font[2] = true
 				secc_load_font = true
@@ -281,7 +281,7 @@ local notice = {} --> Значения уведомлений (текст, заголовок, тип - предупрежден
 
 --> Обновление и её зависимости
 upd = {}
-url_upd = 'https://raw.githubusercontent.com/deadmv/PoliceHelper/main/StateHelper.lua'
+url_upd = 'https://raw.githubusercontent.com/deadmv/PoliceHelper/main/PoliceHelper.lua'
 upd_status = 0
 scr_version = scr.version:gsub('%D','')
 scr_version = tonumber(scr_version)
@@ -290,7 +290,7 @@ scr_version = tonumber(scr_version)
 local pers = {
 	frac = {org = 'Полиция LS', title = '', rank = 1}
 }
-org_all_done = {u8'Полиция LS', u8'Полиция SF', u8'Полиция LV', u8'Federal Bureau of Investigation'}
+org_all_done = {u8'Полиция LS', u8'Полиция SF', u8'Полиция LV', u8'FBI'}
 num_of_the_selected_org = 1
 my = {id = 0, nick = 'Nick_Name'}
 off_butoon_end = false
@@ -375,7 +375,7 @@ frequency = 0
 --> Главные настройки
 setting = {
 	int = {first_start = true, script = 'Helper', theme = 'White'},
-	frac = {org = u8'Полиция LS', title = u8'Бывалый', rank = 10},
+	frac = {org = u8'Полиция LS', title = u8'Стажер', rank = 10},
 	nick = '',
 	teg = '',
 	act_time = '',
@@ -425,13 +425,13 @@ setting = {
 	},
 	notice = {car = false, dep = false},
 	dep = {my_tag = '', my_tag_en = ''},
-	depart = {format = u8'[ЛСМЦ] - [ЛСПД]:', my_tag = '', else_tag = '', volna = ''},
+	depart = {format = u8'[LSPD] - [SFPD]:', my_tag = '', else_tag = '', volna = ''},
 	speed_door = false,
 	dep_off = false,
 	anim_main = false,
 	cmd = {
 		{'z', u8'Приветствие', {}, '1'},
-		{'exp', u8'Выгнать из помещения', {}, '3'},
+		{'out', u8'Попросить покинуть помещение', {}, '3'},
 		{'za', u8'Отправит фразу "Пройдёмте за мной"', {}, '1'},
 		{'show', u8'Показать игроку свои документы', {}, '1'},
 		{'cam', u8'Начать или прекратить видеофиксацию', {}, '1'},
@@ -458,7 +458,7 @@ setting = {
 			nm = u8'Попросить документы', 
 			q = {
 			u8'Для трудоустройства необходимо предоставить следующий пакет документов:',
-			u8'Паспорт, медицинскую карту и лицензии.',
+			u8'Паспорт, военный билет и лицензии.',
 			u8'/n Отыгрывая, с использованием команд /me, /do, /todo'}},
 			{
 			nm = u8'Рассказать о себе',
@@ -484,7 +484,7 @@ setting = {
 			{
 			nm = u8'Рация дискорд',
 			q = {
-			u8'Хорошо, скажите, имеется ли у Вас спец. рация Discord?'}}}
+			u8'Хорошо, скажите, имеется ли у Вас спец. рация "Discord"?'}}}
 		},
 	reminder = {},
 	stat = {
@@ -557,8 +557,8 @@ setting = {
 local buf_setting = {
 	theme = {imgui.ImBool(true), imgui.ImBool(false)}
 }
-script_tag = '[SH] '
-color_tag = 0xFF5345
+script_tag = '[PH] '
+color_tag = 0xFF4169E1
 
 --> Для РП зоны
 scene = {bq = {}}
@@ -649,34 +649,34 @@ function update_render_font()
 			fa_font[6] = imgui.GetIO().Fonts:AddFontFromFileTTF(the_path_to_the_file_font, 35.0, font_config, fa_glyph_ranges)
 		end
 		if font[1] == nil then
-			font[1] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/StateHelper/Fonts/SF600.ttf', 15.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
-			font[2] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/StateHelper/Fonts/SF600.ttf', 60.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
-			font[3] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/StateHelper/Fonts/SF600.ttf', 13.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
-			font[4] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/StateHelper/Fonts/SF600.ttf',  20.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
-			font[5] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/StateHelper/Fonts/SF600.ttf',  40.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
-			font[6] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/StateHelper/Fonts/SF600.ttf',  10.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
-			font[7] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/StateHelper/Fonts/SF600.ttf',  18.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
+			font[1] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/PoliceHelper/Fonts/SF600.ttf', 15.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
+			font[2] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/PoliceHelper/Fonts/SF600.ttf', 60.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
+			font[3] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/PoliceHelper/Fonts/SF600.ttf', 13.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
+			font[4] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/PoliceHelper/Fonts/SF600.ttf',  20.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
+			font[5] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/PoliceHelper/Fonts/SF600.ttf',  40.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
+			font[6] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/PoliceHelper/Fonts/SF600.ttf',  10.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
+			font[7] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/PoliceHelper/Fonts/SF600.ttf',  18.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
 		end
 		if bold_font[1] == nil then
-			bold_font[1] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/StateHelper/Fonts/SF800.ttf', 22.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
-			bold_font[2] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/StateHelper/Fonts/SF800.ttf', 60.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
-			bold_font[3] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/StateHelper/Fonts/SF800.ttf', 20.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
-			bold_font[4] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/StateHelper/Fonts/SF800.ttf', 40.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
+			bold_font[1] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/PoliceHelper/Fonts/SF800.ttf', 22.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
+			bold_font[2] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/PoliceHelper/Fonts/SF800.ttf', 60.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
+			bold_font[3] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/PoliceHelper/Fonts/SF800.ttf', 20.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
+			bold_font[4] = imgui.GetIO().Fonts:AddFontFromFileTTF(getWorkingDirectory()..'/PoliceHelper/Fonts/SF800.ttf', 40.0, nil, imgui.GetIO().Fonts:GetGlyphRangesCyrillic())
 		end
 	end
 end
 
 --> Проверка существование папки и её создание
-if not doesDirectoryExist(dirml..'/StateHelper/') then
-	print('{F54A4A}Ошибка. Отсутствует папка State Helper. {82E28C}Создание папки для скрипта...')
-	createDirectory(dirml..'/StateHelper/')
+if not doesDirectoryExist(dirml..'/PoliceHelper/') then
+	print('{F54A4A}Ошибка. Отсутствует папка PoliceHelper. {82E28C}Создание папки для скрипта...')
+	createDirectory(dirml..'/PoliceHelper/')
 end
 
 function check_existence(name_folder, description_folder) --> Создание папки, если её нет
 	local status_folder = true
-	if not doesDirectoryExist(dirml..'/StateHelper/'..name_folder..'/') then
+	if not doesDirectoryExist(dirml..'/PoliceHelper/'..name_folder..'/') then
 		print('{F54A4A}Ошибка. Отсутствует папка '..description_folder..'. {82E28C}Создание папки '..description_folder..'...')
-		createDirectory(dirml..'/StateHelper/'..name_folder..'/')
+		createDirectory(dirml..'/PoliceHelper/'..name_folder..'/')
 		status_folder = false
 	end
 	
@@ -684,9 +684,9 @@ function check_existence(name_folder, description_folder) --> Создание папки, ес
 end
 
 function apply_settings(name_file, description_file, array_arg) --> Загрузка настроек или создание файла настроек
-	if doesFileExist(dirml..'/StateHelper/'..name_file) then
+	if doesFileExist(dirml..'/PoliceHelper/'..name_file) then
 		print('{82E28C}Чтение файла '..description_file..'...')
-		local f = io.open(dirml..'/StateHelper/'..name_file)
+		local f = io.open(dirml..'/PoliceHelper/'..name_file)
 		local set = f:read('*a')
 		f:close()
 		local res, sets = pcall(decodeJson, set)
@@ -703,22 +703,22 @@ function apply_settings(name_file, description_file, array_arg) --> Загрузка нас
 					array_arg[nm_array_orig] = value_orig
 				end
 			end
-			local f = io.open(dirml..'/StateHelper/'..name_file, 'w')
+			local f = io.open(dirml..'/PoliceHelper/'..name_file, 'w')
 			f:write(encodeJson(array_arg))
 			f:flush()
 			f:close()
 		else
-			os.remove(dirml..'/StateHelper/'..name_file)
+			os.remove(dirml..'/PoliceHelper/'..name_file)
 			print('{F54A4A}Ошибка. Файл '..description_file..' повреждён. {82E28C}Создание нового файла...')
-			local f = io.open(dirml..'/StateHelper/'..name_file, 'w')
+			local f = io.open(dirml..'/PoliceHelper/'..name_file, 'w')
 			f:write(encodeJson(array_arg))
 			f:flush()
 			f:close()
 		end
 	else
 		print('{F54A4A}Ошибка. Файл '..description_file..' не найден. {82E28C}Создание нового файла...')
-		if not doesFileExist(dirml..'/StateHelper/'..name_file) then
-			local f = io.open(dirml..'/StateHelper/'..name_file, 'w')
+		if not doesFileExist(dirml..'/PoliceHelper/'..name_file) then
+			local f = io.open(dirml..'/PoliceHelper/'..name_file, 'w')
 			f:write(encodeJson(array_arg))
 			f:flush()
 			f:close()
@@ -963,10 +963,10 @@ function play_song(url_track, loop_track) --> Включить песню
 	bass.BASS_ChannelSetAttribute(stream_music, BASS_ATTRIB_VOL, volume_buf.v)
 	if menu_play_track[1] then
 		if not tracks.image[selectis]:find('no%-cover%-150') then
-			download_id = downloadUrlToFile(tracks.image[selectis], getWorkingDirectory()..'/StateHelper/Изображения/Label.png', function(id, status, p1, p2)
+			download_id = downloadUrlToFile(tracks.image[selectis], getWorkingDirectory()..'/PoliceHelper/Изображения/Label.png', function(id, status, p1, p2)
 				if status == dlstatus.STATUS_ENDDOWNLOADDATA then
 					status_image = selectis
-					IMG_label = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Label.png')
+					IMG_label = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Label.png')
 				end
 			end)
 		else
@@ -975,10 +975,10 @@ function play_song(url_track, loop_track) --> Включить песню
 		end
 	elseif menu_play_track[2] then
 		if not save_tracks.image[selectis]:find('no%-cover%-150') then
-			download_id = downloadUrlToFile(save_tracks.image[selectis], getWorkingDirectory()..'/StateHelper/Изображения/Label.png', function(id, status, p1, p2)
+			download_id = downloadUrlToFile(save_tracks.image[selectis], getWorkingDirectory()..'/PoliceHelper/Изображения/Label.png', function(id, status, p1, p2)
 				if status == dlstatus.STATUS_ENDDOWNLOADDATA then
 					status_image = selectis
-					IMG_label = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Label.png')
+					IMG_label = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Label.png')
 				end
 			end)
 		else
@@ -1083,7 +1083,7 @@ function main()
 		end
 	end
 	if script.this.filename:find('%.luac') then
-		os.rename(getWorkingDirectory()..'\\StateHelper.luac', getWorkingDirectory()..'\\StateHelper.lua') 
+		os.rename(getWorkingDirectory()..'\\PoliceHelper.luac', getWorkingDirectory()..'\\PoliceHelper.lua') 
 	end
 	thread = lua_thread.create(function() return end)
 	pos_new_memb = lua_thread.create(function() return end)
@@ -1100,7 +1100,7 @@ function main()
 	repeat wait(100) until sampIsLocalPlayerSpawned()
 	local _, myid = sampGetPlayerIdByCharHandle(PLAYER_PED)
 	my = {id = myid, nick = sampGetPlayerNickname(myid)}
-	sampAddChatMessage(string.format(script_tag..'{FFFFFF}%s, для активации главного меню, отправьте в чат {a8a8a8}/sh', sampGetPlayerNickname(my.id):gsub('_',' ')), color_tag)
+	sampAddChatMessage(string.format(script_tag..'{FFFFFF}%s, для активации главного меню, отправьте в чат {a8a8a8}/ph', sampGetPlayerNickname(my.id):gsub('_',' ')), color_tag)
 	
 	if doesFileExist(dirml..'/MedicalHelper.lua') then
 		os.remove(dirml..'/MedicalHelper.lua')
@@ -1115,7 +1115,7 @@ function main()
 		}
 	end
 	if IMG_Premium == nil then
-		IMG_Premium = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Premium.png')
+		IMG_Premium = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Premium.png')
 	end
 	fontes = renderCreateFont('Trebuchet MS', setting.members.size, setting.members.flag)
 	if setting.speed_door then
@@ -1417,8 +1417,8 @@ end
 
 function create_act(add_command)
 	local function cr_file(name_file, content)
-		if not doesFileExist(dirml..'/StateHelper/Отыгровки/'..name_file..'.json') then
-			local f = io.open(dirml..'/StateHelper/Отыгровки/'..name_file..'.json', 'w')
+		if not doesFileExist(dirml..'/PoliceHelper/Отыгровки/'..name_file..'.json') then
+			local f = io.open(dirml..'/PoliceHelper/Отыгровки/'..name_file..'.json', 'w')
 			f:write(content)
 			f:flush()
 			f:close()
@@ -1613,7 +1613,7 @@ end
 
 interface = {}
 
-sampRegisterChatCommand('sh', function()
+sampRegisterChatCommand('ph', function()
 	if installation_success_font[1] and installation_success_font[2] then
 		if not win.main.v then
 			styleAnimationOpen('Main')
@@ -1625,29 +1625,29 @@ sampRegisterChatCommand('sh', function()
 			EXPORTS.sendRequest()
 		end
 		if IMG_No_Label == nil then
-			IMG_No_Label = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/No label.png')
+			IMG_No_Label = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/No label.png')
 		end
 		if IMG_Background == nil then
-			IMG_Background = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Background.png')
+			IMG_Background = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Background.png')
 		end
 		if IMG_Background_White == nil then
-			IMG_Background_White = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Background White.png')
+			IMG_Background_White = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Background White.png')
 		end
 		if IMG_Background_Black == nil then
-			IMG_Background_Black = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Background Black.png')
+			IMG_Background_Black = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Background Black.png')
 		end
 		if #IMG_Record == 0 then
 			IMG_Record = {
-				[1] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Record Dance Label.png'),
-				[2] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Record Megamix Label.png'),
-				[3] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Record Party Label.png'),
-				[4] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Record Phonk Label.png'),
-				[5] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Record GopFM Label.png'),
-				[6] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Record Ruki Vverh Label.png'),
-				[7] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Record Dupstep Label.png'),
-				[8] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Record Bighits Label.png'),
-				[9] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Record Organic Label.png'),
-				[10] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Record Russianhits Label.png'),
+				[1] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Dance Label.png'),
+				[2] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Megamix Label.png'),
+				[3] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Party Label.png'),
+				[4] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Phonk Label.png'),
+				[5] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record GopFM Label.png'),
+				[6] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Ruki Vverh Label.png'),
+				[7] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Dupstep Label.png'),
+				[8] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Bighits Label.png'),
+				[9] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Organic Label.png'),
+				[10] = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Record Russianhits Label.png'),
 			}
 		end
 	else
@@ -2312,7 +2312,7 @@ function window.main_first_start()
 		end
 	end
 	if first_start_anim.text[3] then
-		local carta_org = {u8'Полиция LS', u8'Полиция SF', u8'Полиция LV', u8'Federal Bureau of Investigation'}
+		local carta_org = {u8'Полиция LS', u8'Полиция SF', u8'Полиция LV', u8'FBI'}
 		for i = 1, #carta_org do
 			if num_of_the_selected_org == i then
 				setting.frac.org = carta_org[i]
@@ -2335,9 +2335,9 @@ function window.main_first_start()
 			if skin.CheckboxOne(u8'Полиция LV##false_func', 350, 235) then num_of_the_selected_org = 3 setting.frac.org = u8'Полиция LV' end
 		end
 		if num_of_the_selected_org == 4 then
-			if skin.CheckboxOne(u8'Federal Bureau of Investigation', 350, 263) then num_of_the_selected_org = 4 setting.frac.org = u8'Federal Bureau of Investigation' end
+			if skin.CheckboxOne(u8'FBI', 350, 263) then num_of_the_selected_org = 4 setting.frac.org = u8'FBI' end
 		else
-			if skin.CheckboxOne(u8'Federal Bureau of Investigation##false_func', 350, 263) then num_of_the_selected_org = 4 setting.frac.org = u8'Federal Bureau of Investigation' end
+			if skin.CheckboxOne(u8'FBI##false_func', 350, 263) then num_of_the_selected_org = 4 setting.frac.org = u8'FBI' end
 		end
 		skin.DrawFond({134, 385}, {0, 0}, {600, 1}, imgui.ImVec4(0.70, 0.70, 0.70, 1.00), 15, 15)
 		skin.Button(u8'Продолжить', 630, 400, nil, nil, function() 
@@ -2381,7 +2381,7 @@ function window.main_first_start()
 		imgui.PopFont()
 		imgui.TextWrapped(u8'1.1 Правообладатель - это лицо, которое обладает правами собственности на интеллектуальную собственность, такую как авторские права, патенты, торговые марки и другие права, связанные с созданием и использованием интеллектуальных продуктов или изобретений. Термин "Правообладатель" также включает в себя разработчика, менеджера, директора, поставщика и других ответственных сторон, участвующих в создании, управлении и поставке Программы (см. определение ниже). Это объединяющий термин, включающий все заинтересованные стороны, которые имеют право предоставлять разрешения на использование Программы (см. определение ниже) и управлять правами доступа в соответствии с данным Лицензионным соглашением (данный договор между двумя сторонами: (Пользователь (см. определение ниже) и Правообладатель), далее "Соглашение").\nПравообладателем данной Программы (см. определение ниже), а также официальным обладателем авторских прав и интеллектуальной собственности, является единственное лицо. Все иные лица, причастные к созданию, разработке, поддержке и другим терминам включающих в себя определение из термина Правообладателя, за исключением правами собственности на интеллектуальную собственность, такую как авторские права, патенты, торговые марки и другие права, связанные с созданием и использованием интеллектуальных продуктов или изобретений данного программного обеспечения (далее "ПО"), являются партнёрами (далее "Партнёр", "Партнёры") Правообладателя.\n')
 		imgui.TextWrapped(u8'Термин относится к ПО, в котором находится данное Лицензионное соглашение или на одном виртуальном, облачном или удалённом носителе, учётной записи одного Пользователя всего ресурса, сайта или хранилища, на котором расположено ПО.\n\n')
-		imgui.TextWrapped(u8'1.2 Программа - это ПО, принадлежащее Правообладателю, которое было приобретено и установлено на Носитель (см. определение ниже) технического устройства. Из списка выпущенных Правообладателем Программ, данный термин относится ко всем ПО, включающих в своём названии словосочетание "State Helper", написанное на английском языке в любом из возможных вариантов регистра букв.\nНаименование ПО можно найти в свойствах файла установленного с источников Правообладателя в случае, если файл не был отредактирован в последствии перемещения его на Носитель (см. определение ниже) технического устройства.\n\n')
+		imgui.TextWrapped(u8'1.2 Программа - это ПО, принадлежащее Правообладателю, которое было приобретено и установлено на Носитель (см. определение ниже) технического устройства. Из списка выпущенных Правообладателем Программ, данный термин относится ко всем ПО, включающих в своём названии словосочетание "PoliceHelper", написанное на английском языке в любом из возможных вариантов регистра букв.\nНаименование ПО можно найти в свойствах файла установленного с источников Правообладателя в случае, если файл не был отредактирован в последствии перемещения его на Носитель (см. определение ниже) технического устройства.\n\n')
 		imgui.TextWrapped(u8'1.3 Носитель - устройство или средство, используемое для хранения и передачи данных. Это может быть физический объект, такой как жёсткий диск, USB-флешка, CD, DVD, Blu-ray диск или другие съёмные устройства хранения информации.\n\n1.4 Samp Mobile Role Play - это проект ролевой игры (Role-Play) на платформе SA:MP (San Andreas Multiplayer), принадлежащий игровой компании Samp Mobile Games. В этом проекте игроки могут взаимодействовать в виртуальном мире, исполняя определенные роли и выполняя задания в атмосфере, созданной на базе игры Grand Theft Auto: San Andreas с использованием мультиплеерной платформы SA:MP.\n\n1.5 Руководство пользователя - документ, который содержит инструкцию о том, как правильно использовать Программу, предоставленную Правообладателем.\n\n1.6 Пользователь - человек, установивший или использующий Программу, предоставленную Правообладателем.\n\n1.7 Блокировка программы - это техническая или программная мера, которая преднамеренно ограничивает доступ Пользователя к определенным функциям, данным или ресурсам Программы.\n\n1.8 Интернет - информационно-телекоммуникационная сеть, т. е. технологическая система, предназначенная для передачи по линиям связи информации, доступ к которой осуществляется с использованием средств вычислительной техники.\n\n1.9 Установка - процесс размещения Программы на компьютере или устройстве, чтобы она стала доступной и готовой к использованию. Во время установки происходит копирование файлов Программы на жёсткий диск или другое физическое хранилище, кроме тех, доступ к которым требует наличия Интернета.\n\n')
 		imgui.TextWrapped(u8'1.10 Игра - конкретный вид развлекательной деятельности, не связанный с непосредственными задачами жизнеобеспечения, выполняющий функции заполнения досуга человека.\n\n1.11 Версия программы - присвоенный номер Программы, позволяющий определить новизну ПО, т. е. дату его выхода, а также различия относительно предыдущих версий Программы.\nВерсия программы отображена в самой Программе под соответствующим названием включающая в своём словосочетании слово "Версия".\n\n1.12 Закрытое тестирование - процесс исследования, испытания ПО, имеющий своей целью проверку соответствия между реальным поведением программы и её ожидаемым поведением на конечном наборе тестов, выбранных определённым образом.\nПроцесс осуществляется без учёта возможности публикации такого ПО в общий доступ, дающий возможность любому Пользователю осуществить установку ПО.\nТермин применяется к Программе, имеющей в своём программном коде заданную условную переменную "Beta" не соответствующей второму числу текущей Версии программы.\n\n')
 		imgui.PushFont(font[4])
@@ -2685,9 +2685,9 @@ function window.main()
 			anim_menu_shpora[4] = 0
 		end
 		if button_menu(u8'Департамент', {17, 158}, imgui.ImVec4(0.34, 0.33, 0.83 ,1.00), fa.ICON_SIGNAL, {29, 165}, select_main_menu[4], {0.5, -0.5}, -0.5) then
-			if setting.depart.format == u8'[ЛСМЦ] - [ЛСПД]:' then
+			if setting.depart.format == u8'[LSPD] - [SFPD]:' then
 				inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.else_tag..']: '
-			elseif setting.depart.format == u8'к ЛСПД,' then
+			elseif setting.depart.format == u8'к SFPD,' then
 				inp_text_dep = '/d '..u8'к'..' '..setting.depart.else_tag..', '
 			elseif setting.depart.format == u8'[Полиция LS] - [100,3] - [Полиция ЛС]:' then
 				inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.volna..'] - ['..setting.depart.else_tag..']: '
@@ -2730,7 +2730,7 @@ function window.main()
 	if all_false_sel_menu then
 		imgui.PushFont(bold_font[2])
 		imgui.SetCursorPos(imgui.ImVec2(362, 198 + ((start_pos + new_pos) / 2)))
-		imgui.TextColored(imgui.ImVec4(0.50, 0.50, 0.50 ,1.00), u8'State Helper')
+		imgui.TextColored(imgui.ImVec4(0.50, 0.50, 0.50 ,1.00), u8'PoliceHelper')
 		imgui.PopFont()
 	end
 	
@@ -2882,7 +2882,7 @@ function window.main()
 		if drawn_button(57, 0, u8'Настройки чата') then select_basic = {false, true, false, false, false, false, false, false, false, false} end
 		drawn_icon_b(60, imgui.ImVec4(0.99, 0.60, 0.00 ,1.00), fa.ICON_BARS, {26, 68}, {0.5, -0.5})
 		
-		if drawn_button(97, 0, u8'Ценовая политика') then select_basic = {false, false, true, false, false, false, false, false, false, false} end
+		if drawn_button(97, 0, u8'Суммы штрафов') then select_basic = {false, false, true, false, false, false, false, false, false, false} end
 		drawn_icon_b(100, imgui.ImVec4(0.20, 0.78, 0.35 ,1.00), fa.ICON_USD, {28, 108})
 		
 		if drawn_button(137, 12, u8'Акцент', 1) then select_basic = {false, false, false, true, false, false, false, false, false, false} end
@@ -2951,7 +2951,7 @@ function window.main()
 			imgui.SetCursorPos(imgui.ImVec2(34, 122))
 			imgui.Text(u8'Организация')
 			imgui.PopFont()
-			if skin.List({480, 116}, setting.frac.org, {u8'Полиция LS', u8'Полиция SF', u8'Полиция LV', u8'Federal Bureau of Investigation'}, 185, 'setting.frac.org') then 
+			if skin.List({480, 116}, setting.frac.org, {u8'Полиция LS', u8'Полиция SF', u8'Полиция LV', u8'FBI'}, 185, 'setting.frac.org') then 
 				add_table_act(setting.frac.org, false)
 				save('setting')
 				create_act(1)
@@ -3057,14 +3057,14 @@ function window.main()
 			imgui.Dummy(imgui.ImVec2(0, 27))
 			imgui.EndChild()
 		elseif select_basic[3] then
-			if menu_draw_up(u8'Ценовая политика', true) then select_basic[3] = false end
+			if menu_draw_up(u8'Суммы штрафов', true) then select_basic[3] = false end
 			imgui.SetCursorPos(imgui.ImVec2(163, 41))
-			imgui.BeginChild(u8'Ценовая политика', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'Суммы штрафов', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
 			
-			if setting.frac.org == u8'Центр Лицензирования' or setting.frac.org == u8'Центральный Банк' then
+			if setting.frac.org == u8'Полиция LS' or setting.frac.org == u8'Полиция SF' or setting.frac.org == u8'Полиция LV' or setting.frac.org == u8'FBI' then
 				imgui.PushFont(bold_font[4])
 				imgui.SetCursorPos(imgui.ImVec2(92, 187 + ((start_pos + new_pos) / 2)))
-				imgui.Text(u8'Для Вас нет ценовой политики')
+				imgui.Text(u8'В разработке')
 				imgui.PopFont()
 			else
 				new_draw(17, 140)
@@ -3293,7 +3293,7 @@ function window.main()
 			imgui.PopFont()
 			imgui.SetCursorPos(imgui.ImVec2(34, 53))
 			imgui.PushFont(font[3])
-			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Когда администрация предупредит о спавне авто, Вы будете уведомлены звуковым сигналом.')
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Когда лидер предупредит о спавне авто, Вы будете уведомлены звуковым сигналом.')
 			imgui.PopFont()
 			
 			if not setting.notice.dep then
@@ -3623,7 +3623,7 @@ function window.main()
 				
 				imgui.PushFont(font[4])
 				imgui.SetCursorPos(imgui.ImVec2(107, 127))
-				imgui.Text(u8'State Helper Premium '..upd.version)
+				imgui.Text(u8'PoliceHelper Premium '..upd.version)
 				imgui.PopFont()
 				
 				imgui.SetCursorPos(imgui.ImVec2(32, 185))
@@ -3696,7 +3696,7 @@ function window.main()
 				not_send_chat = false,
 				rank = '1'
 			}
-			local f = io.open(dirml..'/StateHelper/Отыгровки/cmd'..comp..'.json', 'w')
+			local f = io.open(dirml..'/PoliceHelper/Отыгровки/cmd'..comp..'.json', 'w')
 			f:write(encodeJson(cmd))
 			f:flush()
 			f:close()
@@ -3956,8 +3956,8 @@ function window.main()
 						sdvig = 0
 						
 						POS_Y = 380
-						if doesFileExist(dirml..'/StateHelper/Отыгровки/'..setting.cmd[i][1]..'.json') then
-							local f = io.open(dirml..'/StateHelper/Отыгровки/'..setting.cmd[i][1]..'.json')
+						if doesFileExist(dirml..'/PoliceHelper/Отыгровки/'..setting.cmd[i][1]..'.json') then
+							local f = io.open(dirml..'/PoliceHelper/Отыгровки/'..setting.cmd[i][1]..'.json')
 							local setm = f:read('*a')
 							f:close()
 							local res, set = pcall(decodeJson, setm)
@@ -3986,8 +3986,8 @@ function window.main()
 				end
 			end
 			if remove_cmd ~= nil then
-				if doesFileExist(dirml..'/StateHelper/Отыгровки/'..setting.cmd[remove_cmd][1]..'.json') then
-					os.remove(dirml..'/StateHelper/Отыгровки/'..setting.cmd[remove_cmd][1]..'.json')
+				if doesFileExist(dirml..'/PoliceHelper/Отыгровки/'..setting.cmd[remove_cmd][1]..'.json') then
+					os.remove(dirml..'/PoliceHelper/Отыгровки/'..setting.cmd[remove_cmd][1]..'.json')
 				end
 				sampUnregisterChatCommand(setting.cmd[remove_cmd][1])
 				if #setting.cmd[remove_cmd][3] ~= 0 then
@@ -4090,10 +4090,10 @@ function window.main()
 					command_err_cmd = true
 				end
 				if not command_err_nm and not command_err_cmd then
-					if doesFileExist(dirml..'/StateHelper/Отыгровки/'..setting.cmd[select_cmd][1]..'.json') then
-						os.remove(dirml..'/StateHelper/Отыгровки/'..setting.cmd[select_cmd][1]..'.json')
+					if doesFileExist(dirml..'/PoliceHelper/Отыгровки/'..setting.cmd[select_cmd][1]..'.json') then
+						os.remove(dirml..'/PoliceHelper/Отыгровки/'..setting.cmd[select_cmd][1]..'.json')
 					end
-					local f = io.open(dirml..'/StateHelper/Отыгровки/'..cmd.nm..'.json', 'w')
+					local f = io.open(dirml..'/PoliceHelper/Отыгровки/'..cmd.nm..'.json', 'w')
 					f:write(encodeJson(cmd))
 					f:flush()
 					f:close()
@@ -4118,8 +4118,8 @@ function window.main()
 				imgui.CloseCurrentPopup()
 			end)
 			skin.Button(u8'Удалить', 267, 167, 123, 25, function()
-				if doesFileExist(dirml..'/StateHelper/Отыгровки/'..setting.cmd[select_cmd][1]..'.json') then
-					os.remove(dirml..'/StateHelper/Отыгровки/'..setting.cmd[select_cmd][1]..'.json')
+				if doesFileExist(dirml..'/PoliceHelper/Отыгровки/'..setting.cmd[select_cmd][1]..'.json') then
+					os.remove(dirml..'/PoliceHelper/Отыгровки/'..setting.cmd[select_cmd][1]..'.json')
 				end
 				sampUnregisterChatCommand(setting.cmd[select_cmd][1])
 				if #setting.cmd[select_cmd][3] ~= 0 then
@@ -5305,23 +5305,9 @@ function window.main()
 				tag_hint_text(7, '{week}', 'Выведет текущую неделю')
 				tag_hint_text(8, '{month}', 'Выведет текущий месяц')
 				tag_hint_text(9, '{getplnick[ID]}', 'Выведет ник игрока по его ID')
-				tag_hint_text(10, '{med7}', 'Выведет цену на новую мед. карту на 7 дней')
-				tag_hint_text(11, '{med14}', 'Выведет цену на новую мед. карту на 14 дней')
-				tag_hint_text(12, '{med30}', 'Выведет цену на новую мед. карту на 30 дней')
-				tag_hint_text(13, '{med60}', 'Выведет цену на новую мед. карту на 60 дней')
-				tag_hint_text(14, '{medup7}', 'Выведет цену на обновлённую мед. карту на 7 дней')
-				tag_hint_text(15, '{medup14}', 'Выведет цену на обновлённую мед. карту на 14 дней')
-				tag_hint_text(16, '{medup30}', 'Выведет цену на обновлённую мед. карту на 30 дней')
-				tag_hint_text(17, '{medup60}', 'Выведет цену на обновлённую мед. карту на 60 дней')
-				tag_hint_text(18, '{pricenarko}', 'Выведет цену на снятие наркозависимости')
-				tag_hint_text(19, '{pricerecept}', 'Выведет цену на рецепт')
-				tag_hint_text(20, '{pricetatu}', 'Выведет цену удаление татуировки с тела')
-				tag_hint_text(21, '{priceant }', 'Выведет цену на антибиотик')
-				tag_hint_text(22, '{pricelec }', 'Выведет цену на лечение')
-				tag_hint_text(23, '{sex:муж,жен}', 'Добавит текст в соответствии с выбранным полом')
-				tag_hint_text(24, '{dialoglic[id лицензии][id срока][id игрока]}', 'Автовыбор диалога с лицензией')
-				tag_hint_text(25, '{target}', 'Выведет id с последнего прицела на игрока')
-				tag_hint_text(26, '{prtsc}', 'Сделает скриншот игры F8')
+				tag_hint_text(10, '{sex:муж,жен}', 'Добавит текст в соответствии с выбранным полом')
+				tag_hint_text(11, '{target}', 'Выведет id с последнего прицела на игрока')
+				tag_hint_text(12, '{prtsc}', 'Сделает скриншот игры F8')
 				
 				imgui.EndChild()
 				
@@ -5391,7 +5377,7 @@ function window.main()
 				nm = 'shpora'..comp,
 				text = ''
 			}
-			local f = io.open(dirml..'/StateHelper/Шпаргалки/shpora'..comp..'.txt', 'w')
+			local f = io.open(dirml..'/PoliceHelper/Шпаргалки/shpora'..comp..'.txt', 'w')
 			f:write(u8:decode(shpora.text))
 			f:flush()
 			f:close()
@@ -5653,8 +5639,8 @@ function window.main()
 						anim_menu_shpora[4] = 0
 						
 						POS_Y = 380
-						if doesFileExist(dirml..'/StateHelper/Шпаргалки/'..setting.shpora[i][1]..'.txt') then
-							local f = io.open(dirml..'/StateHelper/Шпаргалки/'..setting.shpora[i][1]..'.txt')
+						if doesFileExist(dirml..'/PoliceHelper/Шпаргалки/'..setting.shpora[i][1]..'.txt') then
+							local f = io.open(dirml..'/PoliceHelper/Шпаргалки/'..setting.shpora[i][1]..'.txt')
 							shpora = {
 								nm = setting.shpora[i][1],
 								text = u8(f:read('*a'))
@@ -5767,10 +5753,10 @@ function window.main()
 					end
 				end
 				if not shpora_err_nm  then
-					if doesFileExist(dirml..'/StateHelper/Шпаргалки/'..setting.shpora[select_shpora][1]..'.txt') then
-						os.remove(dirml..'/StateHelper/Шпаргалки/'..setting.shpora[select_shpora][1]..'.txt')
+					if doesFileExist(dirml..'/PoliceHelper/Шпаргалки/'..setting.shpora[select_shpora][1]..'.txt') then
+						os.remove(dirml..'/PoliceHelper/Шпаргалки/'..setting.shpora[select_shpora][1]..'.txt')
 					end
-					local f = io.open(dirml..'/StateHelper/Шпаргалки/'..shpora.nm..'.txt', 'w')
+					local f = io.open(dirml..'/PoliceHelper/Шпаргалки/'..shpora.nm..'.txt', 'w')
 					f:write(u8:decode(shpora.text))
 					f:flush()
 					f:close()
@@ -5792,8 +5778,8 @@ function window.main()
 				imgui.CloseCurrentPopup()
 			end)
 			skin.Button(u8'Удалить', 267, 167, 123, 25, function()
-				if doesFileExist(dirml..'/StateHelper/Шпаргалки/'..setting.shpora[select_shpora][1]..'.txt') then
-					os.remove(dirml..'/StateHelper/Шпаргалки/'..setting.shpora[select_shpora][1]..'.txt')
+				if doesFileExist(dirml..'/PoliceHelper/Шпаргалки/'..setting.shpora[select_shpora][1]..'.txt') then
+					os.remove(dirml..'/PoliceHelper/Шпаргалки/'..setting.shpora[select_shpora][1]..'.txt')
 				end
 				table.remove(setting.shpora, select_shpora)
 				save('setting')
@@ -5854,18 +5840,18 @@ function window.main()
 		
 		new_draw(73, 44)
 		
-		if skin.List({350, 24}, setting.depart.format, {u8'[ЛСМЦ] - [ЛСПД]:', u8'к ЛСПД,', u8'[Полиция LS] - [100,3] - [Полиция ЛС]:'}, 300, 'setting.depart.format') then 
+		if skin.List({350, 24}, setting.depart.format, {u8'[LSPD] - [SFPD]:', u8'к SFPD,', u8'[Полиция LS] - [100,3] - [Полиция ЛС]:'}, 300, 'setting.depart.format') then 
 			save('setting')
-			if setting.depart.format == u8'[ЛСМЦ] - [ЛСПД]:' then
+			if setting.depart.format == u8'[LSPD] - [SFPD]:' then
 				inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.else_tag..']: '
-			elseif setting.depart.format == u8'к ЛСПД,' then
+			elseif setting.depart.format == u8'к SFPD,' then
 				inp_text_dep = '/d '..u8'к'..' '..setting.depart.else_tag..', '
 			elseif setting.depart.format == u8'[Полиция LS] - [100,3] - [Полиция ЛС]:' then
 				inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.volna..'] - ['..setting.depart.else_tag..']: '
 			end
 		end
 		
-		if setting.depart.format == u8'[ЛСМЦ] - [ЛСПД]:' then
+		if setting.depart.format == u8'[LSPD] - [SFPD]:' then
 			imgui.SetCursorPos(imgui.ImVec2(15, 85))
 			imgui.Text(u8'Ваш тег')
 			imgui.SetCursorPos(imgui.ImVec2(310, 85))
@@ -5876,7 +5862,7 @@ function window.main()
 			if dans[1] ~= setting.depart.my_tag or dans[2] ~= setting.depart.else_tag then
 				inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.else_tag..']: '
 			end
-		elseif setting.depart.format == u8'к ЛСПД,' then
+		elseif setting.depart.format == u8'к SFPD,' then
 			imgui.SetCursorPos(imgui.ImVec2(15, 85))
 			imgui.Text(u8'Тег к обращаемому')
 			local dans = setting.depart.else_tag
@@ -5934,9 +5920,9 @@ function window.main()
 		if inp_text_dep ~= '' then
 			skin.Button(u8'Отправить', 575, 369, 81, 28, function()
 				sampSendChat(u8:decode(inp_text_dep))
-				if setting.depart.format == u8'[ЛСМЦ] - [ЛСПД]:' then
+				if setting.depart.format == u8'[LSPD] - [SFPD]:' then
 					inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.else_tag..']: '
-				elseif setting.depart.format == u8'к ЛСПД,' then
+				elseif setting.depart.format == u8'к SFPD,' then
 					inp_text_dep = '/d '..u8'к'..' '..setting.depart.else_tag..', '
 				elseif setting.depart.format == u8'[Полиция LS] - [100,3] - [Полиция ЛС]:' then
 					inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.volna..'] - ['..setting.depart.else_tag..']: '
@@ -6343,7 +6329,7 @@ function window.main()
 					sobes_menu = false
 					if thread:status() == 'dead' then
 						thread = lua_thread.create(function()
-							sampSendChat('Для начала собеседования необходимо предоставить медицинскую карту.')
+							sampSendChat('Для начала собеседования необходимо предоставить паспорт.')
 							wait(2100)
 							sampSendChat('Без неё, к сожалению, продолжить мы не сможем.')
 						end)
@@ -8429,9 +8415,9 @@ function window.main()
 		
 		new_draw(17, 40)
 		imgui.PushFont(bold_font[3])
-		local calc = imgui.CalcTextSize('State Helper Premium '..scr.version)
+		local calc = imgui.CalcTextSize('PoliceHelper Premium '..scr.version)
 		imgui.SetCursorPos(imgui.ImVec2(332 - (calc.x / 2), 25))
-		imgui.Text('State Helper Premium '..scr.version)
+		imgui.Text('PoliceHelper Premium '..scr.version)
 		imgui.PopFont()
 		
 		new_draw(69, 43)
@@ -8697,9 +8683,9 @@ function open_big_shpora(spur_number)
 		return
 	end
 	
-	if doesFileExist(dirml..'/StateHelper/Шпаргалки/'..setting.shpora[spur_number][1]..'.txt') then
+	if doesFileExist(dirml..'/PoliceHelper/Шпаргалки/'..setting.shpora[spur_number][1]..'.txt') then
 		sel_big_spur = spur_number
-		local f = io.open(dirml..'/StateHelper/Шпаргалки/'..setting.shpora[spur_number][1]..'.txt')
+		local f = io.open(dirml..'/PoliceHelper/Шпаргалки/'..setting.shpora[spur_number][1]..'.txt')
 		text_spur = u8(f:read('*a'))
 		f:close()			
 		win.spur_big.v = true
@@ -8855,17 +8841,17 @@ end
 --> Сохранение
 function save(table_name)
 	if table_name == 'setting' then
-		local f = io.open(dirml..'/StateHelper/Настройки.json', 'w')
+		local f = io.open(dirml..'/PoliceHelper/Настройки.json', 'w')
 		f:write(encodeJson(setting))
 		f:flush()
 		f:close()
 	elseif table_name == 'save_tracks' then
-		local f = io.open(dirml..'/StateHelper/Треки.json', 'w')
+		local f = io.open(dirml..'/PoliceHelper/Треки.json', 'w')
 		f:write(encodeJson(save_tracks))
 		f:flush()
 		f:close()
 	elseif table_name == 'scene' then
-		local f = io.open(dirml..'/StateHelper/Сцены.json', 'w')
+		local f = io.open(dirml..'/PoliceHelper/Сцены.json', 'w')
 		f:write(encodeJson(scene))
 		f:flush()
 		f:close()
@@ -8891,7 +8877,7 @@ function cmd_start(arg_c, command_active)
 		return
 	end
 	
-	local f = io.open(dirml..'/StateHelper/Отыгровки/'..command_active..'.json')
+	local f = io.open(dirml..'/PoliceHelper/Отыгровки/'..command_active..'.json')
 	local setm = f:read('*a')
 	f:close()
 	local res, set = pcall(decodeJson, setm)
@@ -9202,7 +9188,7 @@ function add_table_act(org_to_replace, default_act)
 			end
 		end
 		if not bool_true then
-			local f = io.open(dirml..'/StateHelper/Отыгровки/'..name_file_json..'.json', 'w')
+			local f = io.open(dirml..'/PoliceHelper/Отыгровки/'..name_file_json..'.json', 'w')
 			f:write(encodeJson(table_to_save))
 			f:flush()
 			f:close()
@@ -9223,7 +9209,7 @@ function add_table_act(org_to_replace, default_act)
 			tr_fl = {0, 0, 0},
 			desc = u8'Приветствие',
 			act = {
-				{0, u8'Здравствуйте, меня зовут {mynickrus}, чем могу быть полезен?'}
+				{0, u8'Доброго времени суток, {myrank}  {mynickrus}.'}
 			},
 			delay = 2000,
 			not_send_chat = false,
@@ -9238,16 +9224,14 @@ function add_table_act(org_to_replace, default_act)
 				{0, u8'id игрока'},
 				{1, u8'Причина'}
 			},
-			nm = 'exp',
+			nm = 'out',
 			var = {},
 			tr_fl = {0, 0, 0},
-			desc = u8'Выгнать из помещения',
+			desc = u8'Попросить покинуть помещение',
 			act = {
-				{0, u8'/me резким движением руки ухватил{sex:ся,ась} за воротник нарушителя'},
-				{0, u8'/do Крепко держит нарушителя за воротник.'},
-				{0, u8'/todo Я вынужден{sex:,а} вывести вас из здания*направляясь к выходу'},
-				{0, u8'/me движением левой руки открыл{sex:,а} входную дверь, после чего вытолкнул{sex:,а} нарушителя'},
-				{0, u8'/expel {arg1} {arg2}'},
+				{0, u8'Сер, не могли бы Вы покинуть помещение?'},
+				{0, u8'Предупреждаю, в случае отказа мне придется применить...'},
+				{0, u8'...Физическую силу по отношению к Вам.'},
 			},
 			delay = 2000,
 			not_send_chat = false,
@@ -9256,13 +9240,13 @@ function add_table_act(org_to_replace, default_act)
 			num_d = 1,
 			rank = '3'
 		}
-		create_file_json('exp', nil, add_table, '3')
+		create_file_json('out', nil, add_table, '3')
 		add_table = {
 			arg = {},
 			nm = 'za',
 			var = {},
 			act = {
-				{0, u8'Пройдёмте за мной.'}
+				{0, u8'Сер, пройдёмте за мной.'}
 			},
 			desc = u8'Отправит фразу "Пройдёмте за мной"',
 			tr_fl = {0, 0, 0},
@@ -9281,24 +9265,24 @@ function add_table_act(org_to_replace, default_act)
 			nm = 'show',
 			var = {},
 			act = {
-				{3, 1, 3, {u8'Паспорт', u8'Медицинская карта', u8'Лицензии'}},
+				{3, 1, 3, {u8'Паспорт', u8'Военный билет', u8'Лицензии'}},
 				{8, '1', '1'},
 				{0, u8'/do Паспорт гражданина находится в заднем кармане.'},
 				{0, u8'/me засунув руку в карман, достал{sex:,а} паспорт, после чего передал{sex:,а} его человеку напротив'},
-				{0, u8'/showpass {arg1}'},
+				{0, u8'/pass {arg1}'},
 				{9, '1', '1'},
 				{8, '1', '2'},
-				{0, u8'/do Медицинская карта находится в нагрудном кармане.'},
-				{0, u8'/me засунув руку в карман, достал{sex:,а} мед. карту, после чего передал{sex:,а} её человеку напротив'},
-				{0, u8'/showmc {arg1}'},
+				{0, u8'/do Военный билет находится в нагрудном кармане.'},
+				{0, u8'/me засунув руку в карман, достал{sex:,а} военный билет, после чего передал{sex:,а} её человеку напротив'},
+				{0, u8'/vd {arg1}'},
 				{9, '1', '1'},
 				{8, '1', '3'},
 				{0, u8'/do Пакет лицензий находится в нагрудном кармане.'},
 				{0, u8'/me засунув руку в карман, достал{sex:,а} лицензии, после чего передал{sex:,а} их человеку напротив'},
-				{0, u8'/showlic {arg1}'},
+				{0, u8'/lic {arg1}'},
 				{9, '1', '1'}
 			},
-			desc = 'Показать игроку свои документы',
+			desc = u8'Показать игроку свои документы',
 			tr_fl = {0, 1, 3},
 			delay = 2000,
 			not_send_chat = false,
@@ -9359,7 +9343,7 @@ function add_table_act(org_to_replace, default_act)
 				{0, u8'Время в минутах'},
 				{1, u8'Причина'}
 			},
-			nm = '+mute',
+			nm = 'stroy',
 			var = {},
 			act = {
 				{0, u8'/do Рация весит на поясе.'},
@@ -9377,65 +9361,18 @@ function add_table_act(org_to_replace, default_act)
 			num_d = 1,
 			rank = '8'
 		}
-		create_file_json('+mute', nil, add_table, '8')
+		create_file_json('vig', nil, add_table, '8')
 		add_table = {
 			arg = {
 				{0, u8'id сотрудника'}
 			},
-			nm = '-mute',
-			var = {},
-			act = {
-				{0, u8'/do Рация весит на поясе.'},
-				{0, u8'/me снял{sex:,а} рацию с пояса, после чего {sex:зашел,зашла} в настройки локальных частот вещания'},
-				{0, u8'/me освободил{sex:,а} локальную частоту вещания сотруднику {getplnick[{arg1}]}'},
-				{0, u8'/funmute {arg1}'},
-				{0, u8'/r Сотруднику {getplnick[{arg1}]} снова включена рация!'}
-			},
-			desc = u8'Снять бан чата организации сотруднику',
-			tr_fl = {0, 0, 0},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1,
-			rank = '8'
-		}
-		create_file_json('-mute', nil, add_table, '8')
-		add_table = {
-			arg = {
-				{0, u8'id сотрудника'},
-				{1, u8'Причина'}
-			},
-			nm = '+warn',
-			var = {},
-			tr_fl = {0, 0, 0},
-			desc = u8'Выдать сотруднику выговор',
-			act = {
-				{0, u8'/do В левом кармане лежит телефон.'},
-				{0, u8'/me достал{sex:,а} телефон из кармана, после чего {sex:зашел,зашла} в базу данных организации'},
-				{0, u8'/me изменил{sex:,а} информацию о сотруднике {getplnick[{arg1}]}'},
-				{0, u8'/fwarn {arg1} {arg2}'},
-				{0, u8'/r {getplnick[{arg1}]} получил строгий выговор! Причина: {arg2}'}
-			},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1,
-			rank = '8'
-		}
-		create_file_json('+warn', nil, add_table, '8')
-		add_table = {
-			arg = {
-				{0, u8'id сотрудника'}
-			},
-			nm = '-warn',
+			nm = 'unvig',
 			var = {},
 			act = {
 				{0, u8'/do В левом кармане лежит телефон.'},
 				{0, u8'/me достал{sex:,а} телефон из кармана, после чего {sex:зашел,зашла} в базу данных организации'},
 				{0, u8'/me изменил{sex:,а} информацию о сотруднике {getplnick[{arg1}]}'},
-				{0, u8'/unfwarn {arg1}'},
+				{0, u8'/unvig {arg1}'},
 				{0, u8'/r Сотруднику {getplnick[{arg1}]} снят строгий выговор!'}
 			},
 			desc = u8'Снять выговор сотруднику',
@@ -9445,9 +9382,9 @@ function add_table_act(org_to_replace, default_act)
 			add_f = {false, 1},
 			key = {},
 			num_d = 1,
-			rank = '8'
+			rank = '9'
 		}
-		create_file_json('-warn', nil, add_table, '8')
+		create_file_json('unvig', nil, add_table, '8')
 		add_table = {
 			arg = {
 				{0, u8'id игрока'}
@@ -9507,7 +9444,7 @@ function add_table_act(org_to_replace, default_act)
 				{0, u8'/me потянувшись во внутренний карман халата, достал{sex:,а} оттуда футляр'},
 				{0, u8'/me открыв футляр, достал{sex:,а} оттуда ключ от шкафчика с формой'},
 				{0, u8'/me передал{sex:,а} ключ от шкафчика человеку напротив'},
-				{0, u8'/giverank {arg1} {arg2}'},
+				{0, u8'/rang {arg1} {arg2}'},
 				{0, u8'/r Сотрудник {getplnick[{arg1}]} получил новую должность. Поздравляем!'}
 			},
 			desc = u8'Установить сотруднику ранг',
@@ -9522,19 +9459,19 @@ function add_table_act(org_to_replace, default_act)
 		create_file_json('rank', nil, add_table, '9') 
 	end
 	
-	if org_to_replace:find(u8'Больница') then
+	if org_to_replace:find(u8'Полиция LS') or org_to_replace:find(u8'Полиция SF') or org_to_replace:find(u8'Полиция LV') or org_to_replace:find(u8'FBI') then
 		add_table = {
 			arg = {
 				{0, u8'id игрока'}
 			},
-			nm = 'hl',
+			nm = 'cf',
 			var = {},
 			act = {
-				{0, u8'/do Медицинская сумка весит на левом плече.'},
-				{0, u8'/me открыв сумку, достал{sex:,а} необходимое лекарство и передал{sex:,а} человеку напротив'},
-				{0, u8'/heal {arg1} {pricelec}'}
+				{0, u8'/do Наручники висят на поясном держателе.'},
+				{0, u8'/me сняв наручники с пояса, нацепил{sex:,а} их на задержанного'},
+				{0, u8'/cuff {arg1}'}
 			},
-			desc = u8'Вылечить игрока',
+			desc = u8'Надеть наручники',
 			tr_fl = {0, 0, 0},
 			delay = 2000,
 			not_send_chat = false,
@@ -9543,89 +9480,25 @@ function add_table_act(org_to_replace, default_act)
 			num_d = 1,
 			rank = '2'
 		}
-		create_file_json('hl', u8'Вылечить игрока', add_table, '2')
+		create_file_json('cf', u8'Надеть наручники', add_table, '2')
 		add_table = {
-			arg = {{0, u8'id игрока'}},
-			nm = 'mc',
+			arg = {
+				{0, u8'id сотрудника'},
+				{0, u8'Сумма'},
+				{0, u8'Причина'}
+			},
+			nm = 'tk',
 			var = {{1, '0'}, {1, '0'}, {1, '0'}},
 			tr_fl = {0, 4, 14},
-			desc = u8'Оформить медицинскую карту',
+			desc = u8'Выписать штраф',
 			act = {
-				{0, u8'Вам необходимо получить новую медицинскую карту или обновить имеющуюся?'},
-				{0, u8'Для оформления медицинской карты предоставьте, пожалуйста, Ваш паспорт.'},
-				{0, u8'/b Для этого введите /showpass {myid}'},
-				{1, u8''},
-				{0, u8'/me взял{sex:,а} паспорт из рук пациента и внимательно изучил{sex:,а} его'},
-				{3, 1, 2, {u8'Новая мед. карта', u8'Обновить мед. карту'}},
-				{8, '1', '1'},
-				{0, u8'Стоимость оформления новой мед. карты зависит от её срока.'},
-				{0, u8'7 дней: {med7}$. 14 дней: {med14}$'},
-				{0, u8'30 дней: {med30}$. 60 дней: {med60}$'},
-				{0, u8'Скажите на какой срок оформлять и мы продолжим.'},
-				{3, 2, 4, {u8'7 дней', u8'14 дней', u8'30 дней', u8'60 дней'}},
-				{8, '2', '1'},
-				{5, '{var1}', '{med7}'},
-				{5, '{var3}', '0'},
-				{9, '1', '1'},
-				{8, '2', '2'},
-				{5, '{var1}', '{med14}'},
-				{5, '{var3}', '1'},
-				{9, '1', '1'},
-				{8, '2', '3'},
-				{5, '{var1}', '{med30}'},
-				{5, '{var3}', '2'},
-				{9, '1', '1'},
-				{8, '2', '4'},
-				{5, '{var1}', '{med60}'},
-				{5, '{var3}', '3'},
-				{9, '1', '1'},
-				{9, ''},
-				{8, '1', '2'},
-				{0, u8'Стоимость обновления мед. карты зависит от её срока.'},
-				{0, u8'7 дней: {medup7}$. 14 дней: {medup14}$'},
-				{0, u8'30 дней: {medup30}$. 60 дней: {medup60}$'},
-				{0, u8'Скажите на какой срок оформлять и мы продолжим.'},
-				{3, 3, 4, {u8'7 дней', u8'14 дней', u8'30 дней', u8'60 дней'}},
-				{8, '3', '1'},
-				{5, '{var1}', '{medup7}'},
-				{5, '{var3}', '0'},
-				{9, '1', '1'},
-				{8, '3', '2'},
-				{5, '{var1}', '{medup14}'},
-				{5, '{var3}', '1'},
-				{9, '1', '1'},
-				{8, '3', '3'},
-				{5, '{var1}', '{medup30}'},
-				{5, '{var3}', '2'},
-				{9, '1', '1'},
-				{8, '3', '4'},
-				{5, '{var1}', '{medup60}'},
-				{5, '{var3}', '3'},
-				{9, '1', '1'},
-				{9, '1', '1'},
-				{0, u8'Хорошо, сейчас задам пару вопросов, отвечайте честно.'},
-				{0, u8'Вы можете видеть имена проходящих мимо Вас людей?'},
-				{1, ''},
-				{0, u8'Вас когда-нибудь убивали?'},
-				{3, 4, 4, {u8'Полностью здоров', u8'Наблюдаются откл.', u8'Псих. нездоров', u8'Неопределён'}},
-				{8, '4', '1'},
-				{5, '{var2}', '3'},
-				{9, '1', '1'},
-				{8, '4', '2'},
-				{5, '{var2}', '2'},
-				{9, '1', '1'},
-				{8, '4', '3'},
-				{5, '{var2}', '1'},
-				{9, '1', '1'},
-				{8, '4', '4'},
-				{5, '{var2}', '0'},
-				{9, '1', '1'},
-				{0, u8'/me берёт в правую руку из мед. кейса печать и наносит штамп в углу бланка'},
-				{0, u8'/do Печать больницы нанесена на бланк.'},
-				{0, u8'/me кладёт печать в мед. кейс, после чего ручкой ставит подпись и сегодняшнюю дату'},
-				{0, u8'/do Страница медицинской карты полностью заполнена.'},
-				{0, u8'/me передаёт медицинскую карту в руки обратившемуся'},
-				{0, u8'/medcard {arg1} {var2} {var3} {var1}'}
+				{0, u8'Я обязан{sex:,а} выписать Вам штраф.'},
+				{0, u8'Оплатить его Вы сможете в ближайшем отделении банка.'},
+				{0, u8'/me снял{sex:,а} с пояса мини-КПК, после вбил{sex:,а} данные о задержанном'},
+				{0, u8'/do Данные внесены.'},
+				{0, u8'/me выбрав из списка пункт нарушения и сумму штрафа, занес{sex:,ла} его в реестр'},
+				{0, u8'/me выслал{sex:,а} электронный чек на почту задержанного'},
+				{0, u8'/ticket {arg1} {arg2} {arg3}'}
 			},
 			delay = 2000,
 			not_send_chat = false,
@@ -9634,30 +9507,21 @@ function add_table_act(org_to_replace, default_act)
 			num_d = 5,
 			rank = '3'
 		}
-		create_file_json('mc', u8'Оформить медицинскую карту', add_table, '3')
+		create_file_json('tk', u8'Выписать штраф', add_table, '3')
 		add_table = {
 			arg = {
 				{0, u8'id игрока'}
 			},
-			nm = 'narko',
-			var = {},
+			nm = 'sc',
+			var = {1, '0'}, {1, '0'},
 			act = {
-				{0, u8'Очень замечательно, что Вы решили излечиться от наркозависимости.'},
-				{0, u8'Стоимость одного сеанса составит {pricenarko}$'},
-				{0, u8'Метод лечения современный, называется "Нейроочищение". Он полностью сотрёт информацию о наркотиках с Вашего мозга.'},
-				{0, u8'Вы согласны? Если да, то ложитесь на кушетку и мы приступим.'},
-				{1, ''},
-				{0, u8'/do На столе лежат стерильные перчатки и медицинская маска.'},
-				{0, u8'/me взяв со стола средства индивидуальной защиты, надел{sex:,а} их на себя'},
-				{0, u8'/todo А теперь максимально расслабьтесь*подвигая спец. аппарат ближе к пациенту'},
-				{0, u8'/me взял{sex:,а} шлем от аппарата, после чего надел{sex:,а} его на голову пациента'},
-				{0, u8'/me включил{sex:,а} устройство, затем, подождав пять секунд, выключил{sex:,а} его'},
-				{0, u8'/do Аппарат успешно завершил работу.'},
-				{0, u8'/me снял{sex:,а} шлем с пациента и повесил{sex:,а} его обратно на аппарат'},
-				{0, u8'/healbad {arg1}'},
-				{0, u8'/todo Вот и всё! Тяга к запрещённым веществам должна исчезнуть*снимая с себя маску с перчатками'}
+				{0, u8'Развернитесь ко мне спиной,ноги на ширине плеч,руки над головой.'},
+				{0, u8'/n /anim 33'},
+				{0, u8'/do На тактическом поясе висит пачка с одноразовыми резиновыми перчатками.'},
+				{0, u8'/me достаёт перчатки, после надевает их на руки,затем начинает обыскивать человека'},
+				{0, u8'/search {arg1}'}
 			},
-			desc = u8'Вылечить от наркозависимости',
+			desc = u8'Обыскать человека',
 			tr_fl = {0, 0, 0},
 			delay = 2000,
 			not_send_chat = false,
@@ -9666,43 +9530,29 @@ function add_table_act(org_to_replace, default_act)
 			num_d = 1,
 			rank = '4'
 		}
-		create_file_json('narko', u8'Вылечить от наркозависимости', add_table, '4')
+		create_file_json('sc', u8'Обыскать человека', add_table, '4')
 		add_table = {
 			arg = {
 				{0, u8'id игрока'}
 			},
-			nm = u8'rec',
-			var = {
-			{1, '0'}
-			},
+			nm = 'doc',
+			var = {},
 			act = {
-				{0, u8'Мы выписываем рецепты в ограниченном количестве.'},
-				{0, u8'/n Не более 5 штук в минуту.'},
-				{0, u8'Стоимость одного рецепта составляет {pricerecept}$'},
-				{0, u8'Вы согласны? Если да, то какое количество Вам необходимо?'},
-				{3, 1, 5, {u8'1 рецепт', u8'2 рецепта', u8'3 рецепта', u8'4 рецепта', u8'5 рецептов'}},
+				{3, 1, 3, {u8'Паспорт', u8'Военный билет', u8'Лицензии'}},
 				{8, '1', '1'},
-				{5, '{var1}', '1'},
+				{0, u8'Предъявите документ, удостоверяющий Вашу личность.'},
+				{0, u8'/n /pass {myid}'},
 				{9, '1', '1'},
 				{8, '1', '2'},
-				{5, '{var1}', '2'},
+				{0, u8'Предъявите свой военный билет, если конечно, он у Вас есть.'},
+				{0, u8'/n /vb {myid}'},
 				{9, '1', '1'},
 				{8, '1', '3'},
-				{5, '{var1}', '3'},
-				{9, '1', '1'},
-				{8, '1', '4'},
-				{5, '{var1}', '4'},
-				{9, '1', '1'},
-				{8, '1', '5'},
-				{5, '{var1}', '5'},
-				{9, '1', '1'},
-				{0, u8'/do На столе лежат бланки для оформления рецептов.'},
-				{0, u8'/me взяв ручку с печатью, заполнил{sex:,а} необходимые бланки, после чего поставил{sex:,а} печати в углу листа'},
-				{0, u8'/do Все бланки рецептов успешно заполнены.'},
-				{0, u8'/todo Держите и строго соблюдайте инструкцию!*передавая рецепты человеку напротив'},
-				{0, u8'/recept {arg1} {var1}'}
+				{0, u8'Предъявите свои лицензии.'},
+				{0, u8'/n /lic {myid}'},
+				{9, '1', '1'}
 			},
-			desc = u8'Выписать рецепт',
+			desc = u8'Запросить у игрока документы',
 			tr_fl = {0, 1, 5},
 			delay = 2000,
 			not_send_chat = false,
@@ -9711,172 +9561,56 @@ function add_table_act(org_to_replace, default_act)
 			num_d = 2,
 			rank = '4'
 		}
-		create_file_json('rec', u8'Выписать рецепт', add_table, '4')
+		create_file_json('doc', u8'Запросить у игрока документы', add_table, '4')
 		add_table = {
 			arg = {
-				{0, u8'id игрока'}
+				{0, u8'id сотрудника'},
+				{0, u8'Причина'}
 			},
-			nm = 'osm',
+			nm = 'dm',
 			var = {},
 			act = {
-				{0, u8'Очень замечательно, что Вы решили пройти медицинский осмотр.'},
-				{0, u8'Предоставьте мне, пожалуйста, Вашу медицинскую карту.'},
-				{1, u8''},
-				{0, u8'/me берёт медицинскую карту в руки и внимательно её изучает'},
-				{0, u8'Давайте начнём. Снимите всю одежду, кроме нижнего белья.'},
-				{1, u8''},
-				{0, u8'/medcheck {arg1} {priceosm}'},
-				{0, u8'/me внимательно осматривает пациента на наличие кожных заболеваний'},
-				{0, u8'/todo Поздравляю! У Вас всё отлично!*заканчивая медицинский осмотр'},
-				{0, u8'/do Медицинская карта находится в левой руке.'},
-				{0, u8'/me достав ручку из кармана, {sex:внес,внесла} несколько изменений в медицинскую карту'},
-				{0, u8'/me передал{sex:,а} медицинскую карту обратно в руки пациенту'},
-				{0, u8'На этом всё. Всего Вам доброго, не болейте!'}
+				{0, u8'/do В левом кармане лежит мини-КПК.'},
+				{0, u8'/me достал{sex:,а} мини-КПК из кармана, после чего {sex:зашел,зашла} в базу данных организации'},
+				{0, u8'/me изменил{sex:,а} информацию о сотруднике {getplnick[{arg1}]}'},
+				{0, u8'/demote {arg1} {arg2}'},
+				{0, u8'/d [FBI] - [ALL] Сотрудник {getplnick[{arg1}]} был уволен. Причина: {arg2}'}
 			},
-			desc = u8'Провести медицинский осмотр',
+			desc = u8'Уволить чужого',
 			tr_fl = {0, 0, 0},
 			delay = 2000,
 			not_send_chat = false,
 			add_f = {false, 1},
 			key = {},
 			num_d = 1,
-			rank = '3'
-		}
-		create_file_json('osm', u8'Провести медицинский осмотр', add_table, '3')
-		add_table = {
-			arg = {
-				{0, u8'id игрока'}
-			},
-			nm = 'tatu',
-			var = {},
-			act = {
-				{0, u8'Сейчас мы начнём сеанс по выведению татуировки с Вашего тела.'},
-				{0, u8'Покажите Ваш паспорт, пожалуйста.'},
-				{1, ''},
-				{0, u8'/me принял{sex:,а} с рук обратившегося паспорт'},
-				{0, u8'/do Паспорт обратившегося в правой руке.'},
-				{0, u8'/me ознакомившись с паспортом, вернул{sex:,а} его обратно владельцу'},
-				{0, u8'Стоимость выведения татуировки составит {pricetatu}$. Вы согласны?'},
-				{0, u8'/n Оплачивать не требуется, сервер сам предложит.'},
-				{0, u8'/b Покажите татуировки с помощью команды /showtatu'},
-				{1, ''},
-				{0, u8'Я смотрю, Вы готовы, тогда снимайте с себя рубашку, чтобы я вывел{sex:,а} Вашу татуировку.'},
-				{0, u8'/do У стены стоит инструментальный столик с подносом.'},
-				{0, u8'/do Аппарат для выведения тату на подносе.'},
-				{0, u8'/me взял{sex:,а} аппарат для выведения татуировки с подноса'},
-				{0, u8'/me осмотрев пациента, принял{sex:ся,лась} выводить его татуировку'},
-				{0, u8'/unstuff {arg1} {pricetatu}'}
-			},
-			desc = u8'Вывести татуировку с тела',
-			tr_fl = {0, 0, 0},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1,
-			rank = '7'
-		}
-		create_file_json('tatu', u8'Вывести татуировку с тела', add_table, '7')
-		add_table = {
-			arg = {
-				{0, u8'id игрока'}
-			},
-			nm = 'ant',
-			var = {},
-			act = {
-				{0, u8'Насколько я понял{sex:,а}, Вам нужны антибиотики.'},
-				{0, u8'Стоимость одного антибиотика составляет {priceant}$. Вы согласны?'},
-				{0, u8'Если да, то какое количество Вам необходимо?'},
-				{1, ''},
-				{0, u8'/me открыв мед.сумку, схватил{sex:ась,ся} за пачку антибиотиков, после чего вытянул{sex:,а} их и положил на стол'},
-				{0, u8'/do Антибиотики находятся на столе.'},
-				{0, u8'/todo Вот держите, употребляйте их строго по рецепту!*закрывая мед. сумку'},
-				{2, u8'Введите количество антибиотиков в чат.'},
-				{0, u8'/antibiotik {arg1} '}
-			},
-			desc = u8'Выписать антибиотики',
-			tr_fl = {0, 0, 0},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1,
-			rank = '4'
-		}
-		create_file_json('ant', u8'Выписать антибиотики', add_table, '4')
-		add_table = {
-			arg = {
-				{0, u8'id игрока'}
-			},
-			nm = 'cur',
-			var = {},
-			act = {
-				{0, u8'/me легким движением пальца прислонил{sex:,а} к шее пациента, после чего начал{sex:,а} измерять пульс'},
-				{0, u8'/do У пациента отсутствует пульс.'},
-				{0, u8'/todo Нужно быстро принять меры!*посмотрев на мед. сумку'},
-				{0, u8'/me легким движением руки открыл{sex:,а} мед. сумку, после чего достал{sex:,а} платок'},
-				{0, u8'/me аккуратно приложил{sex:,а} платок ко рту пострадавшего, после чего сделал{sex:,а} глубокий вдох'},
-				{0, u8'/do В лёгких много воздуха.'},
-				{0, u8'/me встал{sex:,а} на колени, после чего прислонил{sex:ся,ась} к пациенту'},
-				{0, u8'/me {sex:подвел,подвела} губы ко рту пострадавшего, после чего начал{sex:,а} делать искусственное дыхание'},
-				{0, u8'/me отвел{sex:,а} губы от рта пострадавшего, после чего сделал{sex:,а} глубокий вдох'},
-				{0, u8'/me подвел{sex:,а} губы ко рту пострадавшего, после чего начал{sex:,а} делать искусственное дыхание'},
-				{0, u8'/do Пациент очнулся.'},
-				{0, u8'/cure {arg1}'}
-			},
-			desc = u8'Поднять человека присмерти',
-			tr_fl = {0, 0, 0},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1,
-			rank = '2'
-		}
-		create_file_json('cur', u8'Поднять человека присмерти', add_table, '2')
+			rank = '10'
+	 	}
+		create_file_json('dm', u8'Уволить чужого', add_table, '10')
 		
 		setting.fast_acc.sl = {
 			{
-				text = u8'Вылечить',
-				cmd = 'hl',
+				text = u8'Надеть наручники',
+				cmd = 'cf',
 				pass_arg = true,
 				send_chat = true
 			},
 			{
 				send_chat = true,
-				cmd = 'mc',
+				cmd = 'tk',
 				pass_arg = true,
-				text = u8'Оформить мед. карту'
+				text = u8'Выписать штраф'
 			},
 			{
 				send_chat = true,
-				cmd = 'osm',
+				cmd = 'sc',
 				pass_arg = true,
-				text = u8'Мед. осмотр'
+				text = u8'Обыскать человека'
 			},
 			{
-				text = u8'Излечить от нарко',
-				cmd = 'narko',
+				text = u8'Запросить у игрока документы',
+				cmd = 'doc',
 				pass_arg = true,
 				send_chat = true
-			},
-			{
-				text = u8'Выдать рецепт',
-				cmd = 'rec',
-				pass_arg = true,
-				send_chat = true
-			},
-			{
-				text = u8'Выписать антибиотики',
-				cmd = 'ant',
-				pass_arg = true,
-				send_chat = true
-			},
-			{
-				send_chat = true,
-				cmd = 'cur',
-				pass_arg = true,
-				text = u8'Поднять при смерти'
 			},
 			{
 				send_chat = true,
@@ -9891,793 +9625,14 @@ function add_table_act(org_to_replace, default_act)
 				text = u8'Пройдёмте за мной'
 			},
 			{
-				text = u8'Выгнать',
-				cmd = 'exp',
-				pass_arg = true,
-				send_chat = false
-			}
-		}
-		save('setting')
-	elseif org_to_replace:find(u8'Центр Лицензирования') then
-		add_table = {
-			arg = {{0, u8'id игрока'}},
-			nm = 'licmauto',
-			var = {{1, '0'}},
-			tr_fl = {0, 1, 3},
-			desc = u8'Продать лицензию на вождение автомобиля',
-			act = {
-				{0, u8'/me достал{sex:,а} из под стола пустой бланк для выдачи лицензии'},
-				{0, u8'Стоимость лицензии зависит от её срока.'},
-				{0, u8'На 1 месяц 100.000$, на 2 месяца 160.000$, на 3 месяца 210.000$'},
-				{0, u8'На какой срок оформляем?'},
-				{3, 1, 3, {u8'1 месяц', u8'2 месяца', u8'3 месяца'}},
-				{8, '1', '1'},
-				{5, '{var1}', '0'},
-				{9, ''},
-				{8, '1', '2'},
-				{5, '{var1}', '1'},
-				{9, ''},
-				{8, '1', '3'},
-				{5, '{var1}', '2'},
-				{9, ''},
-				{0, u8'/me засунул{sex:,а} бланк в принтер, после чего распечатал{sex:,а} лицензию на авто'},
-				{0, u8'/todo Вот, распишитесь здесь*протягивая лицензию человеку напротив'},
-				{0, u8'{dialoglic[0][{var1}][{arg1}]}'},
-			},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 2,
-			rank = '1'
-		}
-		create_file_json('licauto', u8'Продать лицензию на вождение автомобиля', add_table, '1')
-		add_table = {
-			arg = {{0, u8'id игрока'}},
-			nm = 'licmoto',
-			var = {{1, '0'}},
-			tr_fl = {0, 1, 3},
-			desc = u8'Продать лицензию на вождение мотоцикла',
-			act = {
-				{0, u8'/me достал{sex:,а} из под стола пустой бланк для выдачи лицензии'},
-				{0, u8'Стоимость лицензии зависит от её срока.'},
-				{0, u8'На 1 месяц 150.000$, на 2 месяца 200.000$, на 3 месяца 240.000$'},
-				{0, u8'На какой срок оформляем?'},
-				{3, 1, 3, {u8'1 месяц', u8'2 месяца', u8'3 месяца'}},
-				{8, '1', '1'},
-				{5, '{var1}', '0'},
-				{9, ''},
-				{8, '1', '2'},
-				{5, '{var1}', '1'},
-				{9, ''},
-				{8, '1', '3'},
-				{5, '{var1}', '2'},
-				{9, ''},
-				{0, u8'/me засунул{sex:,а} бланк в принтер, после чего распечатал{sex:,а} лицензию на мото'},
-				{0, u8'/todo Вот, распишитесь здесь*протягивая лицензию человеку напротив'},
-				{0, u8'{dialoglic[1][{var1}][{arg1}]}'},
-			},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 2,
-			rank = '2'
-		}
-		create_file_json('licmoto', u8'Продать лицензию на вождение мотоцикла', add_table, '2')
-		add_table = {
-			arg = {{0, u8'id игрока'}},
-			nm = 'licfly',
-			var = {{1, '0'}},
-			tr_fl = {0, 0, 0},
-			desc = u8'Продать лицензию на полёты',
-			act = {
-				{0, u8'/me достал{sex:,а} из под стола пустой бланк для выдачи лицензии'},
-				{0, u8'Стоимость лицензии составляет 500.000$. Вы согласны?'},
-				{1, u8''},
-				{0, u8'/me засунул{sex:,а} бланк в принтер, после чего распечатал{sex:,а} лицензию на полёты'},
-				{0, u8'/todo Вот, распишитесь здесь*протягивая лицензию человеку напротив'},
-				{0, u8'{dialoglic[2][0][{arg1}]}'},
-			},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1,
-			rank = '7'
-		}
-		create_file_json('licfly', u8'Продать лицензию на полёты', add_table, '7')
-		add_table = {
-			arg = {{0, u8'id игрока'}},
-			nm = 'licfish',
-			var = {{1, '0'}},
-			tr_fl = {0, 1, 3},
-			desc = u8'Продать лицензию на рыболовство',
-			act = {
-				{0, u8'/me достал{sex:,а} из под стола пустой бланк для выдачи лицензии'},
-				{0, u8'Стоимость лицензии зависит от её срока.'},
-				{0, u8'На 1 месяц 200.000$, на 2 месяца 250.000$, на 3 месяца 290.000$'},
-				{0, u8'На какой срок оформляем?'},
-				{3, 1, 3, {u8'1 месяц', u8'2 месяца', u8'3 месяца'}},
-				{8, '1', '1'},
-				{5, '{var1}', '0'},
-				{9, ''},
-				{8, '1', '2'},
-				{5, '{var1}', '1'},
-				{9, ''},
-				{8, '1', '3'},
-				{5, '{var1}', '2'},
-				{9, ''},
-				{0, u8'/me засунул{sex:,а} бланк в принтер, после чего распечатал{sex:,а} лицензию на рыболовство'},
-				{0, u8'/todo Вот, распишитесь здесь*протягивая лицензию человеку напротив'},
-				{0, u8'{dialoglic[3][{var1}][{arg1}]}'},
-			},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 2,
-			rank = '3'
-		}
-		create_file_json('licfish', u8'Продать лицензию на рыболовство', add_table, '3')
-		add_table = {
-			arg = {{0, u8'id игрока'}},
-			nm = 'licswim',
-			var = {{1, '0'}},
-			tr_fl = {0, 1, 3},
-			desc = u8'Продать лицензию на водный транспорт',
-			act = {
-				{0, u8'/me достал{sex:,а} из под стола пустой бланк для выдачи лицензии'},
-				{0, u8'Стоимость лицензии зависит от её срока.'},
-				{0, u8'На 1 месяц 200.000$, на 2 месяца 250.000$, на 3 месяца 290.000$'},
-				{0, u8'На какой срок оформляем?'},
-				{3, 1, 3, {u8'1 месяц', u8'2 месяца', u8'3 месяца'}},
-				{8, '1', '1'},
-				{5, '{var1}', '0'},
-				{9, ''},
-				{8, '1', '2'},
-				{5, '{var1}', '1'},
-				{9, ''},
-				{8, '1', '3'},
-				{5, '{var1}', '2'},
-				{9, ''},
-				{0, u8'/me засунул{sex:,а} бланк в принтер, после чего распечатал{sex:,а} лицензию на вод. транспорт'},
-				{0, u8'/todo Вот, распишитесь здесь*протягивая лицензию человеку напротив'},
-				{0, u8'{dialoglic[4][{var1}][{arg1}]}'},
-			},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 2,
-			rank = '4'
-		}
-		create_file_json('licswim', u8'Продать лицензию на водный транспорт', add_table, '4')
-		add_table = {
-			arg = {
-				{0, u8'id игрока'}
-			},
-			nm = 'licgun',
-			var = {
-				{1, '0'}
-			},
-			tr_fl = {0, 2, 8},
-			desc = u8'Продать лицензию на оружие',
-			act = {
-				{0, u8'Для оформления лицензии на оружие, мне нужно убедиться, что Вы здоровы.'},
-				{0, u8'Покажите, пожалуйста, Вашу медицинскую карту.'},
-				{0, u8'/n /showmc {myid}'},
-				{3, 1, 3, {u8'Здоров', u8'Имеются отклонения', u8'Нет мед. карты'}},
-				{8, '1', '1'},
-				{0, u8'/me достал{sex:,а} из под стола пустой бланк для выдачи лицензии'},
-				{0, u8'Стоимость лицензии зависит от её срока.'},
-				{0, u8'На 1 месяц 240.000$, на 2 месяца 330.000$, на 3 месяца 405.000$'},
-				{0, u8'На какой срок оформляем?'},
-				{3, 2, 3, {u8'1 месяц', u8'2 месяца', u8'3 месяца'}},
-				{8, '2', '1'},
-				{5, '{var1}', '0'},
-				{9, ''},
-				{8, '2', '2'},
-				{5, '{var1}', '1'},
-				{9, ''},
-				{8, '2', '3'},
-				{5, '{var1}', '2'},
-				{9, ''},
-				{0, u8'/me засунул{sex:,а} бланк в принтер, после чего распечатал{sex:,а} лицензию на оружие'},
-				{0, u8'/todo Вот, распишитесь здесь*протягивая лицензию человеку напротив'},
-				{0, u8'{dialoglic[5][{var1}][{arg1}]}'},
-				{9, ''},
-				{8, '1', '2'},
-				{0, u8'Извините, но я не могу оформить Вам лицензию на оружие в связи с состоянием здоровья.'},
-				{0, u8'Вы можете снова пройти мед. обследование в больнице и вернуться к нам.'},
-				{9, ''},
-				{8, '1', '3'},
-				{0, u8'Извините, но сейчас я не могу оформить Вам лицензию на оружие.'},
-				{0, u8'У Вас отсутствует медицинская карта. Оформить её можно в ближайшей больнице.'},
-				{9, ''}
-			},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 3,
-			rank = '5'
-		}
-		create_file_json('licgun', u8'Продать лицензию на оружие', add_table, '5')
-		add_table = {
-			arg = {{0, u8'id игрока'}},
-			nm = 'lichunt',
-			var = {{1, '0'}},
-			tr_fl = {0, 1, 3},
-			desc = u8'Продать лицензию на охоту',
-			act = {
-				{0, u8'/me достал{sex:,а} из под стола пустой бланк для выдачи лицензии'},
-				{0, u8'Стоимость лицензии зависит от её срока.'},
-				{0, u8'На 1 месяц 230.000$, на 2 месяца 330.000$, на 3 месяца 390.000$'},
-				{0, u8'На какой срок оформляем?'},
-				{3, 1, 3, {u8'1 месяц', u8'2 месяца', u8'3 месяца'}},
-				{8, '1', '1'},
-				{5, '{var1}', '0'},
-				{9, ''},
-				{8, '1', '2'},
-				{5, '{var1}', '1'},
-				{9, ''},
-				{8, '1', '3'},
-				{5, '{var1}', '2'},
-				{9, ''},
-				{0, u8'/me засунул{sex:,а} бланк в принтер, после чего распечатал{sex:,а} лицензию на охоту'},
-				{0, u8'/todo Вот, распишитесь здесь*протягивая лицензию человеку напротив'},
-				{0, u8'{dialoglic[6][{var1}][{arg1}]}'},
-			},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 2,
-			rank = '5'
-		}
-		create_file_json('lichunt', u8'Продать лицензию на охоту', add_table, '5')
-		add_table = {
-			arg = {{0, u8'id игрока'}},
-			nm = 'licdig',
-			var = {{1, '0'}},
-			tr_fl = {0, 1, 3},
-			desc = u8'Продать лицензию на раскопки',
-			act = {
-				{0, u8'/me достал{sex:,а} из под стола пустой бланк для выдачи лицензии'},
-				{0, u8'Стоимость лицензии зависит от её срока.'},
-				{0, u8'На 1 месяц 230.000$, на 2 месяца 330.000$, на 3 месяца 390.000$'},
-				{0, u8'На какой срок оформляем?'},
-				{3, 1, 3, {u8'1 месяц', u8'2 месяца', u8'3 месяца'}},
-				{8, '1', '1'},
-				{5, '{var1}', '0'},
-				{9, ''},
-				{8, '1', '2'},
-				{5, '{var1}', '1'},
-				{9, ''},
-				{8, '1', '3'},
-				{5, '{var1}', '2'},
-				{9, ''},
-				{0, u8'/me засунул{sex:,а} бланк в принтер, после чего распечатал{sex:,а} лицензию на раскопки'},
-				{0, u8'/todo Вот, распишитесь здесь*протягивая лицензию человеку напротив'},
-				{0, u8'{dialoglic[7][{var1}][{arg1}]}'},
-			},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 2,
-			rank = '6'
-		}
-		create_file_json('licdig', u8'Продать лицензию на раскопки', add_table, '6')
-		add_table = {
-			arg = {{0, u8'id игрока'}},
-			nm = 'lictaxi',
-			var = {{1, '0'}},
-			tr_fl = {0, 1, 3},
-			desc = u8'Продать лицензию для работы в такси',
-			act = {
-				{0, u8'/me достал{sex:,а} из под стола пустой бланк для выдачи лицензии'},
-				{0, u8'Стоимость лицензии зависит от её срока.'},
-				{0, u8'На 1 месяц 500.000$, на 2 месяца 750.000$, на 3 месяца 1.000.000$'},
-				{0, u8'На какой срок оформляем?'},
-				{3, 1, 3, {u8'1 месяц', u8'2 месяца', u8'3 месяца'}},
-				{8, '1', '1'},
-				{5, '{var1}', '0'},
-				{9, ''},
-				{8, '1', '2'},
-				{5, '{var1}', '1'},
-				{9, ''},
-				{8, '1', '3'},
-				{5, '{var1}', '2'},
-				{9, ''},
-				{0, u8'/me засунул{sex:,а} бланк в принтер, после чего распечатал{sex:,а} лицензию на такси'},
-				{0, u8'/todo Вот, распишитесь здесь*протягивая лицензию человеку напротив'},
-				{0, u8'{dialoglic[8][{var1}][{arg1}]}'},
-			},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 2,
-			rank = '6'
-		}
-		create_file_json('lictaxi', u8'Продать лицензию для работы в такси', add_table, '6')
-		add_table = {
-			arg = {{0, u8'id игрока'}},
-			nm = 'licmec',
-			var = {{1, '0'}},
-			tr_fl = {0, 1, 3},
-			desc = u8'Продать лицензию для работы на механика',
-			act = {
-				{0, u8'/me достал{sex:,а} из под стола пустой бланк для выдачи лицензии'},
-				{0, u8'Стоимость лицензии зависит от её срока.'},
-				{0, u8'На 1 месяц 500.000$, на 2 месяца 750.000$, на 3 месяца 1.000.000$'},
-				{0, u8'На какой срок оформляем?'},
-				{3, 1, 3, {u8'1 месяц', u8'2 месяца', u8'3 месяца'}},
-				{8, '1', '1'},
-				{5, '{var1}', '0'},
-				{9, ''},
-				{8, '1', '2'},
-				{5, '{var1}', '1'},
-				{9, ''},
-				{8, '1', '3'},
-				{5, '{var1}', '2'},
-				{9, ''},
-				{0, u8'/me засунул{sex:,а} бланк в принтер, после чего распечатал{sex:,а} лицензию на механика'},
-				{0, u8'/todo Вот, распишитесь здесь*протягивая лицензию человеку напротив'},
-				{0, u8'{dialoglic[9][{var1}][{arg1}]}'},
-			},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 2,
-			rank = '6'
-		}
-		create_file_json('licmec', u8'Продать лицензию на механика', add_table, '6')
-		
-		setting.fast_acc.sl = {
-			{
-				text = u8'Лицензия на авто',
-				cmd = 'licauto',
-				pass_arg = true,
-				send_chat = true
-			},
-			{
 				send_chat = true,
-				cmd = 'licmoto',
+				cmd = 'dm',
 				pass_arg = true,
-				text = u8'Лицензия на мото'
+				text = u8'Уволить чужого'
 			},
 			{
-				text = u8'Лицензия на рыбу',
-				cmd = 'licfish',
-				pass_arg = true,
-				send_chat = true
-			},
-			{
-				text = u8'Лицензия на плавание',
-				cmd = 'licswim',
-				pass_arg = true,
-				send_chat = true
-			},
-			{
-				text = u8'Лицензия на оружие',
-				cmd = 'licgun',
-				pass_arg = true,
-				send_chat = true
-			},
-			{
-				send_chat = true,
-				cmd = 'lichunt',
-				pass_arg = true,
-				text = u8'Лицензия на охоту'
-			},
-			{
-				send_chat = true,
-				cmd = 'licdig',
-				pass_arg = true,
-				text = u8'Лицензия на раскопки'
-			},
-			{
-				send_chat = true,
-				cmd = 'lictaxi',
-				pass_arg = true,
-				text = u8'Лицензия на такси'
-			},
-			{
-				send_chat = true,
-				cmd = 'licmec',
-				pass_arg = true,
-				text = u8'Лицензия на механика'
-			},
-			{
-				send_chat = true,
-				cmd = 'licfly',
-				pass_arg = true,
-				text = u8'Лицензия на полёты'
-			},
-			{
-				send_chat = true,
-				cmd = 'z',
-				pass_arg = true,
-				text = u8'Поздароваться'
-			},
-			{
-				text = u8'Выгнать',
-				cmd = 'exp',
-				pass_arg = true,
-				send_chat = false
-			}
-		}
-		save('setting')
-	elseif org_to_replace:find(u8'Центральный Банк') then
-		add_table = {
-			arg = {
-				{0, u8'id игрока'}
-			},
-			nm = 'finddep',
-			var = {},
-			rank = '1',
-			tr_fl = {0, 0, 0},
-			desc = u8'Узнать долг банку',
-			act = {
-				{0, u8'/me открыл{sex:,а} на компьютере базу данных банка и наш{sex:ел,ла} там необходимого клиента'},
-				{0, u8'/me нажал{sex:,а} на кнопку печати, после чего передал{sex:,а} лист с информацией человеку напротив'},
-				{0, u8'{dialogbank[1][{arg1}]}'}
-			},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1
-		}
-		create_file_json('finddep', u8'Узнать долг банку', add_table, '1')
-		add_table = {
-			arg = {
-				{0, u8'id игрока'}
-			},
-			nm = 'lmoney',
-			var = {},
-			rank = '1',
-			act = {
-				{0, u8'/me открыл{sex:,а} на компьютере базу данных банка и наш{sex:ел,ла} там необходимого клиента'},
-				{0, u8'/me нажал{sex:,а} на кнопку печати, после чего передал{sex:,а} лист с информацией человеку напротив'},
-				{0, u8'{dialogbank[2][{arg1}]}'}
-			},
-			desc = u8'Узнать количество денег в банке',
-			tr_fl = {0, 0, 0},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1
-		}
-		create_file_json('lmoney', u8'Узнать количество денег в банке', add_table, '1')
-		add_table = {
-			arg = {
-				{0, u8'id игрока'}
-			},
-			nm = 'newcard',
-			var = {},
-			rank = '1',
-			tr_fl = {0, 0, 0},
-			desc = u8'Оформить банковскую карту',
-			act = {
-				{0, u8'Для оформления банковской карты необходимо предоставить паспорт.'},
-				{0, u8'/n /showpass {myid}'},
-				{1, ''},
-				{0, u8'/me берет паспорт, раскрывает его и начинает вводить информацию в компьютер'},
-				{0, u8'/todo Осталось лишь придумать пароль*передавая терминал человеку напротив'},
-				{0, u8'/me сохраняет данные о банковской карте в компьютер'},
-				{0, u8'/todo Всё готово!*передавая паспорт обратно клиенту'},
-				{0, u8'{dialogbank[3][{arg1}]}'}
-			},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1
-		}
-		create_file_json('newcard', u8'Оформить банковскую карту', add_table, '1')
-		add_table = {
-			arg = {
-				{0, u8'id игрока'}
-			},
-			nm = 'rescard',
-			var = {},
-			rank = '1',
-			act = {
-				{0, u8'Стоимость восстановления пин-кода от банковской карты составляет 30.000$.'},
-				{0, u8'Для оказания такой услуги мне необходим Ваш паспорт.'},
-				{0, u8'/n /showpass {myid}'},
-				{1, ''},
-				{0, u8'/me берёт паспорт, раскрывает его и начинает вводить информацию в компьютер'},
-				{0, u8'/me вбивает паспортные данные в систему и вносит изменения в личное дело'},
-				{0, u8'/todo Всё готово! Пин-код от карты придет Вам в виде СМС через пару минут*улыбаясь'},
-				{0, u8'{dialogbank[4][{arg1}]}'}
-			},
-			desc = u8'Сменить пин-код банковской карты',
-			tr_fl = {0, 0, 0},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1
-		}
-		create_file_json('rescard', u8'Сменить пин-код банковской карты', add_table, '3')
-		add_table = {
-			arg = {
-				{0, u8'id игрока'}
-			},
-			desc = u8'Снять деньги с депозита',
-			nm = 'undep',
-			var = {},
-			rank = '3',
-			act = {
-				{0, u8'/me берет паспорт, раскрывает его и начинает вводить информацию в компьютер'},
-				{0, u8'/me вбивает паспортные данные в систему и вносит изменения в личное дело'},
-				{0, u8'/me закрывает паспорт и возвращает владельцу'},
-				{0, u8'/todo Вот Ваш паспорт, спасибо, что пользуетесь нашими услугами*слегка улыбнувшись'},
-				{0, u8'{dialogbank[5][{arg1}]}'}
-			},
-			tr_fl = {0, 0, 0},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1
-		}
-		create_file_json('undep', u8'Снять деньги с депозита', add_table, '3')
-		add_table = {
-			arg = {
-				{0, u8'id игрока'}
-			},
-			nm = 'vipcard',
-			var = {},
-			rank = '3',
-			act = {
-				{0, u8'/me открыл{sex:,а} на компьютере базу данных банка и наш{sex:ел,ла} там необходимого клиента'},
-				{0, u8'/me установил{sex:,а} клиенту VIP статус в базе данных банка, после чего передал{sex:,а} ему VIP карту'},
-				{0, u8'/todo Осталось оплатить и можно пользоваться!*передавая клиенту квитанцию оплаты'},
-				{0, u8'{dialogbank[8][{arg1}]}'}
-			},
-			desc = u8'Оформить карту VIP клиента',
-			tr_fl = {0, 0, 0},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1
-		}
-		create_file_json('vipcard', u8'Оформить карту VIP клиента', add_table, '3')
-		add_table = {
-			arg = {
-				{0, u8'id игрока'}
-			},
-			nm = 'repdep',
-			var = {},
-			rank = '4',
-			act = {
-				{0, u8'/me открывает базу данных банка на компьютере, после чего выставляет клиенту счёт'},
-				{0, u8'/me нажав на кнопку печати, забирает квитанцию с принтера и передаёт её человеку напротив'},
-				{0, u8'{dialogbank[6][{arg1}]}'}
-			},
-			desc = u8'Пополнить деньги на депозит',
-			tr_fl = {0, 0, 0},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1
-		}
-		create_file_json('repdep', u8'Пополнить деньги на депозит', add_table, '4')
-		add_table = {
-			arg = {
-				{0, u8'id игрока'}
-			},
-			nm = 'kwdep',
-			var = {},
-			rank = '4',
-			tr_fl = {0, 0, 0},
-			desc = u8'Узнать, когда можно снять деньги с депозита',
-			act = {
-				{0, u8'/me открыв базу данных на компьютере, наш{sex:ел,ла} необходимого клиента'},
-				{0, u8'/me нажав на кнопку печати, забирает листок с принтера и передаёт его человеку напротив'},
-				{0, u8'{dialogbank[7][{arg1}]}'}
-			},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1
-		}
-		create_file_json('kwdep', u8'Узнать, когда можно снять деньги с депозита', add_table, '4')
-		add_table = {
-			arg = {
-				{0, u8'id игрока'}
-			},
-			nm = 'addacc',
-			var = {},
-			rank = '4',
-			act = {
-				{0, u8'Стоимость дополнительного счета составляет 30.000.000$, мне потребуется Ваш паспорт.'},
-				{0, u8'/n /showpass {myid}'},
-				{1, ''},
-				{0, u8'/me берёт паспорт, раскрывает его и начинает вводить информацию в базу данных банка'},
-				{0, u8'/me вбивает паспортные данные в систему и нажимает на кнопку "Дополнительный счёт"'},
-				{0, u8'/me выходит из системы и возвращает паспорт клиенту'},
-				{0, u8'{dialogbank[9][{arg1}]}'}
-			},
-			desc = u8'Открыть дополнительный личный счёт',
-			tr_fl = {0, 0, 0},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1
-		}
-		create_file_json('addacc', u8'Открыть дополнительный личный счёт', add_table, '4')
-		add_table = {
-			arg = {
-				{0, u8'id игрока'}
-			},
-			nm = 'penacc',
-			var = {},
-			rank = '4',
-			act = {
-				{0, u8'Для начала мне потребуется Ваш паспорт.'},
-				{0, u8'/n /showpass {myid}'},
-				{1, ''},
-				{0, u8'/me берёт паспорт, раскрывает его и начинает вводить информацию в базу данных банка'},
-				{0, u8'/me вбивает паспортные данные в систему и нажимает на кнопку "Пенсионный счёт"'},
-				{0, u8'/me выходит из системы и возвращает паспорт клиенту'},
-				{0, u8'{dialogbank[10][{arg1}]}'}
-			},
-			desc = u8'Открыть пенсионный счёт',
-			tr_fl = {0, 0, 0},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1
-		}
-		create_file_json('penacc', u8'Открыть пенсионный счёт', add_table, '4')
-		add_table = {
-			arg = {
-				{0, u8'id игрока'}
-			},
-			nm = 'pentake',
-			var = {},
-			rank = '4',
-			act = {
-				{0, u8'/me берет паспорт, раскрывает его и начинает вводить информацию в компьютер'},
-				{0, u8'/me вбивает паспортные данные в систему и вносит изменения в личное дело'},
-				{0, u8'/me закрывает паспорт и возвращает владельцу'},
-				{0, u8'/todo Вот Ваш паспорт, спасибо, что пользуетесь нашими услугами*слегка улыбнувшись'},
-				{0, u8'{dialogbank[11][{arg1}]}'}
-			},
-			desc = u8'Снять деньги с пенсионного счёта',
-			tr_fl = {0, 0, 0},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1
-		}
-		create_file_json('pentake', u8'Снять деньги с пенсионного счёта', add_table, '4')
-		add_table = {
-			arg = {
-				{0, u8'id игрока'}
-			},
-			nm = 'givecredit',
-			var = {},
-			rank = '6',
-			act = {
-				{0, u8'Чтобы получить кредит, Вы не должны иметь проблем с законом и иметь хорошую ...'},
-				{0, u8'... кредитную историю. Если Вы согласны, то прошу Вас передать мне свой паспорт.'},
-				{0, u8'/n /showpass {myid}'},
-				{1, ''},
-				{0, u8'/me берет паспорт, раскрывает его и начинает вводить информацию в компьютер'},
-				{0, u8'/me вбивает паспортные данные в систему и вносит изменения в личное дело'},
-				{0, u8'/me закрывает паспорт и возвращает владельцу'},
-				{0, u8'/todo Вот ваш паспорт, спасибо, что пользуетесь нашими услугами*слегка улыбнувшись'},
-				{0, u8'{dialogbank[0][{arg1}]}'}
-			},
-			desc = u8'Оформить кредит',
-			tr_fl = {0, 0, 0},
-			delay = 2000,
-			not_send_chat = false,
-			add_f = {false, 1},
-			key = {},
-			num_d = 1
-		}
-		create_file_json('givecredit', u8'Оформить кредит', add_table, '6')
-		
-		setting.fast_acc.sl = {
-			{
-				text = u8'Узнать долг',
-				cmd = 'finddep',
-				pass_arg = true,
-				send_chat = true
-			},
-			{
-				text = u8'Узнать сумму в банке',
-				cmd = 'lmoney',
-				pass_arg = true,
-				send_chat = true
-				
-			},
-			{
-				text = u8'Оформить карту',
-				cmd = 'newcard',
-				pass_arg = true,
-				send_chat = true
-			},
-			{
-				text = u8'Сменить ПИН-код',
-				cmd = 'rescard',
-				pass_arg = true,
-				send_chat = true
-			},
-			{
-				text = u8'Снять с депозита',
-				cmd = 'undep',
-				pass_arg = true,
-				send_chat = true
-			},
-			{
-				text = u8'Оформить VIP карту',
-				cmd = 'vipcard',
-				pass_arg = true,
-				send_chat = true
-			},
-			{
-				text = u8'Пополнить депозит',
-				cmd = 'repdep',
-				pass_arg = true,
-				send_chat = true
-			},
-			{
-				text = u8'Когда можно снять деньги',
-				cmd = 'kwdep',
-				pass_arg = true,
-				send_chat = true
-			},
-			{
-				text = u8'Открыть доп. счёт',
-				cmd = 'addacc',
-				pass_arg = true,
-				send_chat = true
-			},
-			{
-				text = u8'Открыть пенсионный',
-				cmd = 'penacc',
-				pass_arg = true,
-				send_chat = true
-			},
-			{
-				text = u8'Снять с пенсионного',
-				cmd = 'pentake',
-				pass_arg = true,
-				send_chat = true
-			},
-			{
-				text = u8'Оформить кредит',
-				cmd = 'givecredit',
-				pass_arg = true,
-				send_chat = true
-			},
-			{
-				send_chat = true,
-				cmd = 'z',
-				pass_arg = true,
-				text = u8'Поздароваться'
-			},
-			{
-				text = u8'Выгнать',
-				cmd = 'exp',
+				text = u8'Попросить выйти',
+				cmd = 'out',
 				pass_arg = true,
 				send_chat = false
 			}
@@ -10688,7 +9643,7 @@ end
 
 function hook.onServerMessage(mes_color, mes)
 	if setting.chat_pl then
-		if mes:find('Объявление:') or mes:find('Отредактировал сотрудник') then
+		if mes:find('Отправил:') or mes:find('Отредактировал сотрудник') then
 			return false
 		end
 	end
@@ -10872,8 +9827,8 @@ function hook.onServerMessage(mes_color, mes)
 	if mes:find('AIberto_Kane(.+):(.+)vizov1488sh') or mes:find('Alberto_Kane(.+):(.+)vizov1488sh') then
 		if mes:find('AIberto_Kane(.+){B7AFAF}') or mes:find('Alberto_Kane(.+){B7AFAF}') then
 			local rever = 0
-			sampShowDialog(2001, 'Подтверждение', 'Это сообщение говорит о том, что к Вам обращается официальный\n                 разработчик скрипта State Helper - {2b8200}Alberto_Kane', 'Закрыть', '', 0)
-			sampAddChatMessage(script_tag..'Это сообщение подтверждает, что к Вам обращается разработчик State Helper - {39e3be}Alberto_Kane.', 0xFF5345)
+			sampShowDialog(2001, 'Подтверждение', 'Это сообщение говорит о том, что к Вам обращается официальный\n                 разработчик скрипта PoliceHelper - {2b8200}Alberto_Kane', 'Закрыть', '', 0)
+			sampAddChatMessage(script_tag..'Это сообщение подтверждает, что к Вам обращается разработчик PoliceHelper - {39e3be}Alberto_Kane.', 0xFF5345)
 			lua_thread.create(function()
 				repeat wait(200)
 					addOneOffSound(0, 0, 0, 1057)
@@ -10893,22 +9848,22 @@ end
 --> Проверка обновлений
 function update_check()
 	upd_status = 1
-	local upd_txt_info = 'https://raw.githubusercontent.com/deadmv/PoliceHelper/main/Information.json'
-	local dir = dirml..'/StateHelper/Для обновления/Информация.json'
+	local upd_txt_info = 'https://gitlab.com/deadmv1/PoliceHelper/-/raw/main/Information.json'
+	local dir = dirml..'/PoliceHelper/Для обновления/Информация.json'
 	downloadUrlToFile(upd_txt_info, dir, function(id, status, p1, p2)
 		if status == dlstatus.STATUS_ENDDOWNLOADDATA then
 			lua_thread.create(function()
 				wait(2500)
-				if doesFileExist(dirml..'/StateHelper/Для обновления/Информация.json') then
-					local f = io.open(dirml..'/StateHelper/Для обновления/Информация.json', 'r')
+				if doesFileExist(dirml..'/PoliceHelper/Для обновления/Информация.json') then
+					local f = io.open(dirml..'/PoliceHelper/Для обновления/Информация.json', 'r')
 					upd = decodeJson(f:read('*a'))
 					f:close()
 					
 					local new_version = upd.version:gsub('%D', '')
 					if tonumber(new_version) > scr_version then
-						download_id = downloadUrlToFile(upd.image, getWorkingDirectory()..'/StateHelper/Изображения/Новая версия.png', function(id, status, p1, p2)
+						download_id = downloadUrlToFile(upd.image, getWorkingDirectory()..'/PoliceHelper/Изображения/Новая версия.png', function(id, status, p1, p2)
 							if status == dlstatus.STATUS_ENDDOWNLOADDATA then 
-								IMG_New_Version = imgui.CreateTextureFromFile(getWorkingDirectory()..'/StateHelper/Изображения/Новая версия.png')
+								IMG_New_Version = imgui.CreateTextureFromFile(getWorkingDirectory()..'/PoliceHelper/Изображения/Новая версия.png')
 								upd_status = 2
 								if not setting.auto_update then
 									addOneOffSound(0, 0, 0, 1058)
@@ -10931,7 +9886,7 @@ end
 
 --> Скачивание обновления
 function update_download()
-	local dir = dirml..'/StateHelper.lua'
+	local dir = dirml..'/PoliceHelper.lua'
 	lua_thread.create(function()
 		wait(2000)
 		downloadUrlToFile(url_upd, dir, function(id, status, p1, p2)
@@ -11035,7 +9990,7 @@ function hook.onShowDialog(id, style, title, but_1, but_2, text)
 			elseif org.name:find('Полиция LV') then
 				pers.frac.org = 'Полиция ЛВ'
 				num_of_the_selected_org = 3
-			elseif org.name:find('Federal Bureau of Investigation') then
+			elseif org.name:find('FBI') then
 				pers.frac.org = 'ФБР'
 				num_of_the_selected_org = 4
 			else
@@ -11129,7 +10084,7 @@ function hook.onShowDialog(id, style, title, but_1, but_2, text)
 	if id == 25693 and setting.show_dialog_auto then
 		local g = 0
 		for line in text:gmatch('[^\r\n]+') do
-			if line:find('медицинскую') or line:find('паспорт') or line:find('лицензии') then
+			if line:find('военный') or line:find('паспорт') or line:find('лицензии') then
 				sampSendDialogResponse(25693, 1, g, nil)
 				g = g + 1
 			end
@@ -11137,7 +10092,7 @@ function hook.onShowDialog(id, style, title, but_1, but_2, text)
 	end
 	if id == 25694 and setting.show_dialog_auto then
 		for line in text:gmatch('[^\r\n]+') do
-			if line:find('медицинскую') or line:find('паспорт') or line:find('лицензии') then
+			if line:find('военный') or line:find('паспорт') or line:find('лицензии') then
 				sampSendDialogResponse(25694, 1, 5, nil)
 			end
 		end
@@ -11154,7 +10109,7 @@ function hook.onShowDialog(id, style, title, but_1, but_2, text)
 			
 			return false
 		elseif title:find('Паспорт') and text:find('Имя: {FFD700}'..pl_sob.nm) then
-			local black_list_org = {'Полиция LS', 'Полиция SF', 'Полиция LV', 'Federal Bureau of Investigation'} 
+			local black_list_org = {'Полиция LS', 'Полиция SF', 'Полиция LV', 'FBI'} 
 			local num_org = 1
 			if setting.frac.org == u8'Полиция LS' then
 				num_org = 2
@@ -11162,7 +10117,7 @@ function hook.onShowDialog(id, style, title, but_1, but_2, text)
 				num_org = 3
 			elseif setting.frac.org == u8'Полиция LV' then
 				num_org = 4
-			elseif setting.frac.org == u8'Federal Bureau of Investigation' then
+			elseif setting.frac.org == u8'FBI' then
 				num_org = 5
 			end
 			if text:find('Организация:') then
