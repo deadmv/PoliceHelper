@@ -1,7 +1,7 @@
 script_name('StateHelper')
 script_authors('Kane')
 script_description('Script for employees of state organizations on the Samp Mobile Role Playing Game')
-script_version('1.1')
+script_version('1.8')
 script_properties('work-in-pause')
 beta_version = 7
 
@@ -10893,7 +10893,7 @@ end
 --> Проверка обновлений
 function update_check()
 	upd_status = 1
-	local upd_txt_info = 'https://gitlab.com/deadmv1/PoliceHelper/-/raw/main/Information.json'
+	local upd_txt_info = 'https://raw.githubusercontent.com/deadmv/PoliceHelper/main/Information.json'
 	local dir = dirml..'/StateHelper/Для обновления/Информация.json'
 	downloadUrlToFile(upd_txt_info, dir, function(id, status, p1, p2)
 		if status == dlstatus.STATUS_ENDDOWNLOADDATA then
