@@ -1,7 +1,7 @@
 script_name('StateHelper')
 script_authors('Kane')
-script_description('Script for employees of state organizations on the Arizona Role Playing Game')
-script_version('1.7')
+script_description('Script for employees of state organizations on the Samp Mobile Role Playing Game')
+script_version('1.8')
 script_properties('work-in-pause')
 beta_version = 7
 
@@ -281,16 +281,16 @@ local notice = {} --> Значения уведомлений (текст, заголовок, тип - предупрежден
 
 --> Обновление и её зависимости
 upd = {}
-url_upd = 'https://gitlab.com/KaneScripter/StateHelper/-/raw/main/StateHelper.lua'
+url_upd = 'https://raw.githubusercontent.com/deadmv/PoliceHelper/main/StateHelper.lua'
 upd_status = 0
 scr_version = scr.version:gsub('%D','')
 scr_version = tonumber(scr_version)
 
 --> Несохраняемая информация
 local pers = {
-	frac = {org = 'Больница ЛС', title = '', rank = 1}
+	frac = {org = 'Полиция LS', title = '', rank = 1}
 }
-org_all_done = {u8'Больница ЛС', u8'Больница ЛВ', u8'Больница СФ', u8'Больница Джефферсон', u8'Центральный Банк', u8'Центр Лицензирования'}
+org_all_done = {u8'Полиция LS', u8'Полиция SF', u8'Полиция LV', u8'Federal Bureau of Investigation'}
 num_of_the_selected_org = 1
 my = {id = 0, nick = 'Nick_Name'}
 off_butoon_end = false
@@ -375,7 +375,7 @@ frequency = 0
 --> Главные настройки
 setting = {
 	int = {first_start = true, script = 'Helper', theme = 'White'},
-	frac = {org = u8'Больница ЛС', title = u8'Бывалый', rank = 10},
+	frac = {org = u8'Полиция LS', title = u8'Бывалый', rank = 10},
 	nick = '',
 	teg = '',
 	act_time = '',
@@ -435,7 +435,7 @@ setting = {
 		{'za', u8'Отправит фразу "Пройдёмте за мной"', {}, '1'},
 		{'show', u8'Показать игроку свои документы', {}, '1'},
 		{'cam', u8'Начать или прекратить видеофиксацию', {}, '1'},
-		{'mb', u8'Сокращённая команда /members', {}, '1'},
+		{'mb', u8'Сокращённая команда /find', {}, '1'},
 		{'+mute', u8'Выдать бан чата организации сотруднику', {}, '8'},
 		{'-mute', u8'Снять бан чата организации сотруднику', {}, '8'},
 		{'+warn', u8'Выдать сотруднику выговор', {}, '8'},
@@ -1303,8 +1303,7 @@ function main()
 	end
 	
 	members_wait.members = true
-	sampSendChat('/members')
-	sampSendChat('/stats')
+	sampSendChat('/find')
 	
 	style_window()
 	
@@ -2313,7 +2312,7 @@ function window.main_first_start()
 		end
 	end
 	if first_start_anim.text[3] then
-		local carta_org = {u8'Больница ЛС', u8'Больница ЛВ', u8'Больница СФ', u8'Больница Джефферсон', u8'Центр Лицензирования', u8'Центральный Банк'}
+		local carta_org = {u8'Полиция LS', u8'Полиция SF', u8'Полиция LV', u8'Federal Bureau of Investigation'}
 		for i = 1, #carta_org do
 			if num_of_the_selected_org == i then
 				setting.frac.org = carta_org[i]
@@ -2321,34 +2320,24 @@ function window.main_first_start()
 		end
 		imgui.PushFont(font[1])
 		if num_of_the_selected_org == 1 then
-			if skin.CheckboxOne(u8'Больница ЛС', 350, 177) then num_of_the_selected_org = 1 setting.frac.org = u8'Больница ЛС' end
+			if skin.CheckboxOne(u8'Полиция LS', 350, 177) then num_of_the_selected_org = 1 setting.frac.org = u8'Полиция LS' end
 		else
-			if skin.CheckboxOne(u8'Больница ЛС##false_func', 350, 177) then num_of_the_selected_org = 1 setting.frac.org = u8'Больница ЛС' end
+			if skin.CheckboxOne(u8'Полиция LS##false_func', 350, 177) then num_of_the_selected_org = 1 setting.frac.org = u8'Полиция LS' end
 		end
 		if num_of_the_selected_org == 2 then
-			if skin.CheckboxOne(u8'Больница ЛВ', 350, 206) then num_of_the_selected_org = 2 setting.frac.org = u8'Больница ЛВ' end
+			if skin.CheckboxOne(u8'Полиция SF', 350, 206) then num_of_the_selected_org = 2 setting.frac.org = u8'Полиция SF' end
 		else
-			if skin.CheckboxOne(u8'Больница ЛВ##false_func', 350, 206) then num_of_the_selected_org = 2 setting.frac.org = u8'Больница ЛВ' end
+			if skin.CheckboxOne(u8'Полиция SF##false_func', 350, 206) then num_of_the_selected_org = 2 setting.frac.org = u8'Полиция SF' end
 		end
 		if num_of_the_selected_org == 3 then
-			if skin.CheckboxOne(u8'Больница СФ', 350, 235) then num_of_the_selected_org = 3 setting.frac.org = u8'Больница СФ' end
+			if skin.CheckboxOne(u8'Полиция LV', 350, 235) then num_of_the_selected_org = 3 setting.frac.org = u8'Полиция LV' end
 		else
-			if skin.CheckboxOne(u8'Больница СФ##false_func', 350, 235) then num_of_the_selected_org = 3 setting.frac.org = u8'Больница СФ' end
+			if skin.CheckboxOne(u8'Полиция LV##false_func', 350, 235) then num_of_the_selected_org = 3 setting.frac.org = u8'Полиция LV' end
 		end
 		if num_of_the_selected_org == 4 then
-			if skin.CheckboxOne(u8'Больница Джефферсон', 350, 263) then num_of_the_selected_org = 4 setting.frac.org = u8'Больница Джефферсон' end
+			if skin.CheckboxOne(u8'Federal Bureau of Investigation', 350, 263) then num_of_the_selected_org = 4 setting.frac.org = u8'Federal Bureau of Investigation' end
 		else
-			if skin.CheckboxOne(u8'Больница Джефферсон##false_func', 350, 263) then num_of_the_selected_org = 4 setting.frac.org = u8'Больница Джефферсон' end
-		end
-		if num_of_the_selected_org == 5 then
-			if skin.CheckboxOne(u8'Центр Лицензирования', 350, 292) then num_of_the_selected_org = 5 setting.frac.org = u8'Центр Лицензирования' end
-		else
-			if skin.CheckboxOne(u8'Центр Лицензирования##false_func', 350, 292) then num_of_the_selected_org = 5 setting.frac.org = u8'Центр Лицензирования' end
-		end
-		if num_of_the_selected_org == 6 then
-			if skin.CheckboxOne(u8'Центральный Банк', 350, 321) then num_of_the_selected_org = 6 setting.frac.org = u8'Центральный Банк' end
-		else
-			if skin.CheckboxOne(u8'Центральный Банк##false_func', 350, 321) then num_of_the_selected_org = 6 setting.frac.org = u8'Центральный Банк' end
+			if skin.CheckboxOne(u8'Federal Bureau of Investigation##false_func', 350, 263) then num_of_the_selected_org = 4 setting.frac.org = u8'Federal Bureau of Investigation' end
 		end
 		skin.DrawFond({134, 385}, {0, 0}, {600, 1}, imgui.ImVec4(0.70, 0.70, 0.70, 1.00), 15, 15)
 		skin.Button(u8'Продолжить', 630, 400, nil, nil, function() 
@@ -2390,15 +2379,15 @@ function window.main_first_start()
 		imgui.PushFont(font[4])
 		imgui.Text(u8'1. Основные термины и определения')
 		imgui.PopFont()
-		imgui.TextWrapped(u8'1.1 Правообладатель - ИТД Марсель Афанасьев: это лицо, которое обладает правами собственности на интеллектуальную собственность, такую как авторские права, патенты, торговые марки и другие права, связанные с созданием и использованием интеллектуальных продуктов или изобретений. Термин "Правообладатель" также включает в себя разработчика, менеджера, директора, поставщика и других ответственных сторон, участвующих в создании, управлении и поставке Программы (см. определение ниже). Это объединяющий термин, включающий все заинтересованные стороны, которые имеют право предоставлять разрешения на использование Программы (см. определение ниже) и управлять правами доступа в соответствии с данным Лицензионным соглашением (данный договор между двумя сторонами: (Пользователь (см. определение ниже) и Правообладатель), далее "Соглашение").\nПравообладателем данной Программы (см. определение ниже), а также официальным обладателем авторских прав и интеллектуальной собственности, является единственное лицо. Все иные лица, причастные к созданию, разработке, поддержке и другим терминам включающих в себя определение из термина Правообладателя, за исключением правами собственности на интеллектуальную собственность, такую как авторские права, патенты, торговые марки и другие права, связанные с созданием и использованием интеллектуальных продуктов или изобретений данного программного обеспечения (далее "ПО"), являются партнёрами (далее "Партнёр", "Партнёры") Правообладателя.\n')
+		imgui.TextWrapped(u8'1.1 Правообладатель - это лицо, которое обладает правами собственности на интеллектуальную собственность, такую как авторские права, патенты, торговые марки и другие права, связанные с созданием и использованием интеллектуальных продуктов или изобретений. Термин "Правообладатель" также включает в себя разработчика, менеджера, директора, поставщика и других ответственных сторон, участвующих в создании, управлении и поставке Программы (см. определение ниже). Это объединяющий термин, включающий все заинтересованные стороны, которые имеют право предоставлять разрешения на использование Программы (см. определение ниже) и управлять правами доступа в соответствии с данным Лицензионным соглашением (данный договор между двумя сторонами: (Пользователь (см. определение ниже) и Правообладатель), далее "Соглашение").\nПравообладателем данной Программы (см. определение ниже), а также официальным обладателем авторских прав и интеллектуальной собственности, является единственное лицо. Все иные лица, причастные к созданию, разработке, поддержке и другим терминам включающих в себя определение из термина Правообладателя, за исключением правами собственности на интеллектуальную собственность, такую как авторские права, патенты, торговые марки и другие права, связанные с созданием и использованием интеллектуальных продуктов или изобретений данного программного обеспечения (далее "ПО"), являются партнёрами (далее "Партнёр", "Партнёры") Правообладателя.\n')
 		imgui.TextWrapped(u8'Термин относится к ПО, в котором находится данное Лицензионное соглашение или на одном виртуальном, облачном или удалённом носителе, учётной записи одного Пользователя всего ресурса, сайта или хранилища, на котором расположено ПО.\n\n')
 		imgui.TextWrapped(u8'1.2 Программа - это ПО, принадлежащее Правообладателю, которое было приобретено и установлено на Носитель (см. определение ниже) технического устройства. Из списка выпущенных Правообладателем Программ, данный термин относится ко всем ПО, включающих в своём названии словосочетание "State Helper", написанное на английском языке в любом из возможных вариантов регистра букв.\nНаименование ПО можно найти в свойствах файла установленного с источников Правообладателя в случае, если файл не был отредактирован в последствии перемещения его на Носитель (см. определение ниже) технического устройства.\n\n')
-		imgui.TextWrapped(u8'1.3 Носитель - устройство или средство, используемое для хранения и передачи данных. Это может быть физический объект, такой как жёсткий диск, USB-флешка, CD, DVD, Blu-ray диск или другие съёмные устройства хранения информации.\n\n1.4 Arizona Role Play - это проект ролевой игры (Role-Play) на платформе SA:MP (San Andreas Multiplayer), принадлежащий игровой компании Arizona Games. В этом проекте игроки могут взаимодействовать в виртуальном мире, исполняя определенные роли и выполняя задания в атмосфере, созданной на базе игры Grand Theft Auto: San Andreas с использованием мультиплеерной платформы SA:MP.\n\n1.5 Руководство пользователя - документ, который содержит инструкцию о том, как правильно использовать Программу, предоставленную Правообладателем.\n\n1.6 Пользователь - человек, установивший или использующий Программу, предоставленную Правообладателем.\n\n1.7 Блокировка программы - это техническая или программная мера, которая преднамеренно ограничивает доступ Пользователя к определенным функциям, данным или ресурсам Программы.\n\n1.8 Интернет - информационно-телекоммуникационная сеть, т. е. технологическая система, предназначенная для передачи по линиям связи информации, доступ к которой осуществляется с использованием средств вычислительной техники.\n\n1.9 Установка - процесс размещения Программы на компьютере или устройстве, чтобы она стала доступной и готовой к использованию. Во время установки происходит копирование файлов Программы на жёсткий диск или другое физическое хранилище, кроме тех, доступ к которым требует наличия Интернета.\n\n')
+		imgui.TextWrapped(u8'1.3 Носитель - устройство или средство, используемое для хранения и передачи данных. Это может быть физический объект, такой как жёсткий диск, USB-флешка, CD, DVD, Blu-ray диск или другие съёмные устройства хранения информации.\n\n1.4 Samp Mobile Role Play - это проект ролевой игры (Role-Play) на платформе SA:MP (San Andreas Multiplayer), принадлежащий игровой компании Samp Mobile Games. В этом проекте игроки могут взаимодействовать в виртуальном мире, исполняя определенные роли и выполняя задания в атмосфере, созданной на базе игры Grand Theft Auto: San Andreas с использованием мультиплеерной платформы SA:MP.\n\n1.5 Руководство пользователя - документ, который содержит инструкцию о том, как правильно использовать Программу, предоставленную Правообладателем.\n\n1.6 Пользователь - человек, установивший или использующий Программу, предоставленную Правообладателем.\n\n1.7 Блокировка программы - это техническая или программная мера, которая преднамеренно ограничивает доступ Пользователя к определенным функциям, данным или ресурсам Программы.\n\n1.8 Интернет - информационно-телекоммуникационная сеть, т. е. технологическая система, предназначенная для передачи по линиям связи информации, доступ к которой осуществляется с использованием средств вычислительной техники.\n\n1.9 Установка - процесс размещения Программы на компьютере или устройстве, чтобы она стала доступной и готовой к использованию. Во время установки происходит копирование файлов Программы на жёсткий диск или другое физическое хранилище, кроме тех, доступ к которым требует наличия Интернета.\n\n')
 		imgui.TextWrapped(u8'1.10 Игра - конкретный вид развлекательной деятельности, не связанный с непосредственными задачами жизнеобеспечения, выполняющий функции заполнения досуга человека.\n\n1.11 Версия программы - присвоенный номер Программы, позволяющий определить новизну ПО, т. е. дату его выхода, а также различия относительно предыдущих версий Программы.\nВерсия программы отображена в самой Программе под соответствующим названием включающая в своём словосочетании слово "Версия".\n\n1.12 Закрытое тестирование - процесс исследования, испытания ПО, имеющий своей целью проверку соответствия между реальным поведением программы и её ожидаемым поведением на конечном наборе тестов, выбранных определённым образом.\nПроцесс осуществляется без учёта возможности публикации такого ПО в общий доступ, дающий возможность любому Пользователю осуществить установку ПО.\nТермин применяется к Программе, имеющей в своём программном коде заданную условную переменную "Beta" не соответствующей второму числу текущей Версии программы.\n\n')
 		imgui.PushFont(font[4])
 		imgui.Text(u8'2. Лицензия')
 		imgui.PopFont()
-		imgui.TextWrapped(u8'2.1 Правообладатель предоставляет Вам неисключительную лицензию на использование Программы для упрощения процесса Игры на проекте Arizona Role Play, описанных в Руководстве пользователя, при условии, в котором Вами соблюдены все необходимые требования, описанные в Руководстве пользователя, а также всех ограничений и условий использования Программы, указанных в настоящем Соглашении.\nВ случае использования Программы для тестирования функциональности, Правообладатель предоставляет Вам неисключительную лицензию на тестирование программы при условии соблюдения Вами всех необходимых требований, описанных в Руководстве пользователя, а также всех ограничений и условий использования Программы, указанных в настоящем Соглашении.\n\n')
+		imgui.TextWrapped(u8'2.1 Правообладатель предоставляет Вам неисключительную лицензию на использование Программы для упрощения процесса Игры на проекте Samp Mobile Role Play, описанных в Руководстве пользователя, при условии, в котором Вами соблюдены все необходимые требования, описанные в Руководстве пользователя, а также всех ограничений и условий использования Программы, указанных в настоящем Соглашении.\nВ случае использования Программы для тестирования функциональности, Правообладатель предоставляет Вам неисключительную лицензию на тестирование программы при условии соблюдения Вами всех необходимых требований, описанных в Руководстве пользователя, а также всех ограничений и условий использования Программы, указанных в настоящем Соглашении.\n\n')
 		imgui.TextWrapped(u8'2.2 При соблюдении определённых условий Вы можете создать копию программы типа "Закрытое тестирование" с единственной целью архивирования и замены правомерно установленного экземпляра в случае его утери, уничтожения или непригодности. Тем не менее, использование такой копии для иных целей запрещено, и владение ею должно прекратиться, если обладание правомерным экземпляром программы прекращается.\n\n')
 		imgui.TextWrapped(u8'2.3 После установки программы Вам, по возможности, предоставляется право получать от Правообладателя или его Партнёров:\n- новые версии ПО по мере их выхода (через Интернет)\n- техническую поддержку (через Интернет)\n- доступ к информационным и вспомогательным ресурсам Правообладателя.\nДанные возможности не могут быть гарантированы Правообладателем и в праве перестать быть доступными любому Пользователю Программы в любой момент времени без объяснения причин.\n\n')
 		imgui.TextWrapped(u8'2.4 В случае установки Программы типа "Закрытое тестирование" через Интернет, Вы имеете право использовать такую копию Программы исключительно на одном техническом устройстве или Ностеле. Количество созданных копий Программы на одном устройстве неограниченно. Запрещается создавать, распространять, передавать копию такой Программы через облачные хранилища, где доступ к ней могут получить другие лица, кроме Вас. Запрещается копировать такую Программу на носитель, физический доступ к которому у Вас отсутствует. Запрещено устанавливать такую копию Программу на любой носитель с источников, не включённых в перечень, описанный в данном Соглашении.\n\n')
@@ -2700,7 +2689,7 @@ function window.main()
 				inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.else_tag..']: '
 			elseif setting.depart.format == u8'к ЛСПД,' then
 				inp_text_dep = '/d '..u8'к'..' '..setting.depart.else_tag..', '
-			elseif setting.depart.format == u8'[Больница ЛС] - [100,3] - [Полиция ЛС]:' then
+			elseif setting.depart.format == u8'[Полиция LS] - [100,3] - [Полиция ЛС]:' then
 				inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.volna..'] - ['..setting.depart.else_tag..']: '
 			end
 			transition(4)
@@ -2903,7 +2892,7 @@ function window.main()
 		skin.DrawFond({51, 97}, {0, 0}, {596, 1}, imgui.ImVec4(0.50, 0.50, 0.50, 0.40), 0, 0)
 		skin.DrawFond({51, 137}, {0, 0}, {596, 1}, imgui.ImVec4(0.50, 0.50, 0.50, 0.40), 0, 0)
 		
-		if drawn_button(187, 3, u8'Мемберс') then select_basic = {false, false, false, false, true, false, false, false, false, false} end
+		if drawn_button(187, 3, u8'Финд') then select_basic = {false, false, false, false, true, false, false, false, false, false} end
 		drawn_icon_b(189, imgui.ImVec4(0.0, 0.47, 0.99 ,1.00), fa.ICON_USER_CIRCLE_O, {25, 197}, {-0.4, 0.7})
 		
 		if drawn_button(227, 0, u8'Уведомления') then select_basic = {false, false, false, false, false, true, false, false, false, false} end
@@ -2962,13 +2951,20 @@ function window.main()
 			imgui.SetCursorPos(imgui.ImVec2(34, 122))
 			imgui.Text(u8'Организация')
 			imgui.PopFont()
-			if skin.List({480, 116}, setting.frac.org, {u8'Больница ЛС', u8'Больница ЛВ', u8'Больница СФ', u8'Больница Джефферсон', u8'Центр Лицензирования', u8'Центральный Банк'}, 185, 'setting.frac.org') then 
+			if skin.List({480, 116}, setting.frac.org, {u8'Полиция LS', u8'Полиция SF', u8'Полиция LV', u8'Federal Bureau of Investigation'}, 185, 'setting.frac.org') then 
 				add_table_act(setting.frac.org, false)
 				save('setting')
 				create_act(1)
 			end
 			
-			new_draw(199, 65)
+			new_draw(199, 70)
+			skin.InputText(33, 221, u8'Ваша должность',' setting.frac.title', 74, 633, '[а-Я%s]+', 'setting')
+			imgui.SetCursorPos(imgui.ImVec2(34, 250))
+			imgui.PushFont(font[3])
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Ваша должность будет полезна для использования в различных отыгровках.')
+			imgui.PopFont()
+
+			--[[new_draw(199, 65)
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 216))
 			imgui.Text(u8'Должность')
@@ -2979,7 +2975,7 @@ function window.main()
 			imgui.SetCursorPos(imgui.ImVec2(34, 238))
 			imgui.PushFont(font[3])
 			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Определено автоматически.')
-			imgui.PopFont()
+			imgui.PopFont()--]]
 			
 			new_draw(276, 65)
 			imgui.PushFont(font[1])
@@ -3180,16 +3176,16 @@ function window.main()
 			end
 			imgui.EndChild()
 		elseif select_basic[5] then
-			if menu_draw_up(u8'Мемберс', true) then select_basic[5] = false end
+			if menu_draw_up(u8'Финд', true) then select_basic[5] = false end
 			imgui.SetCursorPos(imgui.ImVec2(163, 41))
-			imgui.BeginChild(u8'Мемберс', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
+			imgui.BeginChild(u8'Финд', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
 			
 			new_draw(17, 47)
 			imgui.SetCursorPos(imgui.ImVec2(639, 30))
-			if skin.Switch(u8'##Мемберс на экране', setting.members.func) then setting.members.func = not setting.members.func save('setting') end
+			if skin.Switch(u8'##Финд на экране', setting.members.func) then setting.members.func = not setting.members.func save('setting') end
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 31))
-			imgui.Text(u8'Мемберс организации на Вашем экране')
+			imgui.Text(u8'Финд организации на Вашем экране')
 			imgui.PopFont()
 			
 			if setting.members.func then
@@ -5858,13 +5854,13 @@ function window.main()
 		
 		new_draw(73, 44)
 		
-		if skin.List({350, 24}, setting.depart.format, {u8'[ЛСМЦ] - [ЛСПД]:', u8'к ЛСПД,', u8'[Больница ЛС] - [100,3] - [Полиция ЛС]:'}, 300, 'setting.depart.format') then 
+		if skin.List({350, 24}, setting.depart.format, {u8'[ЛСМЦ] - [ЛСПД]:', u8'к ЛСПД,', u8'[Полиция LS] - [100,3] - [Полиция ЛС]:'}, 300, 'setting.depart.format') then 
 			save('setting')
 			if setting.depart.format == u8'[ЛСМЦ] - [ЛСПД]:' then
 				inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.else_tag..']: '
 			elseif setting.depart.format == u8'к ЛСПД,' then
 				inp_text_dep = '/d '..u8'к'..' '..setting.depart.else_tag..', '
-			elseif setting.depart.format == u8'[Больница ЛС] - [100,3] - [Полиция ЛС]:' then
+			elseif setting.depart.format == u8'[Полиция LS] - [100,3] - [Полиция ЛС]:' then
 				inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.volna..'] - ['..setting.depart.else_tag..']: '
 			end
 		end
@@ -5888,7 +5884,7 @@ function window.main()
 			if dans ~= setting.depart.else_tag then
 				inp_text_dep = '/d '..u8'к'..' '..setting.depart.else_tag..', '
 			end
-		elseif setting.depart.format == u8'[Больница ЛС] - [100,3] - [Полиция ЛС]:' then
+		elseif setting.depart.format == u8'[Полиция LS] - [100,3] - [Полиция ЛС]:' then
 			imgui.SetCursorPos(imgui.ImVec2(15, 85))
 			imgui.Text(u8'Ваш тег')
 			imgui.SetCursorPos(imgui.ImVec2(214, 85))
@@ -5942,7 +5938,7 @@ function window.main()
 					inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.else_tag..']: '
 				elseif setting.depart.format == u8'к ЛСПД,' then
 					inp_text_dep = '/d '..u8'к'..' '..setting.depart.else_tag..', '
-				elseif setting.depart.format == u8'[Больница ЛС] - [100,3] - [Полиция ЛС]:' then
+				elseif setting.depart.format == u8'[Полиция LS] - [100,3] - [Полиция ЛС]:' then
 					inp_text_dep = '/d ['..setting.depart.my_tag..'] - ['..setting.depart.volna..'] - ['..setting.depart.else_tag..']: '
 				end
 			end)
@@ -8441,17 +8437,17 @@ function window.main()
 		new_draw(69, 43)
 		imgui.PushFont(font[1])
 		imgui.SetCursorPos(imgui.ImVec2(15, 81))
-		imgui.Text(u8'© 2023 ИТД Марсель Афанасьев. Все права защищены. Копирование запрещено.')
+		imgui.Text(u8'© 2023 Все права защищены. Копирование запрещено.')
 		new_draw(124, 43)
 		imgui.SetCursorPos(imgui.ImVec2(15, 136))
-		imgui.Text(u8'Поддержать разработчика: 5469 9804 2297 5769 (номер карты)')
+		imgui.Text(u8'Поддержать разработчика: 2200 7007 4739 4087 (номер карты)')
 		new_draw(179, 54)
 		skin.Button(u8'Задать вопрос разработчику', 15, 191, 636, 30, function()
-			shell32.ShellExecuteA(nil, 'open', 'https://vk.me/marseloy', nil, nil, 1)
+			shell32.ShellExecuteA(nil, 'open', 'https://vk.me/deadmv', nil, nil, 1)
 		end)
 		new_draw(245, 54)
 		skin.Button(u8'Открыть пользовательское соглашение', 15, 257, 636, 30, function()
-			shell32.ShellExecuteA(nil, 'open', 'https://raw.githubusercontent.com/KaneScripter/StateHelper/main/Пользовательское%20соглашение.txt', nil, nil, 1)
+			shell32.ShellExecuteA(nil, 'open', 'https://raw.githubusercontent.com/deadmv/PoliceHelper/main/Пользовательское%20соглашение.txt', nil, nil, 1)
 		end)
 		imgui.PopFont()
 		imgui.EndChild()
@@ -9342,12 +9338,12 @@ function add_table_act(org_to_replace, default_act)
 		create_file_json('cam', nil, add_table, '1')
 		add_table = {
 			arg = {},
-			nm = 'mb',
+			nm = 'fd',
 			var = {},
 			act = {
-				{0, u8'/members'}
+				{0, u8'/find'}
 			},
-			desc = u8'Сокращённая команда /members',
+			desc = u8'Сокращённая команда /find',
 			tr_fl = {0, 0, 0},
 			delay = 2000,
 			not_send_chat = false,
@@ -10703,7 +10699,7 @@ function hook.onServerMessage(mes_color, mes)
 	end
 	if setting.chat_help then
 		if mes:find('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~') or mes:find('- Основные команды сервера: /menu /help /gps /settings') 
-		or mes:find('Пригласи друга и получи бонус в размере') or mes:find('- Донат и получение дополнительных средств arizona-rp.com/donate') 
+		or mes:find('Пригласи друга и получи бонус в размере') or mes:find('- Донат и получение дополнительных средств Samp Mobile-rp.com/donate') 
 		or mes:find('Подробнее об обновлениях сервера') or mes:find('(Личный кабинет/Донат)') or mes:find('С помощью телефона можно заказать') 
 		or mes:find('В нашем магазине ты можешь') or mes:find('их на желаемый тобой {FFFFFF}бизнес') or mes:find('Игроки со статусом {FFFFFF}VIP{6495ED} имеют большие возможности') 
 		or mes:find('можно приобрести редкие {FFFFFF}автомобили, аксессуары, воздушные') or mes:find('предметы, которые выделят тебя из толпы! Наш сайт:') 
@@ -10897,7 +10893,7 @@ end
 --> Проверка обновлений
 function update_check()
 	upd_status = 1
-	local upd_txt_info = 'https://gitlab.com/KaneScripter/StateHelper/-/raw/main/Information.json'
+	local upd_txt_info = 'https://raw.githubusercontent.com/deadmv/PoliceHelper/main/Information.json'
 	local dir = dirml..'/StateHelper/Для обновления/Информация.json'
 	downloadUrlToFile(upd_txt_info, dir, function(id, status, p1, p2)
 		if status == dlstatus.STATUS_ENDDOWNLOADDATA then
@@ -11001,7 +10997,7 @@ function filter(mode, filder_char)
 	return cb_filter
 end
 
---> Мемберс (Cosmo)
+--> Финд (Cosmo)
 members = {}
 cloth = false
 lastDialogWasActive = 0
@@ -11030,24 +11026,18 @@ function hook.onShowDialog(id, style, title, but_1, but_2, text)
 		members_wait.next_page.bool = false
 		if title:find('{FFFFFF}(.+)%(В сети: (%d+)%)') then
 			org.name, org.online = title:match('{FFFFFF}(.+)%(В сети: (%d+)%)')
-			if org.name:find('Больница LS') then
-				pers.frac.org = 'Больница ЛС'
+			if org.name:find('Полиция LS') then
+				pers.frac.org = 'Полиция ЛС'
 				num_of_the_selected_org = 1
-			elseif org.name:find('Больница LV') then
-				pers.frac.org = 'Больница ЛВ'
+			elseif org.name:find('Полиция SF') then
+				pers.frac.org = 'Полиция СФ'
 				num_of_the_selected_org = 2
-			elseif org.name:find('Больница SF') then
-				pers.frac.org = 'Больница СФ'
+			elseif org.name:find('Полиция LV') then
+				pers.frac.org = 'Полиция ЛВ'
 				num_of_the_selected_org = 3
-			elseif org.name:find('Больница Jefferson') then
-				pers.frac.org = 'Больница Джефферсон'
+			elseif org.name:find('Federal Bureau of Investigation') then
+				pers.frac.org = 'ФБР'
 				num_of_the_selected_org = 4
-			elseif org.name:find('Центр лицензирования') then
-				pers.frac.org = 'Центр Лицензирования'
-				num_of_the_selected_org = 5
-			elseif org.name:find('Центральный Банк') then
-				pers.frac.org = 'Центральный Банк'
-				num_of_the_selected_org = 6
 			else
 				pers.frac.org = org.name
 				num_of_the_selected_org = 0
@@ -11164,18 +11154,16 @@ function hook.onShowDialog(id, style, title, but_1, but_2, text)
 			
 			return false
 		elseif title:find('Паспорт') and text:find('Имя: {FFD700}'..pl_sob.nm) then
-			local black_list_org = {'Больница LS', 'Больница SF', 'Больница LV', 'Больница Jafferson', 'Центр лицензирования', 'Центральный Банк'} 
+			local black_list_org = {'Полиция LS', 'Полиция SF', 'Полиция LV', 'Federal Bureau of Investigation'} 
 			local num_org = 1
-			if setting.frac.org == u8'Больница СФ' then
+			if setting.frac.org == u8'Полиция LS' then
 				num_org = 2
-			elseif setting.frac.org == u8'Больница ЛВ' then
+			elseif setting.frac.org == u8'Полиция SF' then
 				num_org = 3
-			elseif setting.frac.org == u8'Больница Джефферсон' then
+			elseif setting.frac.org == u8'Полиция LV' then
 				num_org = 4
-			elseif setting.frac.org == u8'Центр Лицензирования' then
+			elseif setting.frac.org == u8'Federal Bureau of Investigation' then
 				num_org = 5
-			elseif setting.frac.org == u8'Центральный Банк' then
-				num_org = 6
 			end
 			if text:find('Организация:') then
 				sob_info.work = 1
@@ -11217,7 +11205,7 @@ end
 function EXPORTS.sendRequest()
 	if not sampIsDialogActive() then
 		members_wait.members = true
-		sampSendChat('/members')
+		sampSendChat('/find')
 		return true
 	end
 	return false
@@ -11230,7 +11218,7 @@ function activate_function_members()
 			if not members_wait.members and setting.members.func and thread:status() == 'dead' and not sampIsDialogActive() then
 				members_wait.members = true
 				dont_show_me_members = false
-				sampSendChat('/members')
+				sampSendChat('/find')
 			end
 			wait(7500)
 		end
@@ -11636,15 +11624,15 @@ end
 
 function render_members()
 	local X, Y = setting.members.pos.x, setting.members.pos.y
-	local title = string.format('%s | Онлайн: %s%s', org.name, org.online, (setting.members.afk and (' (%s в АФК)'):format(org.afk) or ''))
+	local title = string.format('Онлайн в организации', org.name, org.online, (setting.members.afk and (' (%s в АФК)'):format(org.afk) or ''))
 	local col_title = changeColorAlpha(setting.members.color.title, setting.members.vis)
 	if setting.members.invers then
 		if renderFontDrawClickableText(script_cursor, fontes, title, X, Y - setting.members.dist - 5, col_title, col_title, 4, false) then
-			sampSendChat('/members')
+			--sampSendChat('/find')
 		end
 	else
 		if renderFontDrawClickableText(script_cursor, fontes, title, X, Y - setting.members.dist - 5, col_title, col_title, 3, false) then
-			sampSendChat('/members')
+			--sampSendChat('/find')
 		end
 	end
 	if org.name == 'Гражданин' then
@@ -11851,9 +11839,9 @@ function time()
 			timetr[2] = math.floor(time_song / 60)
 		end
 		
-		if close_stats then
+		--[[if close_stats then
 			sampSendChat('/stats')
-		end
+		end--]]
 	end
 end
 
