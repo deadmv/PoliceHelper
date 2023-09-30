@@ -1,7 +1,7 @@
 script_name('PoliceHelper')
-script_authors('deadmv')
+script_authors('Kane')
 script_description('Script for employees of state organizations on the Samp Mobile Role Playing Game')
-script_version('1.9')
+script_version('2.0')
 script_properties('work-in-pause')
 beta_version = 7
 
@@ -17,7 +17,7 @@ local text_err_and_read = {
 После завершения установки вновь запустите игру. Проблема исчезнет.
 
 Если Вам это не помогло, то обращайтесь в сообщения ВКонтакте:
-		vk.com/marseloy
+		vk.com/deadmv
 
 Игра была свернута, поэтому можете продолжить играть. 
 ]],
@@ -35,7 +35,7 @@ local text_err_and_read = {
 После завершения установки вновь запустите игру. Проблема исчезнет.
 
 Если Вам это не помогло, то обращайтесь в сообщения:
-		vk.com/marseloy
+		vk.com/deadmv
 
 Игра была свернута, поэтому можете продолжить играть. 
 ]],
@@ -88,9 +88,11 @@ ffi.cdef [[
 --> Подключение библиотек и модулей
 require 'lib.sampfuncs'
 require 'lib.moonloader'
+local as_action = require('moonloader').audiostream_state
 local mem = require 'memory'
 local vkeys = require 'vkeys'
 local encoding = require 'encoding'
+local bell = loadAudioStream('moonloader/PoliceHelper/bell.mp3')
 
 if not doesFileExist(getWorkingDirectory()..'/lib/effil.lua') then
 	effil_lib_NOT = true
@@ -115,6 +117,12 @@ local shell32 = ffi.load 'Shell32'
 local ole32 = ffi.load 'Ole32'
 ole32.CoInitializeEx(nil, 2 + 4)
 
+--> Массив с ключами активации
+local checkKeys = {
+	"12345678",
+	"87654321",
+	-- Добавьте другие ключи активации, по мере необходимости
+}
 if not doesFileExist(getGameDirectory()..'/SAMPFUNCS.asi') then
 	ffi.C.ShowWindow(ffi.C.GetActiveWindow(), 6)
 	ffi.C.MessageBoxA(0, text_err_and_read[1], 'PoliceHelper', 0x00000030 + 0x00010000)
@@ -281,7 +289,7 @@ local notice = {} --> Значения уведомлений (текст, заголовок, тип - предупрежден
 
 --> Обновление и её зависимости
 upd = {}
-url_upd = 'https://raw.githubusercontent.com/deadmv/PoliceHelper/main/PoliceHelper.lua'
+url_upd = 'https://raw.githubusercontent.com/deadmv/PoliceHelper/main/PoliceHelper.luac'
 upd_status = 0
 scr_version = scr.version:gsub('%D','')
 scr_version = tonumber(scr_version)
@@ -610,6 +618,12 @@ local font = {}
 local bold_font = {}
 local fa_font = {}
 
+-- Функция для воспроизведения звука
+local function playSound(sound)
+	setAudioStreamState(sound, as_action.PLAY)
+	setAudioStreamVolume(sound, 40)
+end
+
 function update_render_font()
 	function imgui.BeforeDrawFrame()
 		if fa_font[1] == nil then
@@ -743,6 +757,9 @@ record = {
 	[8] = 'http://radiorecord.hostingradio.ru/bighits96.aacp',
 	[9] = 'http://radiorecord.hostingradio.ru/organic96.aacp',
 	[10] = 'http://radiorecord.hostingradio.ru/russianhits96.aacp'
+}
+bell = {
+	[1] = 'https://drive.google.com/file/d/1Anfm-OF05-SVwWIPtrJN8cFzSZMJBNSB/view?usp=drive_link'
 }
 record_name = {'Dance', 'Megamix', 'Party 24/7', 'Phonk', 'Гоп FM', 'Руки Вверх', 'Dubstep', 'Big Hits', 'Organic', 'Russian Hits'}
 volume_buf = imgui.ImFloat(1.0)
@@ -1060,6 +1077,27 @@ function next_track()
 	end
 end
 
+function checkActivation(key)
+	for _, value in ipairs(checkKey) do
+	    if value == key then
+			return true -- Ключ активации найден
+	  	end
+	end
+	return false -- Ключ активации не найден
+end
+  
+function checkKeyFromSettings()
+	local userKey = settings.key -- Получаем значение ключа из поля settings.key
+  
+	if checkActivation(userKey) then
+		sampAddChatMessage(string.format(script_tag..'{FFFFFF}Ключ активации верен! Тулс активирован.'), color_tag)
+	  	-- Дальнейшие действия в случае успешной активации
+	else
+		sampAddChatMessage(string.format(script_tag..'{FFFFFF}Ключ активации неверен! Тулс не активирован.'), color_tag)
+	  	-- Дальнейшие действия в случае неуспешной активации
+	end
+end
+
 function stalecatin()
 	if get_status_potok_song() == 3 and status_track_pl == 'PLAY' then
 		action_song('PLAY')
@@ -1097,10 +1135,12 @@ function main()
 	save_tracks = apply_settings('Треки.json', 'треков', save_tracks)
 	scene = apply_settings('Сцены.json', 'сцен', scene)
 	
+	--checkKey
 	repeat wait(100) until sampIsLocalPlayerSpawned()
 	local _, myid = sampGetPlayerIdByCharHandle(PLAYER_PED)
 	my = {id = myid, nick = sampGetPlayerNickname(myid)}
 	sampAddChatMessage(string.format(script_tag..'{FFFFFF}%s, для активации главного меню, отправьте в чат {a8a8a8}/ph', sampGetPlayerNickname(my.id):gsub('_',' ')), color_tag)
+	--checkKeyFromSettings()
 	
 	if doesFileExist(dirml..'/MedicalHelper.lua') then
 		os.remove(dirml..'/MedicalHelper.lua')
@@ -1303,7 +1343,7 @@ function main()
 	end
 	
 	members_wait.members = true
-	sampSendChat('/find')
+	--sampSendChat('/find')
 	
 	style_window()
 	
@@ -2958,7 +2998,7 @@ function window.main()
 			end
 			
 			new_draw(199, 70)
-			skin.InputText(33, 221, u8'Ваша должность',' setting.frac.title', 74, 633, '[а-Я%s]+', 'setting')
+			skin.InputText(33, 221, u8'Ваша должность (на русском)',' setting.frac.title', 74, 633, '[а-Я%s]+', '[a-Z%s]+', 'setting')
 			imgui.SetCursorPos(imgui.ImVec2(34, 250))
 			imgui.PushFont(font[3])
 			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Ваша должность будет полезна для использования в различных отыгровках.')
@@ -3170,7 +3210,7 @@ function window.main()
 				imgui.SetCursorPos(imgui.ImVec2(34, 238))
 				imgui.Text(u8'Акцент в рацию департамента (/d)')
 				imgui.SetCursorPos(imgui.ImVec2(34, 268))
-				imgui.Text(u8'Акцент в чат банды/мафии (/f)')
+				imgui.Text(u8'Акцент в мегафон (/m)')
 				
 				imgui.PopFont()
 			end
@@ -3180,104 +3220,12 @@ function window.main()
 			imgui.SetCursorPos(imgui.ImVec2(163, 41))
 			imgui.BeginChild(u8'Финд', imgui.ImVec2(700, 422 + start_pos + new_pos), false, imgui.WindowFlags.NoScrollbar + (size_win and imgui.WindowFlags.NoMove or 0))
 			
-			new_draw(17, 47)
-			imgui.SetCursorPos(imgui.ImVec2(639, 30))
-			if skin.Switch(u8'##Финд на экране', setting.members.func) then setting.members.func = not setting.members.func save('setting') end
-			imgui.PushFont(font[1])
-			imgui.SetCursorPos(imgui.ImVec2(34, 31))
-			imgui.Text(u8'Финд организации на Вашем экране')
-			imgui.PopFont()
-			
-			if setting.members.func then
-				new_draw(76, 77)
-				imgui.SetCursorPos(imgui.ImVec2(639, 89))
-				if skin.Switch(u8'##Скрывать при диалоге', setting.members.dialog) then setting.members.dialog = not setting.members.dialog save('setting') end
-				imgui.SetCursorPos(imgui.ImVec2(639, 119))
-				if skin.Switch(u8'##Инверсировать текст', setting.members.invers) then setting.members.invers = not setting.members.invers save('setting') end
-				imgui.PushFont(font[1])
-				imgui.SetCursorPos(imgui.ImVec2(34, 90))
-				imgui.Text(u8'Скрывать текст, если открыт диалог')
-				imgui.SetCursorPos(imgui.ImVec2(34, 120))
-				imgui.Text(u8'Инверсировать текст')
-				
-				new_draw(165, 166)
-				imgui.SetCursorPos(imgui.ImVec2(639, 178))
-				if skin.Switch(u8'##Выделять цветом в форме', setting.members.form) then setting.members.form = not setting.members.form save('setting') end
-				imgui.SetCursorPos(imgui.ImVec2(639, 208))
-				if skin.Switch(u8'##Отображать id', setting.members.id) then setting.members.id = not setting.members.id save('setting') end
-				imgui.SetCursorPos(imgui.ImVec2(639, 238))
-				if skin.Switch(u8'##Отображать ранг', setting.members.rank) then setting.members.rank = not setting.members.rank save('setting') end
-				imgui.SetCursorPos(imgui.ImVec2(639, 268))
-				if skin.Switch(u8'##Отображать afk', setting.members.afk) then setting.members.afk = not setting.members.afk save('setting') end
-				imgui.SetCursorPos(imgui.ImVec2(639, 298))
-				if skin.Switch(u8'##Отображать выговоры', setting.members.warn) then setting.members.warn = not setting.members.warn save('setting') end
-				
-				imgui.SetCursorPos(imgui.ImVec2(34, 179))
-				imgui.Text(u8'Выделять цветом тех, кто в форме')
-				imgui.SetCursorPos(imgui.ImVec2(34, 209))
-				imgui.Text(u8'Отображать id игроков')
-				imgui.SetCursorPos(imgui.ImVec2(34, 239))
-				imgui.Text(u8'Отображать ранг игроков')
-				imgui.SetCursorPos(imgui.ImVec2(34, 269))
-				imgui.Text(u8'Отображать время АФК')
-				imgui.SetCursorPos(imgui.ImVec2(34, 299))
-				imgui.Text(u8'Отображать количество выговоров')
-				
+			if setting.frac.org == u8'Полиция LS' or setting.frac.org == u8'Полиция SF' or setting.frac.org == u8'Полиция LV' or setting.frac.org == u8'FBI' then
+				imgui.PushFont(bold_font[4])
+				imgui.SetCursorPos(imgui.ImVec2(92, 187 + ((start_pos + new_pos) / 2)))
+				imgui.Text(u8'    Пока недоступно :(')
 				imgui.PopFont()
-				
-				new_draw(343, 138)
-				if skin.Slider('##Размер шрифта', 'setting.members.size', 1, 25, 205, {470, 357}, 'setting') then fontes = renderCreateFont('Trebuchet MS', setting.members.size, setting.members.flag) save('setting') end
-				if skin.Slider('##Флаг шрифта', 'setting.members.flag', 1, 25, 205, {470, 384}, 'setting') then fontes = renderCreateFont('Trebuchet MS', setting.members.size, setting.members.flag) save('setting') end
-				skin.Slider('##Расстояние между строками', 'setting.members.dist', 1, 30, 205, {470, 414}, 'setting')
-				skin.Slider('##Прозрачность текста', 'setting.members.vis', 1, 255, 205, {470, 444}, 'setting')
-				imgui.PushFont(font[1])
-				imgui.SetCursorPos(imgui.ImVec2(34, 356))
-				imgui.Text(u8'Размер шрифта')
-				imgui.SetCursorPos(imgui.ImVec2(34, 386))
-				imgui.Text(u8'Флаг шрифта')
-				imgui.SetCursorPos(imgui.ImVec2(34, 416))
-				imgui.Text(u8'Расстояние между строками')
-				imgui.SetCursorPos(imgui.ImVec2(34, 446))
-				imgui.Text(u8'Прозрачность текста')
-				
-				new_draw(493, 48)
-				imgui.SetCursorPos(imgui.ImVec2(34, 506))
-				if imgui.ColorEdit4('##TitleColor', col.title, imgui.ColorEditFlags.NoInputs + imgui.ColorEditFlags.NoLabel + imgui.ColorEditFlags.NoAlpha) then
-					local c = imgui.ImVec4(col.title.v[1], col.title.v[2], col.title.v[3], col.title.v[4])
-					local argb = imgui.ColorConvertFloat4ToARGB(c)
-					setting.members.color.title = imgui.ColorConvertFloat4ToARGB(c)
-					save('setting')
-				end
-				imgui.SetCursorPos(imgui.ImVec2(306, 506))
-				if imgui.ColorEdit4('##WorkColor', col.work, imgui.ColorEditFlags.NoInputs + imgui.ColorEditFlags.NoLabel + imgui.ColorEditFlags.NoAlpha) then
-					local c = imgui.ImVec4(col.work.v[1], col.work.v[2], col.work.v[3], col.work.v[4])
-					local argb = imgui.ColorConvertFloat4ToARGB(c)
-					setting.members.color.work = imgui.ColorConvertFloat4ToARGB(c)
-					save('setting')
-				end
-				imgui.SetCursorPos(imgui.ImVec2(569, 506))
-				if imgui.ColorEdit4('##DefaultColor', col.default, imgui.ColorEditFlags.NoInputs + imgui.ColorEditFlags.NoLabel + imgui.ColorEditFlags.NoAlpha) then
-					local c = imgui.ImVec4(col.default.v[1], col.default.v[2], col.default.v[3], col.default.v[4])
-					local argb = imgui.ColorConvertFloat4ToARGB(c)
-					setting.members.color.default = imgui.ColorConvertFloat4ToARGB(c)
-					save('setting')
-				end
-				
-				imgui.SetCursorPos(imgui.ImVec2(61, 508))
-				imgui.Text(u8'Заголовок')
-				imgui.SetCursorPos(imgui.ImVec2(333, 508))
-				imgui.Text(u8'В форме')
-				imgui.SetCursorPos(imgui.ImVec2(596, 508))
-				imgui.Text(u8'Без формы')
-				
-				
-				new_draw(553, 63)
-				skin.Button(u8'Изменить положение текста', 34, 567, 633, nil, function() 
-					changePosition()
-				end)
-				imgui.PopFont()
-				imgui.Dummy(imgui.ImVec2(0, 35))
-			end
+			end--
 			imgui.EndChild()
 		elseif select_basic[6] then
 			if menu_draw_up(u8'Уведомления', true) then select_basic[6] = false end
@@ -3587,6 +3535,13 @@ function window.main()
 			imgui.PushFont(font[1])
 			imgui.SetCursorPos(imgui.ImVec2(34, 327))
 			imgui.Text(u8'Отключить анимацию движения окон')
+			imgui.PopFont()
+
+			new_draw(372, 76)
+			skin.InputText(33, 384, u8'Ключ активации', 'setting.key', 74, 633)
+			imgui.SetCursorPos(imgui.ImVec2(34, 413))
+			imgui.PushFont(font[3])
+			imgui.TextColored(imgui.ImVec4(col_end.text, col_end.text, col_end.text, 0.50), u8'Введите Ваш ключ активации.')
 			imgui.PopFont()
 			
 			imgui.EndChild()
@@ -7051,7 +7006,7 @@ function window.main()
 			else
 				imgui.PushFont(bold_font[4])
 				imgui.SetCursorPos(imgui.ImVec2(121, 176 + ((start_pos + new_pos) / 2)))
-				imgui.Text(u8'Для Вас пока недоступно')
+				imgui.Text(u8'Пока недоступно :(')
 				imgui.PopFont()
 			end
 			
@@ -8435,6 +8390,11 @@ function window.main()
 		skin.Button(u8'Открыть пользовательское соглашение', 15, 257, 636, 30, function()
 			shell32.ShellExecuteA(nil, 'open', 'https://raw.githubusercontent.com/deadmv/PoliceHelper/main/Пользовательское%20соглашение.txt', nil, nil, 1)
 		end)
+		new_draw(315, 43)
+		imgui.SetCursorPos(imgui.ImVec2(15, 327))
+		imgui.Text(u8'Разработчик: ')
+		imgui.SetCursorPos(imgui.ImVec2(15, 327))
+		imgui.TextColored(imgui.ImVec4(rainbowtext(4)), '                            deadmv')
 		imgui.PopFont()
 		imgui.EndChild()
 	end
@@ -8505,6 +8465,13 @@ function window.music()
 	
 	imgui.PopFont()
 	imgui.End()
+end
+
+function rainbowtext(speed)
+    local r = math.floor(math.sin(os.clock() * speed) * 127 + 128) / 255
+    local g = math.floor(math.sin(os.clock() * speed + 2) * 127 + 128) / 255 
+    local b = math.floor(math.sin(os.clock() * speed + 4) * 127 + 128) / 255
+    return r, g, b, 1
 end
 
 function window.act_choice()
@@ -9925,13 +9892,13 @@ local erTx =
 
 Пожалуйста, обратитесь к разработчику скрипта ВКонтакте.
 Страницу можно найти, перейдя по ссылке:
-{A1DF6B}vk.com/marseloy{FFFFFF}
+{A1DF6B}vk.com/deadmv{FFFFFF}
 Скачайте lua файл и переместите с заменой в папку moonloader.
 
 Ссылка на страницу ВКонтакте уже скопирована автоматически.
 ]]
 sampShowDialog(2001, '{FF0000}Ошибка обновления', erTx, 'Закрыть', '', 0)
-setClipboardText('vk.com/marseloy')
+setClipboardText('vk.com/deadmv')
 end
 
 --> Фильтр текста
@@ -10160,7 +10127,7 @@ end
 function EXPORTS.sendRequest()
 	if not sampIsDialogActive() then
 		members_wait.members = true
-		sampSendChat('/find')
+		--sampSendChat('/find')
 		return true
 	end
 	return false
@@ -10173,7 +10140,7 @@ function activate_function_members()
 			if not members_wait.members and setting.members.func and thread:status() == 'dead' and not sampIsDialogActive() then
 				members_wait.members = true
 				dont_show_me_members = false
-				sampSendChat('/find')
+				--sampSendChat('/find')
 			end
 			wait(7500)
 		end
@@ -10313,7 +10280,7 @@ sampRegisterChatCommand('r', function(text_accents_r)
 	elseif setting.teg == '' and text_accents_r ~= '' and setting.accent.func and setting.accent.r and setting.accent.text ~= '' then
 		sampSendChat('/r ['..u8:decode(setting.accent.text)..' акцент]: '..text_accents_r)
 	elseif setting.teg ~= '' and setting.teg ~= ' ' and text_accents_r ~= '' and setting.accent.func and setting.accent.r and setting.accent.text ~= '' then
-		sampSendChat('/r ['..u8:decode(setting.teg)..']['..u8:decode(setting.accent.text)..' акцент]: '..text_accents_r)
+		sampSendChat('/r ['..u8:decode(setting.accent.text)..' акцент]: '..text_accents_r)
 	else
 		sampSendChat('/r '..text_accents_r)
 	end 
@@ -10325,11 +10292,11 @@ sampRegisterChatCommand('s', function(text_accents_s)
 		sampSendChat('/s '..text_accents_s)
 	end 
 end)
-sampRegisterChatCommand('f', function(text_accents_f) 
+sampRegisterChatCommand('m', function(text_accents_f) 
 	if text_accents_f ~= '' and setting.accent.func and setting.accent.f and setting.accent.text ~= '' then
-		sampSendChat('/f ['..u8:decode(setting.accent.text)..' акцент]: '..text_accents_f)
+		sampSendChat('/m ['..u8:decode(setting.accent.text)..' акцент]: '..text_accents_f)
 	else
-		sampSendChat('/f '..text_accents_f)
+		sampSendChat('/m '..text_accents_f)
 	end 
 end)
 
